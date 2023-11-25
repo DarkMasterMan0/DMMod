@@ -21,7 +21,7 @@ Okay, buckle up cause it's a big ol' wall of text. Sorted by alphabetical order 
 data>global>excel
 * armor.txt
   * set "ShowLevel" to 1 (displays item level)
-  * added "Medium Armor" and "Heavy Armor" affix groups tfo "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
+  * added "Medium Armor" and "Heavy Armor" affix groups to "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
 
   * Normal and Exceptional Paladin Shields
     * decreased "gemsockets" to 3 from 4
@@ -30,21 +30,33 @@ data>global>excel
   * Shimmering
     * changed "frequency" to 12 from 8 (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so would be 12/30)
 
-Rainbow
--increased "mod1min" to 11 from 8 (all resistances increased to 11-15% from 8-15%)
--changed "frequency" to 10 from 7
+  * Rainbow
+    * increased "mod1min" to 11 from 8 (all resistances increased to 11-15% from 8-15%)
+    * changed "frequency" to 10 from 7
 
-Scintillating
--decreased "mod1max" to 25 from 30 (all resistances decreased to 16-25 from 16-30)
--changed "frequency" to 8 from 6
+  * Scintillating
+    * decreased "mod1max" to 25 from 30 (all resistances decreased to 16-25 from 16-30)
+    * changed "frequency" to 8 from 6
 
-Prismatic
--changed "spawnable" to blank from 1 (paladin shields can no longer roll this affix)
+  * Prismatic
+    * changed "spawnable" to blank from 1 (paladin shields can no longer roll this affix)
 
-Chromatic
--changed "spawnable" to blank from 1
+  * Chromatic
+    * changed "spawnable" to blank from 1
 
--added "Medium Armor" and "Heavy Armor" affixes (medium armor gives 2% physical damage reduction, heavy armor gives 5% PDR)
+  * Medium Armor
+    * added new entry for "Medium Armor" (cloned row 34)
+    * set "levelreq" to 1
+    * set "group" to 500
+    * set "mod1code1" to red-dmg%, set "mod1min" and "mod1max" to 2/2 (2% physical damage reduction)
+
+  * Heavy Armor
+    * added new entry for "Heavy Armor" (cloned row 34)
+    * set "levelreq" to 1
+    * set "group" to 501
+    * set "mod1code1" to red-dmg%, set "mod1min" and "mod1max" to 5/5 (5% PDR)
+ 
+
 
 hireling.txt
 Barbarian (Frenzy)
