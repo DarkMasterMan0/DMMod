@@ -305,7 +305,7 @@ data>global>excel
     * Septic (660)
       * added 87 to "maxlevel"
 
-magicsuffix.txt
+* magicsuffix.txt
   * Damage Reduced
     * of Health (row 117)
       * added 25 to "maxlevel" (no longer spawns on ilvl 26+ items)
@@ -540,27 +540,27 @@ magicsuffix.txt
     * of Shock (728)
       * added 44 to "maxlevel"
 
-misc.txt
--set "ShowLevel" to 1 for amulets/rings/charms/jewels (shows item level)
+* misc.txt
+  * set "ShowLevel" to 1 for amulets/rings/charms/jewels (shows item level)
 
-Minor Mana Potion
--changed "HellUpgrade" to mp4 from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
+  * Minor Mana Potion
+    * changed "HellUpgrade" to mp4 from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
 
-Light Mana Potion
--changed "LysanderMin" and "LysanderMax" to blank from 1 (Lysander no longer sells light mana potions in Normal)
--changed "DrognanMin" and "DrognanMax" to blank from 1 (Drognan no longer sells light mana potions in Normal)
--changed "HellUpgrade" to mp4 from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
+  * Light Mana Potion
+    * changed "LysanderMin" and "LysanderMax" to blank from 1 (Lysander no longer sells light mana potions in Normal)
+    * changed "DrognanMin" and "DrognanMax" to blank from 1 (Drognan no longer sells light mana potions in Normal)
+    * changed "HellUpgrade" to mp4 from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
 
-Mana Potion
--changed "OrmusMin" and "OrmusMax" to blank from 1 (Ormus no longer sells mana potions in Normal)
--changed "HellUpgrade" to mp4 from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
+  * Mana Potion
+    * changed "OrmusMin" and "OrmusMax" to blank from 1 (Ormus no longer sells mana potions in Normal)
+    * changed "HellUpgrade" to mp4 from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
 
-Greater Mana Potion
--changed "MalahMin" and "MalahMax" to blank from 1 (Malah no longer sells greater mana potions in Normal)
--changed "JamellaMin" and "JamellaMax" to blank from 1 (Jamella no longer sells greater mana potions in Normal)
--changed "HellUpgrade" to xxx from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
+  * Greater Mana Potion
+    * changed "MalahMin" and "MalahMax" to blank from 1 (Malah no longer sells greater mana potions in Normal)
+    * changed "JamellaMin" and "JamellaMax" to blank from 1 (Jamella no longer sells greater mana potions in Normal)
+    * changed "HellUpgrade" to xxx from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
 
-missiles.txt
+* missiles.txt
 throwaxe
 -increased "Range" to 30 from 20 (throwing axes travel 50% farther)
 
