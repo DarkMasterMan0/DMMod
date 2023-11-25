@@ -7,10 +7,10 @@ DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address s
 # Credits
 Thanks to:
 
-Blizzard Entertainment and Vicarious Visions/Blizzard Albany for creating D2/D2R and allowing and expanding modding capabilities (wish we had TCP/IP tho T_T)
+Blizzard Entertainment and Vicarious Visions/Blizzard Albany for creating D2/D2R and allowing/expanding modding capabilities (wish we had TCP/IP tho T_T).
 
-Bonesy for the big help with guidance on specific edits, his video guides, and the massive amount of effort he's put into the D2R modding scene in general. Check out his stuff on D2RModding.com and check out the D2R-Modding Discord!
+Bonesy for the big help with guidance on specific edits, his video guides, and the massive amount of effort he's put into the D2R modding scene in general. Check out his stuff on [D2RModding.com](D2RModding.com) and check out the D2R-Modding Discord!
 
-The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at d2mods.info and check out their Discord as well!
+The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at [d2mods.info](d2mods.info) and check out their Discord as well!
 
-Vaska, Pavke, and Arsteel for unique item ideas and discussions
+Vaska, Pavke, and Arsteel for item ideas and discussions.
