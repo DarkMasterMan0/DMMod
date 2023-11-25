@@ -107,171 +107,171 @@ data>global>excel
     * Sturdy (145)
       * added 24 to "maxlevel"
     * Sturdy (146)
--added 30 to "maxlevel"
-Strong (147)
--added 35 to "maxlevel"
-Glorious (148)
--added 49 to "maxlevel"
+      * added 30 to "maxlevel"
+    * Strong (147)
+      * added 35 to "maxlevel"
+    * Glorious (148)
+      * added 49 to "maxlevel"
 
-Enhanced Damage
-Jagged (188)
--added 25 to "maxlevel"
-Deadly (189)
--added 31 to "maxlevel"
-Vicious (190)
--added 40 to "maxlevel"
-Brutal (191)
--added 55 to "maxlevel"
+  * Enhanced Damage
+    * Jagged (188)
+      * added 25 to "maxlevel"
+    * Deadly (189)
+      * added 31 to "maxlevel"
+    * Vicious (190)
+      * added 40 to "maxlevel"
+    * Brutal (191)
+      * added 55 to "maxlevel"
 
-Stamina
-Rugged (206)
--added 20 to "maxlevel"
-Rugged (209)
--added 20 to "maxlevel"
-Rugged (212)
--added 20 to "maxlevel"
-Rugged (214)
--added 15 to "maxlevel"
+  * Stamina
+    * Rugged (206)
+      * added 20 to "maxlevel"
+    * Rugged (209)
+      * added 20 to "maxlevel"
+    * Rugged (212)
+      * added 20 to "maxlevel"
+    * Rugged (214)
+      * added 15 to "maxlevel"
 
-Attack Rating
-Brone (220)
--added 48 to "maxlevel"
-Bronze (221)
--added 48 to "maxlevel"
-Bronze (222)
--added 48 to "maxlevel"
-Bronze (229)
--added 51 to "maxlevel"
-Bronze (230)
--added 51 to "maxlevel"
-Bronze (231)
--added 51 to "maxlevel"
-Bronze (236)
--added 56 to "maxlevel"
-Bronze (237)
--added 56 to "maxlevel"
-Bronze (240)
--added 21 to "maxlevel"
-Iron (241)
--added 26 to "maxlevel"
-Steel (242)
--added 31 to "maxlevel"
+  * Attack Rating
+    * Brone (220)
+      * added 48 to "maxlevel"
+    * Bronze (221)
+      * added 48 to "maxlevel"
+    * Bronze (222)
+      * added 48 to "maxlevel"
+    * Bronze (229)
+      * added 51 to "maxlevel"
+    * Bronze (230)
+      * added 51 to "maxlevel"
+    * Bronze (231)
+      * added 51 to "maxlevel"
+    * Bronze (236)
+      * added 56 to "maxlevel"
+    * Bronze (237)
+      * added 56 to "maxlevel"
+    * Bronze (240)
+      * added 21 to "maxlevel"
+    * Iron (241)
+      * added 26 to "maxlevel"
+    * Steel (242)
+      * added 31 to "maxlevel"
 
-Attack Rating/Enhanced Damage
-Sharp (259)
--added 46 to "maxlevel"
-Fine (260)
--added 55 to "maxlevel"
+  * Attack Rating/Enhanced Damage
+    * Sharp (259)
+      * added 46 to "maxlevel"
+    * Fine (260)
+      * added 55 to "maxlevel"
 
-Mana
-Lizard's (306)
--added 29 to "maxlevel"
-Snake's (307)
--added 36 to "maxlevel"
+  * Mana
+    * Lizard's (306)
+      * added 29 to "maxlevel"
+    * Snake's (307)
+      * added 36 to "maxlevel"
 
-All Resistances
-Shimmering (325)
--added 38 to "maxlevel"
-Shimmering (330)
--added 41 to "maxlevel"
+  * All Resistances
+    * Shimmering (325)
+      * added 38 to "maxlevel"
+    * Shimmering (330)
+      * added 41 to "maxlevel"
 
-Cold Resist
-Azure (340)
--added 29 to "maxlevel"
-Azure (344)
--added 34 to "maxlevel"
-Azure (348)
--added 39 to "maxlevel"
+  * Cold Resist
+    * Azure (340)
+      * added 29 to "maxlevel"
+    * Azure (344)
+      * added 34 to "maxlevel"
+    * Azure (348)
+      * added 39 to "maxlevel"
 
-Fire Resist
-Crimson (360)
--added 29 to "maxlevel"
-Crimson (364)
--added 34 to "maxlevel"
-Crimson (368)
--added 39 to "maxlevel"
+  * Fire Resist
+    * Crimson (360)
+      * added 29 to "maxlevel"
+    * Crimson (364)
+      * added 34 to "maxlevel"
+    * Crimson (368)
+      * added 39 to "maxlevel"
 
-Lightning Resist
-Tangerine (379)
--added 29 to "maxlevel"
-Tangerine (383)
--added 34 to "maxlevel"
-Tangerine (387)
--added 39 to "maxlevel"
+  * Lightning Resist
+    * Tangerine (379)
+      * added 29 to "maxlevel"
+    * Tangerine (383)
+      * added 34 to "maxlevel"
+    * Tangerine (387)
+      * added 39 to "maxlevel"
 
-Poison Resist
-Beryl (399)
--added 29 to "maxlevel"
-Beryl (403)
--added 34 to "maxlevel"
-Beryl (407)
--added 39 to "maxlevel"
+  * Poison Resist
+    * Beryl (399)
+      * added 29 to "maxlevel"
+    * Beryl (403)
+      * added 34 to "maxlevel"
+    * Beryl (407)
+      * added 39 to "maxlevel"
 
-Attack Rating/Damage to Demons
-Assamic (425) (Lunar)
--added 44 to "maxlevel"
+  * Attack Rating/Damage to Demons
+    * Assamic (425) (Lunar)
+      * added 44 to "maxlevel"
 
-Maximum Damage Per Level
-Gritty (533) (Grinding)
--increased "mod1param" to 9 from 6 (maximum damage per level increased to 1.125 from 0.75)
+  * Maximum Damage Per Level
+    * Gritty (533) (Grinding)
+      * increased "mod1param" to 9 from 6 (maximum damage per level increased to 1.125 from 0.75)
 
-Cold Damage
-Snowflake (543) (Snowy)
--added 69 to "maxlevel"
+  * Cold Damage
+    * Snowflake (543) (Snowy)
+      * added 69 to "maxlevel"
 
-Fire Damage
-Ember (547) (Fiery)
--added 76 to "maxlevel"
+  * Fire Damage
+    * Ember (547) (Fiery)
+      * added 76 to "maxlevel"
 
-Lightning Damage
-Static (552)
--added 75 to "maxlevel"
+  * Lightning Damage
+    * Static (552)
+      * added 75 to "maxlevel"
 
-Poison Damage
-Septic (557)
--added 34 to "maxlevel"
+  * Poison Damage
+    * Septic (557)
+      * added 34 to "maxlevel"
 
-Increased Stack Size
-Compact (594)
--added 37 to "maxlevel"
+  * Increased Stack Size
+    * Compact (594)
+      * added 37 to "maxlevel"
 
-Attack Rating/Damage to Undead
-Consecrated (597)
--added 34 to "maxlevel"
+  * Attack Rating/Damage to Undead
+    * Consecrated (597)
+      * added 34 to "maxlevel"
 
-Minimum Damage
-Bloody (606)
--increased "mod1min" and "mod1max" to 5/5 from 3/3 (minimum damage increased to 5 from 3)
-Red (609)
--decreased "level" to 80 from 90 (item level requirement decreased to 80 from 90)
--decreased "levelreq" to 75 from 82 (level requirement decreased to 75 from 82)
-Bloody (672) ("medium"/large charms)
--added new entry for "Bloody" (cloned row 608)
--set "level" to 90
--set "levelreq" to 82
--set "mod1min" and "mod1max" to 4/4 (4 minimum damage)
-Sanguinary (673) (small charms)
--added new entry for "Sanguinary" (cloned row 609)
--set "level" to 94
--set "levelreq" to 85
--set "mod1min" and "mod1max" to 2/2 (2 minimum damage)
+  * Minimum Damage
+    * Bloody (606)
+      * increased "mod1min" and "mod1max" to 5/5 from 3/3 (minimum damage increased to 5 from 3)
+    * Red (609)
+      * decreased "level" to 80 from 90 (item level requirement decreased to 80 from 90)
+      * decreased "levelreq" to 75 from 82 (level requirement decreased to 75 from 82)
+    * Bloody (672) ("medium"/large charms)
+      * added new entry for "Bloody" (cloned row 608)
+      * set "level" to 90
+      * set "levelreq" to 82
+      * set "mod1min" and "mod1max" to 4/4 (4 minimum damage)
+    * Sanguinary (673) (small charms)
+      * added new entry for "Sanguinary" (cloned row 609)
+      * set "level" to 94
+      * set "levelreq" to 85
+      * set "mod1min" and "mod1max" to 2/2 (2 minimum damage)
 
-Maximum Damage
-Forked (611)
--increased "mod1min" and "mod1max" to 7/7 from 2/2 (maximum damage increased to 7 from 2)
-Serrated (612)
--increased "mod1min" and "mod1max" to 11/11 from 3/3 (maximum damage increased to 11 from 3)
-Jagged (613)
--increased "mod1min" and "mod1max" to 2/2 from 1/1 (maximum damage increased to 2 from 1)
-Forked (614)
--increased "mod1min" and "mod1max" to 6/6 from 2/2 (maximum damage increased to 6 from 2)
-Jagged (615)
--increased "mod1min" and "mod1max" to 3/3 from 1/1 (maximum damage increased to 3 from 1)
-Serrated (674)
--added new entry for "Serrated' (cloned row 614)
--set "level" to 82
--set "levelreq" to 72
--set "mod1min" and "mod1max" to 8/8 (8 maximum damage)
+  * Maximum Damage
+    * Forked (611)
+      * increased "mod1min" and "mod1max" to 7/7 from 2/2 (maximum damage increased to 7 from 2)
+    * Serrated (612)
+      * increased "mod1min" and "mod1max" to 11/11 from 3/3 (maximum damage increased to 11 from 3)
+    * Jagged (613)
+      * increased "mod1min" and "mod1max" to 2/2 from 1/1 (maximum damage increased to 2 from 1)
+    * Forked (614)
+      * increased "mod1min" and "mod1max" to 6/6 from 2/2 (maximum damage increased to 6 from 2)
+    * Jagged (615)
+      * increased "mod1min" and "mod1max" to 3/3 from 1/1 (maximum damage increased to 3 from 1)
+    * Serrated (674)
+      * added new entry for "Serrated' (cloned row 614)
+      * set "level" to 82
+      * set "levelreq" to 72
+      * set "mod1min" and "mod1max" to 8/8 (8 maximum damage)
 
 Cold Damage
 Snowflake (616) (Snowy)
