@@ -1,7 +1,7 @@
 # Manual Installation and Launch
 Drop the top-level DMMod folder into your D2R `mods` folder (the file path will look like `Diablo II Resurrected > mods > DMMod > DMMod.mpq` if you did it correctly), if you don't have a `mods` folder then create it in your D2R folder.
 
-Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod DMMod -txt` to the target line (it will look like `"H:\Games\Diablo II Resurrected\D2R.exe" -mod DMMod -txt` if you did it correctly). You can now use this shortcut to launch D2R with DMMod as the active mod.
+Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod DMMod -txt` to the target line (it will look similar to `"H:\Games\Diablo II Resurrected\D2R.exe" -mod DMMod -txt` if you did it correctly). You can now use this shortcut to launch D2R with DMMod as the active mod.
 
 # What is DMMod?
 DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "feel" of the game.
@@ -57,32 +57,30 @@ data>global>excel
     * set "levelreq" to 1
     * set "group" to 501
     * set "mod1code1" to red-dmg%, set "mod1min" and "mod1max" to 5/5 (5% PDR)
- 
 
+* hireling.txt
+  * Barbarian (Frenzy)
+    * swapped all stats from "Skill2" through "LvlPerLvl2" and "Skill3" through "LvlPerLvl3" (swapped Iron Skin and Taunt location on Frenzy Act 5 merc skill list)
+    * changed "Skill3" to Double Swing from Taunt (Frenzy A5 mercs now use Double Swing instead of Taunt due to Frenzy synergy changes)
+    * changed "Mode2" to 4 from 5 (changes Double Swing animation type to attacking from casting)
+    * decreased "Level3" to 4/7/9 from 7/13/17 (Double Swing starting level reduced to 3/6/8 from 7/13/17)
+    * decreased "LvlPerLvl3" to 3 from 6 (Double Swing leveling halved)
 
-hireling.txt
-Barbarian (Frenzy)
--swapped all stats from "Skill2" through "LvlPerLvl2" and "Skill3" through "LvlPerLvl3" (swapped Iron Skin and Taunt location on Frenzy Act 5 merc skill list)
--changed "Skill3" to Double Swing from Taunt (Frenzy A5 mercs now use Double Swing instead of Taunt due to Frenzy synergy changes)
--changed "Mode2" to 4 from 5 (changes Double Swing animation type to attacking from casting)
--decreased "Level3" to 4/7/9 from 7/13/17 (Double Swing starting level reduced to 3/6/8 from 7/13/17)
--decreased "LvlPerLvl3" to 3 from 6 (Double Swing leveling halved)
+* itemstatcost.txt
+  * increased armorclass_vs_hth "Save Bits" to 9 from 8 (increased range of defense vs melee to 0-511 from 0-255)
+  * increased maxfireresist, maxlightresist, maxcoldresist, and maxpoisonresist "Save Bits" to 6 from 5 and changed "Save Add" to 30 from 0 (increases range of maximum fire/light/cold/poison resist to -30-33 from 0-31)
+  * increased poisonmindam and poisonmaxdam "Save Bits" to 11 from 10 (increased range of poison damage bitrate to 0-2047 from 0-1023)
+  * increased hpregen "Save Bits" to 7 from 6 and changed "Save Add" to 50 from 30 (increased range of replenish life to -50-77 from -30-33)
+  * increased item_attackertakeslightdamage "Save Bits" to 8 from 5 (increased range of attacker takes lightning damage to 0-255 from 0-31)
 
-itemstatcost.txt
--increased armorclass_vs_hth "Save Bits" to 9 from 8 (increased range of defense vs melee to 0-511 from 0-255)
--increased maxfireresist, maxlightresist, maxcoldresist, and maxpoisonresist "Save Bits" to 6 from 5 and changed "Save Add" to 30 from 0 (increases range of maximum fire/light/cold/poison resist to -30-33 from 0-31)
--increased poisonmindam and poisonmaxdam "Save Bits" to 11 from 10 (increased range of poison damage bitrate to 0-2047 from 0-1023)
--increased hpregen "Save Bits" to 7 from 6 and changed "Save Add" to 50 from 30 (increased range of replenish life to -50-77 from -30-33)
--increased item_attackertakeslightdamage "Save Bits" to 8 from 5 (increased range of attacker takes lightning damage to 0-255 from 0-31)
-
-item_heavenlyburden
--added new entry for "item_heavenlyburden" (cloned row 155)
--set "*ID" to 361
--set "Add" and "Multiply" to blank
--set "1.09-Save Bits" to blank
--set "descpriority" to 1
--set "descfunc" to 19
--set "descstrpos" and "descstrneq" to ModStrHeavenlyBurden (see item-modifiers.json)
+  * item_heavenlyburden
+    * added new entry for "item_heavenlyburden" (cloned row 155)
+    * set "*ID" to 361
+    * set "Add" and "Multiply" to blank
+    * set "1.09-Save Bits" to blank
+    * set "descpriority" to 1
+    * set "descfunc" to 19
+    * set "descstrpos" and "descstrneq" to ModStrHeavenlyBurden (see item-modifiers.json)
 
 magicprefix.txt
 Defense
