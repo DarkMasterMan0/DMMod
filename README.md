@@ -82,31 +82,31 @@ data>global>excel
     * set "descfunc" to 19
     * set "descstrpos" and "descstrneq" to ModStrHeavenlyBurden (see item-modifiers.json)
 
-magicprefix.txt
-Defense
-Stout (row 121)
--added 41 to "maxlevel"
-Stout (122)
--added 41 to "maxlevel"
-Stout (123)
--added 41 to "maxlevel"
-Stout (130)
--added 44 to "maxlevel"
-Stout (131)
--added 44 to "maxlevel"
-Stout (132)
--added 44 to "maxlevel"
-Stout (137)
--added 47 to "maxlevel"
-Stout (138)
--added 47 to "maxlevel"
-Blanched (141)
--added 31 to "maxlevel"
+* magicprefix.txt
+  * Defense
+    * Stout (row 121)
+      * added 41 to "maxlevel"
+    * Stout (122)
+      * added 41 to "maxlevel"
+    * Stout (123)
+      * added 41 to "maxlevel"
+    * Stout (130)
+      * added 44 to "maxlevel"
+    * Stout (131)
+      * added 44 to "maxlevel"
+    * Stout (132)
+      * added 44 to "maxlevel"
+    * Stout (137)
+      * added 47 to "maxlevel"
+    * Stout (138)
+      * added 47 to "maxlevel"
+    * Blanched (141)
+      * added 31 to "maxlevel"
 
-Enhanced Defense
-Sturdy (145)
--added 24 to "maxlevel"
-Sturdy (146)
+  * Enhanced Defense
+    * Sturdy (145)
+      * added 24 to "maxlevel"
+    * Sturdy (146)
 -added 30 to "maxlevel"
 Strong (147)
 -added 35 to "maxlevel"
