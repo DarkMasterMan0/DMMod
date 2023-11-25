@@ -19,16 +19,16 @@ Vaska, Pavke, and Arsteel for item ideas and discussions.
 Okay, buckle up cause it's a big ol' wall of text. Sorted by alphabetical order when sorting by name in File Explorer.
 
 data>global>excel
-armor.txt
-*set "ShowLevel" to 1 (displays item level)
-*added "Medium Armor" and "Heavy Armor" affix groups tfo "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
+* armor.txt
+  * set "ShowLevel" to 1 (displays item level)
+  * added "Medium Armor" and "Heavy Armor" affix groups tfo "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
 
-Normal and Exceptional Paladin Shields
--decreased "gemsockets" to 3 from 4
+  * Normal and Exceptional Paladin Shields
+    * decreased "gemsockets" to 3 from 4
 
-automagic.txt
-Shimmering
--changed "frequency" to 12 from 8 (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so would be 12/30)
+* automagic.txt
+  * Shimmering
+    * changed "frequency" to 12 from 8 (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so would be 12/30)
 
 Rainbow
 -increased "mod1min" to 11 from 8 (all resistances increased to 11-15% from 8-15%)
