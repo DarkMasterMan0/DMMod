@@ -1,6 +1,8 @@
 # Manual Installation and Launch
 Drop the top-level DMMod folder into your D2R `mods` folder (the file path will look like `Diablo II Resurrected > mods > DMMod > DMMod.mpq` if you did it correctly), if you don't have a `mods` folder then create it in your D2R folder.
 
+Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod DMMod -txt` to the target line (it will look like `"H:\Games\Diablo II Resurrected\D2R.exe" -mod DMMod -txt` if you did it correctly). You can now use this shortcut to launch D2R with DMMod as the active mod.
+
 # What is DMMod?
 DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "feel" of the game.
 
@@ -16,7 +18,7 @@ The Phrozen Keep for their many indepth guides on modding original D2, the vast 
 Vaska, Pavke, and Arsteel for item ideas and discussions.
 
 # Changelog
-Okay, buckle up cause it's a big ol' wall of text. Sorted by alphabetical order when sorting by name in File Explorer.
+Sorted by alphabetical order when sorting by name in File Explorer.
 
 data>global>excel
 * armor.txt
