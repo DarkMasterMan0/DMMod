@@ -9,13 +9,13 @@ DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address s
 # Credits
 Thanks to:
 
-Blizzard Entertainment and Vicarious Visions (now Blizzard Albany) for creating D2/D2R and allowing/expanding modding capabilities (wish we had TCP/IP tho T_T).
+* Blizzard Entertainment and Vicarious Visions (now Blizzard Albany) for creating D2/D2R and allowing/expanding modding capabilities (wish we had TCP/IP tho T_T).
 
-Bonesy for the big help with guidance on specific edits, his video guides, and the massive amount of effort he's put into the D2R modding scene in general. Check out his stuff on [D2RModding.com](D2RModding.com) and check out the D2R-Modding Discord!
+* Bonesy for the big help with guidance on specific edits, his video guides, and the massive amount of effort he's put into the D2R modding scene in general. Check out his stuff on [D2RModding.com](D2RModding.com) and check out the D2R-Modding Discord!
 
-The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at [d2mods.info](d2mods.info) and check out their Discord as well!
+* The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at [d2mods.info](d2mods.info) and check out their Discord as well!
 
-Vaska, Pavke, and Arsteel for item ideas and discussions.
+* Vaska, Pavke, and Arsteel for item ideas and discussions.
 
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer.
@@ -25,8 +25,8 @@ data>global>excel
   * set "ShowLevel" to 1 (displays item level)
   * added "Medium Armor" and "Heavy Armor" affix groups to "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
 
-  * Normal and Exceptional Paladin Shields
-    * decreased "gemsockets" to 3 from 4
+  * normal and exceptional paladin shields
+    * decreased "gemsockets" to 3 from 4 (max sockets decreased to 3 from 4)
 
 * automagic.txt
   * Shimmering
@@ -37,7 +37,7 @@ data>global>excel
     * changed "frequency" to 10 from 7
 
   * Scintillating
-    * decreased "mod1max" to 25 from 30 (all resistances decreased to 16-25 from 16-30)
+    * decreased "mod1max" to 25 from 30 (all resistances decreased to 16-25% from 16-30%)
     * changed "frequency" to 8 from 6
 
   * Prismatic
@@ -273,272 +273,272 @@ data>global>excel
       * set "levelreq" to 72
       * set "mod1min" and "mod1max" to 8/8 (8 maximum damage)
 
-Cold Damage
-Snowflake (616) (Snowy)
--added 44 to "maxlevel"
-Snowflake (620) (Snowy)
--added 68 to "maxlevel"
-Snowflake (624) (Snowy)
--added 90 to "maxlevel"
+  * Cold Damage
+    * Snowflake (616) (Snowy)
+      * added 44 to "maxlevel"
+    * Snowflake (620) (Snowy)
+      * added 68 to "maxlevel"
+    * Snowflake (624) (Snowy)
+      * added 90 to "maxlevel"
 
-Fire Damage
-Ember (628)
--added 42 to "maxlevel"
-Ember (632)
--added 66 to "maxlevel"
-Ember (636)
--added 88 to "maxlevel"
+  * Fire Damage
+    * Ember (628)
+      * added 42 to "maxlevel"
+    * Ember (632)
+      * added 66 to "maxlevel"
+    * Ember (636)
+      * added 88 to "maxlevel"
 
-Lightning Damage
-Static (640)
--added 43 to "maxlevel"
-Static (644)
--added 67 to "maxlevel"
-Static (648)
--added 89 to "maxlevel"
+  * Lightning Damage
+    * Static (640)
+      * added 43 to "maxlevel"
+    * Static (644)
+      * added 67 to "maxlevel"
+    * Static (648)
+      * added 89 to "maxlevel"
 
-Poison Damage
-Septic (652)
--added 41 to "maxlevel"
-Septic (656)
--added 65 to "maxlevel"
-Septic (660)
--added 87 to "maxlevel"
+  * Poison Damage
+    * Septic (652)
+      * added 41 to "maxlevel"
+    * Septic (656)
+      * added 65 to "maxlevel"
+    * Septic (660)
+      * added 87 to "maxlevel"
 
 magicsuffix.txt
-Damage Reduced
-of Health (row 117)
--added 25 to "maxlevel" (no longer spawns on ilvl 26+ items)
-of Protection (118)
--added 34 to "maxlevel"
-of Protection (122)
--added 40 to "maxlevel"
-of Absorption (123)
--added ring to "itype4" (now spawns on rings)
-of Life (124)
--added ring to "itype4"
+  * Damage Reduced
+    * of Health (row 117)
+      * added 25 to "maxlevel" (no longer spawns on ilvl 26+ items)
+    * of Protection (118)
+      * added 34 to "maxlevel"
+    * of Protection (122)
+      * added 40 to "maxlevel"
+    * of Absorption (123)
+      * added ring to "itype4" (now spawns on rings)
+    * of Life (124)
+      * added ring to "itype4"
 
-Magic Damage Reduced
-of Warding (126)
--added 31 to "maxlevel"
+  * Magic Damage Reduced
+    * of Warding (126)
+      * added 31 to "maxlevel"
 
-Ignore Target's Defense
-of Piercing (160)
--added spea to "itype4"
+  * Ignore Target's Defense
+    * of Piercing (160)
+      * added spea to "itype4"
 
-Attacker Takes Damage
-of Thorns (163)
--added 33 to "maxlevel"
-of Spikes (164)
--added 46 to "maxlevel"
-of Malice (167)
--increased "mod1min" and "mod1max" to 3/9 from 1/5 (attacker takes damage increased to 3-9 from 1-5)
+  * Attacker Takes Damage
+    * of Thorns (163)
+      * added 33 to "maxlevel"
+    * of Spikes (164)
+      * added 46 to "maxlevel"
+    * of Malice (167)
+      * increased "mod1min" and "mod1max" to 3/9 from 1/5 (attacker takes damage increased to 3-9 from 1-5)
 
-Increased Attack Speed
-of Readiness (168)
--added 45 to "maxlevel"
-of Swiftness (170)
--changed "itype" to weap from mele (now spawns on missile weapons)
-of Quickness (171)
--changed "itype" to weap from mele
+  * Increased Attack Speed
+    * of Readiness (168)
+      * added 45 to "maxlevel"
+    * of Swiftness (170)
+      * changed "itype" to weap from mele (now spawns on missile weapons)
+    * of Quickness (171)
+      * changed "itype" to weap from mele
 
-Faster Cast Rate
-of the Apprentice (176)
--added head to "itype6" (now spawns on necromancer heads)
-of the Magus (177)
--deleted scep from "etype1" (now spawns on scepters)
+  * Faster Cast Rate
+    * of the Apprentice (176)
+      * added head to "itype6" (now spawns on necromancer heads)
+    * of the Magus (177)
+      * deleted scep from "etype1" (now spawns on scepters)
 
-Cold Damage
-of Frost (178)
--added 26 to "maxlevel"
-of the Icicle (179)
--added 44 to "maxlevel"
--increased "mod1max" to 3 from 1, increased "mod2min" and "mod2max" to 4/6 from 3/4 (cold damage increased to 1-3 minimum/4-6 maximum from 1/3-4)
-of the Glacier (180)
--increased "mod1min" and "mod1max" to 6/8 from 2/4, increased "mod2min" and "mod2max" to 11/18 from 4/15 (cold damage increased to 6-8 minimum/11-18 maximum from 2-4/4-15)
-of Winter (181)
--increased "mod1min" and "mod1max" to 13/17 from 5/9, increased "mod2min" and "mod2max" to 29/71 from 16/50 (cold damage increased to 13-17 minimum/29-71 maximum from 5-9/16-50)
-of Frost (182)
--decreased "level" to 39 from 55 (now spawns at ilvl 39+ instead of 55+)
-of Frigidity (183)
--added 36 to "maxlevel"
+  * Cold Damage
+    * of Frost (178)
+      * added 26 to "maxlevel"
+    * of the Icicle (179)
+      * added 44 to "maxlevel"
+      * increased "mod1max" to 3 from 1, increased "mod2min" and "mod2max" to 4/6 from 3/4 (cold damage increased to 1-3 minimum/4-6 maximum from 1/3-4)
+    * of the Glacier (180)
+      * increased "mod1min" and "mod1max" to 6/8 from 2/4, increased "mod2min" and "mod2max" to 11/18 from 4/15 (cold damage increased to 6-8 minimum/11-18 maximum from 2-4/4-15)
+    * of Winter (181)
+      * increased "mod1min" and "mod1max" to 13/17 from 5/9, increased "mod2min" and "mod2max" to 29/71 from 16/50 (cold damage increased to 13-17 minimum/29-71 maximum from 5-9/16-50)
+    * of Frost (182)
+      * decreased "level" to 39 from 55 (now spawns at ilvl 39+ instead of 55+)
+    * of Frigidity (183)
+      * added 36 to "maxlevel"
 
-Fire Damage
-of Flame (185)
--added 24 to "maxlevel"
-of Fire (186)
--added 42 to "maxlevel"
--increased "mod1min" and "mod1max" to 7/9 from 1/4, increased "mod2min" and "mod2max" to 12/15 from 6/11 (fire damage increased to 7-9 minimum/12-15 maximum from 1-4/6-11)
-of Burning (187)
--increased "mod1min" and "mod1max" to 15/18 from 5/9, increased "mod2min" and "mod2max" to 22/26 from 10/20 (fire damage increased to 15-18 minimum/22-26 maximum from 5-9/10-20)
-of Incineration (188)
--increased "mod1min" and "mod1max" to 31/36 from 10/20, increased "mod2min" and "mod2max" to 43/109 from 21/75 (fire damage increased to 31-36 minimum/43-109 maximum from 10-20/21-75)
-of Flame (189)
--increased "mod1min" and "mod1max" to 10/15 from 1/1, increased "mod2min" and "mod2max" to 23/28 from 2/6 (fire damage increased to 10-15 minimum/23-28 maximum from 1/2-6)
+  * Fire Damage
+    * of Flame (185)
+      * added 24 to "maxlevel"
+    * of Fire (186)
+      * added 42 to "maxlevel"
+      * increased "mod1min" and "mod1max" to 7/9 from 1/4, increased "mod2min" and "mod2max" to 12/15 from 6/11 (fire damage increased to 7-9 minimum/12-15 maximum from 1-4/6-11)
+    * of Burning (187)
+      * increased "mod1min" and "mod1max" to 15/18 from 5/9, increased "mod2min" and "mod2max" to 22/26 from 10/20 (fire damage increased to 15-18 minimum/22-26 maximum from 5-9/10-20)
+    * of Incineration (188)
+      * increased "mod1min" and "mod1max" to 31/36 from 10/20, increased "mod2min" and "mod2max" to 43/109 from 21/75 (fire damage increased to 31-36 minimum/43-109 maximum from 10-20/21-75)
+    * of Flame (189)
+      * increased "mod1min" and "mod1max" to 10/15 from 1/1, increased "mod2min" and "mod2max" to 23/28 from 2/6 (fire damage increased to 10-15 minimum/23-28 maximum from 1/2-6)
 
-Lightning Damage
-of Passion (190)
--added 56 to "maxlevel"
-of Shock (191)
--added 24 to "maxlevel"
-of Lightning (192)
--added 33 to "maxlevel"
--increased "mod2min" and "mod2max" to 13/21 from 9/16 (lightning damage increased to 13-21 maximum from 9-16)
-of Thunder (193)
--increased "mod2min" and "mod2max" to 28/53 from 17/40 (lightning damage increased to 28-53 maximum from 17-40)
-of Storms (194)
--increased "mod2min" and "mod2max" to 62/141 from 41/120 (lightning damage increased to 62-141 maximum from 41-120)
-of Shock (195)
--increased "mod2min" and "mod2max" to 44/91 from 11/23 (lightning damage increased to 44-91 maximum from 11-23)
-of Ennui (196)
--added 56 to "maxlevel"
+  * Lightning Damage
+    * of Passion (190)
+      * added 56 to "maxlevel"
+    * of Shock (191)
+      * added 24 to "maxlevel"
+    * of Lightning (192)
+      * added 33 to "maxlevel"
+      * increased "mod2min" and "mod2max" to 13/21 from 9/16 (lightning damage increased to 13-21 maximum from 9-16)
+    * of Thunder (193)
+      * increased "mod2min" and "mod2max" to 28/53 from 17/40 (lightning damage increased to 28-53 maximum from 17-40)
+    * of Storms (194)
+      * increased "mod2min" and "mod2max" to 62/141 from 41/120 (lightning damage increased to 62-141 maximum from 41-120)
+    * of Shock (195)
+      * increased "mod2min" and "mod2max" to 44/91 from 11/23 (lightning damage increased to 44-91 maximum from 11-23)
+    * of Ennui (196)
+      * added 56 to "maxlevel"
 
-Maximum Damage
-of Craftsmanship (197)
--added 10 to "maxlevel"
-of Quality (198)
--added 13 to "maxlevel"
-of Maiming (199)
--added 18 to "maxlevel"
-of Slaying (200)
--added 24 to "maxlevel"
-of Craftsmanship (209)
--added 44 to "maxlevel"
+  * Maximum Damage
+    * of Craftsmanship (197)
+      * added 10 to "maxlevel"
+    * of Quality (198)
+      * added 13 to "maxlevel"
+    * of Maiming (199)
+      * added 18 to "maxlevel"
+    * of Slaying (200)
+      * added 24 to "maxlevel"
+    * of Craftsmanship (209)
+      * added 44 to "maxlevel"
 
-Minimum Damage
-of Worth (225)
--added 47 to "maxlevel"
-of Measure (226)
--added 75 to "maxlevel"
-of Worth (230)
--added 58 to "maxlevel"
+  * Minimum Damage
+    * of Worth (225)
+      * added 47 to "maxlevel"
+    * of Measure (226)
+      * added 75 to "maxlevel"
+    * of Worth (230)
+      * added 58 to "maxlevel"
 
-Poison Damage
-of Blight (236)
--added 24 to "maxlevel"
-of Venom (237)
--added 32 to "maxlevel"
+  * Poison Damage
+    * of Blight (236)
+      * added 24 to "maxlevel"
+    * of Venom (237)
+      * added 32 to "maxlevel"
 
-Dexterity
-of Dexterity (242)
--added 42 to "maxlevel"
-of Skill (243)
--added 58 to "maxlevel"
-of Dexterity (248)
--added 55 to "maxlevel"
-of Dexterity (253)
--added 45 to "maxlevel"
+  * Dexterity
+    * of Dexterity (242)
+      * added 42 to "maxlevel"
+    * of Skill (243)
+      * added 58 to "maxlevel"
+    * of Dexterity (248)
+      * added 55 to "maxlevel"
+    * of Dexterity (253)
+      * added 45 to "maxlevel"
 
-Gold Find
-of Greed (284)
--increased "mod1min" and "mod1max" to 8/15 from 5/10 (gold find increased to 8-15% from 5-10%)
-of Greed (285)
--increased "mod1min" and "mod1max" to 16/30 from 11/22 (gold find increased to 16-30% from 11-22%)
-of Avarice (287)
--increased "mod1min" and "mod1max" to 15/35 from 10/30 (gold find increased to 15-35% from 10-30%)
+  * Gold Find
+    * of Greed (284)
+      * increased "mod1min" and "mod1max" to 8/15 from 5/10 (gold find increased to 8-15% from 5-10%)
+    * of Greed (285)
+      * increased "mod1min" and "mod1max" to 16/30 from 11/22 (gold find increased to 16-30% from 11-22%)
+    * of Avarice (287)
+      * increased "mod1min" and "mod1max" to 15/35 from 10/30 (gold find increased to 15-35% from 10-30%)
 
-Energy
-of Energy (295)
--added 20 to "maxlevel"
-of the Mind (296)
--added 30 to "maxlevel"
-of Energy (301)
--added 30 to "maxlevel"
-of Energy (306)
--added 15 to "maxlevel"
+  * Energy
+    * of Energy (295)
+      * added 20 to "maxlevel"
+    * of the Mind (296)
+      * added 30 to "maxlevel"
+    * of Energy (301)
+      * added 30 to "maxlevel"
+    * of Energy (306)
+      * added 15 to "maxlevel"
 
-Light Radius
-of Light (312)
--added 16 to "maxlevel"
+  * Light Radius
+    * of Light (312)
+      * added 16 to "maxlevel"
 
-Life
-of the Jackal (315)
--added 24 to "maxlevel"
-of the Fox (316)
--added 29 to "maxlevel"
-of the Jackal (323)
--added 58 to "maxlevel"
-of the Jackal (329)
--added 67 to "maxlevel"
+  * Life
+    * of the Jackal (315)
+      * added 24 to "maxlevel"
+    * of the Fox (316)
+      * added 29 to "maxlevel"
+    * of the Jackal (323)
+      * added 58 to "maxlevel"
+    * of the Jackal (329)
+      * added 67 to "maxlevel"
 
-Strength
-of Strength (374)
--added 57 to "maxlevel"
-of Might (375)
--added 70 to "maxlevel"
-of Strength (380)
--added 73 to "maxlevel"
+  * Strength
+    * of Strength (374)
+      * added 57 to "maxlevel"
+    * of Might (375)
+      * added 70 to "maxlevel"
+    * of Strength (380)
+      * added 73 to "maxlevel"
 
-Faster Run/Walk
-of Inertia (401)
--increased "mod1min" and "mod1max" to 8/8 from 7/7 (faster run/walk increased to 8% from 7%)
-of Inertia (402)
--increased "mod1min" and "mod1max" to 7/7 from 5/5 (faster run/walk increased to 7% from 5%)
+  * Faster Run/Walk
+    * of Inertia (401)
+      * increased "mod1min" and "mod1max" to 8/8 from 7/7 (faster run/walk increased to 8% from 7%)
+    * of Inertia (402)
+      * increased "mod1min" and "mod1max" to 7/7 from 5/5 (faster run/walk increased to 7% from 5%)
 
-Life Per Level
-of the Kraken (409) (Centaur)
--increased "mod1param" to 14 from 6 (life per level increased to 1.75 from 0.75)
+  * Life Per Level
+    * of the Kraken (409) (Centaur)
+      * increased "mod1param" to 14 from 6 (life per level increased to 1.75 from 0.75)
 
-Mana Per Level
-of Memory (410)
--increased "mod1param" to 14 from 6 (mana per level increased to 1.75 from 0.75)
+  * Mana Per Level
+    * of Memory (410)
+      * increased "mod1param" to 14 from 6 (mana per level increased to 1.75 from 0.75)
 
-Life Per Level/Mana Per Level
-of the Elephant (411)
--increased "mod1param" to 10 from 4 (life per level increased to 1.25 from 0.5)
--increased "mod2param" to 6 from 2 (mana per level increased to 0.75 from 0.25)
+  * Life Per Level/Mana Per Level
+    * of the Elephant (411)
+      * increased "mod1param" to 10 from 4 (life per level increased to 1.25 from 0.5)
+      * increased "mod2param" to 6 from 2 (mana per level increased to 0.75 from 0.25)
 
-Chance to Cast
-of Firebolts (421)
--added 19 to "maxlevel"
-of Firebolts (422)
--increased "mod1max" to 6 from 4 (Fire Bolt on attack level increased to 6 from 4)
-of Charged Shield (423) (of Charged Bolt)
--added 25 to "maxlevel"
-of Icebolt (426)
--increased "mod1min" to 8 from 5 (Ice Bolt on attack proc chance increased to 8% from 5%)
-of Nova Shield (436)
--added 37 to "maxlevel"
-of Lightning (439)
--increased "mod1min" to 8 from 5 (Lightning on attack proc chance increased to 8% from 5%)
-of Chain Lightning (444)
--added 44 to "maxlevel"
-of Hydra Shield (456)
--increased "mod1max" to 5 from 3 (Hydra when struck level increased to 5 from 3)
-of Damage Amplification (664)
--increased "mod1min" to 8 from 5 (Amplify Damage on striking proc chance increased to 8% from 5%)
+  * Chance to Cast
+    * of Firebolts (421)
+      * added 19 to "maxlevel"
+    * of Firebolts (422)
+      * increased "mod1max" to 6 from 4 (Fire Bolt on attack level increased to 6 from 4)
+    * of Charged Shield (423) (of Charged Bolt)
+      * added 25 to "maxlevel"
+    * of Icebolt (426)
+      * increased "mod1min" to 8 from 5 (Ice Bolt on attack proc chance increased to 8% from 5%)
+    * of Nova Shield (436)
+      * added 37 to "maxlevel"
+    * of Lightning (439)
+      * increased "mod1min" to 8 from 5 (Lightning on attack proc chance increased to 8% from 5%)
+    * of Chain Lightning (444)
+      * added 44 to "maxlevel"
+    * of Hydra Shield (456)
+      * increased "mod1max" to 5 from 3 (Hydra when struck level increased to 5 from 3)
+    * of Damage Amplification (664)
+      * increased "mod1min" to 8 from 5 (Amplify Damage on striking proc chance increased to 8% from 5%)
 
-Poison Damage
-of Blight (684)
--added 20 to "maxlevel"
-of Blight (688)
--added 32 to "maxlevel"
-of Blight (692)
--added 43 to "maxlevel
+  * Poison Damage
+    * of Blight (684)
+      * added 20 to "maxlevel"
+    * of Blight (688)
+      * added 32 to "maxlevel"
+    * of Blight (692)
+      * added 43 to "maxlevel
 
-Cold Damage
-of Frost (696)
--added 22 to "maxlevel"
-of Frost (700)
--added 34 to "maxlevel"
-of Frost (704)
--added 45 to "maxlevel"
+  * Cold Damage
+    * of Frost (696)
+      * added 22 to "maxlevel"
+    * of Frost (700)
+      * added 34 to "maxlevel"
+    * of Frost (704)
+      * added 45 to "maxlevel"
 
-Fire Damage
-of Flame (708)
--added 21 to "maxlevel"
-of Flame (712)
--added 33 to "maxlevel"
-of Flame (716)
--added 44 to "maxlevel"
+  * Fire Damage
+    * of Flame (708)
+      * added 21 to "maxlevel"
+    * of Flame (712)
+      * added 33 to "maxlevel"
+    * of Flame (716)
+      * added 44 to "maxlevel"
 
-Lightning Damage
-of Shock (720)
--added 21 to "maxlevel"
-of Shock (724)
--added 33 to "maxlevel"
-of Shock (728)
--added 44 to "maxlevel"
+  * Lightning Damage
+    * of Shock (720)
+      * added 21 to "maxlevel"
+    * of Shock (724)
+      * added 33 to "maxlevel"
+    * of Shock (728)
+      * added 44 to "maxlevel"
 
 misc.txt
 -set "ShowLevel" to 1 for amulets/rings/charms/jewels (shows item level)
