@@ -561,137 +561,137 @@ data>global>excel
     * changed "HellUpgrade" to xxx from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
 
 * missiles.txt
-throwaxe
--increased "Range" to 30 from 20 (throwing axes travel 50% farther)
+  * throwaxe
+    * increased "Range" to 30 from 20 (throwing axes travel 50% farther)
 
-throwknife
--increased "Vel" and "MaxVel" to 32 from 24 (throwing knives travel 33% faster)
--increased "Range" to 23 from 20 (throwing knives travel 53% farther overall with velocity increase)
+  * throwknife
+    * increased "Vel" and "MaxVel" to 32 from 24 (throwing knives travel 33% faster)
+    * increased "Range" to 23 from 20 (throwing knives travel 53% farther overall with velocity increase)
 
-coldarrow
--increased "Range" to 40 from 20 (makes it equal range with other elemental arrows)
+  * coldarrow
+    * increased "Range" to 40 from 20 (makes it equal range with other elemental arrows)
 
-diablight
--increased "Range" to 40 from 30 (makes his Red Lightning hit at melee range in Nightmare and Hell)
+  * diablight
+    * increased "Range" to 40 from 30 (makes his Red Lightning hit at melee range in Nightmare and Hell)
 
-monprop.txt
--added 6 new rows for Dclone and the Ubers
+* monprop.txt
+    * added 6 new rows for Dclone and the Ubers
 
-diabloclone
--added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Diablo Clone now has 80% curse length reduction)
+  * diabloclone
+    * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Diablo Clone now has 80% curse length reduction)
 
-ubermephisto
--added cast2 to "prop1 (H)" and set "min1 (H)" and "max2 (H)" to 30/30 (Uber Mephisto has his usual 30% faster cast rate)
--added swing2 to "prop2 (H)" and set "min2 (H)" and "max2 (H)" to 30/30 (has his usual 30% increased attack speed)
--added res-curse to "prop3 (H)" and set "min3 (H)" and "max3 (H)" to 80/80 (now has 80% curse length reduction)
+  * ubermephisto
+    * added cast2 to "prop1 (H)" and set "min1 (H)" and "max2 (H)" to 30/30 (Uber Mephisto has his usual 30% faster cast rate)
+    * added swing2 to "prop2 (H)" and set "min2 (H)" and "max2 (H)" to 30/30 (has his usual 30% increased attack speed)
+    * added res-curse to "prop3 (H)" and set "min3 (H)" and "max3 (H)" to 80/80 (now has 80% curse length reduction)
 
-uberdiablo
--added curse_resistance to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Diablo now has 80% curse length reduction)
+  * uberdiablo
+    * added curse_resistance to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Diablo now has 80% curse length reduction)
 
-uberizual
--added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Izual now has 80% curse length reduction)
+  * uberizual
+    * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Izual now has 80% curse length reduction)
 
-uberandariel
--added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Lilith now has 80% curse length reduction)
+  * uberandariel
+    * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Lilith now has 80% curse length reduction)
 
-uberduriel
--added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Duriel now has 80% curse length reduction)
+  * uberduriel
+    * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Duriel now has 80% curse length reduction)
 
-uberbaal
--added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Baal now has 80% curse length reduction)
+  * uberbaal
+    * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Baal now has 80% curse length reduction)
 
-monstats.txt
-andariel
--decreased "ToBlock(N)" to 15 from 20 (Nightmare Andariel block chance decreased to 15% from 20%)
--decreased "ToBlock(H)" to 25 from 40 (Hell block chance decreased to 25% from 40%)
--increased "AC(N)" to 123 from 110 (Nightmare Andariel defense increased by ~12%, for example at level 49 she has 841 defense instead of 752 defense)
--increased "AC(H)" to 154 from 110 (Hell defense increased by ~40%, at level 75 she has 2271 defense instead of 1622 defense)
+* monstats.txt
+  * andariel
+    * decreased "ToBlock(N)" to 15 from 20 (Nightmare Andariel block chance decreased to 15% from 20%)
+    * decreased "ToBlock(H)" to 25 from 40 (Hell block chance decreased to 25% from 40%)
+    * increased "AC(N)" to 123 from 110 (Nightmare Andariel defense increased by ~12%, for example at level 49 she has 841 defense instead of 752 defense)
+    * increased "AC(H)" to 154 from 110 (Hell defense increased by ~40%, at level 75 she has 2271 defense instead of 1622 defense)
 
-duriel
--decreased duriel "ToBlock(N)" to 20 from 25 (Nightmare Duriel block chance decreased to 20% from 25%)
--decreased duriel "ToBlock(H)" to 30 from 50 (Hell block chance decreased to 30% from 50%)
--increased duriel "AC(N)" to 136 from 120 (Nightmare Duriel defense increased by ~13%, for example at level 55 he has 1028 defense instead of 907 defense)
--increased duriel "AC(H)" to 216 from 120 (Hell defense increased by 80%, at level 88 he has 3680 defense instead of 2044 defense)
+  * duriel
+    * decreased duriel "ToBlock(N)" to 20 from 25 (Nightmare Duriel block chance decreased to 20% from 25%)
+    * decreased duriel "ToBlock(H)" to 30 from 50 (Hell block chance decreased to 30% from 50%)
+    * increased duriel "AC(N)" to 136 from 120 (Nightmare Duriel defense increased by ~13%, for example at level 55 he has 1028 defense instead of 907 defense)
+    * increased duriel "AC(H)" to 216 from 120 (Hell defense increased by 80%, at level 88 he has 3680 defense instead of 2044 defense)
 
-mephisto
--set "flying" to 1 (allows Mephisto to float over the moat, be careful not to kill him over the moat otherwise he won't drop any loot)
--decreased "ToBlock" to 15 from 20 (Normal Mephisto block chance decreased to 15% from 20%)
--decreased "ToBlock(N)" to 20 from 40 (Nightmare block chance decreased to 20% from 40%)
--decreased "ToBlock(H)" to 30 from 50 (Hell block chance decreased to 30% from 50%)
--increased "AC" to 140 from 124 (Normal Mephisto defense increased by ~13%, for example at level 26 he has 218 defense instead of 193 defense)
--increased "AC(N)" to 266 from 160 (Nightmare defense increased by ~66%, at level 59 he has 2138 defense instead of 1286 defense)
--increased "AC(H)" to 288 from 160 (Hell defense increased by 80%, at level 87 he has 4855 defense instead of 2697 defense)
+  * mephisto
+    * set "flying" to 1 (allows Mephisto to float over the moat, be careful not to kill him over the moat otherwise he won't drop any loot)
+    * decreased "ToBlock" to 15 from 20 (Normal Mephisto block chance decreased to 15% from 20%)
+    * decreased "ToBlock(N)" to 20 from 40 (Nightmare block chance decreased to 20% from 40%)
+    * decreased "ToBlock(H)" to 30 from 50 (Hell block chance decreased to 30% from 50%)
+    * increased "AC" to 140 from 124 (Normal Mephisto defense increased by ~13%, for example at level 26 he has 218 defense instead of 193 defense)
+    * increased "AC(N)" to 266 from 160 (Nightmare defense increased by ~66%, at level 59 he has 2138 defense instead of 1286 defense)
+    * increased "AC(H)" to 288 from 160 (Hell defense increased by 80%, at level 87 he has 4855 defense instead of 2697 defense)
 
-diablo
--decreased "ToBlock" to 20 from 25 (Normal Diablo block chance decreased to 20% from 25%)
--decreased "ToBlock(N)" to 25 from 40 (Nightmare block chance decreased to 25% from 40%)
--decreased "ToBlock(H)" to 30 from 50 (Hell block chance decreased to 30% from 50%)
--increased "AC" to 98 from 87 (Normal Diablo defense increased by ~13%, for example at level 40 he has 235 defense instead of 208 defense)
--increased "AC(N)" to 210 from 140 (Nightmare defense increased by 50%, at level 62 he has 1764 defense instead of 1176 defense)
--increased "AC(H)" to 252 from 140 (Hell defense increased by 80%, at level 94 he has 4561 defense instead of 2534 defense)
+  * diablo
+    * decreased "ToBlock" to 20 from 25 (Normal Diablo block chance decreased to 20% from 25%)
+    * decreased "ToBlock(N)" to 25 from 40 (Nightmare block chance decreased to 25% from 40%)
+    * decreased "ToBlock(H)" to 30 from 50 (Hell block chance decreased to 30% from 50%)
+    * increased "AC" to 98 from 87 (Normal Diablo defense increased by ~13%, for example at level 40 he has 235 defense instead of 208 defense)
+    * increased "AC(N)" to 210 from 140 (Nightmare defense increased by 50%, at level 62 he has 1764 defense instead of 1176 defense)
+    * increased "AC(H)" to 252 from 140 (Hell defense increased by 80%, at level 94 he has 4561 defense instead of 2534 defense)
 
-diabloclone
--added diabloclone to "MonProp" (uses diabloclone entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Diablo Clone level decreased to 99 from 110)
--decreased "ToBlock(H)" to 30 from 50 (block chance reduced to 30% from 50%)
--increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 99 he has 5750 defense instead of 2940 defense at level 110)
+  * diabloclone
+    * added diabloclone to "MonProp" (uses diabloclone entry in monprop.txt)
+    * decreased "Level(H)" to 99 from 110 (Diablo Clone level decreased to 99 from 110)
+    * decreased "ToBlock(H)" to 30 from 50 (block chance reduced to 30% from 50%)
+    * increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 99 he has 5750 defense instead of 2940 defense at level 110)
 
-baalcrab (Baal)
--decreased "ToBlock" to 25 from 40 (Normal Baal block chance decreased to 25% from 40%)
--decreased "ToBlock(N)" to 30 from 45 (Nightmare block chance decreased to 30% from 45%)
--decreased "ToBlock(H)" to 30 from 55 (Hell block chance decreased to 30% from 55%)
--increased "AC" to 130 from 87 (Normal Baal defense increased by ~50%, for example at level 60 he has 468 defense instead of 313 defense)
--increased "AC(N)" to 231 from 150 (Nightmare defense increased by 54%, at level 75 he has 2300 defense instead of 1494 defense)
--increased "AC(H)" to 316 from 150 (Hell defense increased by ~111%, at level 99 he has 5997 defense instead of 2847 defense)
--changed "TreasureClassQuest(H)" to BaalQSpecial from Baalq (H) (quest Hell Baal will drop the BaalQSpecial TC in treasureclassex.txt)
+  * baalcrab (Baal)
+    * decreased "ToBlock" to 25 from 40 (Normal Baal block chance decreased to 25% from 40%)
+    * decreased "ToBlock(N)" to 30 from 45 (Nightmare block chance decreased to 30% from 45%)
+    * decreased "ToBlock(H)" to 30 from 55 (Hell block chance decreased to 30% from 55%)
+    * increased "AC" to 130 from 87 (Normal Baal defense increased by ~50%, for example at level 60 he has 468 defense instead of 313 defense)
+    * increased "AC(N)" to 231 from 150 (Nightmare defense increased by 54%, at level 75 he has 2300 defense instead of 1494 defense)
+    * increased "AC(H)" to 316 from 150 (Hell defense increased by ~111%, at level 99 he has 5997 defense instead of 2847 defense)
+    * changed "TreasureClassQuest(H)" to BaalQSpecial from Baalq (H) (quest Hell Baal will drop the BaalQSpecial TC in treasureclassex.txt)
 
-baalclone (Baal Clone)
--decreased "ToBlock" to 25 from 40 (Normal Baal Clone block chance decreased to 25% from 40%)
--decreased "ToBlock(N)" to 30 from 45 (Nightmare block chance decreased to 30% from 45%)
--decreased "ToBlock(H)" to 30 from 55 (Hell block chance decreased to 30% from 55%)
--increased "AC" to 130 from 87 (Normal Baal Clone defense increased by ~50%, for example at level 60 he has 468 defense instead of 313 defense)
--increased "AC(N)" to 246 from 160 (Nightmare defense increased by ~54%, at level 69 he has 2273 defense instead of 1478 defense)
--increased "AC(H)" to 338 from 160 (Hell defense increased by ~111%, at level 95 he has 6175 defense instead of 2923 defense)
+  * baalclone (Baal Clone)
+    * decreased "ToBlock" to 25 from 40 (Normal Baal Clone block chance decreased to 25% from 40%)
+    * decreased "ToBlock(N)" to 30 from 45 (Nightmare block chance decreased to 30% from 45%)
+    * decreased "ToBlock(H)" to 30 from 55 (Hell block chance decreased to 30% from 55%)
+    * increased "AC" to 130 from 87 (Normal Baal Clone defense increased by ~50%, for example at level 60 he has 468 defense instead of 313 defense)
+    * increased "AC(N)" to 246 from 160 (Nightmare defense increased by ~54%, at level 69 he has 2273 defense instead of 1478 defense)
+    * increased "AC(H)" to 338 from 160 (Hell defense increased by ~111%, at level 95 he has 6175 defense instead of 2923 defense)
 
-ubermephisto
--changed "MonProp" to ubermephisto from mephisto (uses ubermephisto entry in monprop.txt instead of mephisto)
--decreased "Level(H)" to 99 from 110 (Uber Mephisto level decreased to 99 from 110)
--decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
--increased "AC(H)" to 346 from 160 (defense increased by ~95%, at level 99 he has 6567 defense instead of 3360 defense at level 110)
+  * ubermephisto
+    * changed "MonProp" to ubermephisto from mephisto (uses ubermephisto entry in monprop.txt instead of mephisto)
+    * decreased "Level(H)" to 99 from 110 (Uber Mephisto level decreased to 99 from 110)
+    * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
+    * increased "AC(H)" to 346 from 160 (defense increased by ~95%, at level 99 he has 6567 defense instead of 3360 defense at level 110)
 
-uberdiablo (Pandemonium Diablo)
--added uberdiablo to "MonProp" (uses uberdiablo entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Uber Diablo level decreased to 99 from 110)
--decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
--increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 99 he has 5750 defense instead of 2940 defense at level 110)
+  * uberdiablo (Pandemonium Diablo)
+    * added uberdiablo to "MonProp" (uses uberdiablo entry in monprop.txt)
+    * decreased "Level(H)" to 99 from 110 (Uber Diablo level decreased to 99 from 110)
+    * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
+    * increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 99 he has 5750 defense instead of 2940 defense at level 110)
 
-uberizual
--added uberizual to "MonProp" (uses uberizual entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Uber Izual level decreased to 99 from 110)
--decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
--increased "AC(H)" to 260 from 120 (defense increased by ~96%, at level 99 he has 4934 defense instead of 2520 defense at level 110)
+  * uberizual
+    * added uberizual to "MonProp" (uses uberizual entry in monprop.txt)
+    * decreased "Level(H)" to 99 from 110 (Uber Izual level decreased to 99 from 110)
+    * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
+    * increased "AC(H)" to 260 from 120 (defense increased by ~96%, at level 99 he has 4934 defense instead of 2520 defense at level 110)
 
-uberandariel (Lilith)
--added uberandariel to "MonProp" (uses uberandariel entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Lilith level decreased to 99 from 110)
--decreased "ToBlock(H)" to 30 from 40 (block chance decreased to 30% from 40%)
--increased "AC(H)" to 178 from 110 (defense increased by ~46%, at level 99 she has 3378 defense instead of 2310 defense at level 110)
+  * uberandariel (Lilith)
+    * added uberandariel to "MonProp" (uses uberandariel entry in monprop.txt)
+    * decreased "Level(H)" to 99 from 110 (Lilith level decreased to 99 from 110)
+    * decreased "ToBlock(H)" to 30 from 40 (block chance decreased to 30% from 40%)
+    * increased "AC(H)" to 178 from 110 (defense increased by ~46%, at level 99 she has 3378 defense instead of 2310 defense at level 110)
 
-uberduriel
--added uberduriel to "MonProp" (uses uberduriel entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Uber Duriel level decreased to 99 from 110)
--decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
--increased "AC(H)" to 260 from 120 (defense increased by ~96%, at level 99 he has 4934 defense instead of 2520 defense at level 110)
+  * uberduriel
+    * added uberduriel to "MonProp" (uses uberduriel entry in monprop.txt)
+    * decreased "Level(H)" to 99 from 110 (Uber Duriel level decreased to 99 from 110)
+    * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
+    * increased "AC(H)" to 260 from 120 (defense increased by ~96%, at level 99 he has 4934 defense instead of 2520 defense at level 110)
 
-uberbaal
--added uberbaal to "MonProp" (uses uberbaal entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Uber Baal level decreased to 99 from 110)
--decreased "ToBlock(H)" to 30 from 55 (block chance decreased to 30% from 55%)
--increased "AC(H)" to 379 from 150 (defense increased by ~128%, at level 99 he has 7193 defense instead of 3150 defense at level 110)
+  * uberbaal
+    * added uberbaal to "MonProp" (uses uberbaal entry in monprop.txt)
+    * decreased "Level(H)" to 99 from 110 (Uber Baal level decreased to 99 from 110)
+    * decreased "ToBlock(H)" to 30 from 55 (block chance decreased to 30% from 55%)
+    * increased "AC(H)" to 379 from 150 (defense increased by ~128%, at level 99 he has 7193 defense instead of 3150 defense at level 110)
 
-trangvampire
--added new entry for "trangvampire" (cloned row 137)
--set "hcIdx" to 742 and "Code" to Z4 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
+  * trangvampire
+    * added new entry for "trangvampire" (cloned row 137)
+    * set "hcIdx" to 742 and "Code" to Z4 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
 properties.txt
 res-curse
