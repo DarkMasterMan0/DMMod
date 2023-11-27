@@ -1,6 +1,8 @@
 ![DMMoD Logo large](https://github.com/DarkMasterMan0/DMMod/assets/87884578/9c781fee-a103-4212-835b-54e764fa8f28)
 
 # Manual Installation and Launch / D2RLaunch
+Download the files by clicking the green `Code` button near the top of the page and download the ZIP, or download the files from the `Releases` tab on the right side.
+
 Drop the top-level DMMod folder into your D2R `mods` folder (the file path will look like `Diablo II Resurrected > mods > DMMod > DMMod.mpq` if you did it correctly), if you don't have a `mods` folder then create it in your D2R folder.
 
 Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod DMMod -txt` to the target line (it will look similar to `"H:\Games\Diablo II Resurrected\D2R.exe" -mod DMMod -txt` if you did it correctly). You can now use this shortcut to launch D2R with DMMod as the active mod.
