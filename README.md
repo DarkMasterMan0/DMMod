@@ -10,6 +10,8 @@ DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address s
 
 Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs to underused runewords (like Holy Thunder and Venom) and nerfs to overtuned runewords (Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to weaker/underused skills (like Poison Dagger and Iron Maiden) and a few nerfs to overtuned skills (like Blessed Hammer and Holy Shield), changes to magic/rare item affixes (slightly trimming down the affix pool at higher levels for example). NO CHANGES TO DROP RATES (technically a change to Hell Baal's quest drop but that's about it).
 
+I may or may not make more changes in future versions, I was going to mess with crafting recipes and a few more skills (Poison Explosion, Maul, etc.) but I'm really getting the itch to actually play D2R instead of modding it so I'm not making any definite plans regarding future changes for the moment. :P
+
 # Credits
 Thanks to:
 
