@@ -1,6 +1,3 @@
-# Table of Contents
-[Manual Installation and Launch](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#manual-installation-and-launch)
-
 # Manual Installation and Launch
 Drop the top-level DMMod folder into your D2R `mods` folder (the file path will look like `Diablo II Resurrected > mods > DMMod > DMMod.mpq` if you did it correctly), if you don't have a `mods` folder then create it in your D2R folder.
 
