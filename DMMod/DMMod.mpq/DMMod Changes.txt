@@ -1,10 +1,10 @@
 data>global>excel
 armor.txt
 -set "ShowLevel" to 1 (displays item level)
--added "Medium Armor" and "Heavy Armor" affix groups tfo "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
+-added "Medium Armor" and "Heavy Armor" affix groups to "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
 
-Normal and Exceptional Paladin Shields
--decreased "gemsockets" to 3 from 4
+normal and exceptional paladin shields
+-decreased "gemsockets" to 3 from 4 (max sockets decreased to 3 from 4)
 
 automagic.txt
 Shimmering
@@ -15,7 +15,7 @@ Rainbow
 -changed "frequency" to 10 from 7
 
 Scintillating
--decreased "mod1max" to 25 from 30 (all resistances decreased to 16-25 from 16-30)
+-decreased "mod1max" to 25 from 30 (all resistances decreased to 16-25% from 16-30%)
 -changed "frequency" to 8 from 6
 
 Prismatic
@@ -24,7 +24,17 @@ Prismatic
 Chromatic
 -changed "spawnable" to blank from 1
 
--added "Medium Armor" and "Heavy Armor" affixes (medium armor gives 2% physical damage reduction, heavy armor gives 5% PDR)
+Medium Armor
+-added new entry for "Medium Armor" (cloned row 34)
+-set "levelreq" to 1
+-set "group" to 500
+-set "mod1code1" to red-dmg%, set "mod1min" and "mod1max" to 2/2 (2% physical damage reduction)
+
+Heavy Armor
+-added new entry for "Heavy Armor" (cloned row 34)
+-set "levelreq" to 1
+-set "group" to 501
+-set "mod1code1" to red-dmg%, set "mod1min" and "mod1max" to 5/5 (5% PDR)
 
 hireling.txt
 Barbarian (Frenzy)
@@ -545,27 +555,27 @@ diablight
 monprop.txt
 -added 6 new rows for Dclone and the Ubers
 
-diabloclone
+diabloclone (Dclone)
 -added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Diablo Clone now has 80% curse length reduction)
 
-ubermephisto
+ubermephisto (Uber Mephisto)
 -added cast2 to "prop1 (H)" and set "min1 (H)" and "max2 (H)" to 30/30 (Uber Mephisto has his usual 30% faster cast rate)
 -added swing2 to "prop2 (H)" and set "min2 (H)" and "max2 (H)" to 30/30 (has his usual 30% increased attack speed)
 -added res-curse to "prop3 (H)" and set "min3 (H)" and "max3 (H)" to 80/80 (now has 80% curse length reduction)
 
-uberdiablo
+uberdiablo (Uber Diablo/Pandemonium Diablo)
 -added curse_resistance to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Diablo now has 80% curse length reduction)
 
-uberizual
+uberizual (Uber Izual)
 -added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Izual now has 80% curse length reduction)
 
-uberandariel
+uberandariel (Lilith)
 -added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Lilith now has 80% curse length reduction)
 
-uberduriel
+uberduriel (Uber Duriel)
 -added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Duriel now has 80% curse length reduction)
 
-uberbaal
+uberbaal (Uber Baal)
 -added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Baal now has 80% curse length reduction)
 
 monstats.txt
@@ -598,11 +608,14 @@ diablo
 -increased "AC(N)" to 210 from 140 (Nightmare defense increased by 50%, at level 62 he has 1764 defense instead of 1176 defense)
 -increased "AC(H)" to 252 from 140 (Hell defense increased by 80%, at level 94 he has 4561 defense instead of 2534 defense)
 
-diabloclone
+diabloclone (Dclone)
 -added diabloclone to "MonProp" (uses diabloclone entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Diablo Clone level decreased to 99 from 110)
+-decreased "Level(H)" to 100 from 110 (Diablo Clone level decreased to 100 from 110)
 -decreased "ToBlock(H)" to 30 from 50 (block chance reduced to 30% from 50%)
--increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 99 he has 5750 defense instead of 2940 defense at level 110)
+-increased "MinHP(H) and "MaxHP(H) to 8128/8128 from 6427/6427 (combined with decrease to "Level(H)" life remains roughly the same at 642680)
+-increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 100 he has 5802 defense instead of 2940 defense at level 110)
+-increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 116/219/353 from 100/190/215 (combined with decrease to "Level(H)" physical damage and attack rating remain roughly the same at 131-247 and 14042 respectively)
+-increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 127/265/329 from 110/230/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 143-299 and 13087 respectively)
 
 baalcrab (Baal)
 -decreased "ToBlock" to 25 from 40 (Normal Baal block chance decreased to 25% from 40%)
@@ -621,41 +634,61 @@ baalclone (Baal Clone)
 -increased "AC(N)" to 246 from 160 (Nightmare defense increased by ~54%, at level 69 he has 2273 defense instead of 1478 defense)
 -increased "AC(H)" to 338 from 160 (Hell defense increased by ~111%, at level 95 he has 6175 defense instead of 2923 defense)
 
-ubermephisto
+ubermephisto (Uber Mephisto)
 -changed "MonProp" to ubermephisto from mephisto (uses ubermephisto entry in monprop.txt instead of mephisto)
--decreased "Level(H)" to 99 from 110 (Uber Mephisto level decreased to 99 from 110)
+-decreased "Level(H)" to 100 from 110 (Uber Mephisto level decreased to 100 from 110)
+-increased "Drain(H) to 10 from blank (drain effectiveness increased to 10% from 0%)
 -decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
--increased "AC(H)" to 346 from 160 (defense increased by ~95%, at level 99 he has 6567 defense instead of 3360 defense at level 110)
+-increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
+-increased "AC(H)" to 343 from 160 (defense increased by ~95%, at level 100 he has 6568 defense instead of 3360 defense at level 110)
+-increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 431/507/329 from 375/440/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 487-572 and 13087 respectively)
 
-uberdiablo (Pandemonium Diablo)
+uberdiablo (Uber Diablo/Pandemonium Diablo)
 -added uberdiablo to "MonProp" (uses uberdiablo entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Uber Diablo level decreased to 99 from 110)
+-decreased "Level(H)" to 100 from 110 (Uber Diablo level decreased to 100 from 110)
 -decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
--increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 99 he has 5750 defense instead of 2940 defense at level 110)
+-increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
+-increased "AC(H)" to 300 from 140 (defense increased by ~96%, at level 100 he has 5745 defense instead of 2940 defense at level 110)
+-increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 426/438/353 from 370/380/215 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 481-494 and 14042 respectively)
+-increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 127/265/329 from 110/230/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 143-299 and 13087 respectively)
 
-uberizual
+uberizual (Uber Izual)
 -added uberizual to "MonProp" (uses uberizual entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Uber Izual level decreased to 99 from 110)
+-decreased "Level(H)" to 100 from 110 (Uber Izual level decreased to 100 from 110)
 -decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
--increased "AC(H)" to 260 from 120 (defense increased by ~96%, at level 99 he has 4934 defense instead of 2520 defense at level 110)
+-increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
+-increased "AC(H)" to 258 from 120 (defense increased by ~96%, at level 100 he has 4940 defense instead of 2520 defense at level 110)
+-increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 403/461/329 from 350/400/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 455-520 and 13087 respectively)
+-increased "El1MinD(H)" and "El1MaxD(H)" to 58/93 from 50/80 (combined with decrease to "Level(H)" cold damage for melee attack 1 remains roughly the same at 65-105)
 
 uberandariel (Lilith)
 -added uberandariel to "MonProp" (uses uberandariel entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Lilith level decreased to 99 from 110)
+-decreased "Level(H)" to 100 from 110 (Lilith level decreased to 100 from 110)
 -decreased "ToBlock(H)" to 30 from 40 (block chance decreased to 30% from 40%)
--increased "AC(H)" to 178 from 110 (defense increased by ~46%, at level 99 she has 3378 defense instead of 2310 defense at level 110)
+-increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
+-increased "AC(H)" to 176 from 110 (defense increased by ~46%, at level 100 she has 3370 defense instead of 2310 defense at level 110)
+-increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 461/507/772 from 400/440/470 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 520-572 and 30710 respectively)
+-increased "El1MinD(H)" and "El1MaxD(H)" to 38/38 from 33/33 (combined with decrease to "Level(H)" poison damage for melee attack 1 remains roughly the same at 754 over 18 seconds)
 
-uberduriel
+uberduriel (Uber Duriel)
 -added uberduriel to "MonProp" (uses uberduriel entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Uber Duriel level decreased to 99 from 110)
+-decreased "Level(H)" to 100 from 110 (Uber Duriel level decreased to 100 from 110)
 -decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
--increased "AC(H)" to 260 from 120 (defense increased by ~96%, at level 99 he has 4934 defense instead of 2520 defense at level 110)
+-increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
+-increased "AC(H)" to 258 from 120 (defense increased by ~96%, at level 100 he has 4940 defense instead of 2520 defense at level 110)
+-increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 415/438/181 from 360/380/110 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 468-495 and 7200 respectively)
+-increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 132/190/246 from 115/165/150 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 149-214 and 9785 respectively)
 
-uberbaal
+uberbaal (Uber Baal)
 -added uberbaal to "MonProp" (uses uberbaal entry in monprop.txt)
--decreased "Level(H)" to 99 from 110 (Uber Baal level decreased to 99 from 110)
+-decreased "Level(H)" to 100 from 110 (Uber Baal level decreased to 100 from 110)
 -decreased "ToBlock(H)" to 30 from 55 (block chance decreased to 30% from 55%)
--increased "AC(H)" to 379 from 150 (defense increased by ~128%, at level 99 he has 7193 defense instead of 3150 defense at level 110)
+-increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
+-increased "AC(H)" to 375 from 150 (defense increased by ~128%, at level 100 he has 7181 defense instead of 3150 defense at level 110)
+-increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 380/438/411 from 330/380/250 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 429-495 and 16349 respectively)
+-increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 190/277/411 from 165/240/250 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 214-313 and 16349 respectively)
+-increased "El1MinD(H)" and "El1MaxD(H)" to 139/231 from 120/200 (combined with decrease to "Level(H)" fire damage for melee attack 1 remains the same at 157-261)
+-increased "El2MinD(H)" and "El2MaxD(H)" to 139/185 from 120/160 (combined with decrease to "Level(H)" cold damage for melee attack 2 remain roughly the same at 157-209)
 
 trangvampire
 -added new entry for "trangvampire" (cloned row 137)
@@ -1172,7 +1205,7 @@ Bone Spirit
 
 Revive
 -changed "calc2" to par3+skill('Revive'.blvl)*par4 from ln34 (duration increases by 10 seconds per hard point)
--decreased "Param3" to 4250 from 4500 (combined with below change the base duration remains 180 seconds)
+-decreased "Param3" to 4250 from 4500 (combined with change to "Param4" the base duration remains 180 seconds)
 -increased "Param4" to 250 from 0 (duration increases by 10 seconds per hard point)
 
 Thorns
@@ -1232,7 +1265,7 @@ Stun
 Frenzy
 -changed "auralencalc" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (now gains 2 frames/0.08 second duration per hard point in Frenzy, Increased Stamina duration synergy decreased to 8 frames/0.32 seconds from 10 frames/0.4 seconds)
 -changed "calc1" to ln12+skill('Double Swing'.blvl)*par8 from ln12+(skill('Double Swing'.blvl) + skill('Taunt'.blvl))*par8, increased "Param8" to 16 from 8 (removed Taunt synergy, doubled bonus from Double Swing synergy)
--decreased "Param7" to 148 from 150 (combined with "auralencalc" change the base duration remains 6 seconds)
+-decreased "Param7" to 148 from 150 (combined with change to "auralencalc" the base duration remains 6 seconds)
 -increased "LevToHit" to 9 from 7 (attack rating per level increased to 9% from 7%)
 
 Whirlwind
@@ -1268,7 +1301,7 @@ BaalQSpecial
 -added new entry for "BaalQSpecial" (cloned row 861)
 -set "Picks" to -2 (forces two "picks"/drops)
 -set "NoDrop" to 0 (prevents the picks from selecting NoDrop)
--added Test to "Item1" and set "Prob1" to 1 (guarantees quest Hell Baal will drop a Test)
+-added Arpaska's Medallion to "Item1" and set "Prob1" to 1 (guarantees quest Hell Baal will drop an Arpaska's Medallion)
 -added Baalq (H) to "Item2" and set "Prob2" to 1 (guarantees quest Hell Baal to drop his quest drop)
 
 uniqueitems.txt
@@ -2101,6 +2134,9 @@ Carrion Wind
 -increased "min5" to 41 from 15 (Poison Creeper charge count increased to 41 from 15)
 -increased "min6" and "max6" to 9/16 from 8/13 (Twister on striking proc chance increased to 9% from 8%, level increased to 16 from 13)
 
+Annihilus
+-decreased "lvl" to 100 from 110 (item level decreased to 100 from 110)
+
 Cranebeak
 -increased "max2" to 391 from 305 (lightning damage increased to 1-391 from 1-305)
 -increased "min3" to 30 from 20 (magic find increased to 30-50% from 20-50%)
@@ -2131,14 +2167,15 @@ Steelrend
 -increased "min4" and "max4" to 15/20 from 10/10 (crushing blow increased to 15-20% from 10%)
 
 Hellfire Torch
+-decreased "lvl" to 100 from 110 (item level decreased to 100 from 110)
 -deleted all stats from "prop5" through "max5" and moved the other stats over (removed Firestorm proc)
 
-Test
--created new entry for "Test" (cloned row 403)
--set "lvl" to 99
--set "lvl req" to 40
--set "code" to cm1
--set "carry1" to blank
+Arpaska's Medallion
+-created new entry for "Arpaska's Medallion" (cloned row 403)
+-set "lvl" to 99 (item level set to 99)
+-set "lvl req" to 40 (level requirement set to 99)
+-set "code" to cm1 (item code set to small charm)
+-set "carry1" to blank (can carry multiple at once)
 -set "prop1" to oskill, set "par1" to Teleport, set "min1" and "max1" to 1/1 (level 1 Teleport oskill)
 -set "prop2" to res-all-max, set "min2" and "max2" to -15/-15 (-15% maximum all resists)
 
@@ -2203,7 +2240,8 @@ item-modifiers.json
 -used Google Translate for non-English languages
 
 item-names.json
--added new entry for "id" 51000 (Test)
+-added new entry for "id" 51000 (Arpaska's Medallion)
+-used Google Translate for non-English languages
 
 skills.json
 -changed "id" 4415 (Jab tooltip) to add daggers to the list of usable weapon types
