@@ -22,8 +22,8 @@ Thanks to:
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer.
 
-data>global>excel
-* armor.txt
+## data>global>excel
+### * armor.txt
   * set "ShowLevel" to 1 (displays item level)
   * added "Medium Armor" and "Heavy Armor" affix groups to "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
 
