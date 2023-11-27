@@ -26,43 +26,43 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
 * [armor.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#armortxt)
 
-[automagic.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#automagictxt)
+* [automagic.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#automagictxt)
 
-[hireling.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#hirelingtxt)
+* [hireling.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#hirelingtxt)
 
-[itemstatcost.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#itemstatcosttxt)
+* [itemstatcost.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#itemstatcosttxt)
 
-[magicprefix.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#magicprefixtxt)
+* [magicprefix.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#magicprefixtxt)
 
-[magicsuffix.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#magicsuffixtxt)
+* [magicsuffix.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#magicsuffixtxt)
 
-[misc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#misctxt)
+* [misc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#misctxt)
 
-[missiles.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#missilestxt)
+* [missiles.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#missilestxt)
 
-[monprop.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monproptxt)
+* [monprop.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monproptxt)
 
-[monstats.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstatstxt)
+* [monstats.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstatstxt)
 
-[properties.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#propertiestxt)
+* [properties.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#propertiestxt)
 
-[runes.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#runestxt)
+* [runes.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#runestxt)
 
-[setitems.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#setitemstxt)
+* [setitems.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#setitemstxt)
 
-[sets.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#setstxt)
+* [sets.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#setstxt)
 
-[skilldesc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skilldesctxt)
+* [skilldesc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skilldesctxt)
 
-[skills.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skillstxt)
+* [skills.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skillstxt)
 
-[states.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#statestxt)
+* [states.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#statestxt)
 
-[treasureclassex.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#treasureclassextxt)
+* [treasureclassex.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#treasureclassextxt)
 
-[uniqueitems.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#uniqueitemstxt)
+* [uniqueitems.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#uniqueitemstxt)
 
-[weapons.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#weaponstxt)
+* [weapons.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#weaponstxt)
 
 [data>global>monsters](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#dataglobalmonsters)
 
@@ -70,7 +70,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
 [data>hd>character](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdcharacter)
 
-[monsters.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstersjson)
+* [monsters.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstersjson)
 
 [data>hd>global>ui>logoanimation](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobaluilogoanimation)
 
@@ -78,17 +78,17 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
 [data>hd>global>excel](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobalexcel)
 
-[desecratedzones.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#desecratedzonesjson)
+* [desecratedzones.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#desecratedzonesjson)
 
 [data>hd>global>video](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobalvideo)
 
 [data>local>lng>strings](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datalocallngstrings)
 
-[item-modifiers.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#item-modifiersjson)
+* [item-modifiers.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#item-modifiersjson)
 
-[item-names.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#item-namesjson)
+* [item-names.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#item-namesjson)
 
-[skills.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skillsjson)
+* [skills.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skillsjson)
 
 ### data>global>excel
 #### armor.txt
