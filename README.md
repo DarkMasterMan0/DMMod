@@ -577,27 +577,27 @@ data>global>excel
 * monprop.txt
     * added 6 new rows for Dclone and the Ubers
 
-  * diabloclone
+  * diabloclone (Dclone)
     * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Diablo Clone now has 80% curse length reduction)
 
-  * ubermephisto
+  * ubermephisto (Uber Mephisto)
     * added cast2 to "prop1 (H)" and set "min1 (H)" and "max2 (H)" to 30/30 (Uber Mephisto has his usual 30% faster cast rate)
     * added swing2 to "prop2 (H)" and set "min2 (H)" and "max2 (H)" to 30/30 (has his usual 30% increased attack speed)
     * added res-curse to "prop3 (H)" and set "min3 (H)" and "max3 (H)" to 80/80 (now has 80% curse length reduction)
 
-  * uberdiablo
+  * uberdiablo (Uber Diablo/Pandemonium Diablo)
     * added curse_resistance to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Diablo now has 80% curse length reduction)
 
-  * uberizual
+  * uberizual (Uber Izual)
     * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Izual now has 80% curse length reduction)
 
-  * uberandariel
+  * uberandariel (Lilith)
     * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Lilith now has 80% curse length reduction)
 
-  * uberduriel
+  * uberduriel (Uber Diablo)
     * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Duriel now has 80% curse length reduction)
 
-  * uberbaal
+  * uberbaal (Uber Baal)
     * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Baal now has 80% curse length reduction)
 
 * monstats.txt
@@ -715,180 +715,180 @@ data>global>excel
     * added new entry for "trangvampire" (cloned row 137)
     * set "hcIdx" to 742 and "Code" to Z4 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
-properties.txt
-res-curse
--added new entry for "res-curse" (cloned row 33)
--set "stat1" to curse_resistance
--set "*Tooltip" to Curse Resist +#%
+* properties.txt
+  * res-curse
+    * added new entry for "res-curse" (cloned row 33)
+    * set "stat1" to curse_resistance
+    * set "*Tooltip" to Curse Resist +#%
 
-heavenlyburden
--added new entry for "heavenlyburden" (cloned row 117)
--set "stat1" to item_heavenlyburden (see item_heavenlyburden entry in itemstatcost.txt)
--set "*Tooltip" to Heavenly Burden
+  * heavenlyburden
+    * added new entry for "heavenlyburden" (cloned row 117)
+    * set "stat1" to item_heavenlyburden (see item_heavenlyburden entry in itemstatcost.txt)
+    * set "*Tooltip" to Heavenly Burden
 
-runes.txt
-Beast
--added mace to "itype4" (allows Beast to be created in maces)
--changed "T1Code5" to oskill from charged, changed "T1Param5 to Maul from Summon Grizzly, decreased "T1Min5" and "T1Max5" to 3/3 from 5/13 (level 3 Maul oskill instead of Summon Grizzly charges)
+* runes.txt
+  * Beast
+    * added mace to "itype4" (allows Beast to be created in maces)
+    * changed "T1Code5" to oskill from charged, changed "T1Param5 to Maul from Summon Grizzly, decreased "T1Min5" and "T1Max5" to 3/3 from 5/13 (level 3 Maul oskill instead of Summon Grizzly charges)
 
-Brand
--changed "T1Code4" to hit-skill from gethit-skill, decreased "T1Min4" and "T1Max4" to 18/9 from 35/14 (Amplify Damage on striking instead of when struck, proc chance decreased to 18% from 35%, level decreased to 9 from 14)
+  * Brand
+    * changed "T1Code4" to hit-skill from gethit-skill, decreased "T1Min4" and "T1Max4" to 18/9 from 35/14 (Amplify Damage on striking instead of when struck, proc chance decreased to 18% from 35%, level decreased to 9 from 14)
 
-Chains of Honor
--increased "T1Min2" and "T1Max2" to 100/100 from 70/70 (enhanced defense increased to 100% from 70%)
+  * Chains of Honor
+    * increased "T1Min2" and "T1Max2" to 100/100 from 70/70 (enhanced defense increased to 100% from 70%)
 
-Doom
--added mace to "itype4"
+  * Doom
+    * added mace to "itype4"
 
-Enigma
--changed "T1Code1" to ac% from ac and decreased "T1Min1" and "T1Max1" to 100/130 from 750/775 (100-130% enhanced defense instead of 750-775 defense)
--decreased "T1Min2" and "T1Max2" to 5/5 from 14/14 (life after each kill decreased to 5 from 14)
--deleted all stats from "T1Code3" through "T1Max4" and moved the other stats over (removed 45% faster run/walk and 0.75 strength per level)
--decreased new "T1Param4" to 4 from 8 (magic find per level decreased to 0.5 from 1)
+  * Enigma
+    * changed "T1Code1" to ac% from ac and decreased "T1Min1" and "T1Max1" to 100/130 from 750/775 (100-130% enhanced defense instead of 750-775 defense)
+    * decreased "T1Min2" and "T1Max2" to 5/5 from 14/14 (life after each kill decreased to 5 from 14)
+    * deleted all stats from "T1Code3" through "T1Max4" and moved the other stats over (removed 45% faster run/walk and 0.75 strength per level)
+    * decreased new "T1Param4" to 4 from 8 (magic find per level decreased to 0.5 from 1)
 
-Famine
--added mace to "itype3"
--increased "T1Min5" and "T1Max5" to 240/270 from 180/200 (magic damage increased to 240-270 from 180-200)
--increased "T1Min6" and "T1Max6" to 100/300 from 50/200 (elemental damage increased to 100-300 from 50-200)
+  * Famine
+    * added mace to "itype3"
+    * increased "T1Min5" and "T1Max5" to 240/270 from 180/200 (magic damage increased to 240-270 from 180-200)
+    * increased "T1Min6" and "T1Max6" to 100/300 from 50/200 (elemental damage increased to 100-300 from 50-200)
 
-Flickering Flame
--decreased "T1Min2" and "T1Max2" to 1/1 from 4/8 (Resist Fire aura level decreased to 1 from 4-8)
+  * Flickering Flame
+    * decreased "T1Min2" and "T1Max2" to 1/1 from 4/8 (Resist Fire aura level decreased to 1 from 4-8)
 
-Grief
--changed "T1Code1" to dmg% from dmg-dem/lvl and set "T1Min1" and "T1Max1" to 180/200 (180-200% enhanced damage instead of damage to demons per level)
--decreased "T1Min2" and "T1Max2" to 120/140 from 340/400 (+damage decreased to 120-140 from 340-400)
--increased "T1Min3" to 35 from 30 (increased attack speed increased to 35-40% from 30-40%)
+  * Grief
+    * changed "T1Code1" to dmg% from dmg-dem/lvl and set "T1Min1" and "T1Max1" to 180/200 (180-200% enhanced damage instead of damage to demons per level)
+    * decreased "T1Min2" and "T1Max2" to 120/140 from 340/400 (+damage decreased to 120-140 from 340-400)
+    * increased "T1Min3" to 35 from 30 (increased attack speed increased to 35-40% from 30-40%)
 
-Heart of the Oak
--added hamm to "itype3"
--changed "T1Code2" to oskill from from charged, decreased "T1Min2" and "T1Max2" to 1/1 from 25/4 (Oak Sage charges changed to oskill, level decreased to 1 from 4)
--decreased "T1Min1" and "T1Max1" to 30/30 from 40/40 (faster cast rate decreased to 30% from 40%)
--decreased "T1Min4" and "T1Max4" to 2/2 from 3/3 (all skills decreased to 2 from 3)
--decreased "T1Min6" and "T1Max6" to 25/30 from 30/40 (all resistances decreased to 25-30% from 30-40%)
+  * Heart of the Oak
+    * added hamm to "itype3"
+    * changed "T1Code2" to oskill from from charged, decreased "T1Min2" and "T1Max2" to 1/1 from 25/4 (Oak Sage charges changed to oskill, level decreased to 1 from 4)
+    * decreased "T1Min1" and "T1Max1" to 30/30 from 40/40 (faster cast rate decreased to 30% from 40%)
+    * decreased "T1Min4" and "T1Max4" to 2/2 from 3/3 (all skills decreased to 2 from 3)
+    * decreased "T1Min6" and "T1Max6" to 25/30 from 30/40 (all resistances decreased to 25-30% from 30-40%)
 
-Holy Thunder
--changed "*RunesUsed" to EthRalOrt from EthRalOrtTal
--deleted stats in "Rune4" (removed Tal rune)
--decreased "T1Min2" and "T1Max2" to 10/30 from 20/60 (lightning damage decreased to 10-30 from 20-60)
--decreased "T1Min4" and "T1Max4" to 40/40 from 60/60 (lightning resist decreased to 40% from 60%)
+  * Holy Thunder
+    * changed "*RunesUsed" to EthRalOrt from EthRalOrtTal
+    * deleted stats in "Rune4" (removed Tal rune)
+    * decreased "T1Min2" and "T1Max2" to 10/30 from 20/60 (lightning damage decreased to 10-30 from 20-60)
+    * decreased "T1Min4" and "T1Max4" to 40/40 from 60/60 (lightning resist decreased to 40% from 60%)
 
-Insight
--decreased "T1Min1" and "T1Max1" to 90/120 from 200/260 (enhanced damage decreased to 90-120% from 200-260%)
--decreased "T1Min2" and "T1Max2" to 35/60 from 180/250 (attack rating decreased to 35-60% from 180-250%)
--decreased "T1Min4" and "T1Max4" to 1/3 from 1/6 (Critical Strike oskill decreased to 1-3 from 1-6)
--decreased "T1Min6" and "T1Max6" to 1/3 from 12/17 (Meditation decreased to 1-3 from 12-17)
+  * Insight
+    * decreased "T1Min1" and "T1Max1" to 90/120 from 200/260 (enhanced damage decreased to 90-120% from 200-260%)
+    * decreased "T1Min2" and "T1Max2" to 35/60 from 180/250 (attack rating decreased to 35-60% from 180-250%)
+    * decreased "T1Min4" and "T1Max4" to 1/3 from 1/6 (Critical Strike oskill decreased to 1-3 from 1-6)
+    * decreased "T1Min6" and "T1Max6" to 1/3 from 12/17 (Meditation decreased to 1-3 from 12-17)
 
-King's Grace
--added mace to "itype3"
--added spea to "itype4"
--increased "T1Min5" and "T1Max5" to 175/175 from 100/100 (attack rating against demons increased to 175 from 100)
--increased "T1Min6" and "T1Max6" to 175/175 from 100/100 (attack rating against undead increased to 175 from 100)
--added swing2 to "T1Code7" and set "T1Min7" and "T1Max7" to 15/15 (15% increased attack speed)
+  * King's Grace
+    * added mace to "itype3"
+    * added spea to "itype4"
+    * increased "T1Min5" and "T1Max5" to 175/175 from 100/100 (attack rating against demons increased to 175 from 100)
+    * increased "T1Min6" and "T1Max6" to 175/175 from 100/100 (attack rating against undead increased to 175 from 100)
+    * added swing2 to "T1Code7" and set "T1Min7" and "T1Max7" to 15/15 (15% increased attack speed)
 
-Kingslayer
--added spea to "itype3"
--increased "T1Min2" and "T1Max2" to 260/310 from 230/270 (enhanced damage increased to 260-310% from 230-270%)
--increased "T1Min3" and "T1Max3" to 35/35 from 25/25 (target defense increased to -35% from -25%)
--increased "T1Min6" and "T1Max6" to 4/4 from 1/1 (Vengeance oskill level increased to 4 from 1)
--increased "T1Min7" and "T1Max7" to 120/120 from 40/40 (gold find increased to 120% from 40%)
+  * Kingslayer
+    * added spea to "itype3"
+    * increased "T1Min2" and "T1Max2" to 260/310 from 230/270 (enhanced damage increased to 260-310% from 230-270%)
+    * increased "T1Min3" and "T1Max3" to 35/35 from 25/25 (target defense increased to -35% from -25%)
+    * increased "T1Min6" and "T1Max6" to 4/4 from 1/1 (Vengeance oskill level increased to 4 from 1)
+    * increased "T1Min7" and "T1Max7" to 120/120 from 40/40 (gold find increased to 120% from 40%)
 
-Last Wish
--changed "itype1" to weap and deleted all stats from "itype2" to "itype3" (allows Last Wish to be created in any weapon type)
--increased "T1Min1" and "T1Max1" to 410/433 from 330/375 (enhanced damage increased to 410-433% from 330-375%)
--increased "T1Min4" to 13 from 6 (Fade when struck proc chance increased to 13% from 6%)
+  * Last Wish
+    * changed "itype1" to weap and deleted all stats from "itype2" to "itype3" (allows Last Wish to be created in any weapon type)
+    * increased "T1Min1" and "T1Max1" to 410/433 from 330/375 (enhanced damage increased to 410-433% from 330-375%)
+    * increased "T1Min4" to 13 from 6 (Fade when struck proc chance increased to 13% from 6%)
 
-Lawbringer
--added mace to "itype4"
--added club to "itype5"
+  * Lawbringer
+    * added mace to "itype4"
+    * added club to "itype5"
 
-Oath
--added hamm to "itype4"
+  * Oath
+    * added hamm to "itype4"
 
-Obsession
--decreased "T1Min3" and "T1Max3" to 55/55 from 65/65 (faster cast rate decreased to 55% from 65%)
--decreased "T1Min4" and "T1Max4" to 35/35 from 60/60 (faster hit recovery decreased to 35% from 60%)
+  * Obsession
+    * decreased "T1Min3" and "T1Max3" to 55/55 from 65/65 (faster cast rate decreased to 55% from 65%)
+    * decreased "T1Min4" and "T1Max4" to 35/35 from 60/60 (faster hit recovery decreased to 35% from 60%)
 
-Voice of Reason
--added spea to "itype3"
+  * Voice of Reason
+    * added spea to "itype3"
 
-Spirit
--decreased "T1Min1" and "T1Max1" to 15/15 from 55/55 (faster hit recovery decreased to 15% from 55%)
--decreased "T1Min2" and "T1Max2" to 21/32 from 89/112 (mana decreased to 21-32 from 89-112)
--decreased "T1Min3" and "T1Max3" to 100/100 from 250/250 (defense vs missile decreased to 100 from 250)
--deleted all stats from "T1Code4" through "T1Max4" and moved the other stats over (removed 22 vitality)
--decreased new "T1Min4" and "T1Max4" to 15/20 from 25/35 (faster cast rate decreased to 15-20% from 25-35%)
--decreased new "T1Min6" and T1Max6" to 1/1 from 2/2 (all skills decreased to 1 from 2)
+  * Spirit
+    * decreased "T1Min1" and "T1Max1" to 15/15 from 55/55 (faster hit recovery decreased to 15% from 55%)
+    * decreased "T1Min2" and "T1Max2" to 21/32 from 89/112 (mana decreased to 21-32 from 89-112)
+    * decreased "T1Min3" and "T1Max3" to 100/100 from 250/250 (defense vs missile decreased to 100 from 250)
+    * deleted all stats from "T1Code4" through "T1Max4" and moved the other stats over (removed 22 vitality)
+    * decreased new "T1Min4" and "T1Max4" to 15/20 from 25/35 (faster cast rate decreased to 15-20% from 25-35%)
+    * decreased new "T1Min6" and T1Max6" to 1/1 from 2/2 (all skills decreased to 1 from 2)
 
-Splendor
--changed "*RunesUsed" to EthDol from EthLum
--changed "Rune2" to r14 from r17 (changed second rune to Dol from Lum)
--increased "T1Min6" and "T1Max6" to 15/15 from 10/10 (faster cast rate increased to 15% from 10%)
+  * Splendor
+    * changed "*RunesUsed" to EthDol from EthLum
+    * changed "Rune2" to r14 from r17 (changed second rune to Dol from Lum)
+    * increased "T1Min6" and "T1Max6" to 15/15 from 10/10 (faster cast rate increased to 15% from 10%)
 
-Stealth
--deleted all stats from "T1Code2" through "T1Max2" and moved the other stats over (removed 6 dexterity)
--decreased new "T1Min3" and "T1Max3" to 10/10 from 25/25 (faster run/walk decreased to 10% from 25%)
--decreased "T1Min4" and "T1Max4" to 10/10 from 25/25 (faster cast rate decreased to 10% from 25%)
--deleted all stats from "T1Min6" through "T1Max6" (removed faster hit recovery)
+  * Stealth
+    * deleted all stats from "T1Code2" through "T1Max2" and moved the other stats over (removed 6 dexterity)
+    * decreased new "T1Min3" and "T1Max3" to 10/10 from 25/25 (faster run/walk decreased to 10% from 25%)
+    * decreased "T1Min4" and "T1Max4" to 10/10 from 25/25 (faster cast rate decreased to 10% from 25%)
+    * deleted all stats from "T1Min6" through "T1Max6" (removed faster hit recovery)
 
-Steel
--added hamm to "itype4"
--added club to "itype5"
+  * Steel
+    * added hamm to "itype4"
+    * added club to "itype5"
 
-Treachery
--increased "T1Min2" to 12 from 5 and decreased "T1Max2" to 3 from 15 (Fade when struck proc chance increased to 12% from 5%, level decreased to 3 from 15)
+  * Treachery
+    * increased "T1Min2" to 12 from 5 and decreased "T1Max2" to 3 from 15 (Fade when struck proc chance increased to 12% from 5%, level decreased to 3 from 15)
 
-Valor
--new body armor runeword added to DMMod
--set "complete" to 1 (allows Valor to be created)
--added DMMod 1.0 to "*Patch Release"
--added tors to "itype1" (allows Valor to be created in body armor)
--added TalIth to "*RunesUsed" and added r07 and r06 to "Rune1" and "Rune2" (first rune is Tal rune, second rune is Ith rune)
--added red-dmg to "T1Code1" and set "T1Min1" and "T1Max1" to 1/1 (damage reduced by 1)
--added stam to "T1Code2" and set "T1Min2" and "T1Max2" to 25/25 (25 stamina)
--added move2 to "T1Code3" and set "T1Min3" and "T1Max3" to 10/10 (10% faster run/walk)
--added swing2 to "T1Code4" and set "T1Min4" and "T1Max4" to 10/10 (10% increased attack speed)
+  * Valor
+    * new body armor runeword added to DMMod
+    * set "complete" to 1 (allows Valor to be created)
+    * added DMMod 1.0 to "*Patch Release"
+    * added tors to "itype1" (allows Valor to be created in body armor)
+    * added TalIth to "*RunesUsed" and added r07 and r06 to "Rune1" and "Rune2" (first rune is Tal rune, second rune is Ith rune)
+    * added red-dmg to "T1Code1" and set "T1Min1" and "T1Max1" to 1/1 (damage reduced by 1)
+    * added stam to "T1Code2" and set "T1Min2" and "T1Max2" to 25/25 (25 stamina)
+    * added move2 to "T1Code3" and set "T1Min3" and "T1Max3" to 10/10 (10% faster run/walk)
+    * added swing2 to "T1Code4" and set "T1Min4" and "T1Max4" to 10/10 (10% increased attack speed)
 
-Venom
--changed "*RunesUsed" to TalMal from TalDolMal
--deleted stats from "Rune2" and moved the other stats over (removed Dol rune)
--decreased "T1Param1" to 75 from 125, increased "T1Min1" and "T1Max1" to 1521/1521 from 312/312 (poison length decreased to 75 frames/3 seconds from 125 frames/5 seconds, poison bitrate increased to 1521 from 312 [poison damage increased to 654 over 4 seconds from 273 over 6 seconds when averaged with Tal rune])
--changed "T1Param3" to 278 from 83, decreased "T1Min3" to 7 from 27, increased "T1Max3" to 17 from 15 (Poison Explosion charges changed to Venom, charge count decreased to 7 from 27, level increased to 17 from 15)
--changed "T1Code4" to pierce-pois from charged, deleted stats from "T1Param4", decreased "T1Min4" and "T1Max4" to 12/16 from 11/13 (-12-16% enemy poison resistance instead of Poison Nova charges)
--added swing2 to "T1Code6" and set "T1Min6" and "T1Max6" to 25/25 (25% increased attack speed)
+  * Venom
+    * changed "*RunesUsed" to TalMal from TalDolMal
+    * deleted stats from "Rune2" and moved the other stats over (removed Dol rune)
+    * decreased "T1Param1" to 75 from 125, increased "T1Min1" and "T1Max1" to 1521/1521 from 312/312 (poison length decreased to 75 frames/3 seconds from 125 frames/5 seconds, poison bitrate increased to 1521 from 312 [poison damage increased to 654 over 4 seconds from 273 over 6 seconds when averaged with Tal rune])
+    * changed "T1Param3" to 278 from 83, decreased "T1Min3" to 7 from 27, increased "T1Max3" to 17 from 15 (Poison Explosion charges changed to Venom, charge count decreased to 7 from 27, level increased to 17 from 15)
+    * changed "T1Code4" to pierce-pois from charged, deleted stats from "T1Param4", decreased "T1Min4" and "T1Max4" to 12/16 from 11/13 (-12-16% enemy poison resistance instead of Poison Nova charges)
+    * added swing2 to "T1Code6" and set "T1Min6" and "T1Max6" to 25/25 (25% increased attack speed)
 
-Wind
--increased "T1Min2" and "T1Max2" to 65/65 from 40/40 (increased attack speed increased to 65% from 40%)
--increased "T1Min3" and "T1Max3" to 25/25 from 20/20 (faster run/walk increased to 25% from 20%)
--changed "T1Param6" to 258 from 240, decreased "T1Min6" and "T1Max6" to 16/6 from 127/13 (Twister charges changed to Burst of Speed, charge count decreased to 16 from 127, level decreased to 6 from 13)
+  * Wind
+    * increased "T1Min2" and "T1Max2" to 65/65 from 40/40 (increased attack speed increased to 65% from 40%)
+    * increased "T1Min3" and "T1Max3" to 25/25 from 20/20 (faster run/walk increased to 25% from 20%)
+    * changed "T1Param6" to 258 from 240, decreased "T1Min6" and "T1Max6" to 16/6 from 127/13 (Twister charges changed to Burst of Speed, charge count decreased to 16 from 127, level decreased to 6 from 13)
 
-Wrath
--increased "T1Min3" and "T1Max3" to 71/330 from 41/240 (lightning damage increased to 71-330 from 41-240)
--increased "T1Min4" and "T1Max4" to 133/177 from 85/120 (magic damage increased to 133-177 from 85-120)
--increased "T1Max5" to 14 from 10 (Life Tap on striking level increased to 14 from 10)
--increased "T1Max6" to 6 from 1 (Decrepify on striking level increased to 6 from 1)
+  * Wrath
+    * increased "T1Min3" and "T1Max3" to 71/330 from 41/240 (lightning damage increased to 71-330 from 41-240)
+    * increased "T1Min4" and "T1Max4" to 133/177 from 85/120 (magic damage increased to 133-177 from 85-120)
+    * increased "T1Max5" to 14 from 10 (Life Tap on striking level increased to 14 from 10)
+    * increased "T1Max6" to 6 from 1 (Decrepify on striking level increased to 6 from 1)
 
-Zephyr
--increased "T1Min3" and "T1Max3" to 55/55 from 33/33 (enhanced damage increased to 55% from 33%)
+  * Zephyr
+    * increased "T1Min3" and "T1Max3" to 55/55 from 33/33 (enhanced damage increased to 55% from 33%)
 
-Hustle (armor)
--changed "*RunesUsed" to ShaelEldIo from ShaelKoEld
--changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
--changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
--decreased "T1Min1" and "T1Max1" to 33/33 from 65/65 (faster run/walk decreased to 33% from 65%)
--decreased "T1Min3" and "T1Max3" to 25/25 from 40/40 (increased attack speed decreased to 25% from 40%)
--decreased "T1Min5" and "T1Max5" to 2/2 from 6/6 (Evade oskill level decreased to 2 from 6)
+  * Hustle (armor)
+    * changed "*RunesUsed" to ShaelEldIo from ShaelKoEld
+    * changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
+    * changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
+    * decreased "T1Min1" and "T1Max1" to 33/33 from 65/65 (faster run/walk decreased to 33% from 65%)
+    * decreased "T1Min3" and "T1Max3" to 25/25 from 40/40 (increased attack speed decreased to 25% from 40%)
+    * decreased "T1Min5" and "T1Max5" to 2/2 from 6/6 (Evade oskill level decreased to 2 from 6)
 
-Hustle (weapon)
--changed "*RunesUsed" to ShaelEldIo from ShaelKoEld
--changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
--changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
--deleted all stats from "T1Code1" to "T1Max1" and moved the other stats over (removed chance to cast Burst of Speed on striking)
--changed new "T1Code1" to move2 from swing2, increased "T1Min1" and "T1Max1" to 15/15 (15% faster run/walk instead of 10% increased attack speed)
--decreased new "T1Min2" and "T1Max2" to 95/110 from 180/200 (enhanced damage decreased to 95-110% from 180-200%)
--increased new "T1Min3" and "T1Max3" to 2/2 (Fanaticism aura level increased to 2 from 1)
+  * Hustle (weapon)
+    * changed "*RunesUsed" to ShaelEldIo from ShaelKoEld
+    * changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
+    * changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
+    * deleted all stats from "T1Code1" to "T1Max1" and moved the other stats over (removed chance to cast Burst of Speed on striking)
+    * changed new "T1Code1" to move2 from swing2, increased "T1Min1" and "T1Max1" to 15/15 (15% faster run/walk instead of 10% increased attack speed)
+    * decreased new "T1Min2" and "T1Max2" to 95/110 from 180/200 (enhanced damage decreased to 95-110% from 180-200%)
+    * increased new "T1Min3" and "T1Max3" to 2/2 (Fanaticism aura level increased to 2 from 1)
 
-Mosaic
--changed "complete" to blank from 1 (prevents Mosaic from being created)
+  * Mosaic
+    * changed "complete" to blank from 1 (prevents Mosaic from being created)
 
 setitems.txt
 -all medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their set stats (automagic.txt affixes don't apply to set/unique items)
