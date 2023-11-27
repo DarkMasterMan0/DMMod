@@ -1395,7 +1395,7 @@ Immortal King's Pillar
     * added new entry for "BaalQSpecial" (cloned row 861)
     * set "Picks" to -2 (forces two "picks"/drops)
     * set "NoDrop" to 0 (prevents the picks from selecting NoDrop)
-    * added Test to "Item1" and set "Prob1" to 1 (guarantees quest Hell Baal will drop a Test)
+    * added Arpaska's Medallion to "Item1" and set "Prob1" to 1 (guarantees quest Hell Baal will drop an Arpaska's Medallion)
     * added Baalq (H) to "Item2" and set "Prob2" to 1 (guarantees quest Hell Baal to drop his quest drop)
 
 #### uniqueitems.txt
@@ -2264,7 +2264,7 @@ Immortal King's Pillar
     * deleted all stats from "prop5" through "max5" and moved the other stats over (removed Firestorm proc)
     * decreased "lvl" to 100 from 110 (item level decreased to 100 from 110)
 
-  * Test
+  * Arpaska's Medallion
     * created new entry for "Test" (cloned row 403)
     * set "lvl" to 99
     * set "lvl req" to 40
@@ -2334,7 +2334,8 @@ Immortal King's Pillar
   * used Google Translate for non-English languages
 
 #### item-names.json
-  * added new entry for "id" 51000 (Test)
+  * added new entry for "id" 51000 (Arpaska's Medallion)
+  * used Google Translate for non-English languages
 
 #### skills.json
   * changed "id" 4415 (Jab tooltip) to add daggers to the list of usable weapon types
