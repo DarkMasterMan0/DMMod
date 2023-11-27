@@ -2265,7 +2265,7 @@ Immortal King's Pillar
     * decreased "lvl" to 100 from 110 (item level decreased to 100 from 110)
 
   * Arpaska's Medallion
-    * created new entry for "Test" (cloned row 403)
+    * created new entry for "Arpaska's Medallion" (cloned row 403)
     * set "lvl" to 99
     * set "lvl req" to 40
     * set "code" to cm1
