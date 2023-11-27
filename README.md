@@ -4,7 +4,9 @@ Drop the top-level DMMod folder into your D2R `mods` folder (the file path will 
 Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod DMMod -txt` to the target line (it will look similar to `"H:\Games\Diablo II Resurrected\D2R.exe" -mod DMMod -txt` if you did it correctly). You can now use this shortcut to launch D2R with DMMod as the active mod.
 
 # What is DMMod?
-DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "feel" of the game.
+DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "feel" of the game. 
+
+Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs to underused runewords (like Holy Thunder and Venom) and nerfs to overtuned runewords (Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to weaker/underused skills and a few nerfs to overtuned skills, changes to magic/rare item affixes (slightly trimming down the affix pool at higher levels for example). NO CHANGES TO DROP RATES. (technically a pretty much insignificant change to Hell Baal's quest drop but that's about it).
 
 # Credits
 Thanks to:
