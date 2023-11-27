@@ -1325,257 +1325,257 @@ Immortal King's Pillar
     * added Test to "Item1" and set "Prob1" to 1 (guarantees quest Hell Baal will drop a Test)
     * added Baalq (H) to "Item2" and set "Prob2" to 1 (guarantees quest Hell Baal to drop his quest drop)
 
-uniqueitems.txt
--All medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their unique stats (automagic.txt affixes don't apply to set/unique items)
+* uniqueitems.txt
+  * All medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their unique stats (automagic.txt affixes don't apply to set/unique items)
 
-Coldkill
--increased "min2" and "max2" to 35/50 from 15/15 (cold resist increased to 35-50% from 15%)
+  * Coldkill
+    * increased "min2" and "max2" to 35/50 from 15/15 (cold resist increased to 35-50% from 15%)
 -increased "min5" and "max5" to 15/11 from 10/10 (Ice Blast on striking proc chance increased to 15% from 10%, level increased to 11 from 10)
 -increased "min6" to 12 from 10 (Frost Nova when struck proc chance increased to 12% from 10%)
 
-Islestrike
--changed "prop6" to ac from ac-miss, increased "min6" and "max6" to 125/150 from 50/50 (defense instead of defense vs missile, increased to 125-150 from 50)
--increased "min9" and "max9" to 2/3 from 1/1 (Maul level bonus increased to 2-3 from 1)
--increased "min10" and "max10" to 2/3 from 1/1 (Fury level bonus increased to 2-3 from 1)
+  * Islestrike
+    * changed "prop6" to ac from ac-miss, increased "min6" and "max6" to 125/150 from 50/50 (defense instead of defense vs missile, increased to 125-150 from 50)
+    * increased "min9" and "max9" to 2/3 from 1/1 (Maul level bonus increased to 2-3 from 1)
+    * increased "min10" and "max10" to 2/3 from 1/1 (Fury level bonus increased to 2-3 from 1)
 
-Pompeii's Wrath
--increased "min1" and "max1" to 13/10 from 4/8 (Volcano on striking proc chance increased to 13% from 4%, level increased to 10 from 8)
--increased "min3" to 79 from 35 (fire damage increased to 79-150 from 35-150)
--added pierce-fire to "prop6", set "min6" and "max6" to 9/13 (-9-13% enemy fire resistance)
--added hit-skill to "prop7", set "par7" to 87, set "min7" and "max7" to 17/1 (17% chance to cast level 1 Decrepify on striking)
+  * Pompeii's Wrath
+    * increased "min1" and "max1" to 13/10 from 4/8 (Volcano on striking proc chance increased to 13% from 4%, level increased to 10 from 8)
+    * increased "min3" to 79 from 35 (fire damage increased to 79-150 from 35-150)
+    * added pierce-fire to "prop6", set "min6" and "max6" to 9/13 (-9-13% enemy fire resistance)
+    * added hit-skill to "prop7", set "par7" to 87, set "min7" and "max7" to 17/1 (17% chance to cast level 1 Decrepify on striking)
 
-Guardian Naga
--increased "min1" to 9 from 5 (Poison Nova on striking proc chance increased to 9% from 5%)
--increased "min2" and "max2" to 30/45 from 15/15 (attacker takes damage increased to 30-45 from 15)
--increased "max3" to 45 from 30 (poison resist increased to 30-45% from 30%)
--added extra-pois to "prop7", set "min7" and "max7" to 8/12 (8-12% poison skill damage)
+  * Guardian Naga
+    * increased "min1" to 9 from 5 (Poison Nova on striking proc chance increased to 9% from 5%)
+    * increased "min2" and "max2" to 30/45 from 15/15 (attacker takes damage increased to 30-45 from 15)
+    * increased "max3" to 45 from 30 (poison resist increased to 30-45% from 30%)
+    * added extra-pois to "prop7", set "min7" and "max7" to 8/12 (8-12% poison skill damage)
 
-Warlord's Trust
--increased "min1" and "max1" to 250/250 from 75/75 (defense increased to 250 from 75)
--increased "min2" and "max2" to 25/25 from 20/20 (replenish life increased to 25 from 20)
--increased "par3" to 7 from 4 (vitality per level increased to 0.875 from 0.5)
--increased "min4" and "max4" to 20/20 from 10/10 (all resistances increased to 20% from 10%)
+  * Warlord's Trust
+    * increased "min1" and "max1" to 250/250 from 75/75 (defense increased to 250 from 75)
+    * increased "min2" and "max2" to 25/25 from 20/20 (replenish life increased to 25 from 20)
+    * increased "par3" to 7 from 4 (vitality per level increased to 0.875 from 0.5)
+    * increased "min4" and "max4" to 20/20 from 10/10 (all resistances increased to 20% from 10%)
 
-Spellsteel
--increased "min4" and "max4" to 20/20 from 10/10 (faster cast rate increased to 20% from 10%)
--increased "min7" to 30 from 20 (Teleport charge count increased to 30 from 20)
--increased "max8" to 8 from 3 (Decrepify charge level increased to 8 from 3)
--changed "par9" to 116 from 101 (Conversion charges instead of Holy Bolt)
--changed "par10" to 240 from 225 (Twister charges instead of Firestorm)
--added swing2 to "prop11", set "min11" and "max11" to 15/15 (15% increased attack speed)
--added allskills to "prop12", set "min12" and "max12" to 1/1 (1 all skills)
+  * Spellsteel
+    * increased "min4" and "max4" to 20/20 from 10/10 (faster cast rate increased to 20% from 10%)
+    * increased "min7" to 30 from 20 (Teleport charge count increased to 30 from 20)
+    * increased "max8" to 8 from 3 (Decrepify charge level increased to 8 from 3)
+    * changed "par9" to 116 from 101 (Conversion charges instead of Holy Bolt)
+    * changed "par10" to 240 from 225 (Twister charges instead of Firestorm)
+    * added swing2 to "prop11", set "min11" and "max11" to 15/15 (15% increased attack speed)
+    * added allskills to "prop12", set "min12" and "max12" to 1/1 (1 all skills)
 
-Stormrider
--increased "min1" to 11 from 5 (Chain Lightning on striking proc chance increased to 11% from 5%)
--increased "min2" to 13 from 10 (Charged Bolt on striking proc chance increased to 13% from 10%)
--increased "max3" to 350 from 200 (lightning damage increased to 1-350 from 1-200)
--changed "par8" to 42 from 38 (Static Field when struck instead of Charged Bolt)
--added abs-ltng% to "prop9", set "min9" and "max9" to 15/20 (15-20% lightning absorb)
--added move2 to "prop10", set "min10" and "max10" to 25/25 (25% faster run/walk)
+  * Stormrider
+    * increased "min1" to 11 from 5 (Chain Lightning on striking proc chance increased to 11% from 5%)
+    * increased "min2" to 13 from 10 (Charged Bolt on striking proc chance increased to 13% from 10%)
+    * increased "max3" to 350 from 200 (lightning damage increased to 1-350 from 1-200)
+    * changed "par8" to 42 from 38 (Static Field when struck instead of Charged Bolt)
+    * added abs-ltng% to "prop9", set "min9" and "max9" to 15/20 (15-20% lightning absorb)
+    * added move2 to "prop10", set "min10" and "max10" to 25/25 (25% faster run/walk)
 
-Boneslayer Blade
--increased "par1" to 20 from 10 (attack rating against undead per level increased to 10 from 5)
--increased "prop2" to 40 from 20 (damage to undead per level increased to 5% from 2.5%)
--increased "min3" and "max3" to 15/15 from 8/8 (strength increased to 15 from 8)
--increased "min5" and "max5" to 50/70 from 35/35 (attack rating increased to 50-70% from 35%)
--added dmg-mag to "prop9", set "min9" and "max9" to 95-125 (95-125 magic damage)
+  * Boneslayer Blade
+    * increased "par1" to 20 from 10 (attack rating against undead per level increased to 10 from 5)
+    * increased "prop2" to 40 from 20 (damage to undead per level increased to 5% from 2.5%)
+    * increased "min3" and "max3" to 15/15 from 8/8 (strength increased to 15 from 8)
+    * increased "min5" and "max5" to 50/70 from 35/35 (attack rating increased to 50-70% from 35%)
+    * added dmg-mag to "prop9", set "min9" and "max9" to 95-125 (95-125 magic damage)
 
-The Minataur (The Minotaur)
--changed "prop1" to dmg-ac from stupidity, changed "min1" and "max1" to -90/-90 from 2/2 (-90 monster defense per hit instead of hit blinds target +2)
--changed "prop2" to nofreeze from half-freeze (cannot be frozen instead of half freeze duration)
--increased "max3" to 25 from 20 (strength increased to 15-25 from 15-20)
--increased "min7" and "max7" to 200/300 from 140/200 (enhanced damage increased to 200-300% from 140-200%)
+  * The Minataur (The Minotaur)
+    * changed "prop1" to dmg-ac from stupidity, changed "min1" and "max1" to -90/-90 from 2/2 (-90 monster defense per hit instead of hit blinds target +2)
+    * changed "prop2" to nofreeze from half-freeze (cannot be frozen instead of half freeze duration)
+    * increased "max3" to 25 from 20 (strength increased to 15-25 from 15-20)
+    * increased "min7" and "max7" to 200/300 from 140/200 (enhanced damage increased to 200-300% from 140-200%)
 
-Carin Shard
--increased "par1" to 12 from 10 (life per level increased to 1.5 from 1.25)
--increased "min2" and "max2" to 15/15 from 10/10 (faster cast rate increased to 15% from 10%)
--increased "par3" to 12 from 10 (mana per level increased to 1.5 from 1.25)
--increased "min5" and "max5" to 13/13 from 5/5 (replenish life increased to 13 from 5)
--added regen-mana to "prop8", set "min8" and "max8" to 25/25 (regenerate mana 25%)
--added res-all to "prop9", set "min9" and "max9" to 20/20 (all resistances 20%)
+  * Carin Shard
+    * increased "par1" to 12 from 10 (life per level increased to 1.5 from 1.25)
+    * increased "min2" and "max2" to 15/15 from 10/10 (faster cast rate increased to 15% from 10%)
+    * increased "par3" to 12 from 10 (mana per level increased to 1.5 from 1.25)
+    * increased "min5" and "max5" to 13/13 from 5/5 (replenish life increased to 13 from 5)
+    * added regen-mana to "prop8", set "min8" and "max8" to 25/25 (regenerate mana 25%)
+    * added res-all to "prop9", set "min9" and "max9" to 20/20 (all resistances 20%)
 
-Blackhand Key
--changed "par1" to 7 from 6 (poison and bone skills instead of curses)
+  * Blackhand Key
+    * changed "par1" to 7 from 6 (poison and bone skills instead of curses)
 
-Dark Clan Crusher
--increased "min5" and "max5" to 35/50 from 20/25 (attack rating increased to 35-50% from 20-25%)
--added crush to "prop7", set "min7" and "max7" to 35/35 (35% crushing blow)
+  * Dark Clan Crusher
+    * increased "min5" and "max5" to 35/50 from 20/25 (attack rating increased to 35-50% from 20-25%)
+    * added crush to "prop7", set "min7" and "max7" to 35/35 (35% crushing blow)
 
-Zakarum's Hand
--increased "min5" to 9 from 6 (Blizzard on striking proc chance increased to 9% from 6%)
--increased "min8" and "max8" to 3/4 from 2/2 (Holy Freeze level increased to 3-4 from 2)
--increased "min9" and "max9" to 3/4 from 2/2 (Holy Shock level increased to 3-4 from 2)
+  * Zakarum's Hand
+    * increased "min5" to 9 from 6 (Blizzard on striking proc chance increased to 9% from 6%)
+    * increased "min8" and "max8" to 3/4 from 2/2 (Holy Freeze level increased to 3-4 from 2)
+    * increased "min9" and "max9" to 3/4 from 2/2 (Holy Shock level increased to 3-4 from 2)
 
-The Fetid Sprinkler
--increased "min2" to 8 from 5 (Decrepify on striking proc chance increased to 8% from 5%)
--changed "par3" to 91 from 81, decreased "min3" to 8 from 10 (Lower Resist on striking instead of Confuse, proc chance decreased to 8% from 10%)
+  * The Fetid Sprinkler
+    * increased "min2" to 8 from 5 (Decrepify on striking proc chance increased to 8% from 5%)
+    * changed "par3" to 91 from 81, decreased "min3" to 8 from 10 (Lower Resist on striking instead of Confuse, proc chance decreased to 8% from 10%)
 
-Hand of Blessed Light
--increased "min10" to 10 from 5 (Fist of the Heavens on striking proc chance increased to 10% from 5%)
+  * Hand of Blessed Light
+    * increased "min10" to 10 from 5 (Fist of the Heavens on striking proc chance increased to 10% from 5%)
 
-Sureshrill Frost
--increased "min4" and "max4" to 10/15 from 5/10 (adds damage increased to 10-15 from 5-10)
--changed "prop6" to hit-skill from charged, changed "par6" to 44 from 64, changed "min6" and "max6" to 12/5 from 50/9 (12% chance to cast level 5 Frost Nova on striking instead of 50 level 9 Frozen Orb charges)
--added pierce-cold to "prop7", set "min7" and "max7" to 8/12 (-8-12% enemy cold resistance)
+  * Sureshrill Frost
+    * increased "min4" and "max4" to 10/15 from 5/10 (adds damage increased to 10-15 from 5-10)
+    * changed "prop6" to hit-skill from charged, changed "par6" to 44 from 64, changed "min6" and "max6" to 12/5 from 50/9 (12% chance to cast level 5 Frost Nova on striking instead of 50 level 9 Frozen Orb charges)
+    * added pierce-cold to "prop7", set "min7" and "max7" to 8/12 (-8-12% enemy cold resistance)
 
-Moonfall
--increased "min1" to 10 from 5 (Meteor on striking proc chance increased to 10% from 5%)
--increased "min2" and "min3" to 85/130 from 55/115 (fire damage increased to 85-130 from 55-115)
--changed "prop6" to res-fire from charged, changed "min1" and "min2" to 25/30 from 60/11 (fire resist 25-30% instead of 60 level 11 Meteor charges)
--added red-dmg% to "prop8", set "min8" and "max8" to 9/12 (physical damage reduced [PDR] by 9-12%)
+  * Moonfall
+    * increased "min1" to 10 from 5 (Meteor on striking proc chance increased to 10% from 5%)
+    * increased "min2" and "min3" to 85/130 from 55/115 (fire damage increased to 85-130 from 55-115)
+    * changed "prop6" to res-fire from charged, changed "min1" and "min2" to 25/30 from 60/11 (fire resist 25-30% instead of 60 level 11 Meteor charges)
+    * added red-dmg% to "prop8", set "min8" and "max8" to 9/12 (physical damage reduced [PDR] by 9-12%)
 
-Baezil's Vortex
--increased "min1" and "max1" to 12/11 from 5/8 (Nova on striking proc chance increased to 12% from 5%, level increased to 11 from 8)
--increased "max2" to 235 from 150 (lightning damage increased to 1-235 from 1-150)
--changed "prop7" to hit-skill from charged, changed "par7" to 86 from 48, changed "min7" and "max7" to 8/3 from 80/15 (8% chance to cast level 3 Attract on striking instead of 80 level 15 Nova charges)
+  * Baezil's Vortex
+    * increased "min1" and "max1" to 12/11 from 5/8 (Nova on striking proc chance increased to 12% from 5%, level increased to 11 from 8)
+    * increased "max2" to 235 from 150 (lightning damage increased to 1-235 from 1-150)
+    * changed "prop7" to hit-skill from charged, changed "par7" to 86 from 48, changed "min7" and "max7" to 8/3 from 80/15 (8% chance to cast level 3 Attract on striking instead of 80 level 15 Nova charges)
 
-Earthshaker
--increased "min1" to 12 from 5 (Fissure on striking proc chance increased to 12% from 5%)
--increased "min7" and "max7" to 112/112 from 50/50 (durability bonus increased to 112 from 50)
--added cast2 to "prop8", set "min8" and "max8" to 15/15 (15% faster cast rate)
+  * Earthshaker
+    * increased "min1" to 12 from 5 (Fissure on striking proc chance increased to 12% from 5%)
+    * increased "min7" and "max7" to 112/112 from 50/50 (durability bonus increased to 112 from 50)
+    * added cast2 to "prop8", set "min8" and "max8" to 15/15 (15% faster cast rate)
 
-Bloodtree Stump
--increased "min7" and "max7" to 90/90 from 40/40 (durability bonus increased to 90 from 40)
--added openwounds to "prop8", set "min8" and "max8" to 20/20 (20% chance of open wounds)
+  * Bloodtree Stump
+    * increased "min7" and "max7" to 90/90 from 40/40 (durability bonus increased to 90 from 40)
+    * added openwounds to "prop8", set "min8" and "max8" to 20/20 (20% chance of open wounds)
 
-The Gavel of Pain
--increased "min1" and "max1" to 14/3 from 5/1 (Amplify Damage on striking proc chance increased to 14% from 5%, level increased to 3 from 1)
--changed "prop2" to aura from gethit-skill, changed "par2" to Thorns from 76, changed "min2" and "max2" to 1/3 (level 1-3 Thorns aura when equipped instead of Iron Maiden when struck)
--increased "max3" to 33 from 26 (attacker takes damage increased to 26-33 from 26)
--increased "min7" to 5 from 3 (AD charge count increased to 5 from 3)
+  * The Gavel of Pain
+    * increased "min1" and "max1" to 14/3 from 5/1 (Amplify Damage on striking proc chance increased to 14% from 5%, level increased to 3 from 1)
+    * changed "prop2" to aura from gethit-skill, changed "par2" to Thorns from 76, changed "min2" and "max2" to 1/3 (level 1-3 Thorns aura when equipped instead of Iron Maiden when struck)
+    * increased "max3" to 33 from 26 (attacker takes damage increased to 26-33 from 26)
+    * increased "min7" to 5 from 3 (AD charge count increased to 5 from 3)
 
-Bloodletter
--increased "min9" and "max9" to 68/68 from 30/30 (durability bonus increased to 68 from 30)
--added openwounds to "prop10", set "min10" and "max10" to 10/15 (10-15% chance of open wounds)
+  * Bloodletter
+    * increased "min9" and "max9" to 68/68 from 30/30 (durability bonus increased to 68 from 30)
+    * added openwounds to "prop10", set "min10" and "max10" to 10/15 (10-15% chance of open wounds)
 
-Coldsteel Eye
--increased "min4" and "max4" to 113/113 from 50/50 (durability bonus increased to 113 from 50)
+  * Coldsteel Eye
+    * increased "min4" and "max4" to 113/113 from 50/50 (durability bonus increased to 113 from 50)
 
-Hexfire
--added sock to "prop8" and set "par8" to 1 (1 socket)
+  * Hexfire
+    * added sock to "prop8" and set "par8" to 1 (1 socket)
 
-Blade of Ali Baba
--added dmg-min to "prop7", set "min7" and "max7" to 40/40 (40 minimum damage)
+  * Blade of Ali Baba
+    * added dmg-min to "prop7", set "min7" and "max7" to 40/40 (40 minimum damage)
 
-Ginther's Rift
--increased "min4" and "max4" to 90/90 from 40/40 (durability bonus increased to 90 from 40)
+  * Ginther's Rift
+    * increased "min4" and "max4" to 90/90 from 40/40 (durability bonus increased to 90 from 40)
 
-Plague Bearer
--increased "max1" to 6 from 4 (Poison Nova on striking level increased to 6 from 4)
--added pierce-pois to "prop7", set "min7" and "max7" to 6/9 (-6-9% enemy poison resistance)
--added ease to "prop8", set "min8" and "max8" to -15/-15 (requirements -15%)
+  * Plague Bearer
+    * increased "max1" to 6 from 4 (Poison Nova on striking level increased to 6 from 4)
+    * added pierce-pois to "prop7", set "min7" and "max7" to 6/9 (-6-9% enemy poison resistance)
+    * added ease to "prop8", set "min8" and "max8" to -15/-15 (requirements -15%)
 
-The Atlantian (The Atlantean)
--increased "min1" and "max1" to 225/225 from 100/100 (durability bonus increased to 225 from 100)
--increased "max2" to 100 from 75 (defense increased to 75-100 from 75)
+  * The Atlantian (The Atlantean)
+    * increased "min1" and "max1" to 225/225 from 100/100 (durability bonus increased to 225 from 100)
+    * increased "max2" to 100 from 75 (defense increased to 75-100 from 75)
 
-Bing Sz Wang
--increased "min5" and "max5" to 8/7 from 5/3 (Frozen Orb on striking proc chance increased to 8% from 5%, level increased to 7 from 3)
--added swing2 to "prop7", set "min7" and "max7" to 10/10 (10% increased attack speed)
--added sock to "prop8", set "par8" to 1 (1 socket)
+  * Bing Sz Wang
+    * increased "min5" and "max5" to 8/7 from 5/3 (Frozen Orb on striking proc chance increased to 8% from 5%, level increased to 7 from 3)
+    * added swing2 to "prop7", set "min7" and "max7" to 10/10 (10% increased attack speed)
+    * added sock to "prop8", set "par8" to 1 (1 socket)
 
-The Vile Husk
--increased "min1" and "max2" to 11/3 from 6/1 (Amplify Damage on striking proc chance increased to 11% from 6%, level increased to 3 from 1)
+  * The Vile Husk
+    * increased "min1" and "max2" to 11/3 from 6/1 (Amplify Damage on striking proc chance increased to 11% from 6%, level increased to 3 from 1)
 
-Cloudcrack
--increased "min1" and "max1" to 12/10 from 6/7 (Fist of the Heavens on striking proc chance increased to 12% from 6%, level increased to 10 from 7)
--increased "max2" to 320 from 240 (lightning damage increased to 1-320 from 1-240)
--changed "prop3" to ac% from ac, changed "min3" and "max3" to 30/40 from 30/30 (30-40% enhanced defense instead of 30 defense)
--increased "min7" and "max7" to 65/65 from 15/15 (attacker takes lightning damage increased to 65 from 15)
--added pierce-ltng to "prop10", set "min10" and "max10" to 12/17 (-12-17% enemy lightning resistance)
+  * Cloudcrack
+    * increased "min1" and "max1" to 12/10 from 6/7 (Fist of the Heavens on striking proc chance increased to 12% from 6%, level increased to 10 from 7)
+    * increased "max2" to 320 from 240 (lightning damage increased to 1-320 from 1-240)
+    * changed "prop3" to ac% from ac, changed "min3" and "max3" to 30/40 from 30/30 (30-40% enhanced defense instead of 30 defense)
+    * increased "min7" and "max7" to 65/65 from 15/15 (attacker takes lightning damage increased to 65 from 15)
+    * added pierce-ltng to "prop10", set "min10" and "max10" to 12/17 (-12-17% enemy lightning resistance)
 
-Todesfaelle Flamme
--increased "min1" and "max1" to 175/225 from 50/200 (fire damage increased to 175-225 from 50-200)
--increased "min2" and "max2" to 50/50 from 40/40 (fire resist increased to 50% from 40%)
--increased "min3" and "max3" to 15/15 from 10/10 (fire absorb increased to 15 from 10)
--increased "min4" and "max4" to 15/11 from 10/6 (Fire Ball on attack proc chance increased to 15% from 10%, level increased to 11 from 6)
--increased "min5" and "max5" to 190/230 from 120/160 (enhanced damage increased to 190-230% from 120-160%)
--changed "prop7" to hit-skill from charged, changed "min7" and "max7" to 13/3 from 20/10 (13% chance to cast level 3 Fire Wall on striking instead of 20 level 10 Fire Wall charges)
--added deadly to "prop8", set "min8" and "max8" to 15/20 (15-20% chance of deadly strike)
+  * Todesfaelle Flamme
+    * increased "min1" and "max1" to 175/225 from 50/200 (fire damage increased to 175-225 from 50-200)
+    * increased "min2" and "max2" to 50/50 from 40/40 (fire resist increased to 50% from 40%)
+    * increased "min3" and "max3" to 15/15 from 10/10 (fire absorb increased to 15 from 10)
+    * increased "min4" and "max4" to 15/11 from 10/6 (Fire Ball on attack proc chance increased to 15% from 10%, level increased to 11 from 6)
+    * increased "min5" and "max5" to 190/230 from 120/160 (enhanced damage increased to 190-230% from 120-160%)
+    * changed "prop7" to hit-skill from charged, changed "min7" and "max7" to 13/3 from 20/10 (13% chance to cast level 3 Fire Wall on striking instead of 20 level 10 Fire Wall charges)
+    * added deadly to "prop8", set "min8" and "max8" to 15/20 (15-20% chance of deadly strike)
 
-Swordguard
--increased "min3" and "max3" to 15/25 from 10/20 (all resistances increased to 15-25% from 10-20%)
--increased "min4" and "max4" to 250/250 from 100/100 (defense vs missile increased to 250 from 100)
--increased "min7" and "max7" to 350/350 from 200/200 (defense vs melee increased to 350 from 200)
--added block2 to "prop10", set "min10" and "max10" to 20/20 (20% faster block rate)
--added ac% to "prop11", set "min11" and "max11" to 50/70 (50-70% enhanced defense)
+  * Swordguard
+    * increased "min3" and "max3" to 15/25 from 10/20 (all resistances increased to 15-25% from 10-20%)
+    * increased "min4" and "max4" to 250/250 from 100/100 (defense vs missile increased to 250 from 100)
+    * increased "min7" and "max7" to 350/350 from 200/200 (defense vs melee increased to 350 from 200)
+    * added block2 to "prop10", set "min10" and "max10" to 20/20 (20% faster block rate)
+    * added ac% to "prop11", set "min11" and "max11" to 50/70 (50-70% enhanced defense)
 
-Heart Carver
--decreased "min5" and "max5" to 3/3 from 4/4 (Find Potion skill level decreased to 3 from 4)
--added oskill to "prop8", set "par8" to Find Potion, set "min8" and "max8" to 1/1 (level 1 Find Potion oskill [+3 FP skill level increases it to 4 total])
--added openwounds to "prop9", set "min9" and "max9" to 60/60 (60% chance of open wounds)
+  * Heart Carver
+    * decreased "min5" and "max5" to 3/3 from 4/4 (Find Potion skill level decreased to 3 from 4)
+    * added oskill to "prop8", set "par8" to Find Potion, set "min8" and "max8" to 1/1 (level 1 Find Potion oskill [+3 FP skill level increases it to 4 total])
+    * added openwounds to "prop9", set "min9" and "max9" to 60/60 (60% chance of open wounds)
 
-Blackbog's Sharp
--changed "prop3" to dmg% from dmg-norm, changed "min3" and "max3" to 100/100 from 15/45 (100% enhanced damage instead of adds 15-45 damage)
--added pierce-pois to "prop9", set "min9" and "max9" to 5/10 (-5-10% enemy poison resistance)
+  * Blackbog's Sharp
+    * changed "prop3" to dmg% from dmg-norm, changed "min3" and "max3" to 100/100 from 15/45 (100% enhanced damage instead of adds 15-45 damage)
+    * added pierce-pois to "prop9", set "min9" and "max9" to 5/10 (-5-10% enemy poison resistance)
 
-Stormspike
--increased "max1" to 200 from 120 (lightning damage increased to 1-200 from 1-120)
--increased "min2" and "max2" to 50/50 from 20/20 (attacker takes lightning damage increased to 50 from 20)
--changed "par3" to 49 from 38, increased "max3" to 17 from 3 (Lightning instead of Charged Bolt when struck, level increased to 17 from 3)
--increased "par5" to 11 from 8 (lightning resist per level increased to 1.375 from 1)
--added sock to "prop6", set "min6" and "max6" to 1/2 (1-2 sockets)
--added pierce-ltng to "prop7", set "min7" and "max7" to -8/-11 (-8-11% enemy lightning resistance)
+  * Stormspike
+    * increased "max1" to 200 from 120 (lightning damage increased to 1-200 from 1-120)
+    * increased "min2" and "max2" to 50/50 from 20/20 (attacker takes lightning damage increased to 50 from 20)
+    * changed "par3" to 49 from 38, increased "max3" to 17 from 3 (Lightning instead of Charged Bolt when struck, level increased to 17 from 3)
+    * increased "par5" to 11 from 8 (lightning resist per level increased to 1.375 from 1)
+    * added sock to "prop6", set "min6" and "max6" to 1/2 (1-2 sockets)
+    * added pierce-ltng to "prop7", set "min7" and "max7" to -8/-11 (-8-11% enemy lightning resistance)
 
-The Impaler
--increased "min2" and "max2" to 200/200 from 150/150 (attack rating increased to 200 from 150)
--added skilltab to "prop9", set "par9" to 2, set "min9" and "max9" to 2/2 (2 to javelin and spear skills)
--added indestruct to "prop10", set "min10" and "max10" to 1/1 (indestructible)
+  * The Impaler
+    * increased "min2" and "max2" to 200/200 from 150/150 (attack rating increased to 200 from 150)
+    * added skilltab to "prop9", set "par9" to 2, set "min9" and "max9" to 2/2 (2 to javelin and spear skills)
+    * added indestruct to "prop10", set "min10" and "max10" to 1/1 (indestructible)
 
-Kelpie Snare
--increased "par3" to 12 from 10 (life per level increased to 1.5 from 1.25)
--increased "max5" to 15 from 10 (strength increased to 10-15 from 10)
--added move2 to "prop7", set "min7" and "max7" to 20/30 (20-30% faster run/walk)
+  * Kelpie Snare
+    * increased "par3" to 12 from 10 (life per level increased to 1.5 from 1.25)
+    * increased "max5" to 15 from 10 (strength increased to 10-15 from 10)
+    * added move2 to "prop7", set "min7" and "max7" to 20/30 (20-30% faster run/walk)
 
-Soulfeast Tine
--increased "min2" and "max2" to 9/9 from 7/7 (life stolen per hit increased to 9% from 7%)
--increased "min3" and "max3" to 9/9 from 7/7 (mana stolen per hit increased to 9% from 7%)
--increased "min6" to 200 from 150 (attack rating increased to 200-250 from 150-250)
--increased "min7" and "max7" to 34/34 from 15/15 (durability bonus increased to 34 from 15)
+  * Soulfeast Tine
+    * increased "min2" and "max2" to 9/9 from 7/7 (life stolen per hit increased to 9% from 7%)
+    * increased "min3" and "max3" to 9/9 from 7/7 (mana stolen per hit increased to 9% from 7%)
+    * increased "min6" to 200 from 150 (attack rating increased to 200-250 from 150-250)
+    * increased "min7" and "max7" to 34/34 from 15/15 (durability bonus increased to 34 from 15)
 
-Hone Sundan
--increased "par4" to 15 from 10 (repairs 1 durability every 6.66 seconds from 10 seconds)
+  * Hone Sundan
+    * increased "par4" to 15 from 10 (repairs 1 durability every 6.66 seconds from 10 seconds)
 
-Spire of Honor
--increased "min1" and "max1" to 50/50 from 25/25 (attack rating increased to 50% from 25%)
--increased "min3" and "max3" to 30/40 from 20/20 (replenish life increased to 30-40 from 20)
--increased "min9" and "max9" to 35/50 from 25/25 (enhanced defense increased to 35-50% from 25%)
--added dmg-und/lvl to "prop10", set "par10" to 6 (0.75% damage to undead per level)
+  * Spire of Honor
+    * increased "min1" and "max1" to 50/50 from 25/25 (attack rating increased to 50% from 25%)
+    * increased "min3" and "max3" to 30/40 from 20/20 (replenish life increased to 30-40 from 20)
+    * increased "min9" and "max9" to 35/50 from 25/25 (enhanced defense increased to 35-50% from 25%)
+    * added dmg-und/lvl to "prop10", set "par10" to 6 (0.75% damage to undead per level)
 
-Blackleach Blade
--increased "min2" and "max2" to 18/8 from 5/5 (Weaken on striking proc chance increased to 18% from 5%, level increased to 8 from 5)
--increased "max4" to 12 from 8 (life stolen per hit increased to 8-12% from 8%)
--increased "min6" and "max6" to 120/149 from 100/140 (enhanced damage increased to 120-149% from 100-140%)
--added manasteal to "prop7", set "min7" and "max7" to 1/2 (1-2% mana stolen per hit)
+  * Blackleach Blade
+    * increased "min2" and "max2" to 18/8 from 5/5 (Weaken on striking proc chance increased to 18% from 5%, level increased to 8 from 5)
+    * increased "max4" to 12 from 8 (life stolen per hit increased to 8-12% from 8%)
+    * increased "min6" and "max6" to 120/149 from 100/140 (enhanced damage increased to 120-149% from 100-140%)
+    * added manasteal to "prop7", set "min7" and "max7" to 1/2 (1-2% mana stolen per hit)
 
-Athena's Wrath
--increased "min1" to 3 from 1 (druid skills increased to 3 from 1-3)
--increased "max2" to 25 from 15 (dexterity increased to 15-25 from 15)
--increased "par4" to 12 from 8 (life per level increased to 1.5 from 1)
+  * Athena's Wrath
+    * increased "min1" to 3 from 1 (druid skills increased to 3 from 1-3)
+    * increased "max2" to 25 from 15 (dexterity increased to 15-25 from 15)
+    * increased "par4" to 12 from 8 (life per level increased to 1.5 from 1)
 
-Husoldal Evo
--increased "min1" and "max1" to 21/27 from 20/20 (replenish life increased to 21-27 from 20)
--added rep-dur to "prop7", set "par7" to 8 (repairs 1 durability in 12.5 seconds)
+  * Husoldal Evo
+    * increased "min1" and "max1" to 21/27 from 20/20 (replenish life increased to 21-27 from 20)
+    * added rep-dur to "prop7", set "par7" to 8 (repairs 1 durability in 12.5 seconds)
 
-Grim's Burning Dead
--increased "min4" and "max4" to 30/40 from 8/8 (attacker takes damage increased to 30-40 from 8)
--increased "min8" and "max8" to 25/40 from 20/20 (enhanced defense increased to 25-40% from 20%)
--added fireskill to "prop10", set "min10" and "max10" to 1/1 (1 to fire skills)
--added pierce-fire to "prop11", set "min11" and "max11" to 13/16 (-13-16% enemy fire resistance)
+  * Grim's Burning Dead
+    * increased "min4" and "max4" to 30/40 from 8/8 (attacker takes damage increased to 30-40 from 8)
+    * increased "min8" and "max8" to 25/40 from 20/20 (enhanced defense increased to 25-40% from 20%)
+    * added fireskill to "prop10", set "min10" and "max10" to 1/1 (1 to fire skills)
+    * added pierce-fire to "prop11", set "min11" and "max11" to 13/16 (-13-16% enemy fire resistance)
 
-Razorswitch
--increased "min2" and "max2" to 50/66 from 15/15 (attacker takes damage increased to 50-66 from 15)
+  * Razorswitch
+    * increased "min2" and "max2" to 50/66 from 15/15 (attacker takes damage increased to 50-66 from 15)
 
-Ribcracker
--increased "min9" and "max9" to 225/225 from 100/100 (durability bonus increased to 225 from 100)
+  * Ribcracker
+    * increased "min9" and "max9" to 225/225 from 100/100 (durability bonus increased to 225 from 100)
 
-Chromatic Ire
--increased "min2" to 25 from 20 (all resistances increased to 25-40% from 20-40%)
--increased "min4" and "max4" to 69/69 from 20/20 (attacker takes lightning damage increased to 69 from 20, noice)
--changed "prop6" to extra-fire from skill, changed "par6" to blank from 61, changed "min6" and "max6" to 7/12 from 1/1 (7-12% to fire skill damage instead of level 1 Fire Mastery)
--changed "prop7" to extra-ltng from skill, changed "par7" to blank from 63, changed "min7" and "max7" to 7/12 from 1/1 (12-15% to lightning skill damage instead of level 1 Lightning Mastery)
--changed "prop8" to pierce-cold from skill, changed "par8" to blank from 65, changed "min8" and "max8" to 7/12 from 1/1 (-7-12% enemy cold resistance instead of level 1 Cold Mastery)
--added dmg% to "prop9", set "min9" and "max9" to 100/150 (100-150% enhanced damage)
+  * Chromatic Ire
+    * increased "min2" to 25 from 20 (all resistances increased to 25-40% from 20-40%)
+    * increased "min4" and "max4" to 69/69 from 20/20 (attacker takes lightning damage increased to 69 from 20, noice)
+    * changed "prop6" to extra-fire from skill, changed "par6" to blank from 61, changed "min6" and "max6" to 7/12 from 1/1 (7-12% to fire skill damage instead of level 1 Fire Mastery)
+    * changed "prop7" to extra-ltng from skill, changed "par7" to blank from 63, changed "min7" and "max7" to 7/12 from 1/1 (12-15% to lightning skill damage instead of level 1 Lightning Mastery)
+    * changed "prop8" to pierce-cold from skill, changed "par8" to blank from 65, changed "min8" and "max8" to 7/12 from 1/1 (-7-12% enemy cold resistance instead of level 1 Cold Mastery)
+    * added dmg% to "prop9", set "min9" and "max9" to 100/150 (100-150% enhanced damage)
 
 Warpspear
 -changed "prop1" to sock from sorc, changed "max1" to 4 from 3 (3-4 sockets instead of 3 to sorceress skills)
