@@ -890,170 +890,170 @@ data>global>excel
   * Mosaic
     * changed "complete" to blank from 1 (prevents Mosaic from being created)
 
-setitems.txt
--all medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their set stats (automagic.txt affixes don't apply to set/unique items)
+* setitems.txt
+  * all medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their set stats (automagic.txt affixes don't apply to set/unique items)
 
-Natalya's Odium
--changed "add func" to 2 from blank (Natalya set now has item set bonuses)
-Natalya's Totem
--increased "min5" and "max5" to 6/6 from 3/3 (magic damage reduced increased to 6 from 3)
-Natalya's Mark
--increased "par4" to 150 from 100, increased "min4" and "max4" to 163/163 from 50/50 (cold length increased to 150 frames/6 seconds from 100 frames/4 seconds, cold damage increased to 163 from 50)
--increased "min5" and "max5" to 225/225 from 12/17 (fire damage increased to 225 from 12-17)
--added skilltab to "aprop1a", set "apar1a" to 20 and "amin1a" and "amax1a" to 1/1 (1 martial arts for 2 piece set bonus)
--added deadly to "aprop2a", set "amin2a" and "amax2a" to 24/24 (24% chance of deadly strike for 3 piece set bonus)
-Natalya's Shadow
--increased "min1" and "max1" to 235/310 from 150/225 (defense increased to 235-310 from 150-225)
--increased "par2" to 13 from 8 (life per level increased to 1.625 from 1)
--increased "min5" and "max5" to 30/45 from 25/25 (poison resist increased to 30-45% from 25%)
--added res-pois to "aprop1a", set "amin1a" and "amax1a" to 20/20 (poison resist 20% for 2 piece set bonus)
--added extra-pois to "aprop2a", set "amin2a" and "amax2a" to 10/10 (10% poison skill damage for 3 piece set bonus)
-Natalya's Soul
--increased "par3" to 5 from 3 (heal stamina plus per level increased to 0.625% from 0.25%)
--added move2 to "aprop1a" and set "amin1a" and "amax1a" to 17/17 (17% faster run/walk for 2 piece set bonus)
--added skilltab to "aprop2a", set "apar2a" to 20 and "amin2a" and "amax2a" to 1/1 (1 martial arts for 3 piece set bonus)
--added crush to "aprop3a" and set "amin3a" and "amax3a" to 30/30 (30% crushing blow for full set bonus)
+  * Natalya's Odium
+    * changed "add func" to 2 from blank (Natalya set now has item set bonuses)
+    * Natalya's Totem
+      * increased "min5" and "max5" to 6/6 from 3/3 (magic damage reduced increased to 6 from 3)
+    * Natalya's Mark
+      * increased "par4" to 150 from 100, increased "min4" and "max4" to 163/163 from 50/50 (cold length increased to 150 frames/6 seconds from 100 frames/4 seconds, cold damage increased to 163 from 50)
+      * increased "min5" and "max5" to 225/225 from 12/17 (fire damage increased to 225 from 12-17)
+      * added skilltab to "aprop1a", set "apar1a" to 20 and "amin1a" and "amax1a" to 1/1 (1 martial arts for 2 piece set bonus)
+      * added deadly to "aprop2a", set "amin2a" and "amax2a" to 24/24 (24% chance of deadly strike for 3 piece set bonus)
+    * Natalya's Shadow
+      * increased "min1" and "max1" to 235/310 from 150/225 (defense increased to 235-310 from 150-225)
+      * increased "par2" to 13 from 8 (life per level increased to 1.625 from 1)
+      * increased "min5" and "max5" to 30/45 from 25/25 (poison resist increased to 30-45% from 25%)
+      * added res-pois to "aprop1a", set "amin1a" and "amax1a" to 20/20 (poison resist 20% for 2 piece set bonus)
+      * added extra-pois to "aprop2a", set "amin2a" and "amax2a" to 10/10 (10% poison skill damage for 3 piece set bonus)
+    * Natalya's Soul
+      * increased "par3" to 5 from 3 (heal stamina plus per level increased to 0.625% from 0.25%)
+      * added move2 to "aprop1a" and set "amin1a" and "amax1a" to 17/17 (17% faster run/walk for 2 piece set bonus)
+      * added skilltab to "aprop2a", set "apar2a" to 20 and "amin2a" and "amax2a" to 1/1 (1 martial arts for 3 piece set bonus)
+      * added crush to "aprop3a" and set "amin3a" and "amax3a" to 30/30 (30% crushing blow for full set bonus)
 
-Aldur's Watchtower
-Aldur's Stony Gaze
--changed "prop1" to ac% from ac, increased "min1" and "max1" to 100/100 from 90/90 (100% enhanced defense instead of 90 defense)
--increased "min2" and "max2" to 27/27 from 17/17 (regenerate mana increased to 27% from 17%)
--increased "amin2a" and "amax2a" to 20/20 from 15/15 (energy increased to 20 from 15 for 3 piece set bonus)
--increased "amin3a" and "amax3a" to 25/25 from 15/15 (energy increased to 25 from 15 for full set bonus)
-Aldur's Deception
--increased "min1" and "max1" to 450/450 from 300/300 (defense increased to 450 from 300)
--increased "amin2a" and "amax2a" to 20/20 from 15/15 (vitality increased to 20 from 15 for 3 piece set bonus)
--increased "amin3a" and "amax3a" to 25/25 from 15/15 (vitality increased to 25 from 15 for full set bonus)
-Aldur's Gauntlet (Aldur's Rhythm)
--changed "prop1" to dmg% from dmg-norm, increased "min1" and "max1" to 200/200 from 40/62 (200% enhanced damage instead of adds 40-62 damage)
--increased "amin2a" and "amax2a" to 20/20 from 15/15 (strength increased to 20 from 15 for 3 piece set bonus)
--increased "amin3a" and "amax3a" to 25/25 from 15/15 (strength increased to 25 from 15 for full set bonus)
-Aldur's Advance
--increased "amin2a" and "amax2a" to 20/20 from 15/15 (dexterity increased to 20 from 15 for 3 piece set bonus)
--increased "amin3a" and "amax3a" to 25/25 from 15/15 (dexterity increased to 25 from 15 for full set bonus)
+  * Aldur's Watchtower
+    * Aldur's Stony Gaze
+      * changed "prop1" to ac% from ac, increased "min1" and "max1" to 100/100 from 90/90 (100% enhanced defense instead of 90 defense)
+      * increased "min2" and "max2" to 27/27 from 17/17 (regenerate mana increased to 27% from 17%)
+      * increased "amin2a" and "amax2a" to 20/20 from 15/15 (energy increased to 20 from 15 for 3 piece set bonus)
+      * increased "amin3a" and "amax3a" to 25/25 from 15/15 (energy increased to 25 from 15 for full set bonus)
+    * Aldur's Deception
+      * increased "min1" and "max1" to 450/450 from 300/300 (defense increased to 450 from 300)
+      * increased "amin2a" and "amax2a" to 20/20 from 15/15 (vitality increased to 20 from 15 for 3 piece set bonus)
+      * increased "amin3a" and "amax3a" to 25/25 from 15/15 (vitality increased to 25 from 15 for full set bonus)
+    * Aldur's Gauntlet (Aldur's Rhythm)
+      * changed "prop1" to dmg% from dmg-norm, increased "min1" and "max1" to 200/200 from 40/62 (200% enhanced damage instead of adds 40-62 damage)
+      * increased "amin2a" and "amax2a" to 20/20 from 15/15 (strength increased to 20 from 15 for 3 piece set bonus)
+      * increased "amin3a" and "amax3a" to 25/25 from 15/15 (strength increased to 25 from 15 for full set bonus)
+    * Aldur's Advance
+      * increased "amin2a" and "amax2a" to 20/20 from 15/15 (dexterity increased to 20 from 15 for 3 piece set bonus)
+      * increased "amin3a" and "amax3a" to 25/25 from 15/15 (dexterity increased to 25 from 15 for full set bonus)
 
-Immortal King
-Immortal King's Soul Cage
--increased "min2" to 8 from 5 (Enchant when struck proc chance increased to 8% from 5%)
+  * Immortal King
+    * Immortal King's Soul Cage
+      * increased "min2" to 8 from 5 (Enchant when struck proc chance increased to 8% from 5%)
 Immortal King's Pillar
--changed "aprop4a" to nofreeze from half-freeze (cannot be frozen instead of half freeze duration for 5 piece set bonus)
+      * changed "aprop4a" to nofreeze from half-freeze (cannot be frozen instead of half freeze duration for 5 piece set bonus)
 
-Tal Rasha's Wrappings
-Tal Rasha's Horadric Crest
--added cast2 to "aprop2a" and set "amin2a" and "amax2a" to 10/10 (10% faster cast rate for 3 piece set bonus)
+  * Tal Rasha's Wrappings
+    * Tal Rasha's Horadric Crest
+      * added cast2 to "aprop2a" and set "amin2a" and "amax2a" to 10/10 (10% faster cast rate for 3 piece set bonus)
 
-Griswold's Legacy
-Griswold's Valor
--increased "min6" and "max6" to 20/20 from 5/5 (all resistances increased to 20% from 5%)
-Griswold's Honor
--decreased "min5" and "max5" to 30/30 from 45/45 (all resistances decreased to 30% from 45%)
+  * Griswold's Legacy
+    * Griswold's Valor
+      * increased "min6" and "max6" to 20/20 from 5/5 (all resistances increased to 20% from 5%)
+    * Griswold's Honor
+      * decreased "min5" and "max5" to 30/30 from 45/45 (all resistances decreased to 30% from 45%)
 
-Trang-Oul's Avatar
--now uses necro casting frames instead of slow vampire casting frames
-Trang-Oul's Guise
--increased "min3" and "max3" to 75/75 from 20/20 (attacker takes damage increased to 75 from 20)
--increased "min5" and "max5" to 11/11 from 5/5 (replenish life increased to 11 from 5)
-Trang-Oul's Scales
--increased "min2" and "max2" to 275/275 from 100/100 (defense vs missiles increased to 275 from 100)
-Trang-Oul's Wing
--changed "prop1" to ac% from ac, increased "min1" and "max1" to 170/170 from 125/125 (170% enhanced defense instead of 125 defense)
--increased "amin3a" and "max3a" to 18/18 from 15/15 (replenish life increased to 18 from 15 for 4 piece set bonus)
-Trang-Oul's Girth
--increased "min2" and "max2" to 130/130 from 30/30 (stamina increased to 130 from 30)
--increased "min3" and "max3" to 11/11 from 5/5 (replenish life increased to 11 from 5)
+  * Trang-Oul's Avatar
+    * now uses necro casting frames instead of slow vampire casting frames
+    * Trang-Oul's Guise
+      * increased "min3" and "max3" to 75/75 from 20/20 (attacker takes damage increased to 75 from 20)
+      * increased "min5" and "max5" to 11/11 from 5/5 (replenish life increased to 11 from 5)
+    * Trang-Oul's Scales
+      * increased "min2" and "max2" to 275/275 from 100/100 (defense vs missiles increased to 275 from 100)
+    * Trang-Oul's Wing
+      * changed "prop1" to ac% from ac, increased "min1" and "max1" to 170/170 from 125/125 (170% enhanced defense instead of 125 defense)
+      * increased "amin3a" and "max3a" to 18/18 from 15/15 (replenish life increased to 18 from 15 for 4 piece set bonus)
+    * Trang-Oul's Girth
+      * increased "min2" and "max2" to 130/130 from 30/30 (stamina increased to 130 from 30)
+      * increased "min3" and "max3" to 11/11 from 5/5 (replenish life increased to 11 from 5)
 
-M'avina's Battle Hymn
-M'avina's True Sight
--increased "min2" and "max2" to 20/20 from 10/10 (replenish life increased to 20 from 10)
-M'avina's Embrace
--increased "min1" and "max1" to 16/11 from 10/3 (Glacial Spike when struck proc chance increased to 16% from 10%, level increased to 11 from 3)
-M'avina's Caster
--increased "min1" and "max1" to 233/233 from 188/188 (enhanced damage increased to 233% from 188%)
--increased "min3" and "max3" to 13/13 from 1/1 (fires magic arrows level increased to 13 from 1)
--increased "min4" and "max4" to 125/125 from 50/50 (attack rating increased to 125 from 50)
--increased "amin2a" and "amax2a" to 13/22 from 10/15 (Nova on striking proc chance increased to 13% from 10%, level increased to 22 from 15)
--added pierce-cold to "aprop4a", set "amin4a" and "amax4a" to 25/25 (-25% enemy cold resistance for full set bonus)
+  * M'avina's Battle Hymn
+    * M'avina's True Sight
+      * increased "min2" and "max2" to 20/20 from 10/10 (replenish life increased to 20 from 10)
+    * M'avina's Embrace
+      * increased "min1" and "max1" to 16/11 from 10/3 (Glacial Spike when struck proc chance increased to 16% from 10%, level increased to 11 from 3)
+    * M'avina's Caster
+      * increased "min1" and "max1" to 233/233 from 188/188 (enhanced damage increased to 233% from 188%)
+      * increased "min3" and "max3" to 13/13 from 1/1 (fires magic arrows level increased to 13 from 1)
+      * increased "min4" and "max4" to 125/125 from 50/50 (attack rating increased to 125 from 50)
+      * increased "amin2a" and "amax2a" to 13/22 from 10/15 (Nova on striking proc chance increased to 13% from 10%, level increased to 22 from 15)
+      * added pierce-cold to "aprop4a", set "amin4a" and "amax4a" to 25/25 (-25% enemy cold resistance for full set bonus)
 
-The Disciple
--changed "add func" to 2 from blank (Disciple set now has item set bonuses)
-Telling of Beads
--increased "min4" and "max4" to 37/44 from 8/10 (attacker takes damage increased to 37-44 from 8-10)
--added cast2 to "aprop2a" and set "amin2a" and "amax2a" to 10/10 (10% faster cast rate for 3 piece set bonus)
--added allskills to "aprop3a" and set "amin3a" and "amax3a" to 1/1 (1 all skills for 4 piece set bonus)
-Laying of Hands
--decreased "min4" and "max4" to 100/100 from 350/350 (damage to demons decreased to 100% from 350%)
--increased "max5" to 14 from 3 (Holy Bolt on striking level increased to 14 from 3)
--added dmg-demon to "aprop1a" and set "amin1a" and "amax1a" to 100/100 (100% damage to demons for 2 piece set bonus)
--added dmg-demon to "aprop3a" and set "amin3a" and "amax3a" to 150/150 (150% damage to demons for 4 piece set bonus)
-Rite of Passage
--increased "min4" and "max4" to 55/80 from 15/25 (stamina increased to 55-80 from 15-25)
--added nofreeze to "aprop3a" and set "amin3a" and "amax3a" to 1/1 (cannot be frozen for 4 piece set bonus)
-Spiritual Custodian (Dark Adherent)
--changed "par3" to Frost Nova from 48, decreased "min3" to 17 from 25, increased "max3" to 5 from 3 (Frost Nova when struck instead of Nova, proc chance decreased to 17% from 25%, level increased to 5 from 3)
--increased "min4" and "max4" to 1250/1750 from 125/175 (poison bitrate increased to 1250-1750 from 125-175 [poison damage increased to 240-340 over 2 seconds from 24-34 over 2 seconds)
--added regen-mana to "aprop1a" and set "amin1a" and "amax1a" to 18/18 (regenerate mana 18% for 2 piece set bonus)
-Credendum
--added regen-mana to "aprop2a" and set "amin2a" and "amax2a" to 27/27 (regenerate mana 27% for 3 piece set bonus)
--added cast2 to "aprop4a" and set "amin4a" and "amax4a" to 15/15 (15% faster cast rate for full set bonus) 
+  * The Disciple
+    * changed "add func" to 2 from blank (Disciple set now has item set bonuses)
+    * Telling of Beads
+      * increased "min4" and "max4" to 37/44 from 8/10 (attacker takes damage increased to 37-44 from 8-10)
+      * added cast2 to "aprop2a" and set "amin2a" and "amax2a" to 10/10 (10% faster cast rate for 3 piece set bonus)
+      * added allskills to "aprop3a" and set "amin3a" and "amax3a" to 1/1 (1 all skills for 4 piece set bonus)
+    * Laying of Hands
+      * decreased "min4" and "max4" to 100/100 from 350/350 (damage to demons decreased to 100% from 350%)
+      * increased "max5" to 14 from 3 (Holy Bolt on striking level increased to 14 from 3)
+      * added dmg-demon to "aprop1a" and set "amin1a" and "amax1a" to 100/100 (100% damage to demons for 2 piece set bonus)
+      * added dmg-demon to "aprop3a" and set "amin3a" and "amax3a" to 150/150 (150% damage to demons for 4 piece set bonus)
+    * Rite of Passage
+      * increased "min4" and "max4" to 55/80 from 15/25 (stamina increased to 55-80 from 15-25)
+      * added nofreeze to "aprop3a" and set "amin3a" and "amax3a" to 1/1 (cannot be frozen for 4 piece set bonus)
+    * Spiritual Custodian (Dark Adherent)
+      * changed "par3" to Frost Nova from 48, decreased "min3" to 17 from 25, increased "max3" to 5 from 3 (Frost Nova when struck instead of Nova, proc chance decreased to 17% from 25%, level increased to 5 from 3)
+      * increased "min4" and "max4" to 1250/1750 from 125/175 (poison bitrate increased to 1250-1750 from 125-175 [poison damage increased to 240-340 over 2 seconds from 24-34 over 2 seconds)
+      * added regen-mana to "aprop1a" and set "amin1a" and "amax1a" to 18/18 (regenerate mana 18% for 2 piece set bonus)
+    * Credendum
+      * added regen-mana to "aprop2a" and set "amin2a" and "amax2a" to 27/27 (regenerate mana 27% for 3 piece set bonus)
+      * added cast2 to "aprop4a" and set "amin4a" and "amax4a" to 15/15 (15% faster cast rate for full set bonus) 
 
-Heaven's Brethren
-Dangoon's Teaching
--increased "par1" to 20 from 12 (maximum damage per level increased to 2.5 from 1.5)
--increased "min4" and "max4" to 60/80 from 20/30 (fire damage increased to 60-80 from 20-30)
--added dmg% to "prop5" and set "min5" and "max5" to 50/50 (50% enhanced damage)
-Heaven's Taebaek (Taebaek's Glory)
--increased "min1" and "max1" to 200/200 from 50/50 (defense increased to 200 from 50)
--increased "min3" and "max3" to 40/40 from 30/30 (lightning resist increased to 40% from 30%)
--increased "min4" and "max4" to 120/120 from 30/30 (attacker takes damage increased to 120 from 30)
--increased "min6" and "max6" to 45/45 from 25/25 (increased chance to block increased to 45% from 25%)
--increased "min7" and "max7" to 40/40 from 30/30 (faster block rate increased to 40% from 30%)
--added res-cold to "prop9", set "min9" and "max9" to 25/25 (cold resist 25%)
-Haemosu's Adament (Haemosu's Adamant)
--increased "min2" and "max2" to 275/275 from 35/35 (defense vs missile increased to 275 from 35)
--increased "min4" and "max4" to 325/325 from 40/40 (defense vs melee increased to 325 from 40)
-Ondal's Almighty
--increased "min1" and "max1" to 100/100 from 50/50 (defense increased to 100 from 50)
--increased "min4" and "max4" to 20/20 from 10/10 (strength increased to 20 from 10)
+  * Heaven's Brethren
+    * Dangoon's Teaching
+      * increased "par1" to 20 from 12 (maximum damage per level increased to 2.5 from 1.5)
+      * increased "min4" and "max4" to 60/80 from 20/30 (fire damage increased to 60-80 from 20-30)
+      * added dmg% to "prop5" and set "min5" and "max5" to 50/50 (50% enhanced damage)
+    * Heaven's Taebaek (Taebaek's Glory)
+      * increased "min1" and "max1" to 200/200 from 50/50 (defense increased to 200 from 50)
+      * increased "min3" and "max3" to 40/40 from 30/30 (lightning resist increased to 40% from 30%)
+      * increased "min4" and "max4" to 120/120 from 30/30 (attacker takes damage increased to 120 from 30)
+      * increased "min6" and "max6" to 45/45 from 25/25 (increased chance to block increased to 45% from 25%)
+      * increased "min7" and "max7" to 40/40 from 30/30 (faster block rate increased to 40% from 30%)
+      * added res-cold to "prop9", set "min9" and "max9" to 25/25 (cold resist 25%)
+    * Haemosu's Adament (Haemosu's Adamant)
+      * increased "min2" and "max2" to 275/275 from 35/35 (defense vs missile increased to 275 from 35)
+      * increased "min4" and "max4" to 325/325 from 40/40 (defense vs melee increased to 325 from 40)
+    * Ondal's Almighty
+      * increased "min1" and "max1" to 100/100 from 50/50 (defense increased to 100 from 50)
+      * increased "min4" and "max4" to 20/20 from 10/10 (strength increased to 20 from 10)
 
-Hwanin's Majesty
-Hwanin's Refuge
--increased "min4" to 14 from 10 (Static Field when struck proc chance increased to 13% from 10%)
-Hwanin's Seal (Hwanin's Blessing)
--increased "min1" and "max1" to 5/55 from 3/33 (lightning damage increased to 5-55 from 3-33)
-Hwanin's Justice
--increased "min3" and "max3" to 12/6 from 10/3 (Ice Blast on striking proc chance increased to 12% from 10%, level increased to 6 from 3)
--increased "min6" and "max6" to 25/140 from 5/25 (lightning damage increased to 25-140 from 5-25)
+  * Hwanin's Majesty
+    * Hwanin's Refuge
+      * increased "min4" to 14 from 10 (Static Field when struck proc chance increased to 13% from 10%)
+    * Hwanin's Seal (Hwanin's Blessing)
+      * increased "min1" and "max1" to 5/55 from 3/33 (lightning damage increased to 5-55 from 3-33)
+    * Hwanin's Justice
+      * increased "min3" and "max3" to 12/6 from 10/3 (Ice Blast on striking proc chance increased to 12% from 10%, level increased to 6 from 3)
+      * increased "min6" and "max6" to 25/140 from 5/25 (lightning damage increased to 25-140 from 5-25)
 
-Sazabi's Grand Tribute
-Sazabi's Cobalt Redeemer
--increased "min1" and "max1" to 200/200 from 150/150 (enhanced damage increased to 200% from 150%)
--increased "min2" and "max2" to 75/95 from 25/35 (cold damage increased to 75-95 from 25-35)
--decreased "min4" and "max4" to 268/268 from 318/318 (damage to demons decreased to 268% from 318%)
+  * Sazabi's Grand Tribute
+    * Sazabi's Cobalt Redeemer
+      * increased "min1" and "max1" to 200/200 from 150/150 (enhanced damage increased to 200% from 150%)
+      * increased "min2" and "max2" to 75/95 from 25/35 (cold damage increased to 75-95 from 25-35)
+      * decreased "min4" and "max4" to 268/268 from 318/318 (damage to demons decreased to 268% from 318%)
 
-Bul-Kathos' Children
-Bul-Katho's Sacred Charge
--increased "min4" and "max4" to 275/275 from 200/200 (enhanced damage increased to 275% from 200%)
-Bul-Kathos' Tribal Guardian
--increased "min2" and "max2" to 1536/1536 from 255/255 (poison bitrate increased to 1536 from 255 [poison damage increased to 300 over 2 seconds from 50 over 2 seconds)
--increased "min5" and "max5" to 275/275 from 200/200 (enhanced damage increased to 275% from 200%)
+  * Bul-Kathos' Children
+    * Bul-Katho's Sacred Charge
+      * increased "min4" and "max4" to 275/275 from 200/200 (enhanced damage increased to 275% from 200%)
+    * Bul-Kathos' Tribal Guardian
+      * increased "min2" and "max2" to 1536/1536 from 255/255 (poison bitrate increased to 1536 from 255 [poison damage increased to 300 over 2 seconds from 50 over 2 seconds)
+      * increased "min5" and "max5" to 275/275 from 200/200 (enhanced damage increased to 275% from 200%)
 
-Cow King's Leathers
-Cow King's Horns
--increased "min4" and "max4" to 30/30 from 10/10 (attacker takes damage increased to 30 from 10)
+  * Cow King's Leathers
+    * Cow King's Horns
+      * increased "min4" and "max4" to 30/30 from 10/10 (attacker takes damage increased to 30 from 10)
 
-Naj's Ancient Vestige
-Naj's Puzzler
--increased "min2" and "max2" to 180/180 from 150/150 (enhanced damage increased to 180% from 150%)
--increased "min4" and "max4" to 35/35 from 30/30 (faster cast rate increased to 35% from 30%)
--increased "min5" and "max5" to 23/319 from 6/45 (lightning damage increased to 23-319 from 6-45)
-Naj's Circlet
--added cast2 to "prop6" and set "min6" and "max6" to 10/10 (10% faster cast rate)
+  * Naj's Ancient Vestige
+    * Naj's Puzzler
+      * increased "min2" and "max2" to 180/180 from 150/150 (enhanced damage increased to 180% from 150%)
+      * increased "min4" and "max4" to 35/35 from 30/30 (faster cast rate increased to 35% from 30%)
+      * increased "min5" and "max5" to 23/319 from 6/45 (lightning damage increased to 23-319 from 6-45)
+    * Naj's Circlet
+      * added cast2 to "prop6" and set "min6" and "max6" to 10/10 (10% faster cast rate)
 
-Sander's Folly
-McAuley's Paragon (Sander's Paragon)
--increased "min2" and "max2" to 18/18 from 8/8 (attacker takes damage increased to 18 from 8)
-McAuley's Taboo (Sander's Taboo)
--increased "min4" and "max4" to 90/108 from 30/36 (poison bitrate increased to 90-108 from 30-36 [poison damage increased to 27-33 over 3 seconds from 9-11 over 3 seconds])
+  * Sander's Folly
+    * McAuley's Paragon (Sander's Paragon)
+      * increased "min2" and "max2" to 18/18 from 8/8 (attacker takes damage increased to 18 from 8)
+    * McAuley's Taboo (Sander's Taboo)
+      * increased "min4" and "max4" to 90/108 from 30/36 (poison bitrate increased to 90-108 from 30-36 [poison damage increased to 27-33 over 3 seconds from 9-11 over 3 seconds])
 
 sets.txt
 
