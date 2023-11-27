@@ -1055,275 +1055,275 @@ Immortal King's Pillar
     * McAuley's Taboo (Sander's Taboo)
       * increased "min4" and "max4" to 90/108 from 30/36 (poison bitrate increased to 90-108 from 30-36 [poison damage increased to 27-33 over 3 seconds from 9-11 over 3 seconds])
 
-sets.txt
+* sets.txt
 
-Aldur's Watchtower
--copied and deleted all stats from "PCode4a" through "PMax4a" and pasted them to "FCode8" through "FMax8" (10% life steal for full set bonus now works)
--increased "FMin3" and "FMax3" to 400/400 from 150/150 (defense increased to 400 from 150 for full set bonus)
+  * Aldur's Watchtower
+    * copied and deleted all stats from "PCode4a" through "PMax4a" and pasted them to "FCode8" through "FMax8" (10% life steal for full set bonus now works)
+    * increased "FMin3" and "FMax3" to 400/400 from 150/150 (defense increased to 400 from 150 for full set bonus)
 
-Tal Rasha's Wrappings
--increased "PMin2a" and "PMax2a" to 14/14 from 10/10 (replenish life increased to 14 from 10 for 2 piece set bonus)
+  * Tal Rasha's Wrappings
+    * increased "PMin2a" and "PMax2a" to 14/14 from 10/10 (replenish life increased to 14 from 10 for 2 piece set bonus)
 
-Trang-Oul's Avatar
--increased "PMin2b" and "PMax2b" to 22/22 from 18/18 (Fire Ball level increased to 22 from 18 for 2 piece set bonus)
--increased "PMin3a" and "PMin3b" to 20/20 from 15/15 (regenerate mana increased to 20% from 15% for 3 piece set bonus)
--increased "PMin3b" and "PMax3b" to 17/17 from 13/13 (Fire Wall level increased to 17 from 13 for 3 piece set bonus)
--increased "PMin4a" and "PMax4a" to 25/25 from 15/15 (regenerate mana increased to 25% from 15% for 4 piece set bonus)
--increased "PMin4b" and "PMax4b" to 14/14 from 10/10 (Meteor level increased to 14 from 10 for 4 piece set bonus)
--increased "FMin6" and "FMax6" to 30/30 from 15/15 (regenerate mana increased to 30% from 15% for full set bonus)
--increased "FMin7" and "FMax7" to 6/6 from 3/3 (Fire Mastery level increased to 6 from 3 for full set bonus)
+  * Trang-Oul's Avatar
+    * increased "PMin2b" and "PMax2b" to 22/22 from 18/18 (Fire Ball level increased to 22 from 18 for 2 piece set bonus)
+    * increased "PMin3a" and "PMin3b" to 20/20 from 15/15 (regenerate mana increased to 20% from 15% for 3 piece set bonus)
+    * increased "PMin3b" and "PMax3b" to 17/17 from 13/13 (Fire Wall level increased to 17 from 13 for 3 piece set bonus)
+    * increased "PMin4a" and "PMax4a" to 25/25 from 15/15 (regenerate mana increased to 25% from 15% for 4 piece set bonus)
+    * increased "PMin4b" and "PMax4b" to 14/14 from 10/10 (Meteor level increased to 14 from 10 for 4 piece set bonus)
+    * increased "FMin6" and "FMax6" to 30/30 from 15/15 (regenerate mana increased to 30% from 15% for full set bonus)
+    * increased "FMin7" and "FMax7" to 6/6 from 3/3 (Fire Mastery level increased to 6 from 3 for full set bonus)
 
-M'avina's Battle Hymn
--added att to "PCode4a" and set "PMin4a" and "PMax4a" to 75/75 (75 attack rating for 4 piece set bonus)
--increased "FMin3" and "FMax3" to 200/200 from 100/100 (defense increased to 200 from 100 for full set bonus)
--increased "FMin4" and "FMax4" to 125/125 from 100/100 (attack rating increased to 125 from 100 for full set bonus)
+  * M'avina's Battle Hymn
+    * added att to "PCode4a" and set "PMin4a" and "PMax4a" to 75/75 (75 attack rating for 4 piece set bonus)
+    * increased "FMin3" and "FMax3" to 200/200 from 100/100 (defense increased to 200 from 100 for full set bonus)
+    * increased "FMin4" and "FMax4" to 125/125 from 100/100 (attack rating increased to 125 from 100 for full set bonus)
 
-The Disciple
--increased "PMin3a" and "PMax3a" to 1500/1500 from 75/75 (poison bitrate increased to 1500 from 75 for 3 piece set bonus [poison damage increased to 440 over 3 seconds from 22 over 3 seconds])
--copied and deleted all stats from "PCode5a" through "PMax5a" and pasted them to "FCode4" through "FMax4" (10 dexterity for full set bonus now works)
--added addxp to "FCode5" and set "FMin5" and "FMax5" to 10/10 (adds 10% to experience gained for full set bonus)
--added ac to "FCode6" and set "FMin6" and "FMax6" to 150/150 (150 defense for full set bonus)
+  * The Disciple
+    * increased "PMin3a" and "PMax3a" to 1500/1500 from 75/75 (poison bitrate increased to 1500 from 75 for 3 piece set bonus [poison damage increased to 440 over 3 seconds from 22 over 3 seconds])
+    * copied and deleted all stats from "PCode5a" through "PMax5a" and pasted them to "FCode4" through "FMax4" (10 dexterity for full set bonus now works)
+    * added addxp to "FCode5" and set "FMin5" and "FMax5" to 10/10 (adds 10% to experience gained for full set bonus)
+    * added ac to "FCode6" and set "FMin6" and "FMax6" to 150/150 (150 defense for full set bonus)
 
-Heaven's Brethren
--increased "PParam3b" to 32 from 24 (fire damage per level increased to 4 from 3 for 3 piece set bonus)
+  * Heaven's Brethren
+    * increased "PParam3b" to 32 from 24 (fire damage per level increased to 4 from 3 for 3 piece set bonus)
 
-Orphan's Call
--increased "PMin3a" and "PMax3a" to 66/66 from 5/5 (attacker takes damage increased to 66 from 5 for 3 piece set bonus)
--copied and deleted all stats from "PCode4a" through "PMax4a" and pasted them to "FCode7" through "FMax7" (100 defense for full set bonus now works)
--increased "FMin5" and "FMax5" to 25/25 from 15/15 (all resistances increased to 25% from 15%)
--added att to "FParam8" and set "FMin8" and "FMax8" to 125/125 (125 attack rating for full set bonus)
+  * Orphan's Call
+    * increased "PMin3a" and "PMax3a" to 66/66 from 5/5 (attacker takes damage increased to 66 from 5 for 3 piece set bonus)
+    * copied and deleted all stats from "PCode4a" through "PMax4a" and pasted them to "FCode7" through "FMax7" (100 defense for full set bonus now works)
+    * increased "FMin5" and "FMax5" to 25/25 from 15/15 (all resistances increased to 25% from 15%)
+    * added att to "FParam8" and set "FMin8" and "FMax8" to 125/125 (125 attack rating for full set bonus)
 
-Bul-Kathos' Children
--increased "FMin1" and "FMax1" to 325/325 from 200/200 (fire damage increased to 325 from 200 for full set bonus)
--increased "FMin3" and "FMax3" to 275/275 from 200/200 (attack rating increased to 275 from 200 for full set bonus)
--increased "FMin4" and "FMax4" to 250/250 from 200/200 (defense increased to 250 from 200 for full set bonus)
+  * Bul-Kathos' Children
+    * increased "FMin1" and "FMax1" to 325/325 from 200/200 (fire damage increased to 325 from 200 for full set bonus)
+    * increased "FMin3" and "FMax3" to 275/275 from 200/200 (attack rating increased to 275 from 200 for full set bonus)
+    * increased "FMin4" and "FMax4" to 250/250 from 200/200 (defense increased to 250 from 200 for full set bonus)
 
-Cow King's Leathers
--increased "PMin2a" and "PMax2a" to 45/45 from 25/25 (poison resist increased to 45% from 25% for 2 piece set bonus)
--increased "FMin1" and "FMax1" to 200/200 from 100/100 (stamina increased to 200 from 100 for full set bonus)
--increased "FMin3" and "FMax3" to 250/250 from 100/100 (gold find increased to 250% from 100% for full set bonus)
--increased "FMin4" and "FMax4" to 150/150 from 100/100 (magic find increased to 150% from 100% for full set bonus)
+  * Cow King's Leathers
+    * increased "PMin2a" and "PMax2a" to 45/45 from 25/25 (poison resist increased to 45% from 25% for 2 piece set bonus)
+    * increased "FMin1" and "FMax1" to 200/200 from 100/100 (stamina increased to 200 from 100 for full set bonus)
+    * increased "FMin3" and "FMax3" to 250/250 from 100/100 (gold find increased to 250% from 100% for full set bonus)
+    * increased "FMin4" and "FMax4" to 150/150 from 100/100 (magic find increased to 150% from 100% for full set bonus)
 
-skilldesc.txt
-slow missiles
--copied and deleted all stats from "dsc2line3" through "dsc2calca4" and pasted them to "descline2" through "desccalca3" (moved ranged attacks slowed and physical damage received stat locations on Inner Sight's tooltip and also makes it show the next level preview stats)
+* skilldesc.txt
+  * slow missiles
+    * copied and deleted all stats from "dsc2line3" through "dsc2calca4" and pasted them to "descline2" through "desccalca3" (moved ranged attacks slowed and physical damage received stat locations on Inner Sight's tooltip and also makes it show the next level preview stats)
 
-frozen armor
--changed "desccalca2" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))*par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100
--changed "dsc3textb2" to skillname55 from skillname50 (changed freeze length synergy skill tooltip to Glacial Spike from Shiver Armor)
--changed "dsc3textb4" to skillname44 from skillname60 (changed freeze length synergy skill tooltip to Frost Nova from Chilling Armor)
+  * frozen armor
+    * changed "desccalca2" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))*par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100
+    * changed "dsc3textb2" to skillname55 from skillname50 (changed freeze length synergy skill tooltip to Glacial Spike from Shiver Armor)
+    * changed "dsc3textb4" to skillname44 from skillname60 (changed freeze length synergy skill tooltip to Frost Nova from Chilling Armor)
 
-shiver armor
--changed "dsc3textb2" to skillname44 from skillname40 (changed cold damage synergy skill tooltip to Frost Nova from Frozen Armor)
--deleted all stats from "dsc3line4" through "dsc3calca4" and moved the other stats over (removed Chilling Armor
+  * shiver armor
+    * changed "dsc3textb2" to skillname44 from skillname40 (changed cold damage synergy skill tooltip to Frost Nova from Frozen Armor)
+    * deleted all stats from "dsc3line4" through "dsc3calca4" and moved the other stats over (removed Chilling Armor
 
-chilling armor
--changed "dsc3textb2" to skillname39 from skillname40 (changed cold damage synergy skill tooltip to Ice Bolt from Frozen Armor)
--changed "dsc3textb4" to skillname44 from skillname50 (changed cold damage synergy skill tooltip to Frost Nova from Shiver Armor)
+  * chilling armor
+    * changed "dsc3textb2" to skillname39 from skillname40 (changed cold damage synergy skill tooltip to Ice Bolt from Frozen Armor)
+    * changed "dsc3textb4" to skillname44 from skillname50 (changed cold damage synergy skill tooltip to Frost Nova from Shiver Armor)
 
-iron maiden
--added 74 to "dsc2line3", added StrSkill37 to "dsc2texta3", added par7 + (skill('Amplify Damage'.blvl))*par8 to "dsc2calca3" (added damage taken to Iron Maiden's tooltip)
--added 40 to "dsc3line1", added Sksyn to "dsc3texta1", added skillname76 to "dsc3textb1", added 2 to "dsc3calca1" (added the green "receives bonuses from" synergy text)
--added 76 to "dsc3line2", added StrSkillDamageTakenPerLevel to "dsc3texta2", added skillname66 to "dsc3textb2", added par8 to "dsc3calca2" (added Amplify Damage damage taken synergy to Iron Maiden's tooltip)
+  * iron maiden
+    * added 74 to "dsc2line3", added StrSkill37 to "dsc2texta3", added par7 + (skill('Amplify Damage'.blvl))*par8 to "dsc2calca3" (added damage taken to Iron Maiden's tooltip)
+    * added 40 to "dsc3line1", added Sksyn to "dsc3texta1", added skillname76 to "dsc3textb1", added 2 to "dsc3calca1" (added the green "receives bonuses from" synergy text)
+    * added 76 to "dsc3line2", added StrSkillDamageTakenPerLevel to "dsc3texta2", added skillname66 to "dsc3textb2", added par8 to "dsc3calca2" (added Amplify Damage damage taken synergy to Iron Maiden's tooltip)
 
-life tap
--copied and deleted all stats from "dsc2line2" through "dsc2calca2" and pasted them to "descline3" through "desccalca3" (moved life returned duration on the tooltip)
+  * life tap
+    * copied and deleted all stats from "dsc2line2" through "dsc2calca2" and pasted them to "descline3" through "desccalca3" (moved life returned duration on the tooltip)
 
-decrepify
--changed "dsc2calca4" to par5 from 0 (now properly shows damage taken on the tooltip)
+  * decrepify
+    * changed "dsc2calca4" to par5 from 0 (now properly shows damage taken on the tooltip)
 
-revive
--copied and deleted all stats from "dsc2line2" through "dsc2calcb2" and pasted them to "descline2" through "descalcb2" and moved the other stats over (moved duration location on the tooltip)
--changed "desccalca2" to par3+skill('Revive'.blvl)*par4 from ln34
-NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as intended.
--deleted all stats from "dsc3line3" and "dsc3texta3" (removed Summon Resist synergy from tooltip because SR doesn't actually apply to Revives)
+  * revive
+    * copied and deleted all stats from "dsc2line2" through "dsc2calcb2" and pasted them to "descline2" through "descalcb2" and moved the other stats over (moved duration location on the tooltip)
+    * changed "desccalca2" to par3+skill('Revive'.blvl)*par4 from ln34
+    * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as intended.
+    * deleted all stats from "dsc3line3" and "dsc3texta3" (removed Summon Resist synergy from tooltip because SR doesn't actually apply to Revives)
 
-defiance
--changed "desctexta2" to StrSkillDefensePassive from StrSkill21, changed "desccalca2" to (skill('Defiance'.blvl) < 1) ? par8 : skill('Defiance'.blvl) * par8 from ln34 (shows passive defense bonus)
--added 74 to "descline3, StrSkillDefenseActive to "desctexta3", ln34 to "desccalca3" (shows active defense bonus)
+  * defiance
+    * changed "desctexta2" to StrSkillDefensePassive from StrSkill21, changed "desccalca2" to (skill('Defiance'.blvl) < 1) ? par8 : skill('Defiance'.blvl) * par8 from ln34 (shows passive defense bonus)
+    * added 74 to "descline3, StrSkillDefenseActive to "desctexta3", ln34 to "desccalca3" (shows active defense bonus)
 
-double swing
--set "HireableIconCel" to 29 (changed the Frenzy Act 5 merc skill icon to Double Swing from Taunt)
+  * double swing
+    * set "HireableIconCel" to 29 (changed the Frenzy Act 5 merc skill icon to Double Swing from Taunt)
 
-taunt
--deleted all stats in "HireableIconCel" (removed Taunt from the Frenzy Act 5 merc skill list)
+  * taunt
+    * deleted all stats in "HireableIconCel" (removed Taunt from the Frenzy Act 5 merc skill list)
 
-stun
--deleted all stats from "dsc3line3" through "dsc3calca4" (removed Concentrate and War Cry synergies from the tooltip)
+  * stun
+    * deleted all stats from "dsc3line3" through "dsc3calca4" (removed Concentrate and War Cry synergies from the tooltip)
 
-frenzy
--copied and deleted all stats from "dsc2line2" through "dsc2calcb2", pasted them to "descline5" through "desccalcb5" and moved the other stats over (moved duration location on the tooltip)
--changed "desccalca5" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (each hard point in Frenzy increases duration on the tooltip by 0.08 seconds, each hard point in Increased Stamina increases duration on tooltip by 0.32 seconds)
-NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as intended.
--deleted all stats from "dsc3line3" through "dsc3calca3" and moved the other stats over (removed Taunt synergy from the tooltip)
--decreased new "dsc3calcb3" to 32 from 4 (Increased Stamina duration synergy on tooltip decreased to 0.32 seconds from 0.4 seconds)
+  * frenzy
+    * copied and deleted all stats from "dsc2line2" through "dsc2calcb2", pasted them to "descline5" through "desccalcb5" and moved the other stats over (moved duration location on the tooltip)
+    * changed "desccalca5" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (each hard point in Frenzy increases duration on the tooltip by 0.08 seconds, each hard point in Increased Stamina increases duration on tooltip by 0.32 seconds)
+    * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as intended.
+    * deleted all stats from "dsc3line3" through "dsc3calca3" and moved the other stats over (removed Taunt synergy from the tooltip)
+    * decreased new "dsc3calcb3" to 32 from 4 (Increased Stamina duration synergy on tooltip decreased to 0.32 seconds from 0.4 seconds)
 
-berserk
--changed "IconCel" to 54 from 52 (swapped skill icon with Natural Resistance)
+  * berserk
+    * changed "IconCel" to 54 from 52 (swapped skill icon with Natural Resistance)
 
-natural resistance
--changed "IconCel" to 52 from 54 (swapped skill icon with Berserk)
+  * natural resistance
+    * changed "IconCel" to 52 from 54 (swapped skill icon with Berserk)
 
-shape shifting (Lycanthropy)
--added 74 to "descline3", added StrSkill89 to "desctexta3", added ln56 to "desccalca3" (added run/walk speed to the tooltip)
+  * shape shifting (Lycanthropy)
+    * added 74 to "descline3", added StrSkill89 to "desctexta3", added ln56 to "desccalca3" (added run/walk speed to the tooltip)
 
-skills.txt
-Jab
--added knif to "itypea2" (allows daggers/throwing knives to be used with Jab)
+* skills.txt
+  * Jab
+    * added knif to "itypea2" (allows daggers/throwing knives to be used with Jab)
 
-Multiple Shot
--decreased "manashift" to 6 from 8 (changes the precision of the skill mana cost, 6 is a multipler of 64/256 or 25% while 8 is a multiplier of 256/256 or 100%)
--increased "mana" to 12 from 4 (combined with change to "manashift", initial mana cost decreased to 3 from 4)
--increased "lvlmana" to 3 from 1 (mana cost increase per level decreased to 0.75 from 1)
+  * Multiple Shot
+    * decreased "manashift" to 6 from 8 (changes the precision of the skill mana cost, 6 is a multipler of 64/256 or 25% while 8 is a multiplier of 256/256 or 100%)
+    * increased "mana" to 12 from 4 (combined with change to "manashift", initial mana cost decreased to 3 from 4)
+    * increased "lvlmana" to 3 from 1 (mana cost increase per level decreased to 0.75 from 1)
 
-Power Strike
--added knif to "itypea2"
+  * Power Strike
+    * added knif to "itypea2"
 
-Impale
--added knif to "itypea2"
--increased "Param2" to 40 from 25 (enhanced damage per level increased to 40% from 25%)
+  * Impale
+    * added knif to "itypea2"
+    * increased "Param2" to 40 from 25 (enhanced damage per level increased to 40% from 25%)
 
-Charged Strike
--added knif to "itypea2"
+  * Charged Strike
+    * added knif to "itypea2"
 
-Fend
--added knif to "itypea2"
+  * Fend
+    * added knif to "itypea2"
 
-Lightning Strike
--added knif to "itypea2"
+  * Lightning Strike
+    * added knif to "itypea2"
 
-Frozen Armor
--changed "calc1" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))*par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100 (freeze length synergy skills changed to Glacial Spike/Frost Nova from Shiver Armor/Chilling Armor)
+  * Frozen Armor
+    * changed "calc1" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))*par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100 (freeze length synergy skills changed to Glacial Spike/Frost Nova from Shiver Armor/Chilling Armor)
 
-Shiver Armor
--increased "Param8" to 18 from 9 (cold damage synergy per level increased to 18% from 9%)
--changed "EDmgSymPerCalc" to (skill('Frost Nova'.blvl))*par8 from (skill('Frozen Armor'.blvl)+skill('Chilling Armor'.blvl))*par8 (cold damage synergy skills changed to Frost Nova from Frozen Armor/Chilling Armor)
+  * Shiver Armor
+    * increased "Param8" to 18 from 9 (cold damage synergy per level increased to 18% from 9%)
+    * changed "EDmgSymPerCalc" to (skill('Frost Nova'.blvl))*par8 from (skill('Frozen Armor'.blvl)+skill('Chilling Armor'.blvl))*par8 (cold damage synergy skills changed to Frost Nova from Frozen Armor/Chilling Armor)
 
-Chilling Armor
--changed "EDmgSymPerCalc" to (skill('Ice Bolt'.blvl)+skill('Frost Nova'.blvl))*par8 from (skill('Frozen Armor'.blvl)+skill('Shiver Armor'.blvl))*par8 (cold damage synergy skills changed to Ice Bolt/Frost Nova from Frozen Armor/Shiver Armor)
+  * Chilling Armor
+    * changed "EDmgSymPerCalc" to (skill('Ice Bolt'.blvl)+skill('Frost Nova'.blvl))*par8 from (skill('Frozen Armor'.blvl)+skill('Shiver Armor'.blvl))*par8 (cold damage synergy skills changed to Ice Bolt/Frost Nova from Frozen Armor/Shiver Armor)
 
-Poison Dagger
--increased "EMin" to 45 from 18 (minimum poison bitrate baseline increased to 90 from 36)
--increased "EMinLev1" through "EMinLev5" to 30/48/65/75/86 from 10/15/20/23/26 (minimum poison bitrate increased to 60 from 20 at level 1-8, 96 from 30 at level 9-16, 130 from 80 at level 17-22, 150 from 92 at 23-28, and 172 from 104 at level 29+)
--increased "EMax" to 96 from 40 (maximum poison bitrate baseline increased to 192 from 80)
--increased "EMaxLev1" through "EMaxLev5" to 32/48/66/75/86 from 10/15/20/23/26 (maximum poison bitrate increased to 64 from 20 at level 1-8, 96 from 30 at level 9-16, 132 from 80 at level 17-22, 150 from 92 at 23-28, and 172 from 104 at level 29+)
--decreased "ELen" to 20 from 50 (poison length baseline decreased to 20 frames/0.8 seconds from 50 frames/2 seconds)
--decreased "ELevLen1" through "ELevLen3" to 3 from 10 (poison length per level decreased to 3 frames/0.12 seconds from 10 frames/0.4 seconds)
+  * Poison Dagger
+    * increased "EMin" to 45 from 18 (minimum poison bitrate baseline increased to 90 from 36)
+    * increased "EMinLev1" through "EMinLev5" to 30/48/65/75/86 from 10/15/20/23/26 (minimum poison bitrate increased to 60 from 20 at level 1-8, 96 from 30 at level 9-16, 130 from 80 at level 17-22, 150 from 92 at 23-28, and 172 from 104 at level 29+)
+    * increased "EMax" to 96 from 40 (maximum poison bitrate baseline increased to 192 from 80)
+    * increased "EMaxLev1" through "EMaxLev5" to 32/48/66/75/86 from 10/15/20/23/26 (maximum poison bitrate increased to 64 from 20 at level 1-8, 96 from 30 at level 9-16, 132 from 80 at level 17-22, 150 from 92 at 23-28, and 172 from 104 at level 29+)
+    * decreased "ELen" to 20 from 50 (poison length baseline decreased to 20 frames/0.8 seconds from 50 frames/2 seconds)
+    * decreased "ELevLen1" through "ELevLen3" to 3 from 10 (poison length per level decreased to 3 frames/0.12 seconds from 10 frames/0.4 seconds)
 
-Iron Maiden
--added damageresist to "aurastat1", -par7 - (skill('Amplify Damage'.blvl) * par8) to "aurastatcalc1", set "Param7" to 33 and "Param8" to 2 (reduces physical resistance by 33% baseline and an additional 2% per hard point in Amplify Damage)
--increased "Param6" to 35 from 25 (damage returned per level increased to 35% from 25%)
+  * Iron Maiden
+    * added damageresist to "aurastat1", -par7 - (skill('Amplify Damage'.blvl) * par8) to "aurastatcalc1", set "Param7" to 33 and "Param8" to 2 (reduces physical resistance by 33% baseline and an additional 2% per hard point in Amplify Damage)
+    * increased "Param6" to 35 from 25 (damage returned per level increased to 35% from 25%)
 
-Life Tap
--decreased "Param5" to 20 from 50 (life returned baseline decreased to 20% from 50%)
--increased "Param6" to 1 from 0 (life returned per level increased to 1% from 0%)
+  * Life Tap
+    * decreased "Param5" to 20 from 50 (life returned baseline decreased to 20% from 50%)
+    * increased "Param6" to 1 from 0 (life returned per level increased to 1% from 0%)
 
-Lower Resist
--added magicresist to "aurastat5" and set "aurastatcalc5" to -dm56 (reduces magic resist once again)
+  * Lower Resist
+    * added magicresist to "aurastat5" and set "aurastatcalc5" to -dm56 (reduces magic resist once again)
 
-Bone Spirit
--increased "EMinLev5" and "EMaxLev5" to 27/28 from 20/21 (magic damage per level at level 29+ increased to 27-28 from 20-21)
+  * Bone Spirit
+    * increased "EMinLev5" and "EMaxLev5" to 27/28 from 20/21 (magic damage per level at level 29+ increased to 27-28 from 20-21)
 
-Revive
--changed "calc2" to par3+skill('Revive'.blvl)*par4 from ln34 (duration increases by 10 seconds per hard point)
--decreased "Param3" to 4250 from 4500 (combined with below change the base duration remains 180 seconds)
--increased "Param4" to 250 from 0 (duration increases by 10 seconds per hard point)
+  * Revive
+    * changed "calc2" to par3+skill('Revive'.blvl)*par4 from ln34 (duration increases by 10 seconds per hard point)
+    * decreased "Param3" to 4250 from 4500 (combined with below change the base duration remains 180 seconds)
+    * increased "Param4" to 250 from 0 (duration increases by 10 seconds per hard point)
 
-Thorns
--increased "Param4" to 45 from 40 (damage returned per level increased to 45% from 40%)
+  * Thorns
+    * increased "Param4" to 45 from 40 (damage returned per level increased to 45% from 40%)
 
-Defiance
--added ironskin to "passivestate", skill_armor_percent to "passivestat1", skill('Defiance'.blvl) * par8 to "passivecalc1" (Defiance now passively gives 5% skill enhanced defense per hard point)
--set "Param8" to 5 and added Armor % passive synergy to "*Param8 Description"
+  * Defiance
+    * added ironskin to "passivestate", skill_armor_percent to "passivestat1", skill('Defiance'.blvl) * par8 to "passivecalc1" (Defiance now passively gives 5% skill enhanced defense per hard point)
+    * set "Param8" to 5 and added Armor % passive synergy to "*Param8 Description"
 
-Vengeance
--decreased "manashift" to 5 from 6 (changes the precision of the skill mana cost, 5 is a multipler of 32/256 or 12.5% while 6 is a multiplier of 64/256 or 25%)
--increased "mana" to 20 from 16 (combined with change to "manashift", initial mana cost decreased to 2.5 from 4 and mana cost increase per level decreased to 0.125 from 0.25)
--increased "Param2" to 7 from 6 (elemental damage per level increased to 7% from 6% to compensate for Resist Fire/Cold/Lightning damage synergy reduction)
--increased "Param7" to 3 from 2 (Salvation damage synergy increased to 3% per level from 2%)
--decreased "Param8" to 8 from 10 (Resist Fire/Cold/Lightning damage synergies decreased to 8% per level from 10%)
+  * Vengeance
+    * decreased "manashift" to 5 from 6 (changes the precision of the skill mana cost, 5 is a multipler of 32/256 or 12.5% while 6 is a multiplier of 64/256 or 25%)
+    * increased "mana" to 20 from 16 (combined with change to "manashift", initial mana cost decreased to 2.5 from 4 and mana cost increase per level decreased to 0.125 from 0.25)
+    * increased "Param2" to 7 from 6 (elemental damage per level increased to 7% from 6% to compensate for Resist Fire/Cold/Lightning damage synergy reduction)
+    * increased "Param7" to 3 from 2 (Salvation damage synergy increased to 3% per level from 2%)
+    * decreased "Param8" to 8 from 10 (Resist Fire/Cold/Lightning damage synergies decreased to 8% per level from 10%)
 
-Blessed Hammer
--decreased "Param1" to 0 from 4 (Concentration damage synergy removed)
--doubled all stats from "EMin" through "EMaxLev5" (doubled damage)
+  * Blessed Hammer
+    * decreased "Param1" to 0 from 4 (Concentration damage synergy removed)
+    * doubled all stats from "EMin" through "EMaxLev5" (doubled damage)
 
-Holy Shield
--changed "aurastate" to holyshieldclone from holyshield (no longer sets block rate to 2 frames and removes Holy Shield graphic, see states.txt)
--added skill_armor_percent to "aurastat2" (makes the defense bonus work again, the above change to the "aurastate" caused it to stop working)
--added item_fasterblockrate to "aurastat3", set "aurastatcalc3" to 16 (gives 16% faster block rate)
--decreased "Param8" to 10 from 15 (Defiance defense synergy decreased to 10% per level from 15%)
+  * Holy Shield
+    * changed "aurastate" to holyshieldclone from holyshield (no longer sets block rate to 2 frames and removes Holy Shield graphic, see states.txt)
+    * added skill_armor_percent to "aurastat2" (makes the defense bonus work again, the above change to the "aurastate" caused it to stop working)
+    * added item_fasterblockrate to "aurastat3", set "aurastatcalc3" to 16 (gives 16% faster block rate)
+    * decreased "Param8" to 10 from 15 (Defiance defense synergy decreased to 10% per level from 15%)
 
-Salvation
--changed "srvdofunc" to 66 from 65
--changed "aurastatcalc1", "aurastatcalc2", and "aurastatcalc3" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(dm34/6):dm34):dm34 from dm34 (all resist bonus decreased to 1/6 when equipped by a mercenary with heavenly burden)
--added velocitypercent to "passivestat1", set "passivecalc1" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par5):0):0 (-75% velocity when equipped by a mercenary with heavenly burden)
--added attackrate to "passivestat2", set "passivecalc2" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par5):0):0 (-75% attack rate when equipped by a mercenary with heavenly burden)
--added damageresist to "passivestat3", set "passivecalc3" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par6):0):0 (-100% PDR when equipped by a mercenary with heavenly burden)
--added fireresist to "passivestat4", set "passivecalc4" to dm34 (makes the fire resist bonus work again, the above change to "srvdofunc" caused it to stop working)
--added coldresist to "passivestat4", set "passivecalc4" to dm34 (makes the cold resist bonus work again, the above change to "srvdofunc" caused it to stop working)
--added lightresist to "passivestat4", set "passivecalc4" to dm34 (makes the lightning resist bonus work again, the above change to "srvdofunc" caused it to stop working)
--added -75 to "Param5", set "*Param5 Description" to Slow %
--added -100 to "Param6", set "*Param6 Description" to Damage Resistance %
+  * Salvation
+    * changed "srvdofunc" to 66 from 65
+    * changed "aurastatcalc1", "aurastatcalc2", and "aurastatcalc3" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(dm34/6):dm34):dm34 from dm34 (all resist bonus decreased to 1/6 when equipped by a mercenary with heavenly burden)
+    * added velocitypercent to "passivestat1", set "passivecalc1" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par5):0):0 (-75% velocity when equipped by a mercenary with heavenly burden)
+    * added attackrate to "passivestat2", set "passivecalc2" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par5):0):0 (-75% attack rate when equipped by a mercenary with heavenly burden)
+    * added damageresist to "passivestat3", set "passivecalc3" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par6):0):0 (-100% PDR when equipped by a mercenary with heavenly burden)
+    * added fireresist to "passivestat4", set "passivecalc4" to dm34 (makes the fire resist bonus work again, the above change to "srvdofunc" caused it to stop working)
+    * added coldresist to "passivestat4", set "passivecalc4" to dm34 (makes the cold resist bonus work again, the above change to "srvdofunc" caused it to stop working)
+    * added lightresist to "passivestat4", set "passivecalc4" to dm34 (makes the lightning resist bonus work again, the above change to "srvdofunc" caused it to stop working)
+    * added -75 to "Param5", set "*Param5 Description" to Slow %
+    * added -100 to "Param6", set "*Param6 Description" to Damage Resistance %
 
-Bash
--increased "Param2" to 8 from 5 (enhanced damage per level increased to 8% from 5%)
--changed "ToHitCalc" to 15+lvl*7+skill('Concentrate'.blvl)*par7 from 15+lvl*5+skill('Concentrate'.blvl)*par7 (attack rating per level increased to 7% from 5%)
+  * Bash
+    * increased "Param2" to 8 from 5 (enhanced damage per level increased to 8% from 5%)
+    * changed "ToHitCalc" to 15+lvl*7+skill('Concentrate'.blvl)*par7 from 15+lvl*5+skill('Concentrate'.blvl)*par7 (attack rating per level increased to 7% from 5%)
 
-Double Swing
--increased "LevToHit" to 8 from 5 (attack rating per level increased to 8% from 5%)
+  * Double Swing
+    * increased "LevToHit" to 8 from 5 (attack rating per level increased to 8% from 5%)
 
-Stun
--deleted all stats from "Param6" through "*Param7 Description" (removed War Cry stun length synergy and Concentrate attack rating synergy)
--increased "Param1" to 63 from 30 (base stun length increased to 63 frames/2.52 seconds from 30 frames/1.2 seconds)
--increased "Param2" to 10 from 5 (stun length per level increased to 10 frames/0.4 seconds from 5 frames/0.2 seconds)
--set "ToHit" to 25 (25% base attack rating)
--set "LevToHit" to 25 (25% attack rating per level)
--deleted stats from "ToHitCalc" (removed Concentrate attack rating synergy)
--increased "ELen" to 63 from 30 (base stun length increased to 63 frames/2.52 seconds from 30 frames/1.2 seconds)
--increased "ELevLen1", "ELevLen2", and "ELevLen3" to 10/10/10 from 5/5/2 (stun length per level increased to 10 frames/0.4 seconds from 5 frames/0.2 seconds and removed the stun length per level reduction from level 17+)
--deleted stats from "ELenSymPerCalc" (removed War Cry stun length synergy)
+  * Stun
+    * deleted all stats from "Param6" through "*Param7 Description" (removed War Cry stun length synergy and Concentrate attack rating synergy)
+    * increased "Param1" to 63 from 30 (base stun length increased to 63 frames/2.52 seconds from 30 frames/1.2 seconds)
+    * increased "Param2" to 10 from 5 (stun length per level increased to 10 frames/0.4 seconds from 5 frames/0.2 seconds)
+    * set "ToHit" to 25 (25% base attack rating)
+    * set "LevToHit" to 25 (25% attack rating per level)
+    * deleted stats from "ToHitCalc" (removed Concentrate attack rating synergy)
+    * increased "ELen" to 63 from 30 (base stun length increased to 63 frames/2.52 seconds from 30 frames/1.2 seconds)
+    * increased "ELevLen1", "ELevLen2", and "ELevLen3" to 10/10/10 from 5/5/2 (stun length per level increased to 10 frames/0.4 seconds from 5 frames/0.2 seconds and removed the stun length per level reduction from level 17+)
+    * deleted stats from "ELenSymPerCalc" (removed War Cry stun length synergy)
 
-Frenzy
--changed "auralencalc" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (now gains 2 frames/0.08 second duration per hard point in Frenzy, Increased Stamina duration synergy decreased to 8 frames/0.32 seconds from 10 frames/0.4 seconds)
--changed "calc1" to ln12+skill('Double Swing'.blvl)*par8 from ln12+(skill('Double Swing'.blvl) + skill('Taunt'.blvl))*par8, increased "Param8" to 16 from 8 (removed Taunt synergy, doubled bonus from Double Swing synergy)
--decreased "Param7" to 148 from 150 (combined with "auralencalc" change the base duration remains 6 seconds)
--increased "LevToHit" to 9 from 7 (attack rating per level increased to 9% from 7%)
+  * Frenzy
+    * changed "auralencalc" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (now gains 2 frames/0.08 second duration per hard point in Frenzy, Increased Stamina duration synergy decreased to 8 frames/0.32 seconds from 10 frames/0.4 seconds)
+    * changed "calc1" to ln12+skill('Double Swing'.blvl)*par8 from ln12+(skill('Double Swing'.blvl) + skill('Taunt'.blvl))*par8, increased "Param8" to 16 from 8 (removed Taunt synergy, doubled bonus from Double Swing synergy)
+    * decreased "Param7" to 148 from 150 (combined with "auralencalc" change the base duration remains 6 seconds)
+    * increased "LevToHit" to 9 from 7 (attack rating per level increased to 9% from 7%)
 
-Whirlwind
--increased "param2" to 6 from 5 (enhanced damage per level increased to 6% from 5%)
--increased "LevToHit" to 7 from 5 (attack rating per level increased to 7% from 5%)
+  * Whirlwind
+    * increased "param2" to 6 from 5 (enhanced damage per level increased to 6% from 5%)
+    * increased "LevToHit" to 7 from 5 (attack rating per level increased to 7% from 5%)
 
-War Cry
--decreased "lvlmana" to 2 from 3 (mana increase per level decreased to 0.5 from 0.75)
+  * War Cry
+    * decreased "lvlmana" to 2 from 3 (mana increase per level decreased to 0.5 from 0.75)
 
-Wearwolf (Werewolf)
--added velocitypercent to "aurastat5", set "aurastatcalc5" to skill('Shape Shifting'.ln56) (Lycanthropy gives 2% velocity per level to Werewolf)
+  * Wearwolf (Werewolf)
+    * added velocitypercent to "aurastat5", set "aurastatcalc5" to skill('Shape Shifting'.ln56) (Lycanthropy gives 2% velocity per level to Werewolf)
 
-Shape Shifting (Lycanthropy) 
--added 2 to "Param5", set "*Param5 Description" to Velocity % per level (Lycanthropy gives 2% velocity baseline to Werewolf and Werebear)
--added 2 to "Param6", set "*Param6 Description" to Velocity % per level (Lycanthropy gives 2% additional velocity per level to Werewolf/Werebear, level 20 would give 2 + (2 * 19) = 40% velocity for example)
+  * Shape Shifting (Lycanthropy) 
+    * added 2 to "Param5", set "*Param5 Description" to Velocity % per level (Lycanthropy gives 2% velocity baseline to Werewolf and Werebear)
+    * added 2 to "Param6", set "*Param6 Description" to Velocity % per level (Lycanthropy gives 2% additional velocity per level to Werewolf/Werebear, level 20 would give 2 + (2 * 19) = 40% velocity for example)
 
-Wearbear (Werebear)
--added velocitypercent to "aurastat5", set "aurastatcalc5" to skill('Shape Shifting'.ln56) (Lycanthropy gives 2% velocity per level to Werebear)
+  * Wearbear (Werebear)
+    * added velocitypercent to "aurastat5", set "aurastatcalc5" to skill('Shape Shifting'.ln56) (Lycanthropy gives 2% velocity per level to Werebear)
 
-Fury
--set "AttackNoMana" to 1 (Fury now performs a regular attack when used while out of mana)
--set "interrupt" to 0 (Fury is now uninterruptable)
+  * Fury
+    * set "AttackNoMana" to 1 (Fury now performs a regular attack when used while out of mana)
+    * set "interrupt" to 0 (Fury is now uninterruptable)
 
-states.txt
-monsterset
--changed "gfxclass" to 742 from 135 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
+* states.txt
+  * monsterset
+    * changed "gfxclass" to 742 from 135 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
-holyshieldclone
--added a new entry for "holyshieldclone" (cloned row 103) (Holy Shield no longer sets block rate to 2 frames and removes Holy Shield graphic)
+  * holyshieldclone
+    * added a new entry for "holyshieldclone" (cloned row 103) (Holy Shield no longer sets block rate to 2 frames and removes Holy Shield graphic)
 
-treasureclassex.txt
-BaalQSpecial
--added new entry for "BaalQSpecial" (cloned row 861)
--set "Picks" to -2 (forces two "picks"/drops)
--set "NoDrop" to 0 (prevents the picks from selecting NoDrop)
--added Test to "Item1" and set "Prob1" to 1 (guarantees quest Hell Baal will drop a Test)
--added Baalq (H) to "Item2" and set "Prob2" to 1 (guarantees quest Hell Baal to drop his quest drop)
+* treasureclassex.txt
+  * BaalQSpecial
+    * added new entry for "BaalQSpecial" (cloned row 861)
+    * set "Picks" to -2 (forces two "picks"/drops)
+    * set "NoDrop" to 0 (prevents the picks from selecting NoDrop)
+    * added Test to "Item1" and set "Prob1" to 1 (guarantees quest Hell Baal will drop a Test)
+    * added Baalq (H) to "Item2" and set "Prob2" to 1 (guarantees quest Hell Baal to drop his quest drop)
 
 uniqueitems.txt
 -All medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their unique stats (automagic.txt affixes don't apply to set/unique items)
