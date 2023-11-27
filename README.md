@@ -30,7 +30,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
   * normal and exceptional paladin shields
     * decreased "gemsockets" to 3 from 4 (max sockets decreased to 3 from 4)
 
-* automagic.txt
+#### automagic.txt
   * Shimmering
     * changed "frequency" to 12 from 8 (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so would be 12/30)
 
@@ -60,7 +60,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * set "group" to 501
     * set "mod1code1" to red-dmg%, set "mod1min" and "mod1max" to 5/5 (5% PDR)
 
-* hireling.txt
+#### hireling.txt
   * Barbarian (Frenzy)
     * swapped all stats from "Skill2" through "LvlPerLvl2" and "Skill3" through "LvlPerLvl3" (swapped Iron Skin and Taunt location on Frenzy Act 5 merc skill list)
     * changed "Skill3" to Double Swing from Taunt (Frenzy A5 mercs now use Double Swing instead of Taunt due to Frenzy synergy changes)
@@ -68,7 +68,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * decreased "Level3" to 4/7/9 from 7/13/17 (Double Swing starting level reduced to 3/6/8 from 7/13/17)
     * decreased "LvlPerLvl3" to 3 from 6 (Double Swing leveling halved)
 
-* itemstatcost.txt
+#### itemstatcost.txt
   * increased armorclass_vs_hth "Save Bits" to 9 from 8 (increased range of defense vs melee to 0-511 from 0-255)
   * increased maxfireresist, maxlightresist, maxcoldresist, and maxpoisonresist "Save Bits" to 6 from 5 and changed "Save Add" to 30 from 0 (increases range of maximum fire/light/cold/poison resist to -30-33 from 0-31)
   * increased poisonmindam and poisonmaxdam "Save Bits" to 11 from 10 (increased range of poison damage bitrate to 0-2047 from 0-1023)
@@ -84,7 +84,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * set "descfunc" to 19
     * set "descstrpos" and "descstrneq" to ModStrHeavenlyBurden (see item-modifiers.json)
 
-* magicprefix.txt
+#### magicprefix.txt
   * Defense
     * Stout (row 121)
       * added 41 to "maxlevel"
@@ -307,7 +307,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * Septic (660)
       * added 87 to "maxlevel"
 
-* magicsuffix.txt
+#### magicsuffix.txt
   * Damage Reduced
     * of Health (row 117)
       * added 25 to "maxlevel" (no longer spawns on ilvl 26+ items)
@@ -542,7 +542,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * of Shock (728)
       * added 44 to "maxlevel"
 
-* misc.txt
+#### misc.txt
   * set "ShowLevel" to 1 for amulets/rings/charms/jewels (shows item level)
 
   * Minor Mana Potion
@@ -562,7 +562,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * changed "JamellaMin" and "JamellaMax" to blank from 1 (Jamella no longer sells greater mana potions in Normal)
     * changed "HellUpgrade" to xxx from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
 
-* missiles.txt
+#### missiles.txt
   * throwaxe
     * increased "Range" to 30 from 20 (throwing axes travel 50% farther)
 
@@ -602,7 +602,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
   * uberbaal (Uber Baal)
     * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Uber Baal now has 80% curse length reduction)
 
-* monstats.txt
+#### monstats.txt
   * andariel
     * decreased "ToBlock(N)" to 15 from 20 (Nightmare Andariel block chance decreased to 15% from 20%)
     * decreased "ToBlock(H)" to 25 from 40 (Hell block chance decreased to 25% from 40%)
@@ -717,7 +717,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * added new entry for "trangvampire" (cloned row 137)
     * set "hcIdx" to 742 and "Code" to Z4 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
-* properties.txt
+#### properties.txt
   * res-curse
     * added new entry for "res-curse" (cloned row 33)
     * set "stat1" to curse_resistance
@@ -892,7 +892,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
   * Mosaic
     * changed "complete" to blank from 1 (prevents Mosaic from being created)
 
-* setitems.txt
+#### setitems.txt
   * all medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their set stats (automagic.txt affixes don't apply to set/unique items)
 
   * Natalya's Odium
@@ -1057,7 +1057,7 @@ Immortal King's Pillar
     * McAuley's Taboo (Sander's Taboo)
       * increased "min4" and "max4" to 90/108 from 30/36 (poison bitrate increased to 90-108 from 30-36 [poison damage increased to 27-33 over 3 seconds from 9-11 over 3 seconds])
 
-* sets.txt
+#### sets.txt
 
   * Aldur's Watchtower
     * copied and deleted all stats from "PCode4a" through "PMax4a" and pasted them to "FCode8" through "FMax8" (10% life steal for full set bonus now works)
