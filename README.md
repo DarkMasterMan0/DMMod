@@ -26,6 +26,26 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
 [armor.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#armortxt)
 
+[automagic.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#automagictxt)
+
+[hireling.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#hirelingtxt)
+
+[itemstatcost.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#itemstatcosttxt)
+
+[magicprefix.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#magicprefixtxt)
+
+[magicsuffix.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#magicsuffixtxt)
+
+[misc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#misctxt)
+
+[missiles.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#missilestxt)
+
+[monstats.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstatstxt)
+
+[properties.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#propertiestxt)
+
+[runes.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#runestxt)
+
 ### data>global>excel
 #### armor.txt
   * set "ShowLevel" to 1 (displays item level)
@@ -732,7 +752,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * set "stat1" to item_heavenlyburden (see item_heavenlyburden entry in itemstatcost.txt)
     * set "*Tooltip" to Heavenly Burden
 
-* runes.txt
+#### runes.txt
   * Beast
     * added mace to "itype4" (allows Beast to be created in maces)
     * changed "T1Code5" to oskill from charged, changed "T1Param5 to Maul from Summon Grizzly, decreased "T1Min5" and "T1Max5" to 3/3 from 5/13 (level 3 Maul oskill instead of Summon Grizzly charges)
@@ -1110,7 +1130,7 @@ Immortal King's Pillar
     * increased "FMin3" and "FMax3" to 250/250 from 100/100 (gold find increased to 250% from 100% for full set bonus)
     * increased "FMin4" and "FMax4" to 150/150 from 100/100 (magic find increased to 150% from 100% for full set bonus)
 
-* skilldesc.txt
+#### skilldesc.txt
   * slow missiles
     * copied and deleted all stats from "dsc2line3" through "dsc2calca4" and pasted them to "descline2" through "desccalca3" (moved ranged attacks slowed and physical damage received stat locations on Inner Sight's tooltip and also makes it show the next level preview stats)
 
@@ -1173,7 +1193,7 @@ Immortal King's Pillar
   * shape shifting (Lycanthropy)
     * added 74 to "descline3", added StrSkill89 to "desctexta3", added ln56 to "desccalca3" (added run/walk speed to the tooltip)
 
-* skills.txt
+#### skills.txt
   * Jab
     * added knif to "itypea2" (allows daggers/throwing knives to be used with Jab)
 
@@ -1323,7 +1343,7 @@ Immortal King's Pillar
   * holyshieldclone
     * added a new entry for "holyshieldclone" (cloned row 103) (Holy Shield no longer sets block rate to 2 frames and removes Holy Shield graphic)
 
-* treasureclassex.txt
+#### treasureclassex.txt
   * BaalQSpecial
     * added new entry for "BaalQSpecial" (cloned row 861)
     * set "Picks" to -2 (forces two "picks"/drops)
@@ -1331,7 +1351,7 @@ Immortal King's Pillar
     * added Test to "Item1" and set "Prob1" to 1 (guarantees quest Hell Baal will drop a Test)
     * added Baalq (H) to "Item2" and set "Prob2" to 1 (guarantees quest Hell Baal to drop his quest drop)
 
-* uniqueitems.txt
+#### uniqueitems.txt
   * All medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their unique stats (automagic.txt affixes don't apply to set/unique items)
 
   * Coldkill
@@ -2206,7 +2226,7 @@ Immortal King's Pillar
     * set "prop1" to oskill, set "par1" to Teleport, set "min1" and "max1" to 1/1 (level 1 Teleport oskill)
     * set "prop2" to res-all-max, set "min2" and "max2" to -15/-15 (-15% maximum all resists)
 
-* weapons.txt
+#### weapons.txt
   * increased "mindam", "maxdam", "2handmindam", "2handmaxdam", "minmisdam", and "maxmisdam" of all exceptional weapons by 15% (decimals 0.0-0.4 rounded down, 0.5+ rounded up)
   * increased "mindam", "maxdam", "2handmindam", "2handmaxdam", "minmisdam", and "maxmisdam" of all elite weapons by 20% (decimals 0.0-0.4 rounded down, 0.5+ rounded up)
   * increased "rangeadder" of throwing axes/balanced axes (and their exceptional/elite variants) to 1 from 0
@@ -2226,28 +2246,28 @@ Immortal King's Pillar
   * increased "durability" of normal/exceptional/elite weapons by 50/125/200% (decimals 0.0-0.4 rounded down, 0.5+ rounded up)
   * set "ShowLevel" to 1 (displays item level)
 
-data>global>monsters
+### data>global>monsters
 * z4
   * added new entry for "z4" (cloned from va folder in vanilla data>global>monsters)
   * changed all applicable file prefixes to start with "z4" instead of "va" (fixes Trang vampire appearance in legacy graphics, it was invisible otherwise [currently a bug where the idle animation is faster])
 
-data>global>animdata.d2
+### data>global>animdata.d2
 * trangvampire
   * added new entry for "trangvampire" and set it to use necro casting animations (part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
-data>hd>character
-* monsters.json
+### data>hd>character
+#### monsters.json
   * trangvampire
     * added new entry for "trangvampire" (part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
-data>hd>global>ui>logoanimation
+### data>hd>global>ui>logoanimation
   * added custom logoanimation.sprite with DMMoD logo
 
-data>hd>global>ui>spells>hireables
+### data>hd>global>ui>spells>hireables
   * added Double Swing icon to hrskillicon.sprite (adds a Double Swing icon to be used for the Frenzy Act 5 merc skill list)
 
-data>hd>global>excel
-* desecratedzones.json
+### data>hd>global>excel
+#### desecratedzones.json
   * decreased "terror_duration_min" to 25 from 60 (Terror Zones change every 25 minutes instead of 60 minutes)
   * changed "seed" to 14803616718064904423 from 16664395743969097666 (changes the order in which TZs are selected)
   * removed Blood Moor and Den of Evil
@@ -2257,19 +2277,19 @@ data>hd>global>excel
   * added Canyon of the Magi to Tal Rasha's Tombs
   * added Arachnid Lair to Spider Forest and Spider Cavern
 
-data>hd>global>video
+### data>hd>global>video
   * added blank blizzardlogos.webm and logoanim.webm (skips the D2R intro logos)
   * added custom logoloop.webm with DMMoD logo
 
-data>local>lng>strings
-* item-modifiers.json
+### data>local>lng>strings
+#### item-modifiers.json
   * added new entry for "id" 50000 (ModStrHeavenlyBurden)
   * used Google Translate for non-English languages
 
-* item-names.json
+#### item-names.json
   * added new entry for "id" 51000 (Test)
 
-* skills.json
+#### skills.json
   * changed "id" 4415 (Jab tooltip) to add daggers to the list of usable weapon types
   * changed "id" 4431 (Power Strike tooltip) to add daggers to the list of usable weapon types
   * changed "id" 4471 (Charged Strike tooltip) to add daggers to the list of usable weapon types
