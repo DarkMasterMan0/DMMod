@@ -64,6 +64,32 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
 [weapons.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#weaponstxt)
 
+[data>global>monsters](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#dataglobalmonsters)
+
+[data>global>animdata.d2](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#dataglobalanimdatad2)
+
+[data>hd>character](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdcharacter)
+
+[monsters.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstersjson)
+
+[data>hd>global>ui>logoanimation](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobaluilogoanimation)
+
+[data>hd>global>ui>spells>hireables](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobaluispellshireables)
+
+[data>hd>global>excel](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobalexcel)
+
+[desecratedzones.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#desecratedzonesjson)
+
+[data>hd>global>video](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobalvideo)
+
+[data>local>lng>strings](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datalocallngstrings)
+
+[item-modifiers.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#item-modifiersjson)
+
+[item-names.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#item-namesjson)
+
+[skills.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skillsjson)
+
 ### data>global>excel
 #### armor.txt
   * set "ShowLevel" to 1 (displays item level)
