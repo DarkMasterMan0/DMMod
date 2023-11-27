@@ -24,7 +24,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
 [data>global>excel](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#dataglobalexcel)
 
-[armor.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#armortxt)
+* [armor.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#armortxt)
 
 [automagic.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#automagictxt)
 
