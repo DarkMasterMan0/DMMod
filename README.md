@@ -40,11 +40,29 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
 [missiles.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#missilestxt)
 
+[monprop.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monproptxt)
+
 [monstats.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstatstxt)
 
 [properties.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#propertiestxt)
 
 [runes.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#runestxt)
+
+[setitems.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#setitemstxt)
+
+[sets.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#setstxt)
+
+[skilldesc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skilldesctxt)
+
+[skills.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skillstxt)
+
+[states.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#statestxt)
+
+[treasureclassex.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#treasureclassextxt)
+
+[uniqueitems.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#uniqueitemstxt)
+
+[weapons.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#weaponstxt)
 
 ### data>global>excel
 #### armor.txt
@@ -600,7 +618,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
   * diablight
     * increased "Range" to 40 from 30 (makes his Red Lightning hit at melee range in Nightmare and Hell)
 
-* monprop.txt
+#### monprop.txt
     * added 6 new rows for Dclone and the Ubers
 
   * diabloclone (Dclone)
@@ -1336,7 +1354,7 @@ Immortal King's Pillar
     * set "AttackNoMana" to 1 (Fury now performs a regular attack when used while out of mana)
     * set "interrupt" to 0 (Fury is now uninterruptable)
 
-* states.txt
+#### states.txt
   * monsterset
     * changed "gfxclass" to 742 from 135 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
