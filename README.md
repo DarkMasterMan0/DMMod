@@ -2221,60 +2221,53 @@ Immortal King's Pillar
   * set "ShowLevel" to 1 (displays item level)
 
 data>global>monsters
-z4
--added new entry for "z4" (cloned from va folder in vanilla data>global>monsters)
--changed all applicable file prefixes to start with "z4" instead of "va" (fixes Trang vampire appearance in legacy graphics, it was invisible otherwise [currently a bug where the idle animation is faster])
+* z4
+  * added new entry for "z4" (cloned from va folder in vanilla data>global>monsters)
+  * changed all applicable file prefixes to start with "z4" instead of "va" (fixes Trang vampire appearance in legacy graphics, it was invisible otherwise [currently a bug where the idle animation is faster])
 
 data>global>animdata.d2
-trangvampire
--added new entry for "trangvampire" and set it to use necro casting animations (part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
+* trangvampire
+  * added new entry for "trangvampire" and set it to use necro casting animations (part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
 data>hd>character
-monsters.json
-trangvampire
--added new entry for "trangvampire" (part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
+* monsters.json
+  * trangvampire
+    * added new entry for "trangvampire" (part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
 
 data>hd>global>ui>logoanimation
--added custom logoanimation.sprite with DMMoD logo
+  * added custom logoanimation.sprite with DMMoD logo
 
 data>hd>global>ui>spells>hireables
--added Double Swing icon to hrskillicon.sprite (adds a Double Swing icon to be used for the Frenzy Act 5 merc skill list)
+  * added Double Swing icon to hrskillicon.sprite (adds a Double Swing icon to be used for the Frenzy Act 5 merc skill list)
 
 data>hd>global>excel
-desecratedzones.json
--decreased "terror_duration_min" to 25 from 60 (Terror Zones change every 25 minutes instead of 60 minutes)
--changed "seed" to 14803616718064904423 from 16664395743969097666 (changes the order in which TZs are selected)
--removed Blood Moor and Den of Evil
--merged Stony Field and Tristram
--added Tamoe Highland to the Pit
--added Maggot Lair to Far Oasis
--added Canyon of the Magi to Tal Rasha's Tombs
--added Arachnid Lair to Spider Forest and Spider Cavern
+* desecratedzones.json
+  * decreased "terror_duration_min" to 25 from 60 (Terror Zones change every 25 minutes instead of 60 minutes)
+  * changed "seed" to 14803616718064904423 from 16664395743969097666 (changes the order in which TZs are selected)
+  * removed Blood Moor and Den of Evil
+  * merged Stony Field and Tristram
+  * added Tamoe Highland to the Pit
+  * added Maggot Lair to Far Oasis
+  * added Canyon of the Magi to Tal Rasha's Tombs
+  * added Arachnid Lair to Spider Forest and Spider Cavern
 
 data>hd>global>video
--added blank blizzardlogos.webm and logoanim.webm (skips the D2R intro logos)
--added custom logoloop.webm with DMMoD logo
+  * added blank blizzardlogos.webm and logoanim.webm (skips the D2R intro logos)
+  * added custom logoloop.webm with DMMoD logo
 
 data>local>lng>strings
-item-modifiers.json
--added new entry for "id" 50000 (ModStrHeavenlyBurden)
--used Google Translate for non-English languages
+* item-modifiers.json
+  * added new entry for "id" 50000 (ModStrHeavenlyBurden)
+  * used Google Translate for non-English languages
 
-item-names.json
--added new entry for "id" 51000 (Test)
+* item-names.json
+  * added new entry for "id" 51000 (Test)
 
-skills.json
--changed "id" 4415 (Jab tooltip) to add daggers to the list of usable weapon types
--changed "id" 4431 (Power Strike tooltip) to add daggers to the list of usable weapon types
--changed "id" 4471 (Charged Strike tooltip) to add daggers to the list of usable weapon types
--changed "id" 4511 (Lightning Strike tooltip) to add daggers to the list of usable weapon types
--changed "id" 22052 (Lycanthropy tooltip) to add run/walk speed to the statlist
--added new entry for "id" 52000 (StrSkillDefenseActive)
--added new entry for "id" 52001 (StrSkillDefensePassive)
-
-Credits
-Thanks to:
--Blizzard Entertainment and Vicarious Visions/Blizzard Albany for creating D2/D2R and allowing and expanding modding capabilities (wish we had TCP/IP tho T_T)
--Bonesy for the big help with guidance on specific edits, his video guides, and the massive amount of effort he's put into the D2R modding scene in general. Check out his stuff on D2RModding.com and check out the D2R-Modding Discord!
--The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at d2mods.info and check out their Discord as well!
--Vaska, Pavke, and Arsteel for unique item ideas and discussions
+* skills.json
+  * changed "id" 4415 (Jab tooltip) to add daggers to the list of usable weapon types
+  * changed "id" 4431 (Power Strike tooltip) to add daggers to the list of usable weapon types
+  * changed "id" 4471 (Charged Strike tooltip) to add daggers to the list of usable weapon types
+  * changed "id" 4511 (Lightning Strike tooltip) to add daggers to the list of usable weapon types
+  * changed "id" 22052 (Lycanthropy tooltip) to add run/walk speed to the statlist
+  * added new entry for "id" 52000 (StrSkillDefenseActive)
+  * added new entry for "id" 52001 (StrSkillDefensePassive)
