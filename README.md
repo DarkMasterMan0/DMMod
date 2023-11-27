@@ -619,8 +619,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * increased "Range" to 40 from 30 (makes his Red Lightning hit at melee range in Nightmare and Hell)
 
 #### monprop.txt
-    * added 6 new rows for Dclone and the Ubers
-
+  * added 6 new rows for Dclone and the Ubers
   * diabloclone (Dclone)
     * added res-curse to "prop1 (H)" and set "min1 (H)" and "max1 (H)" to 80/80 (Diablo Clone now has 80% curse length reduction)
 
