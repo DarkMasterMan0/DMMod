@@ -40,59 +40,59 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
 * [magicsuffix.txt](https://github.com/DarkMasterMan0/DMMod#magicsuffixtxt)
 
-* [misc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#misctxt)
+* [misc.txt](https://github.com/DarkMasterMan0/DMMod#misctxt)
 
-* [missiles.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#missilestxt)
+* [missiles.txt](https://github.com/DarkMasterMan0/DMMod#missilestxt)
 
-* [monprop.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monproptxt)
+* [monprop.txt](https://github.com/DarkMasterMan0/DMMod#monproptxt)
 
-* [monstats.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstatstxt)
+* [monstats.txt](https://github.com/DarkMasterMan0/DMMod#monstatstxt)
 
-* [properties.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#propertiestxt)
+* [properties.txt](https://github.com/DarkMasterMan0/DMMod#propertiestxt)
 
-* [runes.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#runestxt)
+* [runes.txt](https://github.com/DarkMasterMan0/DMMod#runestxt)
 
-* [setitems.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#setitemstxt)
+* [setitems.txt](https://github.com/DarkMasterMan0/DMMod#setitemstxt)
 
-* [sets.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#setstxt)
+* [sets.txt](https://github.com/DarkMasterMan0/DMMod#setstxt)
 
-* [skilldesc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skilldesctxt)
+* [skilldesc.txt](https://github.com/DarkMasterMan0/DMMod#skilldesctxt)
 
-* [skills.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skillstxt)
+* [skills.txt](https://github.com/DarkMasterMan0/DMMod#skillstxt)
 
-* [states.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#statestxt)
+* [states.txt](https://github.com/DarkMasterMan0/DMMod#statestxt)
 
-* [treasureclassex.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#treasureclassextxt)
+* [treasureclassex.txt](https://github.com/DarkMasterMan0/DMMod#treasureclassextxt)
 
-* [uniqueitems.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#uniqueitemstxt)
+* [uniqueitems.txt](https://github.com/DarkMasterMan0/DMMod#uniqueitemstxt)
 
-* [weapons.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#weaponstxt)
+* [weapons.txt](https://github.com/DarkMasterMan0/DMMod#weaponstxt)
 
-[data>global>monsters](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#dataglobalmonsters)
+[data>global>monsters](https://github.com/DarkMasterMan0/DMMod#dataglobalmonsters)
 
-[data>global>animdata.d2](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#dataglobalanimdatad2)
+[data>global>animdata.d2](https://github.com/DarkMasterMan0/DMMod#dataglobalanimdatad2)
 
-[data>hd>character](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdcharacter)
+[data>hd>character](https://github.com/DarkMasterMan0/DMMod#datahdcharacter)
 
-* [monsters.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#monstersjson)
+* [monsters.json](https://github.com/DarkMasterMan0/DMMod#monstersjson)
 
-[data>hd>global>ui>logoanimation](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobaluilogoanimation)
+[data>hd>global>ui>logoanimation](https://github.com/DarkMasterMan0/DMMod#datahdglobaluilogoanimation)
 
-[data>hd>global>ui>spells>hireables](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobaluispellshireables)
+[data>hd>global>ui>spells>hireables](https://github.com/DarkMasterMan0/DMMod#datahdglobaluispellshireables)
 
-[data>hd>global>excel](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobalexcel)
+[data>hd>global>excel](https://github.com/DarkMasterMan0/DMMod#datahdglobalexcel)
 
-* [desecratedzones.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#desecratedzonesjson)
+* [desecratedzones.json](https://github.com/DarkMasterMan0/DMMod#desecratedzonesjson)
 
-[data>hd>global>video](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datahdglobalvideo)
+[data>hd>global>video](https://github.com/DarkMasterMan0/DMMod#datahdglobalvideo)
 
-[data>local>lng>strings](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#datalocallngstrings)
+[data>local>lng>strings](https://github.com/DarkMasterMan0/DMMod#datalocallngstrings)
 
-* [item-modifiers.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#item-modifiersjson)
+* [item-modifiers.json](https://github.com/DarkMasterMan0/DMMod#item-modifiersjson)
 
-* [item-names.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#item-namesjson)
+* [item-names.json](https://github.com/DarkMasterMan0/DMMod#item-namesjson)
 
-* [skills.json](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#skillsjson)
+* [skills.json](https://github.com/DarkMasterMan0/DMMod#skillsjson)
 
 ### data>global>excel
 #### armor.txt
