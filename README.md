@@ -26,19 +26,19 @@ Thanks to:
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer.
 
-[data>global>excel](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#dataglobalexcel)
+[data>global>excel](https://github.com/DarkMasterMan0/DMMod#dataglobalexcel)
 
-* [armor.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#armortxt)
+* [armor.txt](https://github.com/DarkMasterMan0/DMMod#armortxt)
 
-* [automagic.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#automagictxt)
+* [automagic.txt](https://github.com/DarkMasterMan0/DMMod#automagictxt)
 
-* [hireling.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#hirelingtxt)
+* [hireling.txt](https://github.com/DarkMasterMan0/DMMod#hirelingtxt)
 
-* [itemstatcost.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#itemstatcosttxt)
+* [itemstatcost.txt](https://github.com/DarkMasterMan0/DMMod#itemstatcosttxt)
 
-* [magicprefix.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#magicprefixtxt)
+* [magicprefix.txt](https://github.com/DarkMasterMan0/DMMod#magicprefixtxt)
 
-* [magicsuffix.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#magicsuffixtxt)
+* [magicsuffix.txt](https://github.com/DarkMasterMan0/DMMod#magicsuffixtxt)
 
 * [misc.txt](https://github.com/DarkMasterMan0/DMMod/blob/main/README.md#misctxt)
 
