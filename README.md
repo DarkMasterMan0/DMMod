@@ -7,7 +7,9 @@ Drop the top-level DMMod folder into your D2R `mods` folder (the file path will 
 
 Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod DMMod -txt` to the target line (it will look similar to `"H:\Games\Diablo II Resurrected\D2R.exe" -mod DMMod -txt` if you did it correctly). You can now use this shortcut to launch D2R with DMMod as the active mod.
 
-You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mods, check it out! https://www.d2rmodding.com/d2rlaunch I'll try to see if I can support it out of the box with a future update but for now you'll have to manually add it yourself using this guide: https://www.youtube.com/watch?v=OQMVnwpElT8
+You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mods, download it from here: https://www.d2rmodding.com/d2rlaunch After you install it you can download DMMod using the `Download New Mod` button on the right side and selecting DMMod in the tab that appears. Be aware that I am currently learning D2RLaunch's functionalities so some things might break if you try using them (like the `Check for Mod Updates` button, it has some weird behavior that can brick the DMMod install and I have yet to figure out what causes it).
+
+**BACKUP YOUR SAVES OFTEN**, any time your computer has a hard shutdown (crash, power outage, pulled plug, etc.) it will cause the active RAM to get corrupted which includes your currently active character and the respective shared stash (softcore/hardcore). You'll find your save files in `C:\Users\username\Saved Games\Diablo II Resurrected\DMMod`, you can backup the whole folder or just the .d2s (character) and .d2i (shared stash) files. D2RLaunch has the option to automate backups, you'll find it under the `Options > QoL Options > Auto-Backup Characters` section.
 
 # What is DMMod?
 DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "feel" of the game. 
