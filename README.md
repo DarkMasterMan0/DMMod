@@ -7,7 +7,7 @@ Drop the top-level DMMod folder into your D2R `mods` folder (the file path will 
 
 Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod DMMod -txt` to the target line (it will look similar to `"H:\Games\Diablo II Resurrected\D2R.exe" -mod DMMod -txt` if you did it correctly). You can now use this shortcut to launch D2R with DMMod as the active mod.
 
-You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mods, check it out! https://www.d2rmodding.com/d2rlaunch
+You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mods, check it out! https://www.d2rmodding.com/d2rlaunch I'll try to see if I can support it out of the box with a future update but for now you'll have to manually add it yourself using this guide: https://www.youtube.com/watch?v=OQMVnwpElT8
 
 # What is DMMod?
 DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "feel" of the game. 
@@ -25,7 +25,9 @@ Thanks to:
 
 * The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at [d2mods.info](d2mods.info) and check out their Discord as well!
 
-* Vaska, Pavke, and Arsteel for item ideas and discussions.
+* Vaska, Pavke, and Arsteel for item ideas and various discussions.
+
+* id Software for creating the awesome Doom games and the badass logo that I re-used for DMMod.
 
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer.
