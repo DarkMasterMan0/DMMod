@@ -39,7 +39,7 @@ Thanks to:
 Sorted by alphabetical order when sorting by name in File Explorer.
 
 * Patch 1.01 Changelog (original changelog remains mostly unchanged besides minor fixes, changes will be noted in these patch changelogs)
-  * removed DMMod Changes.txt (rendered obsolete by this README)
+  * removed DMMod Changes.txt (obsoleted by this README)
   * fixed some typos and clarified some changes
 
   * armor.txt
@@ -47,11 +47,11 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
   * runes.txt
     * Leaf
-      * decreased "T1Min1" and "T1Max1" to 2/2 from 3/3 (decreased fire skills to 2 from 3)
+      * decreased "T1Min1" and "T1Max1" to 2/2 from 3/3 (fire skills decreased to 2 from 3)
       * decreased "T1Min3" and "T1Max3" to 12/12 from 33/33 (cold resist decreased to 12% from 33%)
-      * decreased "T1Min4" and "T1Max4" to 1/1 from 3/3 (decreased Inferno skill bonus to 1 from 3)
-      * decreased "T1Min5" and "T1Max5" to 1/1 from 3/3 (decreased Fire Bolt skill bonus to 1 from 3)
-      * decreased "T1Min6" and "T1Max6" to 1/1 from 3/3 (decreased Warmth skill bonus to 1 from 3)
+      * decreased "T1Min4" and "T1Max4" to 1/1 from 3/3 (Inferno skill bonus decreased to 1 from 3)
+      * decreased "T1Min5" and "T1Max5" to 1/1 from 3/3 (Fire Bolt skill bonus decreased to 1 from 3)
+      * decreased "T1Min6" and "T1Max6" to 1/1 from 3/3 (Warmth skill bonus decreased to 1 from 3)
     * Splendor
       * changed "*RunesUsed" back to EthLum from EthDol
       * changed "Rune2" back to r17 from r14 (changed second rune back to Lum from Dol)
