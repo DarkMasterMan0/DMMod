@@ -11,10 +11,12 @@ You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mod
 
 **BACKUP YOUR SAVES OFTEN**, any time your computer has a hard shutdown (crash, power outage, pulled plug, etc.) it will cause the active RAM to get corrupted which includes your currently active character and the respective shared stash (softcore/hardcore). You'll find your save files in `C:\Users\username\Saved Games\Diablo II Resurrected\DMMod`, you can backup the whole folder or just the .d2s (character) and .d2i (shared stash) files. D2RLaunch has the option to automate backups, you'll find it under the `Options > QoL Options > Auto-Backup Characters` section.
 
-# What is DMMod?
-DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "feel" of the game. 
+You can check out older versions of DMMod at [DMMod Archive](https://github.com/DarkMasterMan0/DMMod-Archive), use the installation instructions above with the `DMMod` folder of whichever version you'd like.
 
-Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs to underused runewords (like Holy Thunder and Venom) and nerfs to overtuned runewords (Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to weaker/underused skills (like Poison Dagger and Iron Maiden) and a few nerfs to overtuned skills (like Blessed Hammer and Holy Shield), changes to magic/rare item affixes (slightly trimming down the affix pool at higher levels for example). NO CHANGES TO DROP RATES (technically a change to Hell Baal's quest drop but that's about it).
+# What is DMMod?
+DMMoD is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "feel" of the game. No changes to drop rates (technically a change to Hell Baal's quest drop but that's about it).
+
+Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs to underused runewords (like Holy Thunder and Venom) and nerfs to overtuned runewords (Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to weaker/underused skills (like Poison Dagger and Iron Maiden) and a few nerfs to overtuned skills (like Blessed Hammer and Holy Shield), changes to magic/rare item affixes (slightly trimming down the affix pool at higher levels for example).
 
 I may or may not make more changes in future versions, I was going to mess with crafting recipes and a few more skills (Poison Explosion, Maul, etc.) but I'm really getting the itch to actually play D2R instead of modding it so I'm not making any definite plans regarding future changes for the moment. :P
 
