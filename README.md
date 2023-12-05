@@ -1230,7 +1230,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * copied and deleted all stats from "dsc2line3" through "dsc2calca4" and pasted them to "descline2" through "desccalca3" (moved ranged attacks slowed and physical damage received stat locations on Inner Sight's tooltip and also makes it show the next level preview stats)
 
   * frozen armor
-    * changed "desccalca2" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))*par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100
+    * changed "desccalca2" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))* par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100
     * changed "dsc3textb2" to skillname55 from skillname50 (changed freeze length synergy skill tooltip to Glacial Spike from Shiver Armor)
     * changed "dsc3textb4" to skillname44 from skillname60 (changed freeze length synergy skill tooltip to Frost Nova from Chilling Armor)
 
@@ -1314,7 +1314,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
     * added knif to "itypea2"
 
   * Frozen Armor
-    * changed "calc1" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))*par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100 (freeze length synergy skills changed to Glacial Spike/Frost Nova from Shiver Armor/Chilling Armor)
+    * changed "calc1" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))* par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100 (freeze length synergy skills changed to Glacial Spike/Frost Nova from Shiver Armor/Chilling Armor)
 
   * Shiver Armor
     * increased "Param8" to 18 from 9 (cold damage synergy per level increased to 18% from 9%)
@@ -1388,7 +1388,7 @@ Sorted by alphabetical order when sorting by name in File Explorer.
 
   * Bash
     * increased "Param2" to 8 from 5 (enhanced damage per level increased to 8% from 5%)
-    * changed "ToHitCalc" to 15+lvl*7+skill('Concentrate'.blvl)*par7 from 15+lvl*5+skill('Concentrate'.blvl)*par7 (attack rating per level increased to 7% from 5%)
+    * changed "ToHitCalc" to 15+lvl*7+skill('Concentrate'.blvl)* par7 from 15+lvl*5+skill('Concentrate'.blvl)*par7 (attack rating per level increased to 7% from 5%)
 
   * Double Swing
     * increased "LevToHit" to 8 from 5 (attack rating per level increased to 8% from 5%)
