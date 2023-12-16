@@ -38,91 +38,91 @@ Thanks to:
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis.
 
-* Patch 1.02 Changelog
+**Patch 1.02 Changelog**
   * more fixing of typos and clarification/rephrasing of changes
   * Holy Shield visual fixed (with some caveats, original shield no longer disappears so clipping may occur and also a bug where the HS graphic doesn't disappear when you unequip your shield), legacy graphics is "buggy" (floating, not swaying with movement or blocking, etc.) because it's now an overlay instead of part of the paladin's animations but it's "good enough" for now
 
-data>global>excel
+  * data>global>excel
 
-  * overlay.txt
-    * holyshieldoverlay (part of a fix for Holy Shield visual to appear again)
-      * added new entry for "holyshieldoverlay" (cloned row 5)
-      * set "*ID" to 294
-      * added holyshieldoverlay to "Filename"
+    * overlay.txt
+      * holyshieldoverlay (part of a fix for Holy Shield visual to appear again)
+        * added new entry for "holyshieldoverlay" (cloned row 5)
+        * set "*ID" to 294
+        * added holyshieldoverlay to "Filename"
 
-  * skilldesc.txt
-    * shape shifting
-      * changed "desctexta3" to StrSkillLycanthropyWerewolfVelocity from StrSkill89, changed "desccalca3" to (skill('Shape Shifting'.blvl) < 1) ? 1 : skill('Shape Shifting'.blvl)*3/2 from ln56 (updated tooltip for 1.02 Lycanthropy changes)
-      * added 74 to "descline4", added StrSkillLycanthropyWerebearCrushingBlow to "desctexta4", added (skill('Shape Shifting'.blvl) < 1) ? 1 : skill('Shape Shifting'.blvl) to "desccalca4" (added Werebear crushing blow bonus to the tooltip)
-      * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+    * skilldesc.txt
+      * shape shifting
+        * changed "desctexta3" to StrSkillLycanthropyWerewolfVelocity from StrSkill89, changed "desccalca3" to (skill('Shape Shifting'.blvl) < 1) ? 1 : skill('Shape Shifting'.blvl)*3/2 from ln56 (updated tooltip for 1.02 Lycanthropy changes)
+        * added 74 to "descline4", added StrSkillLycanthropyWerebearCrushingBlow to "desctexta4", added (skill('Shape Shifting'.blvl) < 1) ? 1 : skill('Shape Shifting'.blvl) to "desccalca4" (added Werebear crushing blow bonus to the tooltip)
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
 
-  * skills.txt
-    * Bash
-      * increased "Param2" to 10 from 8 (enhanced damage per level increased to 10% from 8%)
-      * changed "ToHitCalc" to 13+lvl*7+skill('Concentrate'.blvl)* par7 from 15+lvl*7+skill('Concentrate'.blvl)* par7 (attack rating baseline decreased to 20% from 22%)
-    * Skeleton Mastery
-      * increased "Param4" to 15 from 10 (Revive damage per level increased to 15% from 10%)
-    * Wearwolf (Werewolf)
-      * changed "aurastatcalc5" to skill('Shape Shifting'.blvl)*3/2 from skill('Shape Shifting'.ln56) (Lycanthropy increases Werewolf velocity by 1.5% per hard point instead of 2% per level)
-    * Shape Shifting (Lycanthropy)
-      * deleted all stats from "Param5" to "*Param6 Description" (removed velocity parameters)
-    * Wearbear (Werebear)
-      * changed "aurastat5" to item_crushingblow from velocitypercent, changed "aurastatcalc5" to skill('Shape Shifting'.blvl) from skill('Shape Shifting'.ln56) (Lycanthropy gives Werebear 1% crushing blow per hard point instead of velocity)
+    * skills.txt
+      * Bash
+        * increased "Param2" to 10 from 8 (enhanced damage per level increased to 10% from 8%)
+        * changed "ToHitCalc" to 13+lvl* 7+skill('Concentrate'.blvl) * par7 from 15+lvl*7+skill('Concentrate'.blvl) * par7 (attack rating baseline decreased to 20% from 22%)
+      * Skeleton Mastery
+        * increased "Param4" to 15 from 10 (Revive damage per level increased to 15% from 10%)
+      * Wearwolf (Werewolf)
+        * changed "aurastatcalc5" to skill('Shape Shifting'.blvl)*3/2 from skill('Shape Shifting'.ln56) (Lycanthropy increases Werewolf velocity by 1.5% per hard point instead of 2% per level)
+      * Shape Shifting (Lycanthropy)
+        * deleted all stats from "Param5" to "*Param6 Description" (removed velocity parameters)
+      * Wearbear (Werebear)
+        * changed "aurastat5" to item_crushingblow from velocitypercent, changed "aurastatcalc5" to skill('Shape Shifting'.blvl) from skill('Shape Shifting'.ln56) (Lycanthropy gives Werebear 1% crushing blow per hard point instead of velocity)
 
-  * states.txt
-    * holyshieldclone
-      * added holyshieldoverlay to "overlay1" (see overlay.txt)
+    * states.txt
+      * holyshieldclone
+        * added holyshieldoverlay to "overlay1" (see overlay.txt)
 
-data>global>overlays
-  * holyshieldoverlay.dcc (cloned and renamed from pashhshnu1hs.dcc) (part of a fix for Holy Shield visual to appear again in legacy graphics)
+  * data>global>overlays
+    * holyshieldoverlay.dcc (cloned and renamed from pashhshnu1hs.dcc) (part of a fix for Holy Shield visual to appear again in legacy graphics)
 
-data>hd>overlays>paladin
-  * holyshieldoverlay.json (part of a fix for Holy Shield visual to appear again)
+  * data>hd>overlays>paladin
+    * holyshieldoverlay.json (part of a fix for Holy Shield visual to appear again)
 
-data>local>lng>strings
-  * skills.json
-    * added new entry for "id" 52002 (StrSkillLycanthropyWerewolfVelocity)
-    * added new entry for "id" 52003 (StrSkillLycanthropyWerebearCrushingBlow)
+  * data>local>lng>strings
+    * skills.json
+      * added new entry for "id" 52002 (StrSkillLycanthropyWerewolfVelocity)
+      * added new entry for "id" 52003 (StrSkillLycanthropyWerebearCrushingBlow)
 
-* Patch 1.01 Changelog
+**Patch 1.01 Changelog**
   * removed DMMod Changes.txt (obsoleted by this README)
   * fixed some typos and clarified/rephrased some changes
 
-data>global>excel
+  * data>global>excel
 
-  * armor.txt
-    * increased "durability" of normal/exceptional/elite armor by 33/75/125% (decimals 0.0-0.4 rounded down, 0.5+ rounded up) (does not apply retroactively to any armor found during DMMod 1.00, you'll need to find newly dropped armor to have the increased durability)
+    * armor.txt
+      * increased "durability" of normal/exceptional/elite armor by 33/75/125% (decimals 0.0-0.4 rounded down, 0.5+ rounded up) (does not apply retroactively to any armor found during DMMod 1.00, you'll need to find newly dropped armor to have the increased durability)
 
-  * runes.txt
-    * Leaf
-      * decreased "T1Min1" and "T1Max1" to 2/2 from 3/3 (fire skills decreased to 2 from 3)
-      * decreased "T1Min3" and "T1Max3" to 12/12 from 33/33 (cold resist decreased to 12% from 33%)
-      * decreased "T1Min4" and "T1Max4" to 1/1 from 3/3 (Inferno level decreased to 1 from 3)
-      * decreased "T1Min5" and "T1Max5" to 1/1 from 3/3 (Fire Bolt level decreased to 1 from 3)
-      * decreased "T1Min6" and "T1Max6" to 1/1 from 3/3 (Warmth level decreased to 1 from 3)
-    * Splendor
-      * changed "*RunesUsed" back to EthLum from EthDol
-      * changed "Rune2" back to r17 from r14 (changed second rune back to Lum from Dol)
+    * runes.txt
+      * Leaf
+        * decreased "T1Min1" and "T1Max1" to 2/2 from 3/3 (fire skills decreased to 2 from 3)
+        * decreased "T1Min3" and "T1Max3" to 12/12 from 33/33 (cold resist decreased to 12% from 33%)
+        * decreased "T1Min4" and "T1Max4" to 1/1 from 3/3 (Inferno level decreased to 1 from 3)
+        * decreased "T1Min5" and "T1Max5" to 1/1 from 3/3 (Fire Bolt level decreased to 1 from 3)
+        * decreased "T1Min6" and "T1Max6" to 1/1 from 3/3 (Warmth level decreased to 1 from 3)
+      * Splendor
+        * changed "*RunesUsed" back to EthLum from EthDol
+        * changed "Rune2" back to r17 from r14 (changed second rune back to Lum from Dol)
 
-  * skilldesc.txt
-    * conversion
-      * copied and deleted all stats from "dsc2line2" through "dsc2calcb2" and pasted them to "descline2" through "descalcb2" (moved duration location on the tooltip)
-      * changed "desccalca2" to par1+skill('Conversion'.blvl)*par2 from ln12
-      * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+    * skilldesc.txt
+      * conversion
+        * copied and deleted all stats from "dsc2line2" through "dsc2calcb2" and pasted them to "descline2" through "descalcb2" (moved duration location on the tooltip)
+        * changed "desccalca2" to par1+skill('Conversion'.blvl)*par2 from ln12
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
 
-  * skills.txt
-    * buff-type offensive and defensive aura radius baseline increased by 37.5% ("Param1" increased to 22 from 16 [Fanaticism "Param1" increased to 15 from 11])
-    * Revive
-      * decreased "Param3" to 4200 from 4250 (combined with "Param4" change the base duration remains 4500 frames/180 seconds)
-      * increased "Param4" to 300 from 250 (Revive duration increased to 300 frames/12 seconds per hard point from 250 frames/10 seconds per hard point)
-    * Thorns
-      * decreased "perdelay" to 5 from 50 (Thorns updates every 5 frames/0.2 seconds instead of every 50 frames/2 seconds, should reduce the chance of nuking yourself by attacking a monster that unconverts with Thorns active)
-    * Conversion
-      * changed "auralencalc" to par1+skill('Conversion'.blvl)*par2 from ln12 (Conversion duration increases by 20 frames/0.8 seconds per hard point)
-      * decreased "Param1" to 380 from 400 (combined with "Param2" change the base duration remains 16 seconds)
-      * increased "Param2" to 20 from 0 (Conversion duration increases by 20 frames/0.8 seconds per hard point)
+    * skills.txt
+      * buff-type offensive and defensive aura radius baseline increased by 37.5% ("Param1" increased to 22 from 16 [Fanaticism "Param1" increased to 15 from 11])
+      * Revive
+        * decreased "Param3" to 4200 from 4250 (combined with "Param4" change the base duration remains 4500 frames/180 seconds)
+        * increased "Param4" to 300 from 250 (Revive duration increased to 300 frames/12 seconds per hard point from 250 frames/10 seconds per hard point)
+      * Thorns
+        * decreased "perdelay" to 5 from 50 (Thorns updates every 5 frames/0.2 seconds instead of every 50 frames/2 seconds, should reduce the chance of nuking yourself by attacking a monster that unconverts with Thorns active)
+      * Conversion
+        * changed "auralencalc" to par1+skill('Conversion'.blvl)*par2 from ln12 (Conversion duration increases by 20 frames/0.8 seconds per hard point)
+        * decreased "Param1" to 380 from 400 (combined with "Param2" change the base duration remains 16 seconds)
+        * increased "Param2" to 20 from 0 (Conversion duration increases by 20 frames/0.8 seconds per hard point)
 
-1.00 Changelog:
+**1.00 Changelog:**
 
 [data>global>excel](https://github.com/DarkMasterMan0/DMMod#dataglobalexcel)
 
