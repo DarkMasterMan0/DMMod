@@ -3,7 +3,7 @@
         {
             "start_time_utc": "2023-01-27 00:00:00",
             /* "end_time_utc": "2022-12-15 00:00:00", */ /* Use end time to automate multiple configs. Useful for events. */
-            "terror_duration_min": 25,
+            "terror_duration_min": 30,
             "terror_break_min": 0,
             "seed": 14803616718064904423, /* UInt64. Can't be above 18446744073709551615 */
             "non_ladder_enabled": true,

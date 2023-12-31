@@ -29684,7 +29684,7 @@
   {
     "id": 22052,
     "Key": "Skillld225",
-    "enUS": "passive - improves duration, life, and movement speed\nwhen in werewolf or werebear form",
+    "enUS": "passive - improves duration and life\nwhen in werewolf or werebear form,\nincreases movement speed in werewolf form\nor crushing blow in werebear form",
     "zhTW": "被動 - 提高變形為狼人或熊人形態的持續時間與生命值",
     "deDE": "Passiv - Erhöht Dauer und Leben\nEurer Werwolf- und Werbärenform.",
     "esES": "Pasiva: Mejora la duración y la vida\nde las formas de hombre lobo y hombre oso.",
