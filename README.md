@@ -38,7 +38,20 @@ Thanks to:
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis.
 
-**Patch 1.03 Changelog** 
+**Patch 1.03b Changelog** (12-31-23)
+  * quick patch mostly to properly fix a critical bug that I attempted to hotfix earlier this morning but failed (all runewords were poofing due to the new Akara Potion Upgrade not having anything in the "code" column)
+
+  * data>global>excel
+    * misc.txt
+      * Minor Mana Potion
+        * changed "AkaraMin" and "AkaraMax" to 1/1 from blank (Akara sells mana potions again)
+      * deleted Akara Potion Upgrade entry (I can't currently figure out how to remove minor mana potions from Normal Akara while having Nightmare and Hell Akara still sell greater mana potions so I'll just abort this change for now)
+    * uniques.txt
+      * The Rising Sun
+        * decreased "min7" to 4 from 10 (enemy fire resistance decreased to -4-10% from -10%)
+
+**Patch 1.03 Changelog** (12-30-23)
+  * Happy Holidays and also Happy New Year!
   * even more fixing of typos and clarification/rephrasing of changes
 
   * data>global>excel
@@ -47,11 +60,12 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
     * misc.txt
       * set "ShowLevel" to 1 for Amulet, Ring, Small Charm, Large Charm, Grand Charm, and Jewel (displays item level in parenthesis)
-      * Akara Potion Upgrade
-        * created new entry for "Akara Potion Upgrade" (cloned row 86)
-        * changed code to blank from mp1 (prevents minor mana potion graphic from appearing in Akara's vendor menu)
-        * set "invwidth" and "invheight" to 0/0 (prevents the now invisible minor mana potion from having a tile/"clickbox" in her vendor menu)
-        * Akara no longer sells minor mana potions in Normal, she still sells greater mana potions in Nightmare and Hell
+      * ~~Minor Mana Potion~~ (see patch 1.03b)
+        * ~~changed "AkaraMin" and "AkaraMax" to blank from 1/1 (Akara no longer sells minor mana potions in Normal)~~
+      * ~~Akara Potion Upgrade~~ (see patch 1.03b)
+        * ~~created new entry for "Akara Potion Upgrade" (cloned row 86)~~
+        * ~~changed code to blank from mp1 (prevents minor mana potion graphic from appearing in Akara's vendor menu)~~ (see patch 1.03b)~~
+        * ~~set "invwidth" and "invheight" to 0/0 (prevents the now invisible minor mana potion from having a tile/"clickbox" in her vendor menu)~~
 
     * runes.txt
       * Ancient's Pledge
@@ -86,7 +100,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * skilldesc.txt
       * firegolem
         * changed "desccalca2" to sklvl('Holy Fire'.ln56.edmn)*(100+skill('Corpse Explosion'.blvl)*par7)/100 from sklvl('Holy Fire'.ln56.edmn) (Corpse Explosion synergy added to the Holy Fire minimum fire damage tooltip calculation)
-        * changed "desccalcb2" to sklvl('Holy Fire'.ln56.edmx)*((100+sklvl('Holy Fire'.ln56.par6))/100)*(100+skill('Corpse Explosion'.blvl)*par7)/100 from sklvl('Holy Fire'.ln56.edmx)*((100+sklvl('Holy Fire'.ln56.par6))/100) (Corpse Explosion synergy added to the Holy Fire maximum fire damage tooltip calculation)
+        * changed "desccalcb2" to sklvl('Holy Fire'.ln56.edmx)* ((100+sklvl('Holy Fire'.ln56.par6))/100) * (100+skill('Corpse Explosion'.blvl) * par7)/100 from sklvl('Holy Fire'.ln56.edmx)*((100+sklvl('Holy Fire'.ln56.par6))/100) (Corpse Explosion synergy added to the Holy Fire maximum fire damage tooltip calculation)
         * changed "desccalca3" to (edmn-10)+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) from edmn+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is slightly more accurate, originally it adds the Fire Golem's innate physical damage [10 minimum in Normal difficulty] which causes slight inaccuracies)
         * changed "desccalcb3" to (edmx-27)+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) from edmx+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is slightly more accurate, originally it adds the Fire Golem's innate physical damage [27 maximum in Normal difficulty] which causes slight inaccuracies)
         * NOTE: Fire damage tooltip does not take the Corpse Explosion synergy into account, I will fix this in a future patch after I figure out the correct calculation.
@@ -2139,7 +2153,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * The Rising Sun
     * increased "min3" to 11 from 2 (Meteor when struck proc chance increased to 11% from 2%)
     * increased "min4" and "max4" to 94/188 from 24/48 (fire damage increased to 94-188 from 24-48)
-    * added pierce-fire to "prop7", set "min7" and "max7" to 10/10 (-10% enemy fire resistance)
+    * ~~added pierce-fire to "prop7", set "min7" and "max7" to 10/10 (-10% enemy fire resistance)~~ (see patch 1.03b)
 
   * Crescent Moon (amulet)
     * added openwounds to "prop7", set "min7" and "max7" to 15/20 (15-20% chance of open wounds)
