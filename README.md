@@ -1017,7 +1017,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * changed "T1Code1" to ac% from ac and decreased "T1Min1" and "T1Max1" to 100/130 from 750/775 (100-130% enhanced defense instead of 750-775 defense)
     * decreased "T1Min2" and "T1Max2" to 5/5 from 14/14 (life after each kill decreased to 5 from 14)
     * deleted all stats from "T1Code3" through "T1Max4" and moved the other stats over (removed 45% faster run/walk and 0.75 strength per level)
-    * decreased new "T1Param4" to 4 from 8 (magic find per level decreased to 0.5 from 1)
+    * decreased new "T1Param4" to 4 from 8 (magic find per level decreased to 0.5% from 1%)
 
   * Famine
     * added mace to "itype3"
@@ -1092,10 +1092,10 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * decreased new "T1Min4" and "T1Max4" to 15/20 from 25/35 (faster cast rate decreased to 15-20% from 25-35%)
     * decreased new "T1Min6" and T1Max6" to 1/1 from 2/2 (all skills decreased to 1 from 2)
 
-  * ~~Splendor~~ (see patch 1.01)
-    * ~~changed "*RunesUsed" to EthDol from EthLum~~
-    * ~~changed "Rune2" to r14 from r17 (changed second rune to Dol from Lum)~~
-    * ~~increased "T1Min6" and "T1Max6" to 15/15 from 10/10 (faster cast rate increased to 15% from 10%)~~
+  * Splendor
+    * ~~changed "*RunesUsed" to EthDol from EthLum~~ (see patch 1.01)
+    * ~~changed "Rune2" to r14 from r17 (changed second rune to Dol from Lum)~~ (see patch 1.01)
+    * increased "T1Min6" and "T1Max6" to 15/15 from 10/10 (faster cast rate increased to 15% from 10%)
 
   * Stealth
     * deleted all stats from "T1Code2" through "T1Max2" and moved the other stats over (removed 6 dexterity)
@@ -1156,8 +1156,8 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
     * changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
     * deleted all stats from "T1Code1" to "T1Max1" and moved the other stats over (removed chance to cast Burst of Speed on striking)
-    * changed new "T1Code1" to move2 from swing2, increased "T1Min1" and "T1Max1" to 15/15 (15% faster run/walk instead of 10% increased attack speed)
-    * decreased new "T1Min2" and "T1Max2" to 95/110 from 180/200 (enhanced damage decreased to 95-110% from 180-200%)
+    * ~~changed new "T1Code1" to move2 from swing2, increased "T1Min1" and "T1Max1" to 15/15 (15% faster run/walk instead of 10% increased attack speed)~~ (see patch 1.03)
+    * ~~decreased new "T1Min2" and "T1Max2" to 95/110 from 180/200 (enhanced damage decreased to 95-110% from 180-200%)~~ (see patch 1.03)
     * increased new "T1Min3" and "T1Max3" to 2/2 (Fanaticism aura level increased to 2 from 1)
 
   * Mosaic
@@ -1860,7 +1860,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Skullcollector (Skull Collector)
     * increased "min1" and "max1" to 25/25 from 20/20 (maximum mana increased to 25% from 20%)
-    * increased "par4" to 12 from 8 (magic find per level increased to 1.5 from 1)
+    * increased "par4" to 12 from 8 (magic find per level increased to 1.5% from 1%)
     * added life-kill to "prop5", set "min5" and "max5" to 5/10 (5-10 to life after each kill)
 
   * Skystrike
