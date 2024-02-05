@@ -38,6 +38,420 @@ Thanks to:
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis.
 
+**Patch 1.04 Changelog** (2-5-24)
+  * yet more typo fixes and clarification of changes
+
+  * data>global>excel
+    * monstats.txt
+      * vulture1 through vulture5
+        * changed "nomultishot" to 1 from blank (unique vultures no longer spawn with the Multishot affix)
+    * setitems.txt
+      * Civerb's Ward
+        * added block to "aprop3a", set "amin3a" and "amax3a" to 10/10 (10% increased chance to block for full set bonus)
+        * added block2 to "aprop3b", set "amin3b" and "amax3b" to 20/20 (20% faster block rate for full set bonus)
+      * Natalya's Soul
+        * increased "min4" and "max4" to 88/88 from 50/50 (durability bonus increased to 88 from 50)
+    * uniqueitems.txt
+      * The Gnasher
+        * decreased "lvl" to 6 from 7 (item level decreased to 6 from 7 [can now drop from level 6+ monsters instead of level 7+])
+      * Deathspade
+        * decreased "lvl" to 10 from 12
+      * Bladebone
+        * decreased "lvl" to 15 from 20
+        * decreased "lvl req" to 13 from 15 (level requirement decreased to 13 from 15)
+      * Mindrend (Skull Splitter)
+        * decreased "lvl" to 23 from 28
+        * decreased "lvl req" to 17 from 21
+        * increased "min4" and "max4" to 33/48 from 12/15 (maximum lightning damage increased to 33-48 from 12-15)
+        * increased "min7" and "max7" to 23/23 from 15/15 (open wounds increased to 23% from 15%)
+      * Rakescar
+        * decreased "lvl" to 30 from 36
+        * decreased "lvl req" to 22 from 27
+      * Fechmars Axe (Axe of Fechmar)
+        * decreased "lvl" to 9 from 11
+      * Goreshovel
+        * decreased "lvl" to 16 from 19
+      * The Chieftan (The Chieftain)
+        * decreased "lvl" to 22 from 26
+      * Brainhew
+        * decreased "lvl" to 27 from 34
+        * decreased "lvl req" to 23 from 25
+      * The Humongous
+        * decreased "lvl" to 33 from 39
+        * decreased "lvl req" to 26 from 29
+      * Iros Torch (Torch of Iro)
+        * decreased "lvl" to 5 from 7
+        * increased "min6" and "max6" to 13/13 from 5/5 (regenerate mana increased to 13% from 5%)
+      * Maelstromwrath (Maelstrom)
+        * decreased "lvl" to 16 from 19
+      * Gravenspine
+        * decreased "lvl" to 24 from 27
+      * Umes Lament (Ume's Lament)
+        * decreased "lvl" to 33 from 38
+      * Rusthandle
+        * decreased "lvl" to 21 from 23
+      * Stormeye
+        * decreased "lvl" to 28 from 31
+        * increased "max1" to 52 from 6 (maximum lightning damage increased to 52 from 6)
+        * increased "min2" and "max2" to 7/17 from 3/5 (cold damage increased to 7-17 from 3-5)
+      * Bloodrise
+        * decreased "lvl" to 18 from 20
+      * The Generals Tan Do Li Ga (The General's Tan Do Li Ga)
+        * decreased "lvl" to 25 from 28
+      * Ironstone
+        * decreased "lvl" to 32 from 36
+        * increased "min4" and "max4" to 100/100 from 10/10 (maximum lightning damage increased to 100 from 10)
+      * Bonesob (Bonesnap)
+        * decreased "lvl" to 29 from 32
+      * Blood Crescent
+        * decreased "lvl" to 9 from 10
+      * Krintizs Skewer (Skewer of Krintiz)
+        * decreased "lvl" to 12 from 14
+      * Gleamscythe
+        * decreased "lvl" to 16 from 18
+        * increased "min6" and "max6" to 9/12 from 3/5 (cold damage increased to 9-12 from 3-5)
+      * Griswolds Edge (Griswold's Edge)
+        * decreased "lvl" to 21 from 23
+        * increased "min1" and "max1" to 14/17 from 10/12 (minimum fire damage increased to 14-17 from 10-12)
+        * increased "min2" and "max2" to 20/29 from 15/25 (maximum fire damage increased to 20-29 from 15-25)
+      * Hellplague
+        * decreased "lvl" to 27 from 30
+      * Culwens Point (Culwen's Point)
+        * decreased "lvl" to 32 from 39
+        * decreased "lvl req" to 25 from 29
+      * Soulflay
+        * decreased "lvl" to 23 from 26
+        * decreased "lvl req" to 17 from 19
+      * Kinemils Awl (Kinemil's Awl)
+        * decreased "lvl" to 28 from 31
+        * decreased "lvl req" to 22 from 23
+      * Blacktongue
+        * decreased "lvl" to 29 from 35
+        * decreased "lvl req" to 24 from 26
+      * Ripsaw
+        * decreased "lvl" to 32 from 35
+      * The Patriarch
+        * decreased "lvl" to 37 from 39
+      * The Diggler
+        * decreased "lvl" to 14 from 15
+      * The Jade Tan Do
+        * decreased "lvl" to 22 from 26
+        * decreased "lvl req" to 17 from 19
+      * Spectral Shard
+        * decreased "lvl" to 32 from 34
+      * The Dragon Chang
+        * decreased "lvl" to 8 from 11
+      * Razortine
+        * decreased "lvl" to 14 from 16
+      * Bloodthief
+        * decreased "lvl" to 21 from 23
+      * Lance of Yaggai
+        * decreased "lvl" to 25 from 30
+        * increased "min1" and "max1" to 22/22 from 8/8 (attacker takes damage increased to 22 from 8)
+      * The Tannr Gorerod
+        * decreased "lvl" to 32 from 36
+      * Dimoaks Hew (Dimoak's Hew)
+        * decreased "lvl" to 10 from 11
+      * Steelgoad
+        * decreased "lvl" to 15 from 19
+        * decreased "min1" and "max1" to 16/16 from 96/96 (hit causes monster to flee chance decreased to 12.5% from 75%)
+        * increased "min6" and "max6" to 30/60 from 20/40 (durability bonus increased to 30-60 from 20-40)
+      * Soul Harvest
+        * decreased "lvl" to 21 from 26
+      * The Battlebranch
+        * decreased "lvl" to 28 from 34
+      * Woestave
+        * decreased "lvl" to 32 from 38
+      * The Grim Reaper
+        * decreased "lvl" to 37 from 39
+      * Bane Ash
+        * decreased "lvl" to 4 from 7
+      * Serpent Lord
+        * decreased "lvl" to 11 from 12
+        * decreased "lvl req" to 7 from 9
+        * increased "min5" and "max5" to 70/90 from 30/40 (enhanced damage increased to 70-90% from 30-40%)
+      * Lazarus Spire (Spire of Lazarus)
+        * decreased "lvl" to 19 from 24
+      * The Salamander
+        * decreased "lvl" to 23 from 28
+      * The Iron Jang Bong
+        * decreased "lvl" to 32 from 38
+        * decreased "lvl req" to 26 from 28
+      * Pluckeye
+        * decreased "lvl" to 3 from 10
+        * decreased "lvl req" to 4 from 7
+      * Witherstring
+        * decreased "lvl" to 9 from 18
+        * decreased "lvl req" to 8 from 13
+      * Rimeraven (Raven Claw)
+        * decreased "lvl" to 12 from 20
+        * decreased "lvl req" to 13 from 15
+      * Piercerib (Rogue's Bow)
+        * decreased "lvl" to 16 from 27
+        * decreased "lvl req" to 16 from 20
+      * Pullspite (Stormstrike)
+        * decreased "lvl" to 21 from 34
+        * decreased "lvl req" to 20 from 25
+        * increased "max1" to 53 from 30 (maximum lightning damage increased to 53 from 30)
+      * Wizendraw
+        * decreased "lvl" to 29 from 35
+        * decreased "lvl req" to 23 from 26
+      * Hellclap
+        * decreased "lvl" to 30 from 36
+        * decreased "lvl req" to 24 from 27
+        * increased "min2" and "max2" to 27/27 from 15/15 (minimum fire damage increased to 27 from 15)
+        * increased "min3" and "max3" to 55/71 from 30/50 (maximum fire damage increased to 55-71 from 30-50)
+      * Blastbark
+        * decreased "lvl" to 34 from 38
+        * decreased "lvl req" to 25 from 28
+      * Leadcrow
+        * decreased "lvl" to 8 from 12
+        * decreased "lvl req" to 6 from 9
+      * Ichorsting
+        * decreased "lvl" to 17 from 24
+        * decreased "lvl req" to 11 from 18
+      * Hellcast
+        * decreased "lvl" to 28 from 36
+        * decreased "lvl req" to 18 from 27
+        * increased "min7" and "max7" to 24/48 from 15/35 (fire damage increased to 24-48 from 15-35)
+      * Doomspittle (Doomslinger)
+        * decreased "lvl" to 35 from 38
+        * decreased "lvl req" to 21 from 28
+      * Coif of Glory
+        * decreased "lvl" to 13 from 19
+        * decreased "lvl req" to 12 from 14
+        * increased "min1" and "max1" to 11/11 from 7/7 (attacker takes lightning damage increased to 11 from 7)
+        * increased "min3" and "max3" to 20/30 from 15/15 (lightning resist increased to 20-30% from 15%)
+        * added gold% to "prop6", set "min6" and "max6" to 133/133 (133% gold find)
+        * added light to "prop7", set "min7" and "max7" to 5/5 (5 light radius)
+      * Duskdeep
+        * decreased "lvl" to 20 from 23
+        * decreased "lvl req" to 16 from 17
+      * Wormskull
+        * decreased "lvl" to 25 from 28
+        * decreased "lvl req" to 19 from 21
+      * Howltusk
+        * decreased "lvl" to 26 from 34
+        * decreased "lvl req" to 22 from 25
+        * increased "min2" and "max2" to 11/14 from 3/3 (attacker takes damage increased to 11-14 from 3)
+      * Undead Crown
+        * decreased "lvl" to 36 from 39
+        * decreased "lvl req" to 27 from 29
+      * The Face of Horror
+        * decreased "lvl" to 23 from 27
+      * Greyform
+        * decreased "lvl" to 6 from 10
+      * Blinkbats Form (Blinkbat's Form)
+        * decreased "lvl" to 8 from 16
+        * decreased "lvl req" to 9 from 12
+        * increased "min2" and "max2" to 14/14 from 10/10 (faster run/walk increased to 14% from 10%)
+        * increased "min4" and "max4" to 6/6 from 3/3 (minimum fire damage increased to 6 from 3)
+        * increased "min5" and "max5" to 10/10 from 6/6 (maximum fire damage increased to 10 from 6)
+      * The Centurion
+        * decreased "lvl" to 11 from 19
+        * decreased "lvl req" to 12 from 14
+      * Twitchthroe
+        * decreased "lvl" to 16 from 22
+      * Darkglow
+        * decreased "lvl" to 15 from 19
+      * Hawkmail
+        * decreased "lvl" to 17 from 20
+        * increased "min3" and "max3" to 25/35 from 15/15 (cold resist increased to 25-35% from 15%)
+        * increased "min5" and "max5" to 11/11 from 10/10 (faster run/walk increased to 11% from 10%)
+      * Sparking Mail
+        * decreased "lvl" to 18 from 23
+        * increased "max2" to 43 from 20 (maximum lightning damage increased to 43 from 20)
+        * increased "min3" and "max3" to 15/19 from 10/14 (attacker takes lightning damage increased to 15-19 from 10-14)
+      * Venomsward (Venom Ward)
+        * decreased "lvl" to 24 from 27
+      * Iceblink
+        * decreased "lvl" to 26 from 30
+        * increased "min4" and "max4" to 3/3 from 1/1 (magic damage reduced increased to 3 from 1)
+      * Boneflesh
+        * decreased "lvl" to 31 from 35
+        * increased "min3" and "max3" to 60/60 from 35/35 (attack rating increased to 60 from 35)
+      * Rockfleece
+        * decreased "lvl" to 33 from 38
+      * Rattlecage
+        * decreased "lvl" to 36 from 39
+        * increased "min2" and "max2" to 85/85 from 45/45 (attack rating increased to 85 from 45)
+      * Goldskin
+        * increased "min3" and "max3" to 26/26 from 10/10 (attacker takes damage increased to 26 from 10)
+      * Heavenly Garb
+        * decreased "lvl" to 37 from 39
+        * increased "min5" and "max5" to 140/140 from 50/50 (damage to undead increased to 140% from 50%)
+        * increased "min6" and "max6" to 175/175 from 100/100 (attack rating against undead increased to 175 from 100)
+      * Pelta Lunata
+        * increased "min8" and "max8" to 11/16 from 8/12 (durability bonus increased to 11-16 from 8-12)
+      * Umbral Disk
+        * decreased "lvl" to 10 from 12
+        * increased "min8" and "max8" to 13/20 from 10/15 (durability bonus increased to 13-20 from 10-15)
+      * Stormguild
+        * decreased "lvl" to 15 from 18
+        * increased "max4" to 16 from 6 (maximum lightning damage increased to 16 from 6)
+        * increased "min7" and "max7" to 9/9 from 3/3 (attacker takes lightning damage increased to 9 from 3)
+        * increased "min8" and "max8" to 13/20 from 10/15 (durability bonus increased to 13-20 from 10-15)
+      * Wall of the Eyeless
+        * decreased "lvl" to 24 from 27
+      * Swordback Hold
+        * decreased "lvl" to 14 from 20
+        * increased "min1" and "max1" to 14/18 from 5/5 (attacker takes damage increased to 15-18 from 10)
+        * deleted all stats from "prop6" through "max6" and moved the other stat over (removed attacker takes damage of 5)
+      * Steelclash
+        * decreased "lvl" to 22 from 23
+        * increased "min9" and "max9" to 20/27 from 15/20 (durability bonus increased to 20-27 from 15-20)
+      * Bverrit Keep
+        * decreased "lvl" to 25 from 26
+        * increased "min8" and "max8" to 106/133 from 80/100 (durability bonus increased to 106-133 from 80-100)
+      * The Hand of Broc
+        * decreased "lvl" to 6 from 7
+      * Bloodfist
+        * decreased "lvl" to 11 from 12
+      * Chance Guards
+        * decreased "lvl" to 18 from 20
+      * Magefist
+        * decreased "lvl" to 29 from 31
+      * Frostburn
+        * decreased "lvl" to 34 from 39
+        * decreased "lvl req" to 27 from 29
+      * Gorefoot
+        * decreased "lvl" to 10 from 12
+        * increased "min4" and "max4" to 5/7 from 2/2 (attacker takes damage increased to 5-7 from 2)
+      * Treads of Cthon
+        * decreased "lvl" to 16 from 20
+      * Goblin Toe
+        * decreased "lvl" to 26 from 30
+        * decreased "lvl req" to 20 from 22
+        * increased "min2" and "max2" to 3/3 from 1/1 (damage reduced increased to 3 from 1)
+        * increased "min3" and "max3" to 2/2 from 1/1 (magic damage reduced increased to 2 from 1)
+      * Tearhaunch
+        * decreased "lvl" to 34 from 39
+        * decreased "lvl req" to 26 from 29
+      * Lenyms Cord (Lenymo)
+        * decreased "lvl" to 8 from 10
+      * Snakecord
+        * decreased "lvl" to 12 from 16
+        * decreased "lvl req" to 11 from 12
+        * increased "min1" and "max1" to 65/65 from 40/40 (poison bitrate increased to 65 from 40 [poison damage increased to 19 over 3 seconds from 12 over 3 seconds)
+      * Nightsmoke
+        * decreased "lvl" to 19 from 27
+        * decreased "lvl req" to 18 from 20
+      * Goldwrap
+        * decreased "lvl" to 31 from 36
+        * decreased "lvl req" to 24 from 27
+      * Bladebuckle
+        * decreased "lvl" to 34 from 39
+        * decreased "lvl req" to 27 from 29
+        * increased "min1" and "max1" to 17/19 from 8/8 (attacker takes damage increased to 17-19 from 8)
+      * Nokozan Relic
+        * increased "min1" and "max1" to 7/12 from 3/6 (fire damage increased to 7-12 from 3-6)
+      * The Mahim-Oak Curio
+        * decreased "lvl" to 27 from 34
+        * decreased "lvl req" to 23 from 25
+      * Nagelring
+        * increased "min2" and "max2" to 5/5 from 3/3 (attacker takes damage increased to 5 from 3)
+      * Manald Heal
+        * decreased "lvl" to 17 from 20
+      * Earthshaker
+        * increased "min7" and "max7" to 113/113 from 112/112 (durability bonus increased to 113 from 112)
+      * Bloodletter
+        * added gold% to "prop11", set "min11" and "max11" to 120/150 (120-150% gold find)
+      * Skin of the Flayerd One (Skin of the Flayed One)
+        * increased "min3" and "max3" to 53/53 from 30/30 (durability bonus increased to 53 from 30)
+      * Ironpelt (Iron Pelt)
+        * increased "min1" and "max1" to 219/219 from 125/125 (durability bonus increased to 219 from 125)
+      * Duriel's Shell
+        * increased "min10" and "max10" to 175/175 from 100/100 (durability bonus increased to 175 from 100)
+      * Skullder's Ire
+        * increased "min4" and "max4" to 105/105 from 60/60 (durability bonus increased to 105 from 60)
+      * Toothrow
+        * increased "min7" and "max7" to 26/26 from 15/15 (durability bonus increased to 26 from 15)
+      * Atma's Wail
+        * increased "min6" and "max6" to 88/88 from 50/50 (durability bonus increased to 88 from 50)
+      * Tiamat's Rebuke
+        * increased "min9" and "max9" to 70/70 from 40/40 (durability bonus increased to 70 from 40)
+      * Kerke's Sanctuary (Gerke's Sanctuary)
+        * increased "min5" and "max5" to 175/175 from 100/100 (durability bonus increased to 175 from 100)
+      * Radimant's Sphere
+        * increased "min8" and "max8" to 35/35 from 20/20 (durability bonus increased to 35 from 20)
+      * Lavagout (Lava Gout)
+        * increased "min7" and "max7" to 35/35 from 20/20 (durability bonus increased to 35 from 20)
+      * Hellmouth
+        * increased "min4" and "max4" to 26/26 from 15/15 (durability bonus increased to 26 from 15)
+      * Wartraveler (War Traveler)
+        * increased "min4" and "max4" to 53/53 from 30/30 (durability bonus increased to 53 from 30)
+      * Gorerider (Gore Rider)
+        * increased "min7" and "max7" to 18/18 from 10/10 (durability bonus increased to 18 from 10)
+      * String of Ears
+        * increased "min6" and "max6" to 18/18 from 10/10 (durability bonus increased to 18 from 10)
+      * Veil of Steel
+        * increased "min6" and "max6" to 45/45 from 20/20 (durability bonus increased to 45 from 20)
+      * The Gladiator's Bane
+        * increased "min6" and "max6" to 232/232 from 103/103 (durability bonus increased to 232 from 103)
+      * Blackoak Shield
+        * increased "min5" and "max5" to 101/101 from 45/45 (durability bonus increased to 101 from 45)
+      * Spike Thorn
+        * increased "min3" and "max3" to 255/255 from 250/250 (durability bonus increased to 255 from 250)
+    * weapons.txt
+      * Long Sword
+        * increased "rangeadder" to 2 from 1 (range increased to 2 from 1)
+      * Scepter
+        * decreased "mindam" and "maxdam" to 4/7 from 6/11 (damage decreased to 4-7 from 6-11)
+      * Dagger
+        * increased "maxdam" to 5 from 4 (maximum damage increased to 5 from 4)
+      * Dirk
+        * increased "mindam" to 4 from 3 (minimum damage increased to 4 from 3)
+      * Kriss (Kris)
+        * increased "mindam" and "maxdam" to 3/12 from 2/11
+      * Blade
+        * increased "maxdam" to 17 from 15
+      * Short Bow
+        * increased "2handmindam" to 2 from 1
+      * Hunter's Bow
+        * increased "2handmaxdam" to 7 from 6
+      * Long Bow
+        * increased "2handmindam" to 4 from 3
+      * Short Battle Bow
+        * increased "2handmindam" to 6 from 5
+      * Long Battle Bow
+        * increased "2handmindam" and "2handmaxdam" to 5/19 from 3/18
+      * Short War Bow
+        * increased "2handmaxdam" to 15 from 14
+      * Long War Bow
+        * increased "2handmindam" and "2handmaxdam" to 4/25 from 3/23
+      * Light Crossbow
+        * increased "2handmindam" and "2handmaxdam" to 7/10 from 6/9
+      * Crossbow
+        * increased "2handmaxdam" to 18 from 16
+      * Heavy Crossbow
+        * increased "2handmindam" and "2handmaxdam" to 16/27 from 14/26
+      * Repeating Crossbow
+        * increased "2handmindam" to 8 from 6
+      * Rune Sword
+        * increased "rangeadder" to 2 from 1 (range increased to 2 from 1)
+      * Rondel
+        * increased "mindam" and "maxdam" to 13/33 from 12/30
+      * Arbalest
+        * increased "2handmindam" and "2handmaxdam" to 19/37 from 16/31
+      * Siege Crossbow
+        * increased "2handmindam" and "2handmaxdam" to 27/55 from 23/48
+      * Cryptic Sword
+        * increased "rangeadder" to 2 from 1 (range increased to 2 from 1)
+      * Legend Spike
+        * increased "mindam" and "maxdam" to 39/59 from 37/56
+      * Gorgon Crossbow
+        * increased "2handmindam" and "2handmaxdam" to 33/113 from 30/104
+      * Colossus Crossbow
+        * increased "2handmindam" and "2handmaxdam" to 40/115 from 38/109
+      * Ceremonial Spear
+        * increased "2handmindam" and "2handmaxdam" to 41/61 from 39/59
+      * Matriarchal Spear
+        * increased "2handmindam" and "2handmaxdam" to 80/116 from 78/114
+        * changed "speed" to -5 from blank (changed weapon speed modifier [WSM] to -5 from 0)
+      * Matriarchal Pike
+        * increased "2handmindam" to 46 from 44
+        * changed "speed" to 10 from 20 (changed WSM to 10 from 20)
+
 **Patch 1.03b Changelog** (12-31-23)
   * quick patch mostly to properly fix a critical bug that I attempted to hotfix earlier this morning but failed (all runewords were poofing due to the new Akara Potion Upgrade not having anything in the "code" column)
 
@@ -64,12 +478,12 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
         * ~~changed "AkaraMin" and "AkaraMax" to blank from 1/1 (Akara no longer sells minor mana potions in Normal)~~
       * ~~Akara Potion Upgrade~~ (see patch 1.03b)
         * ~~created new entry for "Akara Potion Upgrade" (cloned row 86)~~
-        * ~~changed code to blank from mp1 (prevents minor mana potion graphic from appearing in Akara's vendor menu)~~ (see patch 1.03b)~~
+        * ~~changed code to blank from mp1 (prevents minor mana potion graphic from appearing in Akara's vendor menu)~~
         * ~~set "invwidth" and "invheight" to 0/0 (prevents the now invisible minor mana potion from having a tile/"clickbox" in her vendor menu)~~
 
     * runes.txt
       * Ancient's Pledge
-        * decreased "T1Min2" and "T1Max2" to 4/4 from 13/13 (all resistances decreased to 4% to 13% [added to rune bonus])
+        * decreased "T1Min2" and "T1Max2" to 4/4 from 13/13 (all resistances decreased to 4% to 13%)
         * decreased "T1Min3" and "T1Max3" to 20/20 from 50/50 (enhanced defense decreased to 20% from 50%)
       * Insight
         * decreased "T1Min1" and "T1Max1" to 42/77 from 90/120 (enhanced damage decreased to 42-77% from 90-120%)
@@ -101,8 +515,8 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * firegolem
         * changed "desccalca2" to sklvl('Holy Fire'.ln56.edmn)*(100+skill('Corpse Explosion'.blvl)*par7)/100 from sklvl('Holy Fire'.ln56.edmn) (Corpse Explosion synergy added to the Holy Fire minimum fire damage tooltip calculation)
         * changed "desccalcb2" to sklvl('Holy Fire'.ln56.edmx)* ((100+sklvl('Holy Fire'.ln56.par6))/100) * (100+skill('Corpse Explosion'.blvl) * par7)/100 from sklvl('Holy Fire'.ln56.edmx)*((100+sklvl('Holy Fire'.ln56.par6))/100) (Corpse Explosion synergy added to the Holy Fire maximum fire damage tooltip calculation)
-        * changed "desccalca3" to (edmn-10)+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) from edmn+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is slightly more accurate, originally it adds the Fire Golem's innate physical damage [10 minimum in Normal difficulty] which causes slight inaccuracies)
-        * changed "desccalcb3" to (edmx-27)+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) from edmx+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is slightly more accurate, originally it adds the Fire Golem's innate physical damage [27 maximum in Normal difficulty] which causes slight inaccuracies)
+        * changed "desccalca3" to (edmn-10)+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) from edmn+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is slightly more accurate, originally it adds the Fire Golem's innate physical damage [10 minimum in Normal] which causes slight inaccuracies)
+        * changed "desccalcb3" to (edmx-27)+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) from edmx+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is slightly more accurate, originally it adds the Fire Golem's innate physical damage [27 maximum in Normal] which causes slight inaccuracies)
         * NOTE: Fire damage tooltip does not take the Corpse Explosion synergy into account, I will fix this in a future patch after I figure out the correct calculation.
         * set "dsc3line7" to 76, set "dsc3texta7" to Firedplev, set "dsc3textb7" to skillname74, set "dsccalca7" to par7 (added Corpse Explosion synergy to the tooltip)
 
@@ -337,7 +751,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * swapped all stats from "Skill2" through "LvlPerLvl2" and "Skill3" through "LvlPerLvl3" (swapped Iron Skin and Taunt location on Frenzy Act 5 merc skill list)
     * changed new "Skill2" to Double Swing from Taunt (Frenzy A5 mercs now use Double Swing instead of Taunt due to Frenzy synergy changes)
     * changed new "Mode2" to 4 from 5 (changes Double Swing animation type to attacking from casting)
-    * decreased new "Level2" to 4/7/9 from 7/13/17 (Double Swing level baseline reduced to 4/7/9 from 7/13/17)
+    * decreased new "Level2" to 4/7/9 from 7/13/17 (Double Swing level baseline decreased to 4/7/9 from 7/13/17)
     * decreased new "LvlPerLvl2" to 3 from 6 (Double Swing level scaling halved)
 
 #### itemstatcost.txt
@@ -836,17 +1250,17 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 #### missiles.txt
   * throwaxe
-    * increased "Range" to 30 from 20 (throwing axes travel 50% farther)
+    * increased "Range" to 30 from 20 (throwing axes travel duration increased to 30 frames/1.2 seconds from 20 frames/0.8 seconds [throwing axes travel 50% farther])
 
   * throwknife
-    * increased "Vel" and "MaxVel" to 32 from 24 (throwing knives travel 33% faster)
-    * increased "Range" to 23 from 20 (throwing knives travel 53% farther overall with velocity increase)
+    * increased "Vel" and "MaxVel" to 32 from 24 (throwing knives travel speed increased to 32 pixels per frame from 24 [throwing knives travel 33% faster])
+    * increased "Range" to 23 from 20 (throwing knives travel duration increased to 23 frames/0.92 seconds from 20 frames/0.8 seconds [throwing knives travel 53% farther overall combined with velocity increase])
 
   * coldarrow
-    * increased "Range" to 40 from 20 (makes it equal range with other elemental arrows)
+    * increased "Range" to 40 from 20 (Cold Arrow travel duration increased to 40 frames/1.6 seconds from 20 frames/0.8 seconds [Cold Arrow now has equal range to other elemental arrows])
 
   * diablight
-    * increased "Range" to 40 from 30 (makes his Red Lightning hit at melee range in Nightmare and Hell)
+    * increased "Range" to 40 from 30 (Diablo's Red Lightning now hits at melee range in Nightmare and Hell)
 
 #### monprop.txt
   * added 6 new rows for Dclone and the Ubers
@@ -906,7 +1320,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * diabloclone (Dclone)
     * added diabloclone to "MonProp" (uses diabloclone entry in monprop.txt)
     * decreased "Level(H)" to 100 from 110 (Diablo Clone level decreased to 100 from 110)
-    * decreased "ToBlock(H)" to 30 from 50 (block chance reduced to 30% from 50%)
+    * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
     * increased "MinHP(H) and "MaxHP(H) to 8128/8128 from 6427/6427 (combined with decrease to "Level(H)" life remains roughly the same at 642680)
     * increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 100 he has 5802 defense instead of 2940 defense at level 110)
     * increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 116/219/353 from 100/190/215 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 131-247 and 14042 respectively)
@@ -1564,7 +1978,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "LevToHit" to 9 from 7 (attack rating per level increased to 9% from 7%)
 
   * Whirlwind
-    * increased "param2" to 6 from 5 (enhanced damage per level increased to 6% from 5%)
+    * increased "Param2" to 6 from 5 (enhanced damage per level increased to 6% from 5%)
     * increased "LevToHit" to 7 from 5 (attack rating per level increased to 7% from 5%)
 
   * War Cry
@@ -1705,7 +2119,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Earthshaker
     * increased "min1" to 12 from 5 (Fissure on striking proc chance increased to 12% from 5%)
-    * increased "min7" and "max7" to 112/112 from 50/50 (durability bonus increased to 112 from 50)
+    * ~~increased "min7" and "max7" to 112/112 from 50/50 (durability bonus increased to 112 from 50)~~ (see patch 1.04)
     * added cast2 to "prop8", set "min8" and "max8" to 15/15 (15% faster cast rate)
 
   * Bloodtree Stump
@@ -1847,7 +2261,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min2" to 25 from 20 (all resistances increased to 25-40% from 20-40%)
     * increased "min4" and "max4" to 69/69 from 20/20 (attacker takes lightning damage increased to 69 from 20, noice)
     * changed "prop6" to extra-fire from skill, changed "par6" to blank from 61, changed "min6" and "max6" to 7/12 from 1/1 (7-12% to fire skill damage instead of level 1 Fire Mastery)
-    * changed "prop7" to extra-ltng from skill, changed "par7" to blank from 63, changed "min7" and "max7" to 7/12 from 1/1 (12-15% to lightning skill damage instead of level 1 Lightning Mastery)
+    * changed "prop7" to extra-ltng from skill, changed "par7" to blank from 63, changed "min7" and "max7" to 12/15 from 1/1 (12-15% to lightning skill damage instead of level 1 Lightning Mastery)
     * changed "prop8" to pierce-cold from skill, changed "par8" to blank from 65, changed "min8" and "max8" to 7/12 from 1/1 (-7-12% enemy cold resistance instead of level 1 Cold Mastery)
     * added dmg% to "prop9", set "min9" and "max9" to 100/150 (100-150% enhanced damage)
 
@@ -2023,7 +2437,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * added swing1 to "prop6", set "min6" and "max6" to 10/10 (10% increased attack speed)
 
   * Ghoulhide
-    * increased "par2" to 20 from 16 (damage to undead per level increased to 2.5 from 2)
+    * increased "par2" to 20 from 16 (damage to undead per level increased to 2.5% from 2%)
 
   * Lavagout (Lava Gout)
     * increased "min3" to 4 from 2 (Enchant on striking proc chance increased to 4% from 2%)
@@ -2192,7 +2606,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * Gutsiphon (Gut Siphon)
     * increased "min1" to 185 from 160 (enhanced damage increased to 185-220% from 160-220%)
     * increased "min3" to 14 from 12 (life stolen increased to 14-18% from 12-18%)
-    * increased "min5" and "max5" to 45/45 from 33/33 (open wounds proc chance increased to 45% from 33%)
+    * increased "min5" and "max5" to 45/45 from 33/33 (open wounds increased to 45% from 33%)
     * added manasteal to "prop6", set "min6" and "max6" to 3/6 (3-6% mana stolen per hit)
 
   * Razoredge (Razor's Edge)
@@ -2282,7 +2696,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min6" and "max6" to 22/13 from 11/7 (Spirit of Barbs charge count increased to 22 from 11, level increased to 13 from 7)
 
   * Gargoyle's Bite
-    * decreased "par3" to 150 from 250, increased "min3" and "max3" to 1574/1574 from 300/300 (poison length reduced to 150 frames/6 seconds from 250 frames/10 seconds, poison bitrate increased to 1574 from 300 [poison damage increased to 922 over 6 seconds from 293 over 10 seconds])
+    * decreased "par3" to 150 from 250, increased "min3" and "max3" to 1574/1574 from 300/300 (poison length decreased to 150 frames/6 seconds from 250 frames/10 seconds, poison bitrate increased to 1574 from 300 [poison damage increased to 922 over 6 seconds from 293 over 10 seconds])
     * changed "prop5" to oskill from charged, changed "min5" to 8 from 60 (Plague Javelin charges changed to oskill, level decreased to 8-11 from 11)
     * added dmg-ac to "prop6", set "min6" and "max6" to -110/-110 (-110 monster defense per hit)
     * added extra-pois to "prop7", set "min7" and "max7" to 11/15 (11-15% poison skill damage)
