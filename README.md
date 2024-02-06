@@ -14,7 +14,7 @@ You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mod
 You can check out older versions of DMMod at [DMMod Archive](https://github.com/DarkMasterMan0/DMMod-Archive), use the installation instructions above with the DMMod folder of whichever version you'd like.
 
 # What is DMMod?
-DMMod is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "original feel" of the game. Some very minor changes to drop rates (Baal's quest drop and low level uniques being able to drop earlier).
+DMMod is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "original feel" of the game. Some very minor changes to drop rates (low level uniques being able to drop earlier and Hell Baal's quest drop having a guaranteed Arpaska's Medallion).
 
 Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs to underused runewords (like Holy Thunder and Venom) and nerfs to overtuned runewords (Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to weaker/underused skills (like Poison Dagger and Iron Maiden) and a few nerfs to overtuned skills (like Blessed Hammer and Holy Shield), changes to magic/rare item affixes (adding a max level cap to lower tier affixes to reduce the size of the affix pool at higher levels for example).
 
