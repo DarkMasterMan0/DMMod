@@ -7,18 +7,16 @@ Drop the top-level DMMod folder into your D2R `mods` folder (the file path will 
 
 Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod DMMod -txt` to the target line (it will look similar to `"H:\Games\Diablo II Resurrected\D2R.exe" -mod DMMod -txt` if you did it correctly). You can now use this shortcut to launch D2R with DMMod as the active mod.
 
-You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mods, download it from here: https://www.d2rmodding.com/d2rlaunch After you install it you can download DMMod using the `Download New Mod` button on the right side and selecting DMMod in the tab that appears. Be aware that I am currently learning D2RLaunch's functionalities so some things might break if you try using them (like the `Check for Mod Updates` button, it has some weird behavior that can brick the DMMod install and I have yet to figure out what causes it).
+You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mods, download it from here: https://www.d2rmodding.com/d2rlaunch After you install it you can download DMMod using the `Download New Mod` button on the right side and selecting DMMod in the tab that appears.
 
 **BACKUP YOUR SAVES OFTEN:** Any time your computer has a hard shutdown (crash, power outage, pulled plug, etc.) it will cause the active RAM to get corrupted which includes your currently active character and the respective shared stash (softcore/hardcore). You'll find your save files in `C:\Users\username\Saved Games\Diablo II Resurrected\DMMod`, you can backup the whole folder or just the `.d2s` (character) and `.d2i` (shared stash) files. D2RLaunch has the option to automate backups, you'll find it under the `Options > QoL Options > Auto-Backup Characters` section.
 
 You can check out older versions of DMMod at [DMMod Archive](https://github.com/DarkMasterMan0/DMMod-Archive), use the installation instructions above with the DMMod folder of whichever version you'd like.
 
 # What is DMMod?
-DMMod is a mostly vanilla (like ~95% vanilla I'd say) mod that aims to address some of the balance gaps in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "original feel" of the game. Some very minor changes to drop rates (low level uniques being able to drop earlier and Hell Baal's quest drop having a guaranteed Arpaska's Medallion).
+DMMod is a mostly vanilla (~90-95% vanilla) mod that aims to address some of the imbalances in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "original feel" of the game. Some very minor changes to drop rates (low level uniques being able to drop earlier and Hell Baal's quest drop having a guaranteed Arpaska's Medallion).
 
-Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs to underused runewords (like Holy Thunder and Venom) and nerfs to overtuned runewords (Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to weaker/underused skills (like Poison Dagger and Iron Maiden) and a few nerfs to overtuned skills (like Blessed Hammer and Holy Shield), changes to magic/rare item affixes (adding a max level cap to lower tier affixes to reduce the size of the affix pool at higher levels for example).
-
-I may or may not make more changes in future versions, I was going to mess with crafting recipes and a few more skills (Poison Explosion, Maul, etc.) but I'm really getting the itch to actually play D2R instead of modding it so I'm not making any definite plans regarding future changes for the moment. :P
+Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs/changes to underused runewords (like Holy Thunder, Venom, and Wind) and nerfs to overtuned runewords (like Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to underused skills (like Poison Dagger, Iron Maiden, and Defiance) and a few nerfs to overtuned skills (like Blessed Hammer and Holy Shield), changes to magic/rare item affixes (adding a max level cap to lower tier affixes to decrease the affix pool at higher levels), and monster stat changes to assist physical characters (decreasing block chance of Act Bosses and Ubers [but increasing their defense to compensate], decreasing the level of Ubers, etc.).
 
 Feel free to make your own changes, that's why I included the .txt files. :) If you do decide to release your own version of DMMod publicly then you must release it with your modified source code as well as per the GPL 3.0 license.
 
@@ -29,7 +27,7 @@ Thanks to:
 
 * Bonesy for the big help with guidance on specific edits, his video guides, and the massive amount of effort he's put into the D2R modding scene in general. Check out his stuff on [D2RModding.com](D2RModding.com) and check out the D2R-Modding Discord!
 
-* The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at [d2mods.info](d2mods.info) and check out their Discord as well!
+* The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at [d2mods.info](d2mods.info) and check out the Phrozen Keep Discord as well!
 
 * Vaska, Pavke, and Arsteel for item ideas and various discussions.
 
@@ -38,12 +36,110 @@ Thanks to:
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis.
 
+**Patch 1.05 Changelog** (3-22-24)
+  * believe it or not, even more fixes and rephrasing/clarifications ;)
+
+  * data>global>excel
+    * automagic.txt
+      * "of Minor Rejuvenation" through "of Super Rejuvenation"
+        * added new entries for "of Minor Rejuvenation" through "of Super Rejuvenation" (cloned row 39)
+        * set "group" to 502
+        * set "mod1code" to regen-mana
+      * of Minor Rejuvenation
+        * set "levelreq" to 3 (level requirement set to 3, only applies to magic/rare items)
+        * set "frequency" to 4 (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so would be 4/13 in this case)
+        * set "mod1min" and "mod1max" to 10/14 (regenerate mana 10-14%)
+      * of Light Rejuvenation
+        * set "level" to 11 (item level requirement set to 11)
+        * set "levelreq" to 9
+        * set "frequency" to 3
+        * set "mod1min" and "mod1max" to 15/20 (regenerate mana 15-20%)
+      * of Rejuvenation
+        * set "level" to 25
+        * set "levelreq" to 19
+        * set "frequency" to 3
+        * set "mod1min" and "mod1max" to 21/28 (regenerate mana 21-28%)
+      * of Greater Rejuvenation
+        * set "level" to 42
+        * set "levelreq" to 32
+        * set "frequency" to 2
+        * set "mod1min" and "mod1max" to 29/40 (regenerate mana 29-40%)
+      * of Super Rejuvenation
+        * set "level" to 65
+        * set "levelreq" to 49
+        * set "frequency" to 1
+        * set "mod1min" and "mod1max" to 41/55 (regenerate mana 41-55%)
+    * magicsuffix.txt
+      * of the Archmagus
+        * added new entry for "of the Archmagus" (cloned row 177)
+        * set "version" to 100 (only spawns in expansion)
+        * set "level" to 57 (item level requirement set to 57)
+        * set "levelreq" to 42 (level requirement set to 42)
+        * set "frequency" to 4 (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so 4/15 in this case)
+        * set "mod1min" and "mod1max" to 30/30 (30% faster cast rate)
+        * set "itype1" to staf (only spawns on staves)
+    * missiles.txt
+      * "bladefury1" through "bladefragment3"
+        * changed "Half2HSrc" to blank from 1 (2-handed weapons are no longer penalized to 3/8 damage with Blade Fury, they are now only penalized to 3/4 damage like 1-handed weapons)
+    * monstats.txt
+      * act3hire (Act 3 mercenary)
+        * changed "rightArmItemType" to blde from swor (allows Act 3 mercs to use daggers in addition to swords)
+    * runes.txt
+      * Runeword47 (Grief)
+        * increased "T1Min1" and "T1Max1" to 210/240 from 180/200 (enhanced damage increased to 210-240% from 180-200%)
+        * increased "T1Min2" and "T1Max2" to 130/150 from 120/140 (+damage increased to 130-150 from 120-140)
+        * decreased "T1Min3" to 30 from 35 (increased attack speed decreased to 30-40% from 35-40%)
+      * Runeword91 (Oath)
+        * decreased "T1Min1" and "T1Max1" to 160/270 from 210/340 (enhanced damage decreased to 160-270% from 210-340%)
+      * Runeword134 (Steel)
+        * changed "itype5" to blank from club (can no longer be made in clubs)
+      * Runeword162 (White)
+        * decreased "T1Min1" and "T1Max1" to 2/2 from 3/3 (poison and bone skills decreased to 2 from 1)
+        * decreased "T1Min3" and "T1Max3" to 15/15 from 20/20 (faster cast rate decreased to 15% from 20%)
+        * decreased "T1Min5" and "T1Max5" to 1/1 from 3/3 (Bone Armor skill level decreased to 1 from 3)
+        * decreased "T1Min6" and "T1Max6" to 1/1 from 2/2 (Bone Spear skill level decreased to 1 from 2)
+    * skilldesc.txt
+      * concentration
+        * copied and deleted all stats from "dsc2line1" through "dsc2calca1" and pasted them to "descline3" through "desccalca3" (moved % chance of uninterruptible attack location on the tooltip)
+        * changed "desccalca3" to par5+skill('Concentration'.blvl)*par6 from par5 (added % chance of uninterruptible attack level scaling to tooltip)
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+      * holy shield
+        * added 75 to "descline5", added StrSkillHSFasterBlock to "desctexta5", added par9+skill('Holy Shield'.blvl)*pa10 to "desccalca5" (added faster block rate to Holy Shield's tooltip)
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+    * skills.txt
+      * Concentration
+        * changed "aurastatcalc2" to par5+skill('Concentration'.blvl)*par6 from par5 (Concentration gains an additional 4% chance for uninterruptible attack chance per hard point)
+        * changed "*Param5 Description" to % chance for uninterruptible attack baseline from % chance for uninterruptible attack
+        * added 4 to "Param6", added % chance for uninterruptible attack per level to "*Param6 Description"
+      * Holy Shield
+        * changed "aurastatcalc3" to par9+skill('Holy Shield'.blvl)*pa10 from 16 (Holy Shield has 18% faster block rate baseline and gains an additional 2% FBR per hard point instead of a flat 16% FBR)
+        * added 16 to "Param9", added Faster Block Rate % baseline to "*Param9 Description"
+        * added 2 to "Param10", added Faster Block Rate % per level to "*Param10 Description"
+    * uniqueitems.txt
+      * Spellsteel
+        * deleted all stats from "prop11" through "max11" and moved the other stat over (removed 15% increased attack speed)
+      * Blackbog's Sharp
+        * changed "prop3" to dmg-norm from dmg%, changed "min3" and "max3" to 18/48 from 100/100 (adds 18-48 damage instead of 100% enhanced damage)
+      * Alma Negra
+        * increased "min6" and "max6" to 178/215 from 110/155 (attack rating increased to 178-215 from 110-155)
+        * increased "min7" and "max7" to 27/41 from 12/23 (adds damage increased to 27-41 from 12-23)
+      * Sandstorm Trek
+        * deleted all stats from "prop10" through "max10" (removed 50% poison length reduced)
+      * Arpaska's Medallion
+        * added res-all to "prop3", added -15/-15 to "min3" and "max3" (all resistances -15%)
+    * weapons.txt
+      * all staves
+        * added 502 to "auto prefix" (staves can roll the rejuvenation automods, see automagic.txt above)
+  * data>local>lng>strings
+    * skills.json
+      * added new entry for "id" 52004 (StrSkillHSFasterBlock)
+
 **Patch 1.04 Changelog** (2-5-24)
   * yet more typo fixes and clarification of changes
 
   * data>global>excel
     * monstats.txt
-      * vulture1 through vulture6
+      * "vulture1" through "vulture6"
         * changed "nomultishot" to 1 from blank (unique vultures no longer spawn with the Multishot affix)
     * setitems.txt
       * Civerb's Ward
@@ -447,7 +543,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
         * increased "2handmindam" and "2handmaxdam" to 41/61 from 39/59
       * Matriarchal Spear
         * increased "2handmindam" and "2handmaxdam" to 80/116 from 78/114
-        * changed "speed" to -5 from blank (changed weapon speed modifier [WSM] to -5 from 0)
+        * changed "speed" to -5 from blank (changed weapon speed modifier [WSM] to -5 from 0 [for Warren's IAS calculator breakpoint purposes use a -10 WSM spear and set "Slowed By" to 5, this will simulate a -5 WSM base)
       * Matriarchal Pike
         * increased "2handmindam" to 46 from 44
         * changed "speed" to 10 from 20 (changed WSM to 10 from 20)
@@ -478,36 +574,36 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
         * ~~changed "AkaraMin" and "AkaraMax" to blank from 1/1 (Akara no longer sells minor mana potions in Normal)~~
       * ~~Akara Potion Upgrade~~ (see patch 1.03b)
         * ~~created new entry for "Akara Potion Upgrade" (cloned row 86)~~
-        * ~~changed code to blank from mp1 (prevents minor mana potion graphic from appearing in Akara's vendor menu)~~
+        * ~~changed "code" to blank from mp1 (prevents minor mana potion graphic from appearing in Akara's vendor menu)~~
         * ~~set "invwidth" and "invheight" to 0/0 (prevents the now invisible minor mana potion from having a tile/"clickbox" in her vendor menu)~~
 
     * runes.txt
-      * Ancient's Pledge
+      * Runeword1 (Ancient's Pledge)
         * decreased "T1Min2" and "T1Max2" to 4/4 from 13/13 (all resistances decreased to 4% to 13%)
         * decreased "T1Min3" and "T1Max3" to 20/20 from 50/50 (enhanced defense decreased to 20% from 50%)
-      * Insight
+      * Runeword62 (Insight)
         * decreased "T1Min1" and "T1Max1" to 42/77 from 90/120 (enhanced damage decreased to 42-77% from 90-120%)
         * deleted all stats from "T1Code3" through "T1Max4" and moved the other stats over (removed 23% magic find and level 1-3 Critical Strike oskill)
         * decreased new "T1Min3" and "T1Max3" to 10/10 from 35/35 (faster cast rate decreased to 10% from 35%)
-      * Lore
+      * Runeword75 (Lore)
         * deleted all stats from "T1Code1" through "T1Max1" and moved the other stats over (removed 10 energy)
         * deleted all stats from new "T1Code3" through "T1Max3" (removed 2 mana after each kill)
         * added move1 to "T1Code3, set "T1Min3" and "T1Max3" to -20/-20 (-20% faster run/walk)
-      * Stealth
+      * Runeword133 (Stealth)
         * decreased "T1Min3" and "T1Max3" to 8/8 from 10/10 (faster run/walk decreased to 8% from 10%)
         * deleted all stats from "T1Code4" through "T1Max4" (removed 10% faster cast rate)
         * added light to "T1Code4", set "T1Min4" and "T1Max4" to -3/-3 (-3 light radius)
-      * Valor
+      * Runeword152 (Valor)
         * changed "*RunesUsed" to NefIth, changed "Rune1" to r04 from r07 (first rune is Nef rune instead of Tal rune [this breaks existing Valors, you'll have to make new ones. Sorry.])
         * increased "T1Min1" and "T1Max1" to 2/2 from 1/1 (damage reduced increased to 2 from 1)
         * deleted all stats from "T1Code3" through "T1Max3" and moved the other stat over (removed 10% faster run/walk)
         * changed new "T1Code3" to all-stats from swing2, decreased "T1Min3" and "T1Max3" to 3/3 from 10/10 (3 to all attributes instead of 10% increased attack speed)
-      * Hustle (armor)
+      * Runeword171 (Hustle [armor])
         * decreased "T1Min1" and "T1Max1" to 23/23 from 33/33 (faster run/walk decreased to 23% from 33%)
         * decreased "T1Min3" and "T1Max3" to 20/20 from 25/25 (increased attack speed decreased to 20% from 25%)
         * deleted all stats from "T1Code4" through "T1Max4" and moved the other stat over (removed all resistances 10%)
         * decreased new "T1Min4" and "T1Max4" to 1/1 from 2/2 (Evade oskill level decreased to 1 from 2)
-      * Hustle (weapon)
+      * Runeword172 (Hustle [weapon])
         * decreased "T1Min1" and "T1Max1" to 12/12 from 15/15 (faster run/walk decreased to 12% from 15%)
         * decreased "T1Min2" and "T1Max2" to 60/85 from 95/110 (enhanced damage decreased to 60-85% from 95-110%)
 
@@ -558,11 +654,11 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 **Patch 1.02 Changelog (12-15-23)**
   * more fixing of typos and clarification/rephrasing of changes
-  * Holy Shield visual fixed (with some caveats, original shield no longer disappears so clipping may occur and also a bug where the HS graphic doesn't disappear when you unequip your shield), legacy graphics is "buggy" (floating, not swaying with movement or blocking, etc.) because it's now an overlay instead of part of the paladin's animations but it's "good enough" for now
+  * Holy Shield graphic fixed (with some caveats, original shield no longer disappears so clipping may occur and also a bug where the HS graphic doesn't disappear when you unequip your shield), legacy graphics is "buggy" (floating, not swaying with movement or blocking, etc.) because it's now an overlay instead of part of the paladin's animations
 
   * data>global>excel
     * overlay.txt
-      * holyshieldoverlay (part of a fix for Holy Shield visual to appear again)
+      * holyshieldoverlay (part of a fix for Holy Shield graphic to appear again)
         * added new entry for "holyshieldoverlay" (cloned row 5)
         * set "*ID" to 294
         * added holyshieldoverlay to "Filename"
@@ -610,20 +706,20 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * increased "durability" of normal/exceptional/elite armor by 33/75/125% (decimals 0.0-0.4 rounded down, 0.5+ rounded up) (does not apply retroactively to any armor found during DMMod 1.00, you'll need to find newly dropped armor to have the increased durability)
 
     * runes.txt
-      * Leaf
+      * Runeword72 (Leaf)
         * decreased "T1Min1" and "T1Max1" to 2/2 from 3/3 (fire skills decreased to 2 from 3)
         * decreased "T1Min3" and "T1Max3" to 12/12 from 33/33 (cold resist decreased to 12% from 33%)
         * decreased "T1Min4" and "T1Max4" to 1/1 from 3/3 (Inferno level decreased to 1 from 3)
         * decreased "T1Min5" and "T1Max5" to 1/1 from 3/3 (Fire Bolt level decreased to 1 from 3)
         * decreased "T1Min6" and "T1Max6" to 1/1 from 3/3 (Warmth level decreased to 1 from 3)
-      * Splendor
-        * changed "*RunesUsed" back to EthLum from EthDol
-        * changed "Rune2" back to r17 from r14 (changed second rune back to Lum from Dol)
+      * Runeword131 (Splendor)
+        * changed "*RunesUsed" to EthLum from EthDol
+        * changed "Rune2" to r17 from r14 (changed second rune to Lum from Dol)
 
     * skilldesc.txt
       * conversion
         * copied and deleted all stats from "dsc2line2" through "dsc2calcb2" and pasted them to "descline2" through "descalcb2" (moved duration location on the tooltip)
-        * changed "desccalca2" to par1+skill('Conversion'.blvl)*par2 from ln12
+        * changed "desccalca2" to par1+skill('Conversion'.blvl)*par2 from ln12 (added duration level scaling to tooltip)
         * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
 
     * skills.txt
@@ -1400,7 +1496,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * trangvampire
     * added new entry for "trangvampire" (cloned row 137)
-    * set "hcIdx" to 742 and "Code" to Z4 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
+    * set "hcIdx" to 742 and "Code" to Z4 (part of a change to allow Trang vampires to use necromancer casting frames instead of slow vampire casting frames)
 
 #### properties.txt
   * res-curse
@@ -1414,91 +1510,91 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * set "*Tooltip" to Heavenly Burden
 
 #### runes.txt
-  * Beast
+  * Runeword4 (Beast)
     * added mace to "itype4" (allows Beast to be created in maces)
     * changed "T1Code5" to oskill from charged, changed "T1Param5 to Maul from Summon Grizzly, decreased "T1Min5" and "T1Max5" to 3/3 from 5/13 (level 3 Maul oskill instead of Summon Grizzly charges)
 
-  * Brand
+  * Runeword10 (Brand)
     * changed "T1Code4" to hit-skill from gethit-skill, decreased "T1Min4" and "T1Max4" to 18/9 from 35/14 (Amplify Damage on striking instead of when struck, proc chance decreased to 18% from 35%, level decreased to 9 from 14)
 
-  * Chains of Honor
+  * Runeword14 (Chains of Honor)
     * increased "T1Min2" and "T1Max2" to 100/100 from 70/70 (enhanced defense increased to 100% from 70%)
 
-  * Doom
+  * Runeword26 (Doom)
     * added mace to "itype4"
 
-  * Enigma
+  * Runeword33 (Enigma)
     * changed "T1Code1" to ac% from ac and decreased "T1Min1" and "T1Max1" to 100/130 from 750/775 (100-130% enhanced defense instead of 750-775 defense)
     * decreased "T1Min2" and "T1Max2" to 5/5 from 14/14 (life after each kill decreased to 5 from 14)
     * deleted all stats from "T1Code3" through "T1Max4" and moved the other stats over (removed 45% faster run/walk and 0.75 strength per level)
     * decreased new "T1Param4" to 4 from 8 (magic find per level decreased to 0.5% from 1%)
 
-  * Famine
+  * Runeword39 (Famine)
     * added mace to "itype3"
     * increased "T1Min5" and "T1Max5" to 240/270 from 180/200 (magic damage increased to 240-270 from 180-200)
     * increased "T1Min6" and "T1Max6" to 100/300 from 50/200 (elemental damage increased to 100-300 from 50-200)
 
-  * Flickering Flame
+  * Runeword40 (Flickering Flame)
     * decreased "T1Min2" and "T1Max2" to 1/1 from 4/8 (Resist Fire aura level decreased to 1 from 4-8)
 
-  * Grief
-    * changed "T1Code1" to dmg% from dmg-dem/lvl, set "T1Min1" and "T1Max1" to 180/200 (180-200% enhanced damage instead of damage to demons per level)
-    * decreased "T1Min2" and "T1Max2" to 120/140 from 340/400 (+damage decreased to 120-140 from 340-400)
-    * increased "T1Min3" to 35 from 30 (increased attack speed increased to 35-40% from 30-40%)
+  * Runeword47 (Grief)
+    * ~~changed "T1Code1" to dmg% from dmg-dem/lvl, set "T1Min1" and "T1Max1" to 180/200 (180-200% enhanced damage instead of damage to demons per level)~~ (see patch 1.05)
+    * ~~decreased "T1Min2" and "T1Max2" to 120/140 from 340/400 (+damage decreased to 120-140 from 340-400)~~ (see patch 1.05)
+    * ~~increased "T1Min3" to 35 from 30 (increased attack speed increased to 35-40% from 30-40%)~~ (see patch 1.05)
 
-  * Heart of the Oak
+  * Runeword51 (Heart of the Oak)
     * added hamm to "itype3"
     * changed "T1Code2" to oskill from from charged, decreased "T1Min2" and "T1Max2" to 1/1 from 25/4 (Oak Sage charges changed to oskill, level decreased to 1 from 4)
     * decreased "T1Min1" and "T1Max1" to 30/30 from 40/40 (faster cast rate decreased to 30% from 40%)
     * decreased "T1Min4" and "T1Max4" to 2/2 from 3/3 (all skills decreased to 2 from 3)
     * decreased "T1Min6" and "T1Max6" to 25/30 from 30/40 (all resistances decreased to 25-30% from 30-40%)
 
-  * Holy Thunder
+  * Runeword54 (Holy Thunder)
     * changed "*RunesUsed" to EthRalOrt from EthRalOrtTal
     * deleted stats in "Rune4" (removed Tal rune)
     * decreased "T1Min2" and "T1Max2" to 10/30 from 20/60 (lightning damage decreased to 10-30 from 20-60)
     * decreased "T1Min4" and "T1Max4" to 40/40 from 60/60 (lightning resist decreased to 40% from 60%)
 
-  * Insight
+  * Runeword62 (Insight)
     * ~~decreased "T1Min1" and "T1Max1" to 90/120 from 200/260 (enhanced damage decreased to 90-120% from 200-260%)~~ (see patch 1.03)
     * decreased "T1Min2" and "T1Max2" to 35/60 from 180/250 (attack rating decreased to 35-60% from 180-250%)
     * ~~decreased "T1Min4" and "T1Max4" to 1/3 from 1/6 (Critical Strike oskill level decreased to 1-3 from 1-6)~~ (see patch 1.03)
     * decreased "T1Min6" and "T1Max6" to 1/3 from 12/17 (Meditation level decreased to 1-3 from 12-17)
 
-  * King's Grace
+  * Runeword65 (King's Grace)
     * added mace to "itype3"
     * added spea to "itype4"
     * increased "T1Min5" and "T1Max5" to 175/175 from 100/100 (attack rating against demons increased to 175 from 100)
     * increased "T1Min6" and "T1Max6" to 175/175 from 100/100 (attack rating against undead increased to 175 from 100)
     * added swing2 to "T1Code7", set "T1Min7" and "T1Max7" to 15/15 (15% increased attack speed)
 
-  * Kingslayer
+  * Runeword66 (Kingslayer)
     * added spea to "itype3"
     * increased "T1Min2" and "T1Max2" to 260/310 from 230/270 (enhanced damage increased to 260-310% from 230-270%)
     * increased "T1Min3" and "T1Max3" to 35/35 from 25/25 (target defense increased to -35% from -25%)
     * increased "T1Min6" and "T1Max6" to 4/4 from 1/1 (Vengeance oskill level increased to 4 from 1)
     * increased "T1Min7" and "T1Max7" to 120/120 from 40/40 (gold find increased to 120% from 40%)
 
-  * Last Wish
+  * Runeword69 (Last Wish)
     * changed "itype1" to weap and deleted all stats from "itype2" to "itype3" (allows Last Wish to be created in any weapon type)
     * increased "T1Min1" and "T1Max1" to 410/433 from 330/375 (enhanced damage increased to 410-433% from 330-375%)
     * increased "T1Min4" to 13 from 6 (Fade when struck proc chance increased to 13% from 6%)
 
-  * Lawbringer
+  * Runeword71 (Lawbringer)
     * added mace to "itype4"
     * added club to "itype5"
 
-  * Oath
+  * Runeword91 (Oath)
     * added hamm to "itype4"
 
-  * Obsession
+  * Runeword94 (Obsession)
     * decreased "T1Min3" and "T1Max3" to 55/55 from 65/65 (faster cast rate decreased to 55% from 65%)
     * decreased "T1Min4" and "T1Max4" to 35/35 from 60/60 (faster hit recovery decreased to 35% from 60%)
 
-  * Voice of Reason
+  * Runeword99 (Voice of Reason)
     * added spea to "itype3"
 
-  * Spirit
+  * Runeword130 (Spirit)
     * decreased "T1Min1" and "T1Max1" to 15/15 from 55/55 (faster hit recovery decreased to 15% from 55%)
     * decreased "T1Min2" and "T1Max2" to 21/32 from 89/112 (mana decreased to 21-32 from 89-112)
     * decreased "T1Min3" and "T1Max3" to 100/100 from 250/250 (defense vs missile decreased to 100 from 250)
@@ -1506,25 +1602,25 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * decreased new "T1Min4" and "T1Max4" to 15/20 from 25/35 (faster cast rate decreased to 15-20% from 25-35%)
     * decreased new "T1Min6" and T1Max6" to 1/1 from 2/2 (all skills decreased to 1 from 2)
 
-  * Splendor
+  * Runeword131 (Splendor)
     * ~~changed "*RunesUsed" to EthDol from EthLum~~ (see patch 1.01)
     * ~~changed "Rune2" to r14 from r17 (changed second rune to Dol from Lum)~~ (see patch 1.01)
     * increased "T1Min6" and "T1Max6" to 15/15 from 10/10 (faster cast rate increased to 15% from 10%)
 
-  * Stealth
+  * Runeword133 (Stealth)
     * deleted all stats from "T1Code2" through "T1Max2" and moved the other stats over (removed 6 dexterity)
     * ~~decreased new "T1Min3" and "T1Max3" to 10/10 from 25/25 (faster run/walk decreased to 10% from 25%)~~ (see patch 1.03)
     * ~~decreased "T1Min4" and "T1Max4" to 10/10 from 25/25 (faster cast rate decreased to 10% from 25%)~~ (see patch 1.03)
     * deleted all stats from "T1Min6" through "T1Max6" (removed faster hit recovery)
 
-  * Steel
+  * Runeword134 (Steel)
     * added hamm to "itype4"
-    * added club to "itype5"
+    * ~~added club to "itype5"~~ (see patch 1.05)
 
-  * Treachery
+  * Runeword148 (Treachery)
     * increased "T1Min2" to 12 from 5 and decreased "T1Max2" to 3 from 15 (Fade when struck proc chance increased to 12% from 5%, level decreased to 3 from 15)
 
-  * Valor
+  * Runeword152 (Valor)
     * new body armor runeword added to DMMod
     * set "complete" to 1 (allows Valor to be created)
     * added DMMod 1.0 to "*Patch Release"
@@ -1535,7 +1631,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * ~~added move2 to "T1Code3", set "T1Min3" and "T1Max3" to 10/10 (10% faster run/walk)~~ (see patch 1.03)
     * ~~added swing2 to "T1Code4", set "T1Min4" and "T1Max4" to 10/10 (10% increased attack speed)~~ (see patch 1.03)
 
-  * Venom
+  * Runeword154 (Venom)
     * changed "*RunesUsed" to TalMal from TalDolMal
     * deleted stats from "Rune2" and moved the other stats over (removed Dol rune)
     * decreased "T1Param1" to 75 from 125, increased "T1Min1" and "T1Max1" to 1521/1521 from 312/312 (poison length decreased to 75 frames/3 seconds from 125 frames/5 seconds, poison bitrate increased to 1521 from 312 [poison damage increased to 654 over 4 seconds from 273 over 6 seconds when averaged with Tal rune])
@@ -1543,21 +1639,21 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * changed "T1Code4" to pierce-pois from charged, deleted stats from "T1Param4", decreased "T1Min4" and "T1Max4" to 12/16 from 11/13 (-12-16% enemy poison resistance instead of Poison Nova charges)
     * added swing2 to "T1Code6", set "T1Min6" and "T1Max6" to 25/25 (25% increased attack speed)
 
-  * Wind
+  * Runeword163 (Wind)
     * increased "T1Min2" and "T1Max2" to 65/65 from 40/40 (increased attack speed increased to 65% from 40%)
     * increased "T1Min3" and "T1Max3" to 25/25 from 20/20 (faster run/walk increased to 25% from 20%)
     * changed "T1Param6" to 258 from 240, decreased "T1Min6" and "T1Max6" to 16/6 from 127/13 (Twister charges changed to Burst of Speed, charge count decreased to 16 from 127, level decreased to 6 from 13)
 
-  * Wrath
+  * Runeword168 (Wrath)
     * increased "T1Min3" and "T1Max3" to 71/330 from 41/240 (lightning damage increased to 71-330 from 41-240)
     * increased "T1Min4" and "T1Max4" to 133/177 from 85/120 (magic damage increased to 133-177 from 85-120)
     * increased "T1Max5" to 14 from 10 (Life Tap on striking level increased to 14 from 10)
     * increased "T1Max6" to 6 from 1 (Decrepify on striking level increased to 6 from 1)
 
-  * Zephyr
+  * Runeword170 (Zephyr)
     * increased "T1Min3" and "T1Max3" to 55/55 from 33/33 (enhanced damage increased to 55% from 33%)
 
-  * Hustle (armor)
+  * Runeword171 (Hustle [armor])
     * changed "*RunesUsed" to ShaelEldIo from ShaelKoEld
     * changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
     * changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
@@ -1565,7 +1661,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * ~~decreased "T1Min3" and "T1Max3" to 25/25 from 40/40 (increased attack speed decreased to 25% from 40%)~~ (see patch 1.03)
     * ~~decreased "T1Min5" and "T1Max5" to 2/2 from 6/6 (Evade oskill level decreased to 2 from 6)~~ (see patch 1.03)
 
-  * Hustle (weapon)
+  * Runeword172 (Hustle [weapon])
     * changed "*RunesUsed" to ShaelEldIo from ShaelKoEld
     * changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
     * changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
@@ -1574,8 +1670,8 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * ~~decreased new "T1Min2" and "T1Max2" to 95/110 from 180/200 (enhanced damage decreased to 95-110% from 180-200%)~~ (see patch 1.03)
     * increased new "T1Min3" and "T1Max3" to 2/2 (Fanaticism aura level increased to 2 from 1)
 
-  * Mosaic
-    * changed "complete" to blank from 1 (prevents Mosaic from being created)
+  * Runeword173 (Mosaic)
+    * ~~changed "complete" to blank from 1 (prevents Mosaic from being created)~~ (see patch 1.05)
 
 #### setitems.txt
   * all medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their set stats (automagic.txt affixes don't apply to set/unique items)
@@ -1636,7 +1732,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * decreased "min5" and "max5" to 30/30 from 45/45 (all resistances decreased to 30% from 45%)
 
   * Trang-Oul's Avatar
-    * now uses necro casting frames instead of slow vampire casting frames
+    * now uses necromancer casting frames instead of slow vampire casting frames
     * Trang-Oul's Guise
       * increased "min3" and "max3" to 75/75 from 20/20 (attacker takes damage increased to 75 from 20)
       * increased "min5" and "max5" to 11/11 from 5/5 (replenish life increased to 11 from 5)
@@ -1656,7 +1752,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * increased "min1" and "max1" to 16/11 from 10/3 (Glacial Spike when struck proc chance increased to 16% from 10%, level increased to 11 from 3)
     * M'avina's Caster
       * increased "min1" and "max1" to 233/233 from 188/188 (enhanced damage increased to 233% from 188%)
-      * increased "min3" and "max3" to 13/13 from 1/1 (fires magic arrows level increased to 13 from 1)
+      * increased "min3" and "max3" to 13/13 from 1/1 (fires Magic Arrows level increased to 13 from 1)
       * increased "min4" and "max4" to 125/125 from 50/50 (attack rating increased to 125 from 50)
       * increased "amin2a" and "amax2a" to 13/22 from 10/15 (Nova on striking proc chance increased to 13% from 10%, level increased to 22 from 15)
       * added pierce-cold to "aprop4a", set "amin4a" and "amax4a" to 25/25 (-25% enemy cold resistance for full set bonus)
@@ -1859,7 +1955,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * added knif to "itypea2" (allows daggers/throwing knives to be used with Jab)
 
   * Multiple Shot
-    * decreased "manashift" to 6 from 8 (changes the precision of the skill mana cost, 6 is a multipler of 64/256 or 25% while 8 is a multiplier of 256/256 or 100%)
+    * decreased "manashift" to 6 from 8 (changes the precision of the skill mana cost, 6 is a multiplier of 64/256 or 25% while 8 is a multiplier of 256/256 or 100%)
     * increased "mana" to 12 from 4 (combined with "manashift" change the initial mana cost decreased to 3 from 4)
     * increased "lvlmana" to 3 from 1 (mana cost increase per level decreased to 0.75 from 1)
 
@@ -1898,7 +1994,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * decreased "ELevLen1" through "ELevLen3" to 3 from 10 (poison length per level decreased to 3 frames/0.12 seconds from 10 frames/0.4 seconds)
 
   * Iron Maiden
-    * added damageresist to "aurastat1", -par7 - (skill('Amplify Damage'.blvl) * par8) to "aurastatcalc1", set "Param7" to 33 and "Param8" to 2 (reduces physical resistance by 33% baseline and an additional 2% per hard point in Amplify Damage)
+    * added damageresist to "aurastat1", -par7 - (skill('Amplify Damage'.blvl) * par8) to "aurastatcalc1", set "Param7" to 33 and "Param8" to 2 (decreases physical resistance by 33% baseline and an additional 2% per hard point in Amplify Damage)
     * increased "Param6" to 35 from 25 (damage returned per level increased to 35% from 25%)
 
   * Life Tap
@@ -1906,7 +2002,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "Param6" to 1 from 0 (life returned per level increased to 1% from 0%)
 
   * Lower Resist
-    * added magicresist to "aurastat5", set "aurastatcalc5" to -dm56 (reduces magic resist once again)
+    * added magicresist to "aurastat5", set "aurastatcalc5" to -dm56 (decreases magic resist once again)
 
   * Bone Spirit
     * increased "EMinLev5" and "EMaxLev5" to 27/28 from 20/21 (magic damage per level at level 29+ increased to 27-28 from 20-21)
@@ -1920,11 +2016,11 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "Param4" to 45 from 40 (damage returned per level increased to 45% from 40%)
 
   * Defiance
-    * added ironskin to "passivestate", skill_armor_percent to "passivestat1", skill('Defiance'.blvl) * par8 to "passivecalc1" (Defiance now passively gives 5% skill enhanced defense per hard point)
+    * added ironskin to "passivestate", skill_armor_percent to "passivestat1", skill('Defiance'.blvl) * par8 to "passivecalc1" (Defiance passively gives 5% skill enhanced defense per hard point)
     * set "Param8" to 5, set "*Param8 Description" to Armor % passive synergy
 
   * Vengeance
-    * decreased "manashift" to 5 from 6 (changes the precision of the skill mana cost, 5 is a multipler of 32/256 or 12.5% while 6 is a multiplier of 64/256 or 25%)
+    * decreased "manashift" to 5 from 6 (changes the precision of the skill mana cost, 5 is a multiplier of 32/256 or 12.5% while 6 is a multiplier of 64/256 or 25%)
     * increased "mana" to 20 from 16 (combined with "manashift" change the initial mana cost decreased to 2.5 from 4 and mana cost increase per level decreased to 0.125 from 0.25)
     * increased "Param2" to 7 from 6 (elemental damage per level increased to 7% from 6% to compensate for Resist Fire/Cold/Lightning damage synergy reduction)
     * increased "Param7" to 3 from 2 (Salvation damage synergy increased to 3% per level from 2%)
@@ -1935,18 +2031,18 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * doubled all stats from "EMin" through "EMaxLev5" (doubled damage)
 
   * Holy Shield
-    * changed "aurastate" to holyshieldclone from holyshield (no longer sets block rate to 2 frames and removes Holy Shield graphic, see states.txt)
-    * added skill_armor_percent to "aurastat2" (makes the defense bonus work again, the above change to the "aurastate" caused it to stop working)
-    * added item_fasterblockrate to "aurastat3", set "aurastatcalc3" to 16 (gives 16% faster block rate)
+    * changed "aurastate" to holyshieldclone from holyshield (no longer sets block rate to 2 frames ~~and removes Holy Shield graphic, see states.txt~~ [see patch 1.02])
+    * set "aurastat2" to skill_armor_percent (makes the defense bonus work again, the above change to the "aurastate" caused it to stop working)
+    * ~~set "aurastat3" to item_fasterblockrate, set "aurastatcalc3" to 16 (gives 16% faster block rate)~~ (see patch 1.05)
     * decreased "Param8" to 10 from 15 (Defiance defense synergy decreased to 10% per level from 15%)
 
   * Salvation
     * changed "srvdofunc" to 66 from 65
-    * changed "aurastatcalc1", "aurastatcalc2", and "aurastatcalc3" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(dm34/6):dm34):dm34 from dm34 (all resist bonus decreased to 1/6 when equipped by a mercenary with heavenly burden)
+    * changed "aurastatcalc1", "aurastatcalc2", and "aurastatcalc3" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(dm34/6):dm34):dm34 from dm34 (all resistances decreased to 1/6 effectiveness when equipped by a mercenary or Iron Golem with heavenly burden)
     * added velocitypercent to "passivestat1", set "passivecalc1" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par5):0):0 (-75% velocity when equipped by a mercenary with heavenly burden)
     * added attackrate to "passivestat2", set "passivecalc2" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par5):0):0 (-75% attack rate when equipped by a mercenary with heavenly burden)
     * added damageresist to "passivestat3", set "passivecalc3" to (stat('item_heavenlyburden'.accr)==1)?((stat('vitality'.base)==0)?(0+par6):0):0 (-100% PDR when equipped by a mercenary with heavenly burden)
-    * NOTE: Salvation still works as normal for paladins using Salvation as their active aura and for anyone wearing Tyrael's Might on their character, only mercs wearing TM and Iron Golems made from TM are affected.
+    * NOTE: Salvation still works as normal for paladins using Salvation as their active aura and for anyone wearing Tyrael's Might on their character, only mercs wearing TM and Iron Golems made from TM are penalized.
     * added fireresist to "passivestat4", set "passivecalc4" to dm34 (makes the fire resist bonus work again, the above change to "srvdofunc" caused it to stop working)
     * added coldresist to "passivestat5", set "passivecalc5" to dm34 (makes the cold resist bonus work again, the above change to "srvdofunc" caused it to stop working)
     * added lightresist to "passivestat6", set "passivecalc6" to dm34 (makes the lightning resist bonus work again, the above change to "srvdofunc" caused it to stop working)
@@ -1972,7 +2068,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * deleted stats from "ELenSymPerCalc" (removed War Cry stun length synergy)
 
   * Frenzy
-    * changed "auralencalc" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (now gains 2 frames/0.08 second duration per hard point in Frenzy, Increased Stamina duration synergy decreased to 8 frames/0.32 seconds from 10 frames/0.4 seconds)
+    * changed "auralencalc" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (Frenzy gains 2 frames/0.08 second duration per hard point, Increased Stamina duration synergy decreased to 8 frames/0.32 seconds per hard point from 10 frames/0.4 seconds)
     * changed "calc1" to ln12+skill('Double Swing'.blvl)*par8 from ln12+(skill('Double Swing'.blvl) + skill('Taunt'.blvl))*par8, increased "Param8" to 16 from 8 (removed Taunt synergy, doubled bonus from Double Swing synergy)
     * decreased "Param7" to 148 from 150 (combined with "auralencalc" change the base duration remains 6 seconds)
     * increased "LevToHit" to 9 from 7 (attack rating per level increased to 9% from 7%)
@@ -2000,10 +2096,10 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 #### states.txt
   * monsterset
-    * changed "gfxclass" to 742 from 135 (this is part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
+    * changed "gfxclass" to 742 from 135 (part of a change to allow Trang vampires to use necromancer casting frames instead of slow vampire casting frames)
 
   * holyshieldclone
-    * added a new entry for "holyshieldclone" (cloned row 103) (Holy Shield no longer sets block rate to 2 frames and removes Holy Shield graphic)
+    * added a new entry for "holyshieldclone" (cloned row 103) (Holy Shield no longer sets block rate to 2 frames ~~and removes Holy Shield graphic~~ [see patch 1.02])
 
 #### treasureclassex.txt
   * BaalQSpecial
@@ -2050,7 +2146,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "max8" to 8 from 3 (Decrepify charge level increased to 8 from 3)
     * changed "par9" to 116 from 101 (Conversion charges instead of Holy Bolt)
     * changed "par10" to 240 from 225 (Twister charges instead of Firestorm)
-    * added swing2 to "prop11", set "min11" and "max11" to 15/15 (15% increased attack speed)
+    * ~~added swing2 to "prop11", set "min11" and "max11" to 15/15 (15% increased attack speed)~~ (see patch 1.05)
     * added allskills to "prop12", set "min12" and "max12" to 1/1 (1 all skills)
 
   * Stormrider
@@ -2194,7 +2290,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * added openwounds to "prop9", set "min9" and "max9" to 60/60 (60% chance of open wounds)
 
   * Blackbog's Sharp
-    * changed "prop3" to dmg% from dmg-norm, changed "min3" and "max3" to 100/100 from 15/45 (100% enhanced damage instead of adds 15-45 damage)
+    * ~~changed "prop3" to dmg% from dmg-norm, changed "min3" and "max3" to 100/100 from 15/45 (100% enhanced damage instead of adds 15-45 damage)~~ (see patch 1.05)
     * added pierce-pois to "prop9", set "min9" and "max9" to 5/10 (-5-10% enemy poison resistance)
 
   * Stormspike
@@ -2592,7 +2688,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * added gethit-skill to "prop8", set "par7" to 71, set "min7" and "max7" to 13/9 (13% chance to cast level 9 Dim Vision when struck)
 
   * The Oculus
-    * decreased "min1" and "max1" to 2/2 from 3/3 (sorc skills decreased to 2 from 3)
+    * decreased "min1" and "max1" to 2/2 from 3/3 (sorceress skills decreased to 2 from 3)
 
   * Bloodmoon
     * changed "prop3" to oskill from charged, changed "min3" to 15 from 9 (Blood Golem charges changed to oskill)
@@ -2667,7 +2763,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min5" and "max5" to 200/250 from 50/100 (damage to demons increased to 200-250% from 50-100%)
     * increased "min7" and "max7" to 70/70 from 20/20 (faster run/walk increased to 70% from 20%)
     * changed "prop8" to aura from res-all, set "par8" to Salvation, set "min8" and "max8" to 1/1 (level 1 Salvation when equipped instead of all resistances 20-30%)
-    * added item_heavenlyburden to "prop10", set "min10" and "max10" to 1/1 (heavenly burden on mercenaries [Salvation aura only works at 1/6 effectiveness, -75% velocity and attack rate, -100% PDR only when equipped by the mercenary, no penalty for players])
+    * added item_heavenlyburden to "prop10", set "min10" and "max10" to 1/1 (heavenly burden on mercenaries [Salvation aura only works at 1/6 effectiveness, -75% velocity and attack rate, -100% PDR only when equipped by the mercenary or made into an Iron Golem, no penalty for players])
     * added allskills to "prop11", set "min11" and "max11" to 1/1 (1 all skills)
     * added res-poison-len to "prop12", set "min12" and "max12" to 175/175 (175% poison length reduced)
 
@@ -2738,14 +2834,14 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Alma Negra
     * increased "min5" and "max5" to 11/14 from 5/9 (magic damage reduced increased to 11-14 from 5-9)
-    * changed "prop6" to att from att%, increased "min6" and "max6" to 110/155 from 40/75 (110-155 attack rating instead of 40-75% attack rating)
-    * changed "prop7" to dmg-norm from dmg%, decreased "min7" and "max7" to 12/23 from 40/75 (adds 12-23 damage instead of 40-75% enhanced damage)
+    * ~~changed "prop6" to att from att%, increased "min6" and "max6" to 110/155 from 40/75 (110-155 attack rating instead of 40-75% attack rating)~~ (see patch 1.05)
+    * ~~changed "prop7" to dmg-norm from dmg%, decreased "min7" and "max7" to 12/23 from 40/75 (adds 12-23 damage instead of 40-75% enhanced damage)~~ (see patch 1.05)
 
   * Widowmaker
     * added ease to "prop6", set "min6" and "max6" to -15/-15 (requirements -15%)
 
   * Bloodraven's Charge (Blood Raven's Charge)
-    * increased "min3" and "max3" to 21/21 from 13/13 (fires explosive arrows increased to level 21 from 13)
+    * increased "min3" and "max3" to 21/21 from 13/13 (fires Explosive Arrows increased to level 21 from 13)
     * increased "min4" to 3 from 2 (bow and crossbow skills increased to 3-4 from 2-4)
     * increased "min5" and "max5" to 72/9 from 30/5 (Revive charge count increased to 72 from 30, level increased to 9 from 5)
     * added pierce-fire to "prop6", set "min6" and "max6" to 21/24 (-21-24% enemy fire resistance)
@@ -2828,7 +2924,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Sandstorm Trek
     * increased "par4" to 18 from 8 (stamina per level increased to 2.25 from 1)
-    * added res-poison-len to "prop10", set "min10" and "max10" to 50/50 (50% poison length reduced)
+    * ~~added res-poison-len to "prop10", set "min10" and "max10" to 50/50 (50% poison length reduced)~~ (see patch 1.05)
 
   * Marrowwalk
     * increased "min3" to 35 from 13 (Bone Prison charge count increased to 35 from 13)
@@ -2886,7 +2982,8 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * set "code" to cm1
     * set "carry1" to blank
     * set "prop1" to oskill, set "par1" to Teleport, set "min1" and "max1" to 1/1 (level 1 Teleport oskill)
-    * set "prop2" to res-all-max, set "min2" and "max2" to -15/-15 (-15% maximum all resists)
+    * set "prop2" to res-all-max, set "min2" and "max2" to -15/-15 (-15% maximum all resistances)
+    * added res-all to "prop3", set "min3" and "max3" to -15/-15 (all resistances -15%) (see patch 1.05)
 
 #### weapons.txt
   * increased "mindam", "maxdam", "2handmindam", "2handmaxdam", "minmisdam", and "maxmisdam" of all exceptional weapons by 15% (decimals 0.0-0.4 rounded down, 0.5+ rounded up)
@@ -2915,12 +3012,12 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 ### data>global>animdata.d2
 * trangvampire
-  * added new entry for "trangvampire" and set it to use necro casting animations (part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
+  * added new entry for "trangvampire" and set it to use necromancer casting animations (part of a change to allow Trang vampires to use necromancer casting frames instead of slow vampire casting frames)
 
 ### data>hd>character
 #### monsters.json
   * trangvampire
-    * added new entry for "trangvampire" (part of a change to allow Trang vampires to use necro casting frames instead of slow vampire casting frames)
+    * added new entry for "trangvampire" (part of a change to allow Trang vampires to use necromancer casting frames instead of slow vampire casting frames)
 
 ### data>hd>global>ui>logoanimation
   * added custom logoanimation.sprite with DMMod logo

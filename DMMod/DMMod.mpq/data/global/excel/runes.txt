@@ -45,7 +45,7 @@ Runeword43	Amity																																																	0
 Runeword44	Fury	1			109	mele									JahGulEth	r31	r25	r05				dmg%		209	209	swing2		40	40	noheal		1	1	openwounds		66	66	lifesteal		6	6	deadly		33	33	skill	147	5	5	0
 Runeword45	Gloom	1			110	tors									FalUmPul	r19	r22	r21				ac%		170	230	res-all		30	30	gethit-skill	Dim Vision	15	3	balance2		10	10	dmg-to-mana		5	5	light		-3	-3	half-freeze		1	1	0
 Runeword46	Glory																																																	0
-Runeword47	Grief	1			Previously Ladder Only	swor	axe								EthTirLoMalRal	r05	r03	r28	r23	r08		dmg%		180	200	dmg		120	140	swing3		35	40	hit-skill	Venom	35	15	pierce-pois		20	25	ignore-ac		1	1	heal-kill		10	15	0
+Runeword47	Grief	1			Previously Ladder Only	swor	axe								EthTirLoMalRal	r05	r03	r28	r23	r08		dmg%		210	240	dmg		130	150	swing3		30	40	hit-skill	Venom	35	15	pierce-pois		20	25	ignore-ac		1	1	heal-kill		10	15	0
 Runeword48	Hand of Justice	1			110	weap									SurChamAmnLo	r29	r32	r11	r28			swing2		33	33	dmg%		280	330	aura	Holy Fire	16	16	levelup-skill	Blaze	100	36	death-skill	Meteor	100	48	ignore-ac		1	1	pierce-fire		20	20	0
 Runeword49	Harmony	1			Previously Ladder Only	miss									TirIthSolKo	r03	r06	r12	r18			dmg%		200	275	dmg-elem		55	160	charged	Revive	25	20	aura	Vigor	10	10	oskill	Valkyrie	2	6	regen-mana		20	20	light		2	2	0
 Runeword50	Hatred																																																	0
@@ -88,7 +88,7 @@ Runeword87	Myth	1			111	tors									HelAmnNef	r15	r11	r04				hit-skill	Taunt	10
 Runeword88	Nadir	1			109	helm									NefTir	r04	r03					ac%		50	50	ac		10	10	light		-3	-3	charged	264	9	13	gold%		-33	-33	str		5	5					0
 Runeword89	Nature's Kingdom																																																	0
 Runeword90	Night																																																	0
-Runeword91	Oath	1			Previously Ladder Only	swor	axe	mace	hamm						ShaelPulMalLum	r13	r21	r23	r17			dmg%		210	340	swing1		30	30	hit-skill	Bone Spirit	30	20	charged	IronGolem	14	17	charged	Heart of Wolverine	20	16	abs-mag		10	15	indestruct		1	1	0
+Runeword91	Oath	1			Previously Ladder Only	swor	axe	mace	hamm						ShaelPulMalLum	r13	r21	r23	r17			dmg%		160	270	swing1		30	30	hit-skill	Bone Spirit	30	20	charged	IronGolem	14	17	charged	Heart of Wolverine	20	16	abs-mag		10	15	indestruct		1	1	0
 Runeword92	Obedience	1			Previously Ladder Only	pole	spea								HelKoThulEthFal	r15	r18	r10	r05	r19		dmg%		370	370	crush		40	40	kill-skill	enchant	30	21	pierce-fire		25	25	ac		200	300	balance3		40	40	res-all		20	30	0
 Runeword93	Oblivion																																																	0
 Runeword94	Obsession	1	1	2	D2R Ladder 1	staf									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		4	4	gethit-skill	Weaken	24	10	cast3		55	55	balance3		35	35	res-all		60	70	hp%		15	25	regen-mana		15	30	0
@@ -131,7 +131,7 @@ Runeword130	Spirit	1			Previously Ladder Only	swor	shld								TalThulOrtAmn	r07
 Runeword131	Splendor	1			110	shld									EthLum	r05	r17					light		3	3	gold%		50	50	mag%		20	20	ac%		60	100	block2		20	20	cast2		15	15	allskills		1	1	0
 Runeword132	Starlight																																																	0
 Runeword133	Stealth	1			109	tors									TalEth	r07	r05					red-mag		3	3	stam		15	15	move2		8	8	light		-3	-3													0
-Runeword134	Steel	1			109	swor	axe	mace	hamm	club					TirEl	r03	r01					swing2		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		50	50	dmg%		20	20									0
+Runeword134	Steel	1			109	swor	axe	mace	hamm						TirEl	r03	r01					swing2		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		50	50	dmg%		20	20									0
 Runeword135	Still Water																																																	0
 Runeword136	Sting																																																	0
 Runeword137	Stone	1			110	tors									ShaelUmPulLum	r13	r22	r21	r17			ac%		220	260	charged	Clay Golem	16	16	ac-miss		300	300	charged	Molten Boulder	80	16	str		16	16	vit		16	16	balance2		40	40	0
@@ -159,7 +159,7 @@ Runeword158	War																																																	0
 Runeword159	Water																																																	0
 Runeword160	Wealth	1			109	tors									LmKoTir	r20	r18	r03				gold%		250	250	mag%		100	100																					0
 Runeword161	Whisper																																																	0
-Runeword162	White	1			109	wand									DolIo	r14	r16					skilltab	7	3	3	red-mag		4	4	cast2		20	20	mana		13	13	skill	68	3	3	skill	84	2	2	skill	69	4	4	0
+Runeword162	White	1			109	wand									DolIo	r14	r16					skilltab	7	2	2	red-mag		4	4	cast2		15	15	mana		13	13	skill	68	1	1	skill	84	1	1	skill	69	4	4	0
 Runeword163	Wind	1			110	mele									SurEl	r29	r01					dmg%		120	160	swing2		65	65	move2		25	25	reduce-ac		50	50	hit-skill	Tornado	10	9	charged	258	16	6	balance2		15	15	0
 Runeword164	Wings of Hope																																																	0
 Runeword165	Wisdom	1	1	2	D2R Ladder 1	helm									PulIthEld	r21	r06	r02				pierce		33	33	manasteal		4	8	att%		15	25	mana-kill		5	5	nofreeze		1	1	enr		10	10					0

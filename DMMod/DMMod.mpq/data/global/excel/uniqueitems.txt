@@ -135,7 +135,7 @@ Islestrike	131	100	1			1		51	43	92a	Twin Axe		5	5000								dru		2	2	str		10	10	
 Pompe's Wrath	132	100	1			1		53	45	9mp	Crowbill		5	5000	cred	cred		invmpiu				hit-skill	244	13	10	slow		50	50	dmg-fire		79	150	knock		1	1	dmg%		140	170	pierce-fire		9	13	hit-skill	87	17	1																						0
 Guardian Naga	133	100	1			1		56	48	9wa	Naga		5	5000								hit-skill	92	9	8	thorns		30	45	res-pois		30	45	dmg%		150	180	dmg-pois	250	256	256	dmg-max		20	20	extra-pois		8	12																						0
 Warlord's Trust	134	100	1			1		43	35	9la	Military Axe		5	5000	whit	whit						ac		250	250	regen		25	25	vit/lvl	7			res-all		20	20	rep-dur	25			dmg%		175	175																										0
-Spellsteel	135	100	1			1		47	39	9ba	Bearded Axe		5	5000	whit	whit						ease		-60	-60	mana		100	100	red-mag		12	15	cast1		20	20	dmg%		165	165	regen-mana		25	25	charged	54	30	1	charged	87	30	8	charged	116	100	10	charged	240	60	12	swing2		15	15	allskills		1	1		0
+Spellsteel	135	100	1			1		47	39	9ba	Bearded Axe		5	5000	whit	whit						ease		-60	-60	mana		100	100	red-mag		12	15	cast1		20	20	dmg%		165	165	regen-mana		25	25	charged	54	30	1	charged	87	30	8	charged	116	100	10	charged	240	60	12	allskills		1	1						0
 Stormrider	136	100	1			1		49	41	9bt	Tabar		5	5000	lred	lred		inv9btu				hit-skill	53	11	10	hit-skill	38	13	0	dmg-ltng		1	350	dmg-norm		35	75	dmg%		100	100	dur		50	50	light-thorns		15	15	gethit-skill	42	15	5	abs-ltng%		15	20	move2		25	25										0
 Boneslayer Blade	137	100	1			1		50	42	9ga	Gothic Axe		5	5000				invgaxu				att-und/lvl	20			dmg-und/lvl	40			str		15	15	swing2		20	20	att%		50	70	dmg%		180	220	charged	101	200	20	gethit-skill	101	50	0	dmg-mag		95	125														0
 The Minataur	138	100	1			1		53	45	9gi	Ancient Axe		5	5000				inv9giu				dmg-ac		-90	-90	nofreeze		1	1	str		15	25	slow		50	50	crush		30	30	dmg-norm		20	30	dmg%		200	300																						0
@@ -170,7 +170,7 @@ Todesfaelle Flamme	166	100	1			1		54	46	9fb	Zweihander		5	5000				inv9fbu				dmg
 Swordguard	167	100	1			1		55	48	9gd	Executioner Sword		5	5000	bwht	bwht		invgsdu				ease		-50	-50	ac/lvl	40			res-all		15	25	ac-miss		250	250	dmg-to-mana		30	30	dmg%		170	180	ac-hth		350	350	balance2		20	20	block		20	20	block2		20	20	ac%		50	70						0
 Spineripper	168	100	1			1		40	32	9dg	Poignard		5	5000								ignore-ac		1	1	lifesteal		8	8	noheal		1	1	swing3		15	15	dex		10	10	dmg%		200	240	dmg-norm		15	27	nec		1	1																		0
 Heart Carver	169	100	1			1		44	36	9di	Rondel		5	5000								deadly		35	35	ignore-ac		1	1	dmg-norm		15	35	dmg%		190	240	skill	131	3	3	skill	142	4	4	skill	150	4	4	oskill	Find Potion	1	1	openwounds		60	60														0
-Blackbog's Sharp	170	100	1			1		46	38	9kr	Cinquedeas		5	5000				invkrsu				slow		50	50	ac		50	50	dmg%		100	100	swing3		30	30	dmg-pois	250	500	500	skill	73	5	5	skill	83	4	4	skill	92	4	4	pierce-pois		5	10														0
+Blackbog's Sharp	170	100	1			1		46	38	9kr	Cinquedeas		5	5000				invkrsu				slow		50	50	ac		50	50	dmg-norm		18	48	swing3		30	30	dmg-pois	250	500	500	skill	73	5	5	skill	83	4	4	skill	92	4	4	pierce-pois		5	10														0
 Stormspike	171	100	1			1		49	41	9bl	Stilleto		5	5000	cblu	cblu		inv9blu				dmg-ltng		1	200	light-thorns		50	50	gethit-skill	49	25	17	dmg%		150	150	res-ltng/lvl	11			sock		1	2	pierce-ltng		8	11																						0
 The Impaler	172	100	1			1		39	31	9sr	War Spear		5	5000	lred	lred						ignore-ac		1	1	att		200	200	swing2		20	20	openwounds		40	40	noheal		1	1	dmg%		140	170	skill	19	5	5	skill	14	3	3	skilltab	2	2	2	indestruct		1	1										0
 Kelpie Snare	173	100	1			1		41	33	9tr	Fuscina		5	5000				invtriu				slow		75	75	res-fire		50	50	hp/lvl	12			dmg-norm		30	50	str		10	15	dmg%		140	180	move2		20	30																						0
@@ -329,7 +329,7 @@ Demonhorn's Edge	325	100	1			1		69	61	bad	destroyer helm		5	5000	dgry	dgry						
 The Reaper's Toll	326	100	1			1		83	75	7s8	thresher		5	5000				invscy				dmg%		190	240	hit-skill	Decrepify	33	1	ignore-ac		1	1	lifesteal		11	15	ease		-25	-25	deadly		33	33	dmg-cold		4	44																						0
 Spiritkeeper	327	100	1			1		75	67	drd	earth spirit		5	5000								ac%		170	190	balance2		20	20	abs-ltng		9	14	res-fire		30	40	abs-cold%		15	25	res-pois-max		10	10	dru		1	2	skill	Oak Sage	2	3	skill	Heart of Wolverine	2	3	skill	Spirit of Barbs	2	3										0
 Hellrack	328	100	1			1		84	76	6hx	colossus crossbow		5	5000	cred			invhxbu				dmg%		180	230	dmg-elem	33	151	324	swing2		20	20	att%		100	150	sock		2	2	oskill	Immolation Arrow	16	19																										0
-Alma Negra	329	100	1			1		85	77	pac	sacred rondache		5	5000	blac	blac						ac%		180	210	block2		30	30	pal		1	2	block		20	20	red-mag		11	14	att		110	155	dmg-norm		12	23																						0
+Alma Negra	329	100	1			1		85	77	pac	sacred rondache		5	5000	blac	blac						ac%		180	210	block2		30	30	pal		1	2	block		20	20	red-mag		11	14	att		178	215	dmg-norm		27	41																						0
 Darkforge Spawn	330	100	1			1		72	64	nef	bloodlord skull		5	5000	cred	cred						ac%		140	180	cast2		30	30	mana%		10	10	skilltab	6	1	3	skilltab	7	1	3	skilltab	8	1	3																										0
 Widowmaker	331	100	1			1		73	65	6sw	ward bow		5	5000	dred	dred		invswbu				dmg%		150	200	deadly		33	33	ignore-ac		1	1	magicarrow		11	11	oskill	Guided Arrow	3	5	ease		-15	-15																										0
 Bloodraven's Charge	332	100	1			1		79	71	amb	matriarchal bow		5	5000	dgld	dgld		invswbu				dmg%		180	230	att%		200	300	explosivearrow		21	21	skilltab	0	3	4	charged	Revive	72	9	pierce-fire		21	24	dmg-fire		142	250																						0
@@ -369,7 +369,7 @@ Frostwind	365	100	1			1		78	70	7ls	cryptic sword		5	5000	cblu	cblu		invlsdu				d
 Templar's Might	366	100	1			8		82	74	uar	sacred armor		5	5000	cgrn	cgrn		invaaru				ac%		170	220	balance2		20	20	ac-miss		375	450	hp		40	60	str		15	25	vit		10	15	skilltab	10	1	2	red-dmg%		2	2																		0
 Eschuta's temper	367	100	1			1		80	72	obc	eldritch orb		5	5000	cred							sor		1	3	cast2		40	40	extra-fire		10	20	extra-ltng		10	20	enr		20	30																														0
 Firelizard's Talons	368	100	1			1		75	67	7lw	feral claws		5	5000								dmg%		200	270	swing2		15	15	skilltab	20	1	3	dmg-fire		419	480	res-fire		40	70	skill	Wake of Fire Sentry	1	2	skill	Inferno Sentry	1	2	fireskill		2	2	pierce-fire		6	8														0
-Sandstorm Trek	369	100	1			1		72	64	uvb	scarabshell boots		5	5000								ac%		140	170	move2		20	20	balance2		20	20	stam/lvl	18			stamdrain		50	50	res-pois		40	70	rep-dur	5			str		10	15	vit		10	15	res-poison-len		50	50										0
+Sandstorm Trek	369	100	1			1		72	64	uvb	scarabshell boots		5	5000								ac%		140	170	move2		20	20	balance2		20	20	stam/lvl	18			stamdrain		50	50	res-pois		40	70	rep-dur	5			str		10	15	vit		10	15														0
 Marrowwalk	370	100	1			1		74	66	umb	boneweave boots		5	5000	dgry							ac%		170	200	move2		20	20	charged	Bone Prison	35	33	charged	Life Tap	10	12	regen-stam		10	10	regen-mana		10	10	half-freeze		1	1	str		10	20	dex		17	17	skill	Skeleton Mastery	1	2										0
 Heaven's Light	371	100	1			1		69	61	7sc	mighty scepter		5	5000	cblu	cblu						dmg%		250	300	swing2		20	20	reduce-ac		33	33	light		3	3	demon-heal		15	20	crush		33	33	sock		1	3	pal		2	3																		0
 Merman's Speed	372	100																																																																					0
@@ -407,4 +407,4 @@ Crack of the Heavens	403	100		2	2	1		69	75	cm3	charm		3	5000	lyel	lyel						pier
 Rotting Fissure	404	100		2	2	1		69	75	cm3	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-90	-70																																										0
 Bone Break	405	100		2	2	1		69	75	cm3	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-20	-10																																										0
 Black Cleft	406	100		2	2	1		69	75	cm3	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-65	-45																																										0
-Arpaska's Medallion	407	100	1			1		99	40	cm1	charm		3	5000								oskill	Teleport	1	1	res-all-max		-15	-15																																										0
+Arpaska's Medallion	407	100	1			1		99	40	cm1	charm		3	5000								oskill	Teleport	1	1	res-all-max		-15	-15	res-all		-15	-15																																						0

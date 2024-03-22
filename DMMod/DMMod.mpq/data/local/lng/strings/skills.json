@@ -35868,5 +35868,22 @@
     "ptBR": "Urso: de chance de Golpe Esmagador: %+d%%",
     "ruRU": "Облик медведя: к вероятности нанести сокрушительный удар: %+d%%",
     "zhCN": "熊人变化: 几率粉碎打击: %+d%%"
+  },
+  {
+    "id": 52004,
+    "Key": "StrSkillHSFasterBlock",
+    "enUS": "Faster Block Rate: %+d%%",
+    "zhTW": "格擋速度： %+d%%",
+    "deDE": "Schnellere Blockrate: %+d%%",
+    "esES": "Velocidad de bloqueo un más rápida: %+d%%",
+    "frFR": "Vitesse de blocage très rapide: %+d%%",
+    "itIT": "Velocità di parata: %+d%%",
+    "koKR": "막기 속도: %+d%%",
+    "plPL": "Szybkości blokowania: %+d%%",
+    "esMX": "Velocidad de bloqueo: %+d%%",
+    "jaJP": "ブロック速度: （%+d%%）",
+    "ptBR": "Taxa de bloqueio mais rápida: %+d%%",
+    "ruRU": "к скорости блока: %+d%%",
+    "zhCN": "更快速格挡: %+d%%"
   }
 ]
