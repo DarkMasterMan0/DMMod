@@ -9,7 +9,9 @@ Create a new shortcut of `D2R.exe` from your base D2R directory then add `-mod D
 
 You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mods, download it from here: https://www.d2rmodding.com/d2rlaunch After you install it you can download DMMod using the `Download New Mod` button on the right side and selecting DMMod in the tab that appears.
 
-**BACKUP YOUR SAVES OFTEN:** Any time your computer has a hard shutdown (crash, power outage, pulled plug, etc.) it will cause the active RAM to get corrupted which includes your currently active character and the respective shared stash (softcore/hardcore). You'll find your save files in `C:\Users\username\Saved Games\Diablo II Resurrected\DMMod`, you can backup the whole folder or just the `.d2s` (character) and `.d2i` (shared stash) files. D2RLaunch has the option to automate backups, you'll find it under the `Options > QoL Options > Auto-Backup Characters` section.
+**BACKUP YOUR SAVES OFTEN:** Any time your computer has a hard shutdown (crash, power outage, pulled plug, etc.) it will cause the active RAM to get corrupted which includes your currently active character and the respective shared stash (softcore/hardcore). Be sure to backup your saves before updating DMMod to new versions as well. You'll find your save files in `C:\Users\username\Saved Games\Diablo II Resurrected\DMMod`, you can backup the whole folder or just the `.d2s` (character) and `.d2i` (shared stash) files. D2RLaunch has the option to automate backups, you'll find it under the `Options > QoL Options > Auto-Backup Characters` section.
+
+**NOTE:** If you use any of the Expanded Storage options in D2RLaunch you'll need to reinstall it every time DMMod is updated, otherwise you'll lose any items that were outside of the vanilla storage sizes.
 
 You can check out older versions of DMMod at [DMMod Archive](https://github.com/DarkMasterMan0/DMMod-Archive), use the installation instructions above with the DMMod folder of whichever version you'd like.
 
@@ -34,7 +36,7 @@ Thanks to:
 * id Software for creating the awesome Doom games and the badass logo that I re-used for DMMod.
 
 # Changelog
-Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis.
+Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ or having a ++ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis.
 
 **Patch 1.05 Changelog** (3-22-24)
   * believe it or not, even more fixes and rephrasing/clarifications ;)
@@ -2983,7 +2985,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * set "carry1" to blank
     * set "prop1" to oskill, set "par1" to Teleport, set "min1" and "max1" to 1/1 (level 1 Teleport oskill)
     * set "prop2" to res-all-max, set "min2" and "max2" to -15/-15 (-15% maximum all resistances)
-    * added res-all to "prop3", set "min3" and "max3" to -15/-15 (all resistances -15%) (see patch 1.05)
+    * ++added res-all to "prop3", set "min3" and "max3" to -15/-15 (all resistances -15%) (see patch 1.05)
 
 #### weapons.txt
   * increased "mindam", "maxdam", "2handmindam", "2handmaxdam", "minmisdam", and "maxmisdam" of all exceptional weapons by 15% (decimals 0.0-0.4 rounded down, 0.5+ rounded up)
