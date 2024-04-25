@@ -24,7 +24,7 @@ Milabrega's Orb	21	Milabrega's Regalia	kit	Kite Shield	7	23	17	dblu	dblu						5	
 Milabrega's Rod	22	Milabrega's Regalia	wsp	War Scepter	7	23	17	dblu	dblu						5	2500		pal		1	1	dmg%		50	50	light		2	2																																																																		0
 Milabrega's Diadem	23	Milabrega's Regalia	crn	Crown	7	23	17	dblu	dblu						5	2500	2	hp		15	15	mana		15	15																													res-cold		40	40																																						0
 Milabrega's Robe	24	Milabrega's Regalia	aar	Ancient Armor	7	23	17	dblu	dblu						5	2500	2	thorns		3	3	red-dmg		2	2	red-dmg%		2	2																									ac%		100	100																																						0
-Cathan's Rule	25	Cathan's Traps	bst	Battle Staff	7	15	11	dgrn	dgrn						5	2500	2	fireskill		1	1	fire-max		10	10																													mana		50	50					res-all		10	10																														0
+Cathan's Rule	25	Cathan's Traps	bst	Battle Staff	7	15	11	dgrn	dgrn						5	2500	2	fireskill		1	1	fire-max		10	10	regen-mana		17	17																									mana		50	50					res-all		10	10																														0
 Cathan's Mesh	26	Cathan's Traps	chn	Chain Mail	7	15	11	dgrn	dgrn						5	2500	2	ac		15	15	ease		-50	-50	red-dmg%		2	2																									thorns		5	5					res-fire		30	30																														0
 Cathan's Visage	27	Cathan's Traps	msk	Mask	7	15	11	dgrn	dgrn						5	2500	2	mana		20	20	res-cold		25	25																													ac/lvl	16																																								0
 Cathan's Sigil	28	Cathan's Traps	amu	Amulet	7	15	11	dgrn	dgrn						5	2500	2	balance1		10	10	light-thorns		5	5																													att		50	50					mag%		25	25																														0
@@ -58,7 +58,7 @@ Arctic Furs	55	Arctic Gear	qui	Quilted Armor	7	3	2	lgld	lgld						5	2500	2	ac%		
 Arctic Binding	56	Arctic Gear	vbl	Light Belt	7	3	2	lgld	lgld						5	2500	2	res-cold		40	40	ac		30	30																													mag%		40	40					res-cold		10	10																														0
 Arctic Mitts	57	Arctic Gear	tgl	Light Gauntlets	7	3	2	lgld	lgld						5	2500	2	hp		20	20	swing1		10	10																													att		50	50					dex		10	10																														0
 Arcanna's Sign	58	Arcanna's Tricks	amu	Amulet	1	20	15	blac	blac						5	2500	2	mana		15	15	regen-mana		20	20																													mag%		50	50					res-fire		20	20																														0
-Arcanna's Deathwand	59	Arcanna's Tricks	wst	War Staff	7	20	15	blac	blac						5	2500	2	sor		1	1	deadly		25	25																													mana		50	50					regen-mana		5	5																														0
+Arcanna's Deathwand	59	Arcanna's Tricks	wst	War Staff	7	20	15	blac	blac						5	2500	2	sor		1	1	deadly		25	25	regen-mana		19	19																									mana		50	50					regen-mana		5	5																														0
 Arcanna's Head	60	Arcanna's Tricks	skp	Skull Cap	7	20	15	blac	blac						5	2500	2	regen		4	4	thorns		2	2																													ac/lvl	24							res-ltng		15	15																														0
 Arcanna's Flesh	61	Arcanna's Tricks	ltp	Light Plate	7	20	15	blac	blac						5	2500	2	light		2	2	red-dmg		3	3																													ac		100	100					enr		10	10																														0
 Expansion																																																																																															0
@@ -120,7 +120,7 @@ Bul-Kathos' Tribal Guardian	116	Bul-Kathos' Children	7wd	Mythical Sword	7	50	54	
 Cow King's Horns	117	Cow King's Leathers	xap	War Hat	7	20	25								5	5000		ac		75	75	half-freeze		1	1	dmg-to-mana		35	35	thorns		30	30																																																														0
 Cow King's Hide	118	Cow King's Leathers	stu	Studded Leather	7	20	18								5	5000		res-all		18	18	ac%		60	60	hp		30	30	gethit-skill	53	18	5																																																														0
 Cow King's Hoofs	119	Cow King's Leathers	vbt	Heavy Boots	7	20	13								5	5000		ac		25	35	move3		30	30	mag%		25	25	dex		20	20	dmg-fire		25	35																																																										0
-Naj's Puzzler	120	Naj's Ancient Set	6cs	Elder Staff	7	43	78								5	5000		enr		35	35	dmg%		180	180	charged	54	69	11	cast3		35	35	dmg-ltng		23	319	mana		70	70	allskills		1	1																																																		0
+Naj's Puzzler	120	Naj's Ancient Set	6cs	Elder Staff	7	43	78								5	5000		enr		35	35	dmg%		180	180	charged	54	69	11	cast3		35	35	dmg-ltng		23	319	mana		70	70	allskills		1	1	regen-mana		33	33																																														0
 Naj's Light Plate	121	Naj's Ancient Set	ult	Hellforge Plate	7	43	71								5	5000		ease		-60	-60	hp		65	65	res-all		25	25	dmg-to-mana		45	45	allskills		1	1	ac		300	300	red-dmg%		5	5																																																		0
 Naj's Circlet	122	Naj's Ancient Set	ci0	Circlet	7	43	28								5	5000		ac		75	75	dmg-fire		25	35	light		5	5	str		15	15	gethit-skill	53	12	5	cast2		10	10																																																						0
 McAuley's Paragon	123	McAuley's Folly	cap	Cap	3	20	25	lpur	lpur						5	5000		mag%		35	35	thorns		18	18	ac/lvl	8																																																																				0

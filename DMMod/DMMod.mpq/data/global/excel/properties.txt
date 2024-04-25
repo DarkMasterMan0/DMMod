@@ -94,7 +94,7 @@ stupidity	1	1	item_stupidity																											Hit Blinds Target +#		Min
 ignore-ac	1	1	item_ignoretargetac																											Ignore Target's Defense		1	1		0
 reduce-ac	1	1	item_fractionaltargetac																											-#% Target Defense		Min #	Max #		0
 noheal	1	1	item_preventheal																											Prevent Monster Heal		1	1		0
-half-freeze	1	1	item_halffreezeduration																											Half Freeze Duration		1	1		0
+half-freeze	1	1	item_halffreezeduration			1	Freeze_HalfToFull																							Half Freeze Duration		1	1		0
 att%	1	1	item_tohit_percent																											#% Bonus to Attack Rating		Min %	Max %		0
 dmg-ac	1	1	item_damagetargetac																											-# to Monster Defense Per Hit		Min #	Max #		0
 dmg-demon	1	1	item_demondamage_percent																											+#% Damage to Demons		Min %	Max %		0

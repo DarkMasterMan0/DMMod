@@ -160,10 +160,10 @@ of Desire	100		1	23		17				1	3	abs-cold		1	2										jewl												0	0
 of Piercing	1	1	1	25		18				2	4	ignore-ac		1	1										rod	knif	h2h	spea									0	0
 of Bashing	100		1	16		12				4	5	dmg-ac		-25	-40										blun							wand	staf	orb			0	0
 of Puncturing	100		1	6		4				4	5	dmg-ac		-10	-20										spea	knif	h2h										0	0
-of Thorns	1	1	1	14	33	10				4	6	thorns		1	3										tors	shld	belt	circ									0	0
-of Spikes	1	1	1	21	46	15				4	6	thorns		4	6									oran	tors	shld	belt	circ									0	0
-of Razors	100	1	1	34		26				4	6	thorns		7	9									oran	tors	shld	circ										0	0
-of Swords	100	1		47		39				4	6	thorns		10	20									oran	tors	shld	circ										0	0
+of Thorns	1	1	1	14	33	10				4	6	thorns		3	7										tors	shld	belt	circ									0	0
+of Spikes	1	1	1	21	46	15				4	6	thorns		8	13									oran	tors	shld	belt	circ									0	0
+of Razors	100	1	1	34		26				4	6	thorns		14	22									oran	tors	shld	circ										0	0
+of Swords	100	1		47		39				4	6	thorns		23	35									oran	tors	shld	circ										0	0
 of Malice	100	1	1	37		29				4	6	thorns		3	9										jewl												0	0
 of Readiness	1	1	1	5	45	3				6	7	swing1		10	10										weap							wand	orb				0	0
 of Alacrity	1	1	1	25		17				6	7	swing2		20	20										weap							wand	orb				0	0
@@ -733,7 +733,7 @@ of Dexterity	1	1	1	1	12	1				4	17	dex		1	1										boot	glov											0	0
 of Dexterity	1	1	1	1	5	1				4	17	dex		1	1										ring												0	0
 of Strength	1	1	1	1	11	1				4	31	str		1	1										glov												0	0
 of Strength	1	1	1	1	4	1				4	31	str		1	1										ring												0	0
-of Thorns	1	1	1	1	13	1				4	6	thorns		1	1										tors	belt	shld										0	0
+of Thorns	1	1	1	1	13	1				4	6	thorns		1	2										tors	belt	shld										0	0
 of Frost	1	1	1	1	3	1				4	10	dmg-cold	25	1	1										weap							staf	wand	orb			0	0
 of Flame	1	1	1	1	3	1				4	12	dmg-fire		1	2										weap							staf	wand	orb			0	0
 of Blight	1	1	1	1	4	1				4	16	dmg-pois	50	8	8										weap							scep	staf	orb			0	0

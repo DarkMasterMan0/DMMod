@@ -16,7 +16,7 @@ You can check out older versions of DMMod at [DMMod Archive](https://github.com/
 # What is DMMod?
 DMMod is a mostly vanilla (~90-95% vanilla) mod that aims to address some of the imbalances in vanilla D2R in regards to items and skills with a combination of nerfs, buffs, and other changes while attempting to maintain the "original feel" of the game. Some very minor changes to drop rates (low level uniques being able to drop earlier and Hell Baal's quest drop having a guaranteed Arpaska's Medallion).
 
-Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs/changes to underused runewords (like Holy Thunder, Venom, and Wind) and nerfs to overtuned runewords (like Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to underused skills (like Poison Dagger, Iron Maiden, and Defiance) and a few nerfs to overtuned skills (like Blessed Hammer and Holy Shield), changes to magic/rare item affixes (adding a max level cap to lower tier affixes to decrease the affix pool at higher levels), and monster stat changes to assist physical characters (decreasing block chance of Act Bosses and Ubers [but increasing their defense to compensate], decreasing the level of Ubers, etc.).
+Some examples of the changes include buffs/changes to lots of the weaker sets and uniques (whether that be by increasing existing stats or adding new stats), a few buffs/changes to underused runewords (like Holy Thunder, Venom, and Wind) and nerfs to overtuned runewords (like Stealth, Spirit, Insight, Grief, Enigma, Mosaic outright removed, etc.), buffs/changes to underused skills (like Poison Dagger, Iron Maiden, and Defiance) and a few nerfs to overtuned skills (like Blessed Hammer and Holy Shield), changes to magic/rare item affixes (adding a maximum level cap to lower tier affixes to decrease the affix pool at higher levels), and monster stat changes to assist physical characters (decreasing block chance of Act Bosses and Ubers [but increasing their defense to compensate], decreasing the level of Ubers, etc.).
 
 Feel free to make your own changes, that's why I included the .txt files. :) If you do decide to release your own version of DMMod publicly then you must release it with your modified source code as well as per the GPL 3.0 license.
 
@@ -34,7 +34,237 @@ Thanks to:
 * id Software for creating the awesome Doom games and the badass logo that I re-used for DMMod.
 
 # Changelog
-Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch and the patch that changed it will be noted in paranthesis.
+Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ or having a ++ when the relevent info has been changed by a later patch, the patch that changed it will be noted in paranthesis. Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed unless I changed it and forgot to note it.
+
+**Patch 1.06 Changelog** (4-25-24)
+  * not even gonna say it, probably won't anymore cause you know what it is ;p
+  * no longer adding the "++" updates to the older patch notes, will still have the ~~strikeouts~~ but the "++" is hard to keep organized and truthfully I'm lazy to do it as well
+  * data>D2RLaunch
+    * Logo.png
+      * added DMMoD logo for automatic usage with D2RLaunch (if you don't use D2RLaunch then you can ignore or delete the D2RLaunch folder)
+  * data>global>excel
+    * armor.txt
+      * increased "mindam" and "maxdam" of all exceptional shields/paladin shields/boots by 15% (increased smite damage of all exceptional shields/paladin shields and kick damage of all exceptional boots by 15%, decimals 0.0-0.4 rounded down, 0.5+ rounded up)
+      * increased "mindam" and "maxdam" of all elite shields by ~80% (initially increased by 20%, then by another 50%) (increased smite damage of all elite shields by ~80%, decimals 0.0-0.4 rounded down, 0.5+ rounded up)
+      * increased "mindam" and "maxdam" of all elite paladin shields/boots by 20% (increased smite damage of all elite paladin shields and kick damage of all elite boots by 20%, decimals 0.0-0.4 rounded down, 0.5+ rounded up)
+      * increased "StrBonus" and "DexBonus" of all shields/paladin shields to 160/blank from 100/blank (all shields/paladin shields off-weapon enhanced damage (ED%) bonus increased to 1.6%/0% per strength/dexterity point from 1%/0%)
+      * increased "StrBonus" and "DexBonus" of all boots to 130/50 from 120/blank (all boots off-weapon ED% bonus increased to 1.3%/0.5% per strength/dexterity point from 1.2%/0%)
+      * Large Shield
+        * increased "mindam" and "maxdam" to 3/5 from 2/4 (smite damage increased to 3-5 from 2-4)
+      * Tower Shield
+        * increased "mindam" and "maxdam" to 4/9 from 1/5 (smite damage increased to 4-9 from 1-5)
+      * Gothic Shield
+        * increased "mindam" and "maxdam" to 5/6 from 2/6 (smite damage increased to 5-6 from 2-6)
+      * Spiked Shield
+        * increased "mindam" to 6 from 5 (smite damage increased to 6-9 from 5-9)
+      * Scutum
+        * increased "mindam" and "maxdam" to 22/25 from 13/17 (smite damage increased to 22-25 from 13-17)
+      * Pavise
+        * increased "mindam" and "maxdam" to 19/32 from 12/20 (smite damage increased to 19-32 from 12-20)
+      * Ancient Shield
+        * increased "mindam" and "maxdam" to 21/27 from 14/18 (smite damage increased to 21-27 from 14-18)
+      * Barbed Shield
+        * increased "mindam" and "maxdam" to 24/45 from 21/40 (smite damage increased to 24-45 from 21-40)
+      * Hyperion
+         * increased "mindam" and "maxdam" to 33/71 from 26/57 (smite damage increased to 33-71 from 26-57)
+      * Aegis
+         * increased "mindam" and "maxdam" to 47/71 from 33/51 (smite damage increased to 47-71 from 33-51)
+      * Ward
+        * increased "mindam" and "maxdam" to 25/79 from 20/63 (smite damage increased to 25-79 from 20-63)
+      * Blade Barrier
+        * increased "mindam" and "maxdam" to 56/87 from 47/72 (smite damage increased to 56-87 from 47-72)
+    * automagic.txt
+      * of Minor Rejuvenation
+        * added 41 to "maxlevel" (no longer spawns at item level 42+)
+      * of Light Rejuvenation
+        * added 64 to "maxlevel"
+    * cubemain.txt
+      * "1 Zod Rune + 1 Shadow Killer + 1 Rare Weapon -> Ethereal Rare Weapon" through "1 Zod Rune + 1 Shadow Killer + 1 Unique Armor -> Ethereal Unique Armor" (new "etherealize" Cube recipes to convert non-ethereal rare/unique armor/weapon to ethereal)
+        * added new entries for "1 Zod Rune + 1 Shadow Killer + 1 Rare Weapon -> Ethereal Rare Weapon" through "1 Zod Rune + 1 Shadow Killer + 1 Unique Armor -> Ethereal Unique Armor" (rows 157 through 160) (cloned row 152)
+        * added 3 to "numinputs" (number of items needed inside the Cube for the recipe)
+        * added r33 to "input 2" (requires Zod rune)
+        * added "7cs,uni" to "input 3" (requires Shadow Killer)
+        * added useitem to "output" (uses the existing "input 1" item to modify)
+        * added ethereal to "mod 1", added 1/1 to "mod 1 min" and "mod 1 max" (makes the input item ethereal)
+        * NOTE: Do **NOT** use this recipe with indestructible items like bows, crossbows, jewelry, and uniques that have the indestructible affix like the Cranium Basher or Doombringer. You will lose the Zod and Shadow Killer for no benefit whatsoever. This recipe also won't work with non-ethereal items that are already socketed with a Zod, you'll have to remove the Zod with the unsocket recipe first.
+      * 1 Zod Rune + 1 Shadow Killer + 1 Rare Weapon -> Ethereal Rare Weapon
+        * added "weap,rar,noe" to "input 1" (requires rare, non-ethereal weapon)
+      * 1 Zod Rune + 1 Shadow Killer + 1 Rare Armor -> Ethereal Rare Armor
+        * added "armo,rar,noe" to "input 1" (requires rare, non-ethereal armor)
+      * 1 Zod Rune + 1 Shadow Killer + 1 Unique Weapon -> Ethereal Unique Weapon
+        * added "weap,uni,noe" to "input 1" (requires unique, non-ethereal weapon)
+      * 1 Zod Rune + 1 Shadow Killer + 1 Unique Armor -> Ethereal Unique Armor
+        * added "armo,uni,noe" to "input 1" (requires unique, non-ethereal armor)
+    * itemstatcost.txt
+      * Freeze_HalfToFull
+        * added a new entry for "Freeze_HalfToFull" (half freeze duration now stacks, two sources of HFD will convert into cannot be frozen) (provided by Bonesy who made the same change in his mod, thanks!)
+    * magicprefix.txt
+      * Enhanced Damage
+        * Jagged (188)
+          * changed "maxlevel" to 19 from 25 (no longer spawns at item level 20+ instead of 26+)
+        * Deadly (189)
+          * changed "maxlevel" to 25 from 31
+        * Vicious (190)
+          * changed "maxlevel" to 31 from 40
+        * Brutal (191)
+          * changed "maxlevel" to 40 from 55
+        * Massive (192)
+          * added 55 to "maxlevel"
+      * Attack Rating/Enhanced Damage
+        * Sharp (259)
+          * changed "maxlevel" to 37 from 46
+        * Fine (260)
+          * changed "maxlevel" to 46 from 55
+        * Warrior's (261)
+          * added 55 to "maxlevel"
+    * magicsuffix.txt
+      * Attacker Takes Damage
+        * of Thorns (163)
+          * increased "mod1min" and "mod1max" to 3/7 from 1/3 (attacker takes damage increased to 3-7 from 1-3)
+        * of Spikes (164)
+          * increased "mod1min" and "mod1max" to 8/13 from 4/6 (attacker takes damage increased to 8-13 from 4-6)
+        * of Razors (165)
+          * increased "mod1min" and "mod1max" to 14/22 from 7/9 (attacker takes damage increased to 14-22 from 7-9)
+        * of Swords (166)
+          * increased "mod1min" and "mod1max" to 23/35 from 10/20 (attacker takes damage increased to 23-35 from 10-20)
+        * of Thorns (736)
+          * increased "mod1max" to 2 from 1 (attacker takes damage increased to 1-2 from 1)
+    * monlvl.txt
+      * 100 (row 102)
+        * copied all stats from 110 (row 112) to 100 (Ubers and Diablo Clone now have the exact same stats at monster level 100 as they do at monster level 110)
+    * monstats.txt
+      * diabloclone (Diablo Clone / Dclone)
+        * decreased "MinHP(H)" and "MaxHP(H)" to 6427/6427 from 8128/8128 (combined with monlvl.txt change his life remains the same at 6427000)
+        * with monlvl.txt change at level 100 he has 6363 defense instead of 5802 defense
+        * decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 100/190/215 from 116/219/353 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 130-247 and 14043 respectively)
+        * decreased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 110/230/200 from 127/265/329 (combined with monlvl.txt change his physical damage and attack rating for melee attack 2 remains the same at 143-299 and 13064 respectively)
+      * ubermephisto (Uber Mephisto)
+        * decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000)
+        * with monlvl.txt change at level 100 he has 7203 defense instead of 6568 defense
+        * decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 375/440/200 from 431/507/329 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 487-572 and 13064 respectively)
+      * uberdiablo (Uber Diablo/Pandemonium Diablo)
+        * decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000)
+        * with monlvl.txt change at level 100 he has 6300 defense instead of 5745 defense
+        * decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 370/380/215 from 426/438/353 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 481-494 and 14043 respectively)
+        * decreased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 110/230/200 from 127/265/329 (combined with monlvl.txt change his physical damage and attack rating for melee attack 2 remains the same at 143-299 and 13064 respectively)
+      * uberizual (Uber Izual)
+        * increased "ToBlock(H)" to 50 from 30 (block chance increased to 50% from 30%, **has no effect** because Izual can't block, just changing it back for consistency purposes)
+        * decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 6500000-6600000)
+        * decreased "AC(H)" to 120 from 258 (combined with monlvl.txt change at level 100 he has 2520 defense instead of 4940 defense)
+        * decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 350/400/200 from 403/461/329 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 455-520 and 13064 respectively)
+        * decreased "El1MinD(H)" and "El1MaxD(H)" to 50/80 from 58/93 (combined with monlvl.txt change his cold damage for melee attack 1 remains the same at 65-104)
+      * uberandariel (Lilith)
+        * decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change her life remains the same at 650000-660000)
+        * with monlvl.txt change at level 100 she has 3696 defense instead of 3370 defense
+        * decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 400/440/470 from 461/507/772 (combined with monlvl.txt change her physical damage and attack rating for melee attack 1 remains the same at 520-572 and 30700 respectively)
+        * decreased "El1MinD(H)" and "El1MaxD(H)" to 33/33 from 38/38 (combined with monlvl.txt change her poison damage for melee attack 1 remains the same at 739 over 18 seconds)
+      * uberduriel (Uber Duriel)
+        * decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000)
+        * with monlvl.txt change at level 100 he has 5418 defense instead of 4940 defense
+        * decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 360/380/110 from 415/438/181 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 468-494 and 7185 respectively)
+        * decreased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 115/165/150 from 132/190/246 (combined with monlvl.txt change his physical damage and attack rating for melee attack 2 remains the same at 149-214 and 9798 respectively)
+      * uberbaal (Uber Baal)
+        * decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000)
+        * with monlvl.txt change at level 100 he has 7875 defense instead of 7181 defense
+        * decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 330/380/250 from 380/438/411 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 429-494 and 16330 respectively)
+        * decreased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 165/240/250 from 190/277/411 (combined with monlvl.txt change his physical damage and attack rating for melee attack 2 remains the same at 214-312 and 16330 respectively)
+        * decreased "El1MinD(H)" and "El1MaxD(H)" to 120/200 from 139/231 (combined with monlvl.txt change his fire damage for melee attack 1 remains the same at 156-260)
+        * decreased "El2MinD(H)" and "El2MaxD(H)" to 120/160 from 139/185 (combined with monlvl.txt change his cold damage for melee attack 2 remains the same at 156-208)
+    * properties.txt
+      * half-freeze
+        * added 1 to "func2" and Freeze_HalfToFull to "stat2" (half freeze duration now stacks, two sources of HFD will convert into cannot be frozen)
+    * setitems.txt
+      * Cathan's Rule
+        * added regen-mana to "prop3", added 17/17 to "min3" and "max3" (regenerate mana 17%)
+      * Arcanna's Deathwand
+        * added regen-mana to "prop3", added 19/19 to "min3" and "max3" (regenerate mana 19%)
+      * Naj's Puzzler
+        * added regen-mana to "prop8", added 33/33 to "min8" and "max8" (regenerate mana 33%)
+    * skilldesc.txt
+      * firegolem (fire golem)
+        * changed "desccalca3" to ((edmn*(100+(skill('Corpse Explosion'.blvl)*par7))/100)-10+((sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5)+3)*(100+(skill('Corpse Explosion'.blvl)*par7))/100*(100+(skill('Corpse Explosion'.blvl)*par7))/100)) from (edmn-10)+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) (minimum fire damage tooltip now takes Corpse Explosion synergy into account including Holy Fire attack damage "double dipping" from fire skill damage)
+        * changed "desccalcb3" to (edmx*(100+(skill('Corpse Explosion'.blvl)*par7))/100)-27+((sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5))*(100+(skill('Corpse Explosion'.blvl)*par7))/100*(100+(skill('Corpse Explosion'.blvl)*par7))/100) from (edmx-27)+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) (maximum fire damage tooltip now takes Corpse Explosion synergy into account including Holy Fire attack damage "double dipping" from fire skill damage)
+      * revive
+        * changed "desccalca2" to par3+((skill('Revive'.blvl)>0)?(skill('Revive'.blvl)-1):(skill('Revive'.blvl)))*par4 from par3+skill('Revive'.blvl)*par4 (duration on the tooltip now fixed to start at 180 seconds baseline regardless of soft or hard points)
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+      * concentration
+        * changed "desccalca3" to par5+((skill('Concentration'.blvl)>0)?(skill('Concentration'.blvl)-1):(skill('Concentration'.blvl)))*par6 from par5+skill('Concentration'.blvl)*par6 (% chance uninterruptible on the tooltip now fixed to start at 24% baseline regardless of soft or hard points)
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+      * conversion
+        * changed "desccalca2" to par1+((skill('Conversion'.blvl)>0)?(skill('Conversion'.blvl)-1):(skill('Conversion'.blvl)))*par2 from par1+skill('Conversion'.blvl)*par2 (duration on the tooltip now fixed to start at 16 seconds baseline regardless of soft or hard points)
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+      * holy shield
+        * changed "desccalca5" to par9+((skill('Holy Shield'.blvl)>0)?(skill('Holy Shield'.blvl)-1):(skill('Holy Shield'.blvl)))*pa10 from par9+skill('Holy Shield'.blvl)*pa10 (faster block rate on the tooltip now fixed to start at 18% baseline regardless of soft or hard points)
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+      * frenzy
+        * changed "desccalca5" to par7+((skill('Frenzy'.blvl)>0)?(skill('Frenzy'.blvl)-1):(skill('Frenzy'.blvl)))*par8+skill('Increased Stamina'.blvl)*par9 from par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 (duration on the tooltip now fixed to start at 6 seconds baseline regardless of soft or hard points)
+        * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
+        * increased "dsc3calcb3" to 4 from 32 (Increased Stamina synergy on tooltip increased to 0.4 seconds per hard point from 0.32)
+      * arctic blast
+        * added 76 to "dsc3line3", added Colddplev to "dsc3texta3", added Skillname251 to "dsc3textb3", added par8 to "dsc3calca3" (added Hurricane synergy to the tooltip)
+      * hurricane
+        * changed "dsc3texta3" and "dsc3texta4" to Colddplev/Colddplev from Damplev/Damplev (synergy tooltip now shows Twister and Tornado as increasing cold damage instead of damage)
+        * added 76 to "dsc3line5", added Colddplev to "dsc3texta5", added Skillname231 to "dsc3textb5", added par9 to "dsc3calca5" (added Arctic Blast synergy to the tooltip)
+    * skills.txt
+      * Revive
+        * changed "calc2" to par3+((skill('Revive'.blvl)>0)?(skill('Revive'.blvl)-1):(skill('Revive'.blvl)))*par4 from par3+skill('Revive'.blvl)*par4 (duration now fixed to start at 180 seconds baseline regardless of soft or hard points, was bugged to start at 168 seconds baseline if used via charges or skill bonus)
+        * increased "Param3" to 4500 from 4200 (combined with "calc2" change the baseline duration remains 4500 frames/180 seconds)
+      * Concentration
+        * changed "aurastatcalc2" to par5+((skill('Concentration'.blvl)>0)?(skill('Concentration'.blvl)-1):(skill('Concentration'.blvl)))*par6 from par5+skill('Concentration'.blvl)*par6 (% chance uninterruptible now fixed to start at 24% baseline regardless of soft or hard points, was bugged to start at 20% baseline if used via aura on equip or soft points without a hard point invested)
+        * increased "Param5" to 24 from 20 (combined with "aurastatcalc2" change the baseline % chance uninterruptible remains 24%)
+      * Conversion
+        * changed "auralencalc" to par1+((skill('Conversion'.blvl)>0)?(skill('Conversion'.blvl)-1):(skill('Conversion'.blvl)))*par2 from par1+skill('Conversion'.blvl)*par2 (duration now fixed to start at 16 seconds baseline regardless of soft or hard points, was bugged to start at 15.2 seconds baseline if used via charges or soft points without a hard point invested)
+        * increased "Param1" to 400 from 380 (combined with "auralencalc" change the baseline duration remains 400 frames/16 seconds)
+      * Holy Shield
+        * changed "aurastatcalc3" to par9+((skill('Holy Shield'.blvl)>0)?(skill('Holy Shield'.blvl)-1):(skill('Holy Shield'.blvl)))*pa10 from par9+skill('Holy Shield'.blvl)*pa10 (faster block rate now fixed to start at 18% baseline regardless of soft or hard points, was bugged to start at 16% baseline if used via soft points without a hard point invested)
+        * increased "Param9" to 18 from 16 (combined with "aurastatcalc3" change the baseline FBR remains 18%)
+      * Frenzy
+        * changed "auralencalc" to par7+((skill('Frenzy'.blvl)>0)?(skill('Frenzy'.blvl)-1):(skill('Frenzy'.blvl)))*par8+skill('Increased Stamina'.blvl)*par9 from par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 (duration now fixed to start at 6 seconds baseline regardless of soft or hard points, was bugged to start at 5.9 seconds baseline if used via soft points without a hard point invested)
+        * increased "Param7" to 150 from 148, changed "*Param7 Description" to Duration baseline from Duration (combined with "auralencalc" change the baseline duration remains 150 frames/6 seconds)
+        * changed "Param8" to 2 from 16, changed "*Param8 Description" to Duration per level from Damage synergy (new parameter for duration per hard point instead of being part of the "auralencalc")
+        * added 10 to "Param9", added Duration synergy to "*Param9 Description" (new parameter for Increased Stamina duration synergy instead of being part of the "auralencalc", increased to 0.4 seconds per hard point from 0.32)
+        * added 16 to "Param10", added Damage synergy to "*Param10 Description" (moved Double Swing damage synergy over)
+      * Arctic Blast
+        * changed "EDmgSymPerCalc" to (skill('Cyclone Armor'.blvl)+skill('Hurricane'.blvl))*par8 from skill('Cyclone Armor'.blvl)*par8 (added 15% cold damage per hard point synergy from Hurricane)
+      * Hurricane
+        * added 14 to "Param9", added Damage synergy to "*Param9 Description" (14% cold damage per hard point synergy from Arctic Blast)
+        * changed "EDmgSymPerCalc" to (skill('Twister'.blvl)+skill('Tornado'.blvl))*par8+skill('Arctic Blast'.blvl)*par9 from (skill('Twister'.blvl)+skill('Tornado'.blvl))*par8 (added 14% cold damage per hard point synergy from Arctic Blast)
+      * Blade Fury
+        * added 1 to "KeepCursorStateOnKill", added 1 to "ContinueCastUnselected", added 1 to "ClearSelectedOnHold" (Blade Fury targeting now functions the same as Inferno and Arctic Blast [no longer locks onto a target and continues casting as long as the button is held])
+    * uniqueitems.txt
+      * Bane Ash
+        * added regen-mana to "prop9", added 12/12 to "min9" and "max9" (regenerate mana 12%)
+      * Serpent Lord
+        * added regen-mana to "prop8", added 17/17 to "min8" and "max8" (regenerate mana 17%)
+      * Lazarus Spire (Spire of Lazarus)
+          * increased "min7" and "max7" to 61/61 from 43/43 (regenerate mana increased to 61% from 43%)
+      * The Salamander
+        * added regen-mana to "prop7", added 20/20 to "min7" and "max7" (regenerate mana 20%)
+      * The Iron Jang Bong
+        * added regen-mana to "prop9", added 24/24 to "min9" and "max9" (regenerate mana 24%)
+      * The Minataur (The Minotaur)
+        * changed "prop2" to half-freeze from nofreeze (half freeze duration instead of cannot be frozen)
+      * Razorswitch
+        * added regen-mana to "prop8, added 25/25 to "min8" and "max8" (regenerate mana 25%)
+      * Ribcracker
+        * added regen-mana to "prop10", added 21/21 to "min10" and "max10" (regenerate mana 21%)
+      * Chromatic Ire
+        * added regen-mana to "prop10", added 32/32 to "min10" and "max10" (regenerate mana 32%)
+      * Warpspear
+        * added regen-mana to "prop7", added 40/40 to "min7" and "max7" (regenerate mana 40%)
+      * Skullcollector (Skull Collector)
+        * added regen-mana to "prop6", added 35/35 to "min6" and "max6" (regenerate mana 35%)
+      * Mang Song's Lesson
+        * increased "min5" and "max5" to 100/100 from 45/45 (regenerate mana increased to 100% from 45%)
+      * Halaberd's Reign
+        * decreased "min8" to 3 from 12, increased "max8" to 11 from 4 (Shout on striking proc chance decreased to 3% from 12%, level increased to 11 from 4)
+      * Frostwind
+        * changed "prop3" to half-freeze from nofreeze (half freeze duration instead of cannot be frozen)
+      * Ondal's Wisdom
+        * added regen-mana to "prop7", added 48/48 to "min7" and "max7" (regenerate mana 48%)
+    * weapons.txt
+      * "Suwayyah" through "Scissors Suwayyah"
+        * increased "mindam" and "maxdam" by 20% (decimals 0.0-0.4 rounded down, 0.5+ rounded up) (accidently overlooked and didn't increase them during DMMod 1.00)
 
 **Patch 1.05 Changelog** (3-22-24)
   * believe it or not, even more fixes and rephrasing/clarifications ;)
@@ -50,34 +280,36 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
         * set "frequency" to 4 (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so would be 4/13 in this case)
         * set "mod1min" and "mod1max" to 10/14 (regenerate mana 10-14%)
       * of Light Rejuvenation
-        * set "level" to 11 (item level requirement set to 11)
-        * set "levelreq" to 9
-        * set "frequency" to 3
-        * set "mod1min" and "mod1max" to 15/20 (regenerate mana 15-20%)
+        * added 11 to "level" (spawns at item level 11+)
+        * ++added 41 to "maxlevel" (no longer spawns at item level 42+) (patch 1.06)
+        * added 9 to "levelreq"
+        * added 3 to "frequency"
+        * added 15/20 to "mod1min" and "mod1max" (regenerate mana 15-20%)
       * of Rejuvenation
-        * set "level" to 25
-        * set "levelreq" to 19
-        * set "frequency" to 3
-        * set "mod1min" and "mod1max" to 21/28 (regenerate mana 21-28%)
+        * added 25 to "level"
+        * ++added 64 to "maxlevel" (patch 1.06)
+        * added 19 to "levelreq"
+        * added 3 to "frequency"
+        * added 21/28 to "mod1min" and "mod1max" (regenerate mana 21-28%)
       * of Greater Rejuvenation
-        * set "level" to 42
-        * set "levelreq" to 32
-        * set "frequency" to 2
-        * set "mod1min" and "mod1max" to 29/40 (regenerate mana 29-40%)
+        * added 42 to "level"
+        * added 32 to "levelreq"
+        * added 2 "frequency"
+        * added 29/40 to "mod1min" and "mod1max" (regenerate mana 29-40%)
       * of Super Rejuvenation
-        * set "level" to 65
-        * set "levelreq" to 49
-        * set "frequency" to 1
-        * set "mod1min" and "mod1max" to 41/55 (regenerate mana 41-55%)
+        * added 65 to "level"
+        * added 49 to "levelreq"
+        * added 1 to "frequency"
+        * added 41/55 to "mod1min" and "mod1max" (regenerate mana 41-55%)
     * magicsuffix.txt
       * of the Archmagus
         * added new entry for "of the Archmagus" (cloned row 177)
-        * set "version" to 100 (only spawns in expansion)
-        * set "level" to 57 (item level requirement set to 57)
-        * set "levelreq" to 42 (level requirement set to 42)
-        * set "frequency" to 4 (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so 4/15 in this case)
-        * set "mod1min" and "mod1max" to 30/30 (30% faster cast rate)
-        * set "itype1" to staf (only spawns on staves)
+        * added 100 to "version" (only spawns in expansion)
+        * added 57 to "level" (spawns at item level 57+)
+        * added 42 to "levelreq" (level requirement set to 42)
+        * added 4 to "frequency" (chance to select a specific affix is the frequency divided by the sum of frequences in that affix group, so 4/15 in this case)
+        * added 30/30 to "mod1min" and "mod1max" (30% faster cast rate)
+        * added staf to "itype1" (only spawns on staves)
     * missiles.txt
       * "bladefury1" through "bladefragment3"
         * changed "Half2HSrc" to blank from 1 (2-handed weapons are no longer penalized to 3/8 damage with Blade Fury, they are now only penalized to 3/4 damage like 1-handed weapons)
@@ -101,19 +333,19 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * skilldesc.txt
       * concentration
         * copied and deleted all stats from "dsc2line1" through "dsc2calca1" and pasted them to "descline3" through "desccalca3" (moved % chance of uninterruptible attack location on the tooltip)
-        * changed "desccalca3" to par5+skill('Concentration'.blvl)*par6 from par5 (added % chance of uninterruptible attack level scaling to tooltip)
+        * ~~changed "desccalca3" to par5+skill('Concentration'.blvl)*par6 from par5 (added % chance of uninterruptible attack level scaling to tooltip)~~ (patch 1.06)
         * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
       * holy shield
-        * added 75 to "descline5", added StrSkillHSFasterBlock to "desctexta5", added par9+skill('Holy Shield'.blvl)*pa10 to "desccalca5" (added faster block rate to Holy Shield's tooltip)
+        * ~~added 75 to "descline5", added StrSkillHSFasterBlock to "desctexta5", added par9+skill('Holy Shield'.blvl)*pa10 to "desccalca5" (added faster block rate to Holy Shield's tooltip)~~ (patch 1.06)
         * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
     * skills.txt
       * Concentration
-        * changed "aurastatcalc2" to par5+skill('Concentration'.blvl)*par6 from par5 (Concentration gains an additional 4% chance for uninterruptible attack chance per hard point)
+        * ~~changed "aurastatcalc2" to par5+skill('Concentration'.blvl)*par6 from par5 (Concentration gains an additional 4% chance for uninterruptible attack chance per hard point)~~ (patch 1.06)
         * changed "*Param5 Description" to % chance for uninterruptible attack baseline from % chance for uninterruptible attack
         * added 4 to "Param6", added % chance for uninterruptible attack per level to "*Param6 Description"
       * Holy Shield
-        * changed "aurastatcalc3" to par9+skill('Holy Shield'.blvl)*pa10 from 16 (Holy Shield has 18% faster block rate baseline and gains an additional 2% FBR per hard point instead of a flat 16% FBR)
-        * added 16 to "Param9", added Faster Block Rate % baseline to "*Param9 Description"
+        * ~~changed "aurastatcalc3" to par9+skill('Holy Shield'.blvl)*pa10 from 16 (Holy Shield has 18% faster block rate baseline and gains an additional 2% FBR per hard point instead of a flat 16% FBR)~~ (patch 1.06)
+        * ~~added 16 to "Param9"~~, added Faster Block Rate % baseline to "*Param9 Description" (patch 1.06)
         * added 2 to "Param10", added Faster Block Rate % per level to "*Param10 Description"
     * uniqueitems.txt
       * Spellsteel
@@ -149,7 +381,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
         * increased "min4" and "max4" to 88/88 from 50/50 (durability bonus increased to 88 from 50)
     * uniqueitems.txt
       * The Gnasher
-        * decreased "lvl" to 6 from 7 (item level decreased to 6 from 7 [can now drop from level 6+ monsters instead of level 7+])
+        * decreased "lvl" to 6 from 7 (spawns at item level 6+ instead of 7+)
       * Deathspade
         * decreased "lvl" to 10 from 12
       * Bladebone
@@ -494,58 +726,58 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * Scepter
         * decreased "mindam" and "maxdam" to 4/7 from 6/11 (damage decreased to 4-7 from 6-11)
       * Dagger
-        * increased "maxdam" to 5 from 4 (maximum damage increased to 5 from 4)
+        * increased "maxdam" to 5 from 4 (damage increased to 1-5 from 1-4)
       * Dirk
-        * increased "mindam" to 4 from 3 (minimum damage increased to 4 from 3)
+        * increased "mindam" to 4 from 3 (damage increased to 4-9 from 3-9)
       * Kriss (Kris)
-        * increased "mindam" and "maxdam" to 3/12 from 2/11
+        * increased "mindam" and "maxdam" to 3/12 from 2/11 (damage increased to 3-12 from 2-11)
       * Blade
-        * increased "maxdam" to 17 from 15
+        * increased "maxdam" to 17 from 15 (damage increased to 4-17 from 4-15)
       * Short Bow
-        * increased "2handmindam" to 2 from 1
+        * increased "2handmindam" to 2 from 1 (damage increased to 2-4 from 1-4)
       * Hunter's Bow
-        * increased "2handmaxdam" to 7 from 6
+        * increased "2handmaxdam" to 7 from 6 (damage increased to 2-7 from 2-6)
       * Long Bow
-        * increased "2handmindam" to 4 from 3
+        * increased "2handmindam" to 4 from 3 (damage increased to 4-10 from 3-10)
       * Short Battle Bow
-        * increased "2handmindam" to 6 from 5
+        * increased "2handmindam" to 6 from 5 (damage increased to 6-11 from 5-11)
       * Long Battle Bow
-        * increased "2handmindam" and "2handmaxdam" to 5/19 from 3/18
+        * increased "2handmindam" and "2handmaxdam" to 5/19 from 3/18 (damage increased to 5-19 from 3-18)
       * Short War Bow
-        * increased "2handmaxdam" to 15 from 14
+        * increased "2handmaxdam" to 15 from 14 (damage increased to 6-15 from 6-14)
       * Long War Bow
-        * increased "2handmindam" and "2handmaxdam" to 4/25 from 3/23
+        * increased "2handmindam" and "2handmaxdam" to 4/25 from 3/23 (damage increased to 4-25 from 3-23)
       * Light Crossbow
-        * increased "2handmindam" and "2handmaxdam" to 7/10 from 6/9
+        * increased "2handmindam" and "2handmaxdam" to 7/10 from 6/9 (damage increased to 7-10 from 6-9)
       * Crossbow
-        * increased "2handmaxdam" to 18 from 16
+        * increased "2handmaxdam" to 18 from 16 (damage increased to 9-18 from 9-16)
       * Heavy Crossbow
-        * increased "2handmindam" and "2handmaxdam" to 16/27 from 14/26
+        * increased "2handmindam" and "2handmaxdam" to 16/27 from 14/26 (damage increased to 16-27 from 14-26)
       * Repeating Crossbow
-        * increased "2handmindam" to 8 from 6
+        * increased "2handmindam" to 8 from 6 (damage increased to 8-12 from 6-12)
       * Rune Sword
         * increased "rangeadder" to 2 from 1 (range increased to 2 from 1)
       * Rondel
-        * increased "mindam" and "maxdam" to 13/33 from 12/30
+        * increased "mindam" and "maxdam" to 13/33 from 12/30 (damage increased to 13-33 from 12-30)
       * Arbalest
-        * increased "2handmindam" and "2handmaxdam" to 19/37 from 16/31
+        * increased "2handmindam" and "2handmaxdam" to 19/37 from 16/31 (damage increased to 19-37 from 16-31)
       * Siege Crossbow
-        * increased "2handmindam" and "2handmaxdam" to 27/55 from 23/48
+        * increased "2handmindam" and "2handmaxdam" to 27/55 from 23/48 (damage increased to 27-55 from 23-48)
       * Cryptic Sword
         * increased "rangeadder" to 2 from 1 (range increased to 2 from 1)
       * Legend Spike
-        * increased "mindam" and "maxdam" to 39/59 from 37/56
+        * increased "mindam" and "maxdam" to 39/59 from 37/56 (damage increased to 39-59 from 37-56)
       * Gorgon Crossbow
-        * increased "2handmindam" and "2handmaxdam" to 33/113 from 30/104
+        * increased "2handmindam" and "2handmaxdam" to 33/113 from 30/104 (damage increased to 33-113 from 30-104)
       * Colossus Crossbow
-        * increased "2handmindam" and "2handmaxdam" to 40/115 from 38/109
+        * increased "2handmindam" and "2handmaxdam" to 40/115 from 38/109 (damage increased to 40-115 from 38-109)
       * Ceremonial Spear
-        * increased "2handmindam" and "2handmaxdam" to 41/61 from 39/59
+        * increased "2handmindam" and "2handmaxdam" to 41/61 from 39/59 (damage increased to 41-61 from 39-59)
       * Matriarchal Spear
-        * increased "2handmindam" and "2handmaxdam" to 80/116 from 78/114
+        * increased "2handmindam" and "2handmaxdam" to 80/116 from 78/114 (damage increased to 80-116 from 78-114)
         * changed "speed" to -5 from blank (changed weapon speed modifier [WSM] to -5 from 0 [for Warren's IAS calculator breakpoint purposes use a -10 WSM spear and set "Slowed By" to 5, this will simulate a -5 WSM base)
       * Matriarchal Pike
-        * increased "2handmindam" to 46 from 44
+        * increased "2handmindam" to 46 from 44 (damage increased to 46-184 from 44-184)
         * changed "speed" to 10 from 20 (changed WSM to 10 from 20)
 
 **Patch 1.03b Changelog** (12-31-23)
@@ -570,9 +802,9 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
     * misc.txt
       * set "ShowLevel" to 1 for Amulet, Ring, Small Charm, Large Charm, Grand Charm, and Jewel (displays item level in parenthesis)
-      * ~~Minor Mana Potion~~ (see patch 1.03b)
+      * ~~Minor Mana Potion~~ (patch 1.03b)
         * ~~changed "AkaraMin" and "AkaraMax" to blank from 1/1 (Akara no longer sells minor mana potions in Normal)~~
-      * ~~Akara Potion Upgrade~~ (see patch 1.03b)
+      * ~~Akara Potion Upgrade~~ (patch 1.03b)
         * ~~created new entry for "Akara Potion Upgrade" (cloned row 86)~~
         * ~~changed "code" to blank from mp1 (prevents minor mana potion graphic from appearing in Akara's vendor menu)~~
         * ~~set "invwidth" and "invheight" to 0/0 (prevents the now invisible minor mana potion from having a tile/"clickbox" in her vendor menu)~~
@@ -594,7 +826,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
         * deleted all stats from "T1Code4" through "T1Max4" (removed 10% faster cast rate)
         * added light to "T1Code4", set "T1Min4" and "T1Max4" to -3/-3 (-3 light radius)
       * Runeword152 (Valor)
-        * changed "*RunesUsed" to NefIth, changed "Rune1" to r04 from r07 (first rune is Nef rune instead of Tal rune [this breaks existing Valors, you'll have to make new ones. Sorry.])
+        * changed "*RunesUsed" to NefIth, changed "Rune1" to r04 from r07 (first rune is Nef rune instead of Tal rune [this breaks existing Valors and you'll have to make new ones, sorry.])
         * increased "T1Min1" and "T1Max1" to 2/2 from 1/1 (damage reduced increased to 2 from 1)
         * deleted all stats from "T1Code3" through "T1Max3" and moved the other stat over (removed 10% faster run/walk)
         * changed new "T1Code3" to all-stats from swing2, decreased "T1Min3" and "T1Max3" to 3/3 from 10/10 (3 to all attributes instead of 10% increased attack speed)
@@ -608,12 +840,15 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
         * decreased "T1Min2" and "T1Max2" to 60/85 from 95/110 (enhanced damage decreased to 60-85% from 95-110%)
 
     * skilldesc.txt
-      * firegolem
-        * changed "desccalca2" to sklvl('Holy Fire'.ln56.edmn)*(100+skill('Corpse Explosion'.blvl)*par7)/100 from sklvl('Holy Fire'.ln56.edmn) (Corpse Explosion synergy added to the Holy Fire minimum fire damage tooltip calculation)
-        * changed "desccalcb2" to sklvl('Holy Fire'.ln56.edmx)* ((100+sklvl('Holy Fire'.ln56.par6))/100) * (100+skill('Corpse Explosion'.blvl) * par7)/100 from sklvl('Holy Fire'.ln56.edmx)*((100+sklvl('Holy Fire'.ln56.par6))/100) (Corpse Explosion synergy added to the Holy Fire maximum fire damage tooltip calculation)
-        * changed "desccalca3" to (edmn-10)+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) from edmn+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is slightly more accurate, originally it adds the Fire Golem's innate physical damage [10 minimum in Normal] which causes slight inaccuracies)
-        * changed "desccalcb3" to (edmx-27)+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) from edmx+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is slightly more accurate, originally it adds the Fire Golem's innate physical damage [27 maximum in Normal] which causes slight inaccuracies)
-        * NOTE: Fire damage tooltip does not take the Corpse Explosion synergy into account, I will fix this in a future patch after I figure out the correct calculation.
+      * firegolem (fire golem)
+        * changed "desccalca2" to sklvl('Holy Fire'.ln56.edmn)*(100+skill('Corpse Explosion'.blvl)*par7)/100 from sklvl('Holy Fire'.ln56.edmn) (Corpse Explosion synergy added to the Holy Fire pulse minimum fire damage tooltip calculation)
+        * changed "desccalcb2" to sklvl('Holy Fire'.ln56.edmx)* ((100+sklvl('Holy Fire'.ln56.par6))/100) * (100+skill('Corpse Explosion'.blvl) * par7)/100 from sklvl('Holy Fire'.ln56.edmx)*((100+sklvl('Holy Fire'.ln56.par6))/100) (Corpse Explosion synergy added to the Holy Fire pulse maximum fire damage tooltip calculation)
+        * ~~changed "desccalca3" to (edmn-10)+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) from edmn+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is more accurate, it was adding the Fire Golem's innate physical damage [10 minimum in Normal] which caused slight inaccuracies)~~ (patch 1.06)
+        * ++changed "desccalca3" to ((edmn*(100+(skill('Corpse Explosion'.blvl)*par7))/100)-10+((sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5)+3)*(100+(skill('Corpse Explosion'.blvl)*par7))/100*(100+(skill('Corpse Explosion'.blvl)*par7))/100)) from (edmn-10)+sklvl('Holy Fire'.ln56.edmn)*sklvl('Holy Fire'.ln56.par5) (minimum fire damage tooltip now takes Corpse Explosion synergy into account including Holy Fire attack damage "double dipping" from fire skill damage) (patch 1.06)
+        * ~~changed "desccalcb3" to (edmx-27)+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) from edmx+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) (fire damage tooltip is more accurate, it was adding the Fire Golem's innate physical damage [27 maximum in Normal] which caused slight inaccuracies)~~ (patch 1.06)
+        * ++changed "desccalcb3" to (edmx*(100+(skill('Corpse Explosion'.blvl)*par7))/100)-27+((sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5))*(100+(skill('Corpse Explosion'.blvl)*par7))/100*(100+(skill('Corpse Explosion'.blvl)*par7))/100) from (edmx-27)+sklvl('Holy Fire'.ln56.edmx)*sklvl('Holy Fire'.ln56.par5) (maximum fire damage tooltip now takes Corpse Explosion synergy into account including Holy Fire attack damage "double dipping" from fire skill damage) (patch 1.06)
+        * ~~NOTE: Fire damage tooltip does not take the Corpse Explosion synergy into account, I will fix this in a future patch after I figure out the correct calculation.~~ (patch 1.06)
+        * ++Fire damage tooltip now takes Corpse Explosion synergy into account (patch 1.06)
         * set "dsc3line7" to 76, set "dsc3texta7" to Firedplev, set "dsc3textb7" to skillname74, set "dsccalca7" to par7 (added Corpse Explosion synergy to the tooltip)
 
     * skills.txt
@@ -624,10 +859,10 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * IronGolem (Iron Golem)
         * increased "Param8" to 60 from 35 (defense per level and synergy to other golems increased to 60 from 35)
       * FireGolem (Fire Golem)
-        * added passive_fire_mastery to "passivestat5", set "passivecalc5" to skill('Corpse Explosion'.blvl)*par7 (Corpse Explosion gives 5% fire skill damage per hard point [increases all of Fire Golem's fire damage by 5% per hard point, Holy Fire attack damage increased twice])
+        * added passive_fire_mastery to "passivestat5", set "passivecalc5" to skill('Corpse Explosion'.blvl)*par7 (5% fire skill damage per hard point [increases all of Fire Golem's fire damage by 5% per hard point, Holy Fire attack damage increased twice])
         * changed "sumsk1calc" to "min(ln56,45)" from "min(ln56,30)" (maximum Holy Fire level increased to 45 from 30)
         * decreased "lvlmana" to 6 from 8 (mana cost increase per level decreased to 6 from 8)
-        * increased "Param8" to 11 from 6 (enhanced damage per level synergy to other golems increased to 11% from 6%)
+        * increased "Param8" to 11 from 6 (enhanced damage per hard point synergy to other golems increased to 11% from 6%)
         * set "Param7" to 5, set "*Param7 Description" to Damage synergy (5% fire skill damage synergy)
         * increased "EMinLev1" through "EMinLev5" to 11/13/16/20/27 from 9/10/11/12/13 (minimum fire damage per level increased to 11 from 9 at level 1-8, 13 from 10 at level 9-16, 16 from 11 at level 17-22, 20 from 12 at level 23-28, and 27 from 13 at level 29+)
         * increased "EMaxLev1" through "EMaxLev5" to 12/14/17/21/29 from 10/11/12/13/14 (maximum fire damage per level increased to 12 from 10 at level 1-8, 14 from 11 at level 9-16, 17 from 12 at level 17-22, 21 from 13 at level 23-28, and 29 from 13 at level 29+)
@@ -636,7 +871,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
         * decreased "Param8" to 18 from 21 (Resist Fire damage synergy decreased to 18% per level from 21%)
       * Meditation
         * changed "aurastatcalc1" to ln34/3 from ln34 (regenerate mana decreased to 1/3 effectiveness for allies)
-        * set "passivestat1" to manarecoverybonus, set "passivecalc1" to ln34 (regenerate mana remains at full effectiveness for the aurawielder)
+        * added manarecoverybonus to "passivestat1", added ln34 to "passivecalc1" (regenerate mana remains at full effectiveness for the aurawielder)
         * decreased "Param3" to 100 from 300 (regenerate mana baseline decreased to 100% from 300%)
         * increased "Param4" to 35 from 25 (regenerate mana per level increased to 35% from 25%)
 
@@ -684,7 +919,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
     * states.txt
       * holyshieldclone
-        * added holyshieldoverlay to "overlay1" (see overlay.txt)
+        * added holyshieldoverlay to "overlay1" (see overlay.txt above)
 
   * data>global>overlays
     * holyshieldoverlay.dcc (cloned and renamed from pashhshnu1hs.dcc) (part of a fix for Holy Shield visual to appear again in legacy graphics)
@@ -719,19 +954,20 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * skilldesc.txt
       * conversion
         * copied and deleted all stats from "dsc2line2" through "dsc2calcb2" and pasted them to "descline2" through "descalcb2" (moved duration location on the tooltip)
-        * changed "desccalca2" to par1+skill('Conversion'.blvl)*par2 from ln12 (added duration level scaling to tooltip)
+        * ~~changed "desccalca2" to par1+skill('Conversion'.blvl)*par2 from ln12 (added duration level scaling to tooltip)~~ (patch 1.06)
         * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
 
     * skills.txt
       * buff-type offensive and defensive aura radius baseline increased by 37.5% ("Param1" increased to 22 from 16 [Fanaticism "Param1" increased to 15 from 11])
       * Revive
-        * decreased "Param3" to 4200 from 4250 (combined with "Param4" change the base duration remains 4500 frames/180 seconds)
-        * increased "Param4" to 300 from 250 (Revive duration increased to 300 frames/12 seconds per hard point from 250 frames/10 seconds per hard point)
+        * ~~decreased "Param3" to 4200 from 4250 (combined with "Param4" change the baseline duration remains 4500 frames/180 seconds)~~ (patch 1.06)
+        * ++increased "Param3" to 4500 from 4200 (combined with "calc2" change the baseline duration remains 4500 frames/180 seconds) (patch 1.06)
+        * increased "Param4" to 300 from 250 (duration increased to 300 frames/12 seconds per hard point from 250 frames/10 seconds per hard point)
       * Thorns
         * decreased "perdelay" to 5 from 50 (Thorns updates every 5 frames/0.2 seconds instead of every 50 frames/2 seconds, should reduce the chance of nuking yourself by attacking a monster that unconverts with Thorns active)
       * Conversion
-        * changed "auralencalc" to par1+skill('Conversion'.blvl)*par2 from ln12 (Conversion duration increases by 20 frames/0.8 seconds per hard point)
-        * decreased "Param1" to 380 from 400 (combined with "Param2" change the base duration remains 16 seconds)
+        * ~~changed "auralencalc" to par1+skill('Conversion'.blvl)*par2 from ln12 (Conversion duration increases by 20 frames/0.8 seconds per hard point)~~ (patch 1.06)
+        * ~~decreased "Param1" to 380 from 400 (combined with "Param2" change the base duration remains 16 seconds)~~ (patch 1.06)
         * increased "Param2" to 20 from 0 (Conversion duration increases by 20 frames/0.8 seconds per hard point)
 
 **1.00 Changelog (11-27-23)**
@@ -806,11 +1042,11 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 ### data>global>excel
 #### armor.txt
-  * set "ShowLevel" to 1 (displays item level)
-  * added "Medium Armor" and "Heavy Armor" affix groups to "auto prefix" column (see automagic.txt) for medium and heavy armor/shields respectively
+  * set "ShowLevel" to 1 (displays item level in parenthesis)
+  * added "Medium Armor" and "Heavy Armor" affix groups to "auto prefix" column (see automagic.txt below) for medium and heavy armor/shields respectively
 
   * normal and exceptional paladin shields
-    * decreased "gemsockets" to 3 from 4 (max sockets decreased to 3 from 4)
+    * decreased "gemsockets" to 3 from 4 (maximum sockets decreased to 3 from 4)
 
 #### automagic.txt
   * Shimmering
@@ -864,12 +1100,12 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * set "1.09-Save Bits" to blank
     * set "descpriority" to 1
     * set "descfunc" to 19
-    * set "descstrpos" and "descstrneq" to ModStrHeavenlyBurden (see item-modifiers.json)
+    * set "descstrpos" and "descstrneq" to ModStrHeavenlyBurden (see item-modifiers.json below)
 
 #### magicprefix.txt
   * Defense
     * Stout (row 121)
-      * added 41 to "maxlevel"
+      * added 41 to "maxlevel" (no longer spawns at item level 42+)
     * Stout (122)
       * added 41 to "maxlevel"
     * Stout (123)
@@ -899,13 +1135,19 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Enhanced Damage
     * Jagged (188)
-      * added 25 to "maxlevel"
+      * ~~added 25 to "maxlevel"~~ (patch 1.06)
+      * ++changed "maxlevel" to 19 from 25 (no longer spawns at item level 20+ instead of 26+) (patch 1.06)
     * Deadly (189)
-      * added 31 to "maxlevel"
+      * ~~added 31 to "maxlevel"~~ (patch 1.06)
+      * ++changed "maxlevel" to 25 from 31 (patch 1.06)
     * Vicious (190)
-      * added 40 to "maxlevel"
+      * ~~added 40 to "maxlevel"~~ (patch 1.06)
+      * ++changed "maxlevel" to 31 from 40 (patch 1.06)
     * Brutal (191)
-      * added 55 to "maxlevel"
+      * ~~added 55 to "maxlevel"~~ (patch 1.06)
+      * ++changed "maxlevel" to 40 from 55 (patch 1.06)
+    * ++Massive (192) (patch 1.06)
+      * ++added 55 to "maxlevel" (patch 1.06)
 
   * Stamina
     * Rugged (206)
@@ -918,7 +1160,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * added 15 to "maxlevel"
 
   * Attack Rating
-    * Brone (220)
+    * Bronze (220)
       * added 48 to "maxlevel"
     * Bronze (221)
       * added 48 to "maxlevel"
@@ -943,9 +1185,13 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Attack Rating/Enhanced Damage
     * Sharp (259)
-      * added 46 to "maxlevel"
+      * ~~added 46 to "maxlevel"~~ (patch 1.06)
+      * ++changed "maxlevel" to 37 from 46 (patch 1.06)
     * Fine (260)
-      * added 55 to "maxlevel"
+      * ~~added 55 to "maxlevel"~~ (patch 1.06)
+      * changed "maxlevel" to 46 from 55 (patch 1.06)
+    * ++Warrior's (261) (patch 1.06)
+      * ++added 55 to "maxlevel" (patch 1.06)
 
   * Mana
     * Lizard's (306)
@@ -1027,7 +1273,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * Bloody (606)
       * increased "mod1min" and "mod1max" to 5/5 from 3/3 (minimum damage increased to 5 from 3)
     * Red (609)
-      * decreased "level" to 80 from 90 (item level requirement decreased to 80 from 90)
+      * decreased "level" to 80 from 90 (spawns at item level 80+ instead of 90+)
       * decreased "levelreq" to 75 from 82 (level requirement decreased to 75 from 82)
     * Bloody (672) ("medium"/large charms)
       * added new entry for "Bloody" (cloned row 608)
@@ -1113,10 +1359,18 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * Attacker Takes Damage
     * of Thorns (163)
       * added 33 to "maxlevel"
+      * ++increased "mod1min" and "mod1max" to 3/7 from 1/3 (attacker takes damage increased to 3-7 from 1-3) (patch 1.06)
     * of Spikes (164)
       * added 46 to "maxlevel"
+      * ++increased "mod1min" and "mod1max" to 8/13 from 4/6 (attacker takes damage increased to 8-13 from 4-6) (patch 1.06)
+    * ++of Razors (165) (patch 1.06)
+      * ++increased "mod1min" and "mod1max" to 14/22 from 7/9 (attacker takes damage increased to 14-22 from 7-9) (patch 1.06)
+    * ++of Swords (166) (patch 1.06)
+      * ++increased "mod1min" and "mod1max" to 23/35 from 10/20 (attacker takes damage increased to 23-35 from 10-20) (patch 1.06)
     * of Malice (167)
       * increased "mod1min" and "mod1max" to 3/9 from 1/5 (attacker takes damage increased to 3-9 from 1-5)
+    * ++of Thorns (736) (patch 1.06)
+      * ++increased "mod1max" to 2 from 1 (attacker takes damage increased to 1-2 from 1) (patch 1.06)
 
   * Increased Attack Speed
     * of Readiness (168)
@@ -1143,7 +1397,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * of Winter (181)
       * increased "mod1min" and "mod1max" to 13/17 from 5/9, increased "mod2min" and "mod2max" to 29/71 from 16/50 (cold damage increased to 13-17 minimum/29-71 maximum from 5-9/16-50)
     * of Frost (182)
-      * decreased "level" to 39 from 55 (now spawns at ilvl 39+ instead of 55+)
+      * decreased "level" to 39 from 55 (spawns at item level 39+ instead of 55+)
     * of Frigidity (183)
       * added 36 to "maxlevel"
 
@@ -1167,13 +1421,13 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * added 24 to "maxlevel"
     * of Lightning (192)
       * added 33 to "maxlevel"
-      * increased "mod2min" and "mod2max" to 13/21 from 9/16 (lightning damage increased to 13-21 maximum from 9-16)
+      * increased "mod2min" and "mod2max" to 13/21 from 9/16 (maximum lightning damage increased to 13-21 from 9-16)
     * of Thunder (193)
-      * increased "mod2min" and "mod2max" to 28/53 from 17/40 (lightning damage increased to 28-53 maximum from 17-40)
+      * increased "mod2min" and "mod2max" to 28/53 from 17/40 (maximum lightning damage increased to 28-53 from 17-40)
     * of Storms (194)
-      * increased "mod2min" and "mod2max" to 62/141 from 41/120 (lightning damage increased to 62-141 maximum from 41-120)
+      * increased "mod2min" and "mod2max" to 62/141 from 41/120 (maximum lightning damage increased to 62-141 from 41-120)
     * of Shock (195)
-      * increased "mod2min" and "mod2max" to 44/91 from 11/23 (lightning damage increased to 44-91 maximum from 11-23)
+      * increased "mod2min" and "mod2max" to 44/91 from 11/23 (maximum lightning damage increased to 44-91 from 11-23)
     * of Ennui (196)
       * added 56 to "maxlevel"
 
@@ -1325,7 +1579,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
       * added 44 to "maxlevel"
 
 #### misc.txt
-  * set "ShowLevel" to 1 for amulets/rings/charms/jewels (shows item level)
+  * set "ShowLevel" to 1 for amulets/rings/charms/jewels (shows item level in parenthesis)
 
   * Minor Mana Potion
     * changed "HellUpgrade" to mp4 from mp5 (vendors only sell greater mana potions instead of super mana potions in Hell)
@@ -1360,7 +1614,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 #### monprop.txt
   * added 6 new rows for Dclone and the Ubers
-  * diabloclone (Dclone)
+  * diabloclone (Diablo Clone / Dclone)
     * added res-curse to "prop1 (H)", set "min1 (H)" and "max1 (H)" to 80/80 (Diablo Clone now has 80% curse length reduction)
 
   * ubermephisto (Uber Mephisto)
@@ -1413,14 +1667,18 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "AC(N)" to 210 from 140 (Nightmare defense increased by 50%, at level 62 he has 1764 defense instead of 1176 defense)
     * increased "AC(H)" to 252 from 140 (Hell defense increased by 80%, at level 94 he has 4561 defense instead of 2534 defense)
 
-  * diabloclone (Dclone)
+  * diabloclone (Diablo Clone / Dclone)
     * added diabloclone to "MonProp" (uses diabloclone entry in monprop.txt)
     * decreased "Level(H)" to 100 from 110 (Diablo Clone level decreased to 100 from 110)
     * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
-    * increased "MinHP(H) and "MaxHP(H) to 8128/8128 from 6427/6427 (combined with decrease to "Level(H)" life remains roughly the same at 642680)
-    * increased "AC(H)" to 303 from 140 (defense increased by ~96%, at level 100 he has 5802 defense instead of 2940 defense at level 110)
-    * increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 116/219/353 from 100/190/215 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 131-247 and 14042 respectively)
-    * increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 127/265/329 from 110/230/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 143-299 and 13087 respectively)
+    * ~~increased "MinHP(H)" and "MaxHP(H)" to 8128/8128 from 6427/6427 (combined with decrease to "Level(H)" life remains roughly the same at 642680)~~ (patch 1.06)
+    * ++decreased "MinHP(H)" and "MaxHP(H)" to 6427/6427 from 8128/8128 (combined with monlvl.txt change his life remains the same at 6427000) (patch 1.06)
+    * increased "AC(H)" to 303 from 140 (~~defense increased by ~96%, at level 100 he has 5802 defense~~ instead of 2940 defense at level 110) (patch 1.06)
+    * ++with monlvl.txt change his defense is 6363 at level 100 instead of 5802 defense (patch 1.06)
+    * ~~increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 116/219/353 from 100/190/215 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 131-247 and 14042 respectively)~~ (patch 1.06)
+    * ++decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 100/190/215 from 116/219/353 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 130-247 and 14043 respectively) (patch 1.06)
+    * ~~increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 127/265/329 from 110/230/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 143-299 and 13087 respectively)~~ (patch 1.06)
+    * ++decreased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 110/230/200 from 127/265/329 (combined with monlvl.txt change his physical damage and attack rating for melee attack 2 remains the same at 143-299 and 13064 respectively) (patch 1.06)
 
   * baalcrab (Baal)
     * decreased "ToBlock" to 25 from 40 (Normal Baal block chance decreased to 25% from 40%)
@@ -1442,57 +1700,84 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * ubermephisto (Uber Mephisto)
     * changed "MonProp" to ubermephisto from mephisto (uses ubermephisto entry in monprop.txt instead of mephisto)
     * decreased "Level(H)" to 100 from 110 (Uber Mephisto level decreased to 100 from 110)
-    * increased "Drain(H) to 10 from blank (drain effectiveness increased to 10% from 0%)
+    * increased "Drain(H)" to 10 from blank (drain effectiveness increased to 10% from 0%)
     * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
-    * increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
-    * increased "AC(H)" to 343 from 160 (defense increased by ~95%, at level 100 he has 6568 defense instead of 3360 defense at level 110)
-    * increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 431/507/329 from 375/440/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 487-572 and 13087 respectively)
+    * ~~increased "MinHP(H)" and "MaxHP(H)" to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)~~ (patch 1.06)
+    * ++decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000) (patch 1.06)
+    * increased "AC(H)" to 343 from 160 (~~defense increased by ~95%, at level 100 he has 6568 defense~~ instead of 3360 defense at level 110) (patch 1.06)
+    * ++with monlvl.txt change at level 100 he has 7203 defense instead of 6568 defense (patch 1.06)
+    * ~~increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 431/507/329 from 375/440/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 487-572 and 13087 respectively)~~ (patch 1.06)
+    * ++decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 375/440/200 from 431/507/329 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 487-572 and 13064 respectively) (patch 1.06)
 
   * uberdiablo (Uber Diablo/Pandemonium Diablo)
     * added uberdiablo to "MonProp" (uses uberdiablo entry in monprop.txt)
     * decreased "Level(H)" to 100 from 110 (Uber Diablo level decreased to 100 from 110)
     * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
-    * increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
-    * increased "AC(H)" to 300 from 140 (defense increased by ~96%, at level 100 he has 5745 defense instead of 2940 defense at level 110)
-    * increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 426/438/353 from 370/380/215 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 481-494 and 14042 respectively)
-    * increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 127/265/329 from 110/230/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 143-299 and 13087 respectively)
+    * ~~increased "MinHP(H)" and "MaxHP(H)" to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)~~ (patch 1.06)
+    * ++decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000) (patch 1.06)
+    * increased "AC(H)" to 300 from 140 (~~defense increased by ~96%, at level 100 he has 5745 defense~~ instead of 2940 defense at level 110) (patch 1.06)
+    * ++with monlvl.txt change at level 100 he has 6300 defense instead of 5745 defense (patch 1.06)
+    * ~~increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 426/438/353 from 370/380/215 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 481-494 and 14042 respectively)~~ (patch 1.06)
+    * ++decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 370/380/215 from 426/438/353 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 481-494 and 14043 respectively) (patch 1.06)
+    * ~~increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 127/265/329 from 110/230/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 143-299 and 13087 respectively)~~ (patch 1.06)
+    * ++decreased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 110/230/200 from 127/265/329 (combined with monlvl.txt change his physical damage and attack rating for melee attack 2 remains the same at 143-299 and 13064 respectively) (patch 1.06)
 
   * uberizual (Uber Izual)
     * added uberizual to "MonProp" (uses uberizual entry in monprop.txt)
     * decreased "Level(H)" to 100 from 110 (Uber Izual level decreased to 100 from 110)
-    * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
-    * increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
-    * increased "AC(H)" to 258 from 120 (defense increased by ~96%, at level 100 he has 4940 defense instead of 2520 defense at level 110)
-    * increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 403/461/329 from 350/400/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 455-520 and 13087 respectively)
-    * increased "El1MinD(H)" and "El1MaxD(H)" to 58/93 from 50/80 (combined with decrease to "Level(H)" cold damage for melee attack 1 remains roughly the same at 65-105)
+    * ~~decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)~~ (patch 1.06)
+    * ++increased "ToBlock(H)" to 50 from 30 (block chance increased to 50% from 30%, **has no effect** because Izual can't block, just changing it back for consistency purposes) (patch 1.06)
+    * ~~increased "MinHP(H)" and "MaxHP(H)" to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)~~ (patch 1.06)
+    * ++decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000) (patch 1.06)
+    * ~~increased "AC(H)" to 258 from 120 (defense increased by ~96%, at level 100 he has 4940 defense instead of 2520 defense at level 110)~~ (patch 1.06)
+    * ++decreased "AC(H)" to 120 from 258 (combined with monlvl.txt change at level 100 he has 2520 defense instead of 4940 defense) (patch 1.06)
+    * ~~increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 403/461/329 from 350/400/200 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 455-520 and 13087 respectively)~~ (patch 1.06)
+    * ++decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 350/400/200 from 403/461/329 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 455-520 and 13064 respectively) (patch 1.06)
+    * ~~increased "El1MinD(H)" and "El1MaxD(H)" to 58/93 from 50/80 (combined with decrease to "Level(H)" cold damage for melee attack 1 remains roughly the same at 65-105)~~ (patch 1.06)
+    * ++decreased "El1MinD(H)" and "El1MaxD(H)" to 50/80 from 58/93 (combined with monlvl.txt change his cold damage for melee attack 1 remains the same at 65-104) (patch 1.06)
 
   * uberandariel (Lilith)
     * added uberandariel to "MonProp" (uses uberandariel entry in monprop.txt)
     * decreased "Level(H)" to 100 from 110 (Lilith level decreased to 100 from 110)
     * decreased "ToBlock(H)" to 30 from 40 (block chance decreased to 30% from 40%)
-    * increased "AC(H)" to 176 from 110 (defense increased by ~46%, at level 100 she has 3370 defense instead of 2310 defense at level 110)
-    * increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 461/507/772 from 400/440/470 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 520-572 and 30710 respectively)
-    * increased "El1MinD(H)" and "El1MaxD(H)" to 38/38 from 33/33 (combined with decrease to "Level(H)" poison damage for melee attack 1 remains roughly the same at 754 over 18 seconds)
+    * ~~increased "MinHP(H)" and "MaxHP(H)" to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)~~ (patch 1.06)
+    * ++decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change her life remains the same at 650000-660000) (patch 1.06)
+    * increased "AC(H)" to 176 from 110 (~~defense increased by ~46%, at level 100 she has 3370 defense~~ instead of 2310 defense at level 110) (patch 1.06)
+    * ++with monlvl.txt change at level 100 she has 3696 defense instead of 3370 defense (patch 1.06)
+    * ~~increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 461/507/772 from 400/440/470 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 520-572 and 30710 respectively)~~ (patch 1.06)
+    * ++decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 400/440/470 from 461/507/772 (combined with monlvl.txt change her physical damage and attack rating for melee attack 1 remains the same at 520-572 and 30700 respectively) (patch 1.06)
+    * ~~increased "El1MinD(H)" and "El1MaxD(H)" to 38/38 from 33/33 (combined with decrease to "Level(H)" poison damage for melee attack 1 remains roughly the same at 754 over 18 seconds)~~ (patch 1.06)
+    * ++decreased "El1MinD(H)" and "El1MaxD(H)" to 33/33 from 38/38 (combined with monlvl.txt change her poison damage for melee attack 1 remains the same at 739 over 18 seconds) (patch 1.06)
 
   * uberduriel (Uber Duriel)
     * added uberduriel to "MonProp" (uses uberduriel entry in monprop.txt)
     * decreased "Level(H)" to 100 from 110 (Uber Duriel level decreased to 100 from 110)
     * decreased "ToBlock(H)" to 30 from 50 (block chance decreased to 30% from 50%)
-    * increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
-    * increased "AC(H)" to 258 from 120 (defense increased by ~96%, at level 100 he has 4940 defense instead of 2520 defense at level 110)
-    * increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 415/438/181 from 360/380/110 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 468-495 and 7200 respectively)
-    * increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 132/190/246 from 115/165/150 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 149-214 and 9785 respectively)
+    * ~~increased "MinHP(H)" and "MaxHP(H)" to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)~~ (patch 1.06)
+    * ++decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000) (patch 1.06)
+    * increased "AC(H)" to 258 from 120 (~~defense increased by ~96%, at level 100 he has 4940 defense~~ instead of 2520 defense at level 110) (patch 1.06)
+    * ++with monlvl.txt change at level 100 he has 5418 defense instead of 4940 defense (patch 1.06)
+    * ~~increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 415/438/181 from 360/380/110 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 468-495 and 7200 respectively)~~ (patch 1.06)
+    * ++decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 360/380/110 from 415/438/181 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 468-494 and 7185 respectively) (patch 1.06)
+    * ~~increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 132/190/246 from 115/165/150 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 149-214 and 9785 respectively)~~ (patch 1.06)
+    * ++decreased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 115/165/150 from 132/190/246 (combined with monlvl.txt change his physical damage and attack rating for melee attack 2 remains the same at 149-214 and 9798 respectively) (patch 1.06)
 
   * uberbaal (Uber Baal)
     * added uberbaal to "MonProp" (uses uberbaal entry in monprop.txt)
     * decreased "Level(H)" to 100 from 110 (Uber Baal level decreased to 100 from 110)
     * decreased "ToBlock(H)" to 30 from 55 (block chance decreased to 30% from 55%)
-    * increased "MinHP(H) and "MaxHP(H) to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)
-    * increased "AC(H)" to 375 from 150 (defense increased by ~128%, at level 100 he has 7181 defense instead of 3150 defense at level 110)
-    * increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 380/438/411 from 330/380/250 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 429-495 and 16349 respectively)
-    * increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 190/277/411 from 165/240/250 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 214-313 and 16349 respectively)
-    * increased "El1MinD(H)" and "El1MaxD(H)" to 139/231 from 120/200 (combined with decrease to "Level(H)" fire damage for melee attack 1 remains the same at 157-261)
-    * increased "El2MinD(H)" and "El2MaxD(H)" to 139/185 from 120/160 (combined with decrease to "Level(H)" cold damage for melee attack 2 remain roughly the same at 157-209)
+    * ~~increased "MinHP(H)" and "MaxHP(H)" to 8221/8347 from 6500/6600 (combined with decrease to "Level(H)" life remains roughly the same at 650034-659997)~~ (patch 1.06)
+    * ++decreased "MinHP(H)" and "MaxHP(H)" to 6500/6600 from 8221/8347 (combined with monlvl.txt change his life remains the same at 650000-660000) (patch 1.06)
+    * increased "AC(H)" to 375 from 150 (~~defense increased by ~128%, at level 100 he has 7181 defense~~ instead of 3150 defense at level 110) (patch 1.06)
+    * ++with monlvl.txt change at level 100 he has 7875 defense instead of 7181 defense (patch 1.06)
+    * ~~increased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 380/438/411 from 330/380/250 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 1 remain roughly the same at 429-495 and 16349 respectively)~~ (patch 1.06)
+    * ++decreased "A1MinD(H)", "A1MaxD(H)", and "A1TH(H)" to 330/380/250 from 380/438/411 (combined with monlvl.txt change his physical damage and attack rating for melee attack 1 remains the same at 429-494 and 16330 respectively) (patch 1.06)
+    * ~~increased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 190/277/411 from 165/240/250 (combined with decrease to "Level(H)" physical damage and attack rating for melee attack 2 remain roughly the same at 214-313 and 16349 respectively)~~ (patch 1.06)
+    * ++decreased "A2MinD(H)", "A2MaxD(H)", and "A2TH(H)" to 165/240/250 from 190/277/411 (combined with monlvl.txt change his physical damage and attack rating for melee attack 2 remains the same at 214-312 and 16330 respectively) (patch 1.06)
+    * ~~increased "El1MinD(H)" and "El1MaxD(H)" to 139/231 from 120/200 (combined with decrease to "Level(H)" fire damage for melee attack 1 remains the same at 157-261)~~ (patch 1.06)
+    * ++decreased "El1MinD(H)" and "El1MaxD(H)" to 120/200 from 139/231 (combined with monlvl.txt change his fire damage for melee attack 1 remains the same at 156-260) (patch 1.06)
+    * ~~increased "El2MinD(H)" and "El2MaxD(H)" to 139/185 from 120/160 (combined with decrease to "Level(H)" cold damage for melee attack 2 remain roughly the same at 157-209)~~ (patch 1.06)
+    * ++decreased "El2MinD(H)" and "El2MaxD(H)" to 120/160 from 139/185 (combined with monlvl.txt change his cold damage for melee attack 2 remains the same at 156-208) (patch 1.06)
 
   * trangvampire
     * added new entry for "trangvampire" (cloned row 137)
@@ -1538,9 +1823,9 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * decreased "T1Min2" and "T1Max2" to 1/1 from 4/8 (Resist Fire aura level decreased to 1 from 4-8)
 
   * Runeword47 (Grief)
-    * ~~changed "T1Code1" to dmg% from dmg-dem/lvl, set "T1Min1" and "T1Max1" to 180/200 (180-200% enhanced damage instead of damage to demons per level)~~ (see patch 1.05)
-    * ~~decreased "T1Min2" and "T1Max2" to 120/140 from 340/400 (+damage decreased to 120-140 from 340-400)~~ (see patch 1.05)
-    * ~~increased "T1Min3" to 35 from 30 (increased attack speed increased to 35-40% from 30-40%)~~ (see patch 1.05)
+    * ~~changed "T1Code1" to dmg% from dmg-dem/lvl, set "T1Min1" and "T1Max1" to 180/200 (180-200% enhanced damage instead of damage to demons per level)~~ (patch 1.05)
+    * ~~decreased "T1Min2" and "T1Max2" to 120/140 from 340/400 (+damage decreased to 120-140 from 340-400)~~ (patch 1.05)
+    * ~~increased "T1Min3" to 35 from 30 (increased attack speed increased to 35-40% from 30-40%)~~ (patch 1.05)
 
   * Runeword51 (Heart of the Oak)
     * added hamm to "itype3"
@@ -1556,9 +1841,9 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * decreased "T1Min4" and "T1Max4" to 40/40 from 60/60 (lightning resist decreased to 40% from 60%)
 
   * Runeword62 (Insight)
-    * ~~decreased "T1Min1" and "T1Max1" to 90/120 from 200/260 (enhanced damage decreased to 90-120% from 200-260%)~~ (see patch 1.03)
+    * ~~decreased "T1Min1" and "T1Max1" to 90/120 from 200/260 (enhanced damage decreased to 90-120% from 200-260%)~~ (patch 1.03)
     * decreased "T1Min2" and "T1Max2" to 35/60 from 180/250 (attack rating decreased to 35-60% from 180-250%)
-    * ~~decreased "T1Min4" and "T1Max4" to 1/3 from 1/6 (Critical Strike oskill level decreased to 1-3 from 1-6)~~ (see patch 1.03)
+    * ~~decreased "T1Min4" and "T1Max4" to 1/3 from 1/6 (Critical Strike oskill level decreased to 1-3 from 1-6)~~ (patch 1.03)
     * decreased "T1Min6" and "T1Max6" to 1/3 from 12/17 (Meditation level decreased to 1-3 from 12-17)
 
   * Runeword65 (King's Grace)
@@ -1603,19 +1888,19 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * decreased new "T1Min6" and T1Max6" to 1/1 from 2/2 (all skills decreased to 1 from 2)
 
   * Runeword131 (Splendor)
-    * ~~changed "*RunesUsed" to EthDol from EthLum~~ (see patch 1.01)
-    * ~~changed "Rune2" to r14 from r17 (changed second rune to Dol from Lum)~~ (see patch 1.01)
+    * ~~changed "*RunesUsed" to EthDol from EthLum~~ (patch 1.01)
+    * ~~changed "Rune2" to r14 from r17 (changed second rune to Dol from Lum)~~ (patch 1.01)
     * increased "T1Min6" and "T1Max6" to 15/15 from 10/10 (faster cast rate increased to 15% from 10%)
 
   * Runeword133 (Stealth)
     * deleted all stats from "T1Code2" through "T1Max2" and moved the other stats over (removed 6 dexterity)
-    * ~~decreased new "T1Min3" and "T1Max3" to 10/10 from 25/25 (faster run/walk decreased to 10% from 25%)~~ (see patch 1.03)
-    * ~~decreased "T1Min4" and "T1Max4" to 10/10 from 25/25 (faster cast rate decreased to 10% from 25%)~~ (see patch 1.03)
+    * ~~decreased new "T1Min3" and "T1Max3" to 10/10 from 25/25 (faster run/walk decreased to 10% from 25%)~~ (patch 1.03)
+    * ~~decreased "T1Min4" and "T1Max4" to 10/10 from 25/25 (faster cast rate decreased to 10% from 25%)~~ (patch 1.03)
     * deleted all stats from "T1Min6" through "T1Max6" (removed faster hit recovery)
 
   * Runeword134 (Steel)
     * added hamm to "itype4"
-    * ~~added club to "itype5"~~ (see patch 1.05)
+    * ~~added club to "itype5"~~ (patch 1.05)
 
   * Runeword148 (Treachery)
     * increased "T1Min2" to 12 from 5 and decreased "T1Max2" to 3 from 15 (Fade when struck proc chance increased to 12% from 5%, level decreased to 3 from 15)
@@ -1625,11 +1910,11 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * set "complete" to 1 (allows Valor to be created)
     * added DMMod 1.0 to "*Patch Release"
     * added tors to "itype1" (allows Valor to be created in body armor)
-    * ~~added TalIth to "*RunesUsed", added r07 and r06 to "Rune1" and "Rune2" (first rune is Tal rune, second rune is Ith rune)~~ (see patch 1.03)
-    * ~~added red-dmg to "T1Code1", set "T1Min1" and "T1Max1" to 1/1 (damage reduced by 1)~~ (see patch 1.03)
+    * ~~added TalIth to "*RunesUsed", added r07 and r06 to "Rune1" and "Rune2" (first rune is Tal rune, second rune is Ith rune)~~ (patch 1.03)
+    * ~~added red-dmg to "T1Code1", set "T1Min1" and "T1Max1" to 1/1 (damage reduced by 1)~~ (patch 1.03)
     * added stam to "T1Code2", set "T1Min2" and "T1Max2" to 25/25 (25 stamina)
-    * ~~added move2 to "T1Code3", set "T1Min3" and "T1Max3" to 10/10 (10% faster run/walk)~~ (see patch 1.03)
-    * ~~added swing2 to "T1Code4", set "T1Min4" and "T1Max4" to 10/10 (10% increased attack speed)~~ (see patch 1.03)
+    * ~~added move2 to "T1Code3", set "T1Min3" and "T1Max3" to 10/10 (10% faster run/walk)~~ (patch 1.03)
+    * ~~added swing2 to "T1Code4", set "T1Min4" and "T1Max4" to 10/10 (10% increased attack speed)~~ (patch 1.03)
 
   * Runeword154 (Venom)
     * changed "*RunesUsed" to TalMal from TalDolMal
@@ -1657,21 +1942,21 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * changed "*RunesUsed" to ShaelEldIo from ShaelKoEld
     * changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
     * changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
-    * ~~decreased "T1Min1" and "T1Max1" to 33/33 from 65/65 (faster run/walk decreased to 33% from 65%)~~ (see patch 1.03)
-    * ~~decreased "T1Min3" and "T1Max3" to 25/25 from 40/40 (increased attack speed decreased to 25% from 40%)~~ (see patch 1.03)
-    * ~~decreased "T1Min5" and "T1Max5" to 2/2 from 6/6 (Evade oskill level decreased to 2 from 6)~~ (see patch 1.03)
+    * ~~decreased "T1Min1" and "T1Max1" to 33/33 from 65/65 (faster run/walk decreased to 33% from 65%)~~ (patch 1.03)
+    * ~~decreased "T1Min3" and "T1Max3" to 25/25 from 40/40 (increased attack speed decreased to 25% from 40%)~~ (patch 1.03)
+    * ~~decreased "T1Min5" and "T1Max5" to 2/2 from 6/6 (Evade oskill level decreased to 2 from 6)~~ (patch 1.03)
 
   * Runeword172 (Hustle [weapon])
     * changed "*RunesUsed" to ShaelEldIo from ShaelKoEld
     * changed "Rune2" to r02 from r18 (changed second rune to Eld from Ko)
     * changed "Rune3" to r16 from r02 (changed third rune to Io from Eld)
     * deleted all stats from "T1Code1" to "T1Max1" and moved the other stats over (removed chance to cast Burst of Speed on striking)
-    * ~~changed new "T1Code1" to move2 from swing2, increased "T1Min1" and "T1Max1" to 15/15 (15% faster run/walk instead of 10% increased attack speed)~~ (see patch 1.03)
-    * ~~decreased new "T1Min2" and "T1Max2" to 95/110 from 180/200 (enhanced damage decreased to 95-110% from 180-200%)~~ (see patch 1.03)
+    * ~~changed new "T1Code1" to move2 from swing2, increased "T1Min1" and "T1Max1" to 15/15 (15% faster run/walk instead of 10% increased attack speed)~~ (patch 1.03)
+    * ~~decreased new "T1Min2" and "T1Max2" to 95/110 from 180/200 (enhanced damage decreased to 95-110% from 180-200%)~~ (patch 1.03)
     * increased new "T1Min3" and "T1Max3" to 2/2 (Fanaticism aura level increased to 2 from 1)
 
   * Runeword173 (Mosaic)
-    * ~~changed "complete" to blank from 1 (prevents Mosaic from being created)~~ (see patch 1.05)
+    * ~~changed "complete" to blank from 1 (prevents Mosaic from being created)~~ (patch 1.05)
 
 #### setitems.txt
   * all medium and heavy armor/shields have the "Medium Armor" and "Heavy Armor" bonuses added to their set stats (automagic.txt affixes don't apply to set/unique items)
@@ -1910,16 +2195,17 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * added 76 to "dsc3line2", added StrSkillDamageTakenPerLevel to "dsc3texta2", added skillname66 to "dsc3textb2", added par8 to "dsc3calca2" (added Amplify Damage damage taken synergy to Iron Maiden's tooltip)
 
   * life tap
-    * copied and deleted all stats from "dsc2line2" through "dsc2calca2" and pasted them to "descline3" through "desccalca3" (moved life returned duration on the tooltip)
+    * copied and deleted all stats from "dsc2line2" through "dsc2calca2" and pasted them to "descline3" through "desccalca3" (moved life returned on the tooltip)
 
   * decrepify
     * changed "dsc2calca4" to par5 from 0 (now properly shows damage taken on the tooltip)
 
   * revive
     * copied and deleted all stats from "dsc2line2" through "dsc2calcb2" and pasted them to "descline2" through "descalcb2" and moved the other stats over (moved duration location on the tooltip)
-    * changed "desccalca2" to par3+skill('Revive'.blvl)*par4 from ln34
+    * ~~changed "desccalca2" to par3+skill('Revive'.blvl)*par4 from ln34 (duration on the tooltip now scales by 250 frames/10 seconds per hard point)~~ (patch 1.06)
+    * ++changed "desccalca2" to par3+((skill('Revive'.blvl)>0)?(skill('Revive'.blvl)-1):(skill('Revive'.blvl)))*par4 from par3+skill('Revive'.blvl)*par4 (duration on the tooltip now fixed to start at 180 seconds baseline regardless of soft or hard points) (patch 1.06)
     * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
-    * deleted all stats from "dsc3line3" and "dsc3texta3" (removed Summon Resist synergy from tooltip because SR doesn't actually apply to Revives)
+    * deleted all stats from "dsc3line3" and "dsc3texta3" (removed Summon Resist synergy from tooltip because SR doesn't actually apply to Revive)
 
   * defiance
     * changed "desctexta2" to StrSkillDefensePassive from StrSkill21, changed "desccalca2" to (skill('Defiance'.blvl) < 1) ? par8 : skill('Defiance'.blvl) * par8 from ln34 (shows passive defense bonus)
@@ -1936,10 +2222,10 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * frenzy
     * copied and deleted all stats from "dsc2line2" through "dsc2calcb2", pasted them to "descline5" through "desccalcb5" and moved the other stats over (moved duration location on the tooltip)
-    * changed "desccalca5" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (each hard point in Frenzy increases duration on the tooltip by 0.08 seconds, each hard point in Increased Stamina increases duration on tooltip by 0.32 seconds)
+    * ~~changed "desccalca5" to par7+skill('Frenzy'.blvl)*2+skill('Increased Stamina'.blvl)*8 from par7+skill('Increased Stamina'.blvl)*10 (each hard point in Frenzy increases duration on the tooltip by 0.08 seconds, each hard point in Increased Stamina increases duration on tooltip by 0.32 seconds)~~ (patch 1.06)
     * NOTE: There's an issue with using blvl in skilldesc.txt calcs, the ingame tooltip won't calculate the "next level" stats properly. This is only a tooltip bug, the stats will increase as expected.
     * deleted all stats from "dsc3line3" through "dsc3calca3" and moved the other stats over (removed Taunt synergy from the tooltip)
-    * decreased new "dsc3calcb3" to 32 from 4 (Increased Stamina duration synergy on tooltip decreased to 0.32 seconds from 0.4 seconds)
+    * ~~decreased new "dsc3calcb3" to 32 from 4 (Increased Stamina duration synergy on tooltip decreased to 0.32 seconds from 0.4 seconds)~~ (patch 1.06)
 
   * berserk
     * changed "IconCel" to 54 from 52 (swapped skill icon with Natural Resistance)
@@ -1948,7 +2234,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * changed "IconCel" to 52 from 54 (swapped skill icon with Berserk)
 
   * shape shifting (Lycanthropy)
-    * added 74 to "descline3", ~~added StrSkill89 to "desctexta3", added ln56 to "desccalca3" (added run/walk speed to the tooltip)~~ (see patch 1.02)
+    * added 74 to "descline3", ~~added StrSkill89 to "desctexta3", added ln56 to "desccalca3" (added run/walk speed to the tooltip)~~ (patch 1.02)
 
 #### skills.txt
   * Jab
@@ -1979,7 +2265,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * changed "calc1" to ln56*(100+((skill('Glacial Spike'.blvl)+skill('Frost Nova'.blvl))* par8))/100 from ln56*(100+((skill('Shiver Armor'.blvl)+skill('Chilling Armor'.blvl))*par8))/100 (freeze length synergy skills changed to Glacial Spike/Frost Nova from Shiver Armor/Chilling Armor)
 
   * Shiver Armor
-    * increased "Param8" to 18 from 9 (cold damage synergy per level increased to 18% from 9%)
+    * increased "Param8" to 18 from 9 (cold damage synergy per hard point increased to 18% from 9%)
     * changed "EDmgSymPerCalc" to (skill('Frost Nova'.blvl))*par8 from (skill('Frozen Armor'.blvl)+skill('Chilling Armor'.blvl))*par8 (cold damage synergy skills changed to Frost Nova from Frozen Armor/Chilling Armor)
 
   * Chilling Armor
@@ -2007,10 +2293,12 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * Bone Spirit
     * increased "EMinLev5" and "EMaxLev5" to 27/28 from 20/21 (magic damage per level at level 29+ increased to 27-28 from 20-21)
 
-  * ~~Revive~~ (see patch 1.01)
+  * ~~Revive~~ (patch 1.01)
     * ~~changed "calc2" to par3+skill('Revive'.blvl)*par4 from ln34 (Revive duration increases by 250 frames/10 seconds per hard point)~~
     * ~~decreased "Param3" to 4250 from 4500 (combined with "Param4" change the base duration remains 4500 frames/180 seconds)~~
+    * ++decreased "Param3" to 4200 from 4250 (combined with "Param4" change the base duration remains 4500 frames/180 seconds) (patch 1.01)
     * ~~increased "Param4" to 250 from 0 (Revive duration increases by 250 frames/10 seconds per hard point)~~
+    * ++increased "Param4" to 300 from 250 (Revive duration increased to 300 frames/12 seconds per hard point from 250 frames/10 seconds per hard point) (patch 1.01)
 
   * Thorns
     * increased "Param4" to 45 from 40 (damage returned per level increased to 45% from 40%)
@@ -2031,9 +2319,9 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * doubled all stats from "EMin" through "EMaxLev5" (doubled damage)
 
   * Holy Shield
-    * changed "aurastate" to holyshieldclone from holyshield (no longer sets block rate to 2 frames ~~and removes Holy Shield graphic, see states.txt~~ [see patch 1.02])
+    * changed "aurastate" to holyshieldclone from holyshield (no longer sets block rate to 2 frames ~~and removes Holy Shield graphic, see states.txt below~~ [patch 1.02])
     * set "aurastat2" to skill_armor_percent (makes the defense bonus work again, the above change to the "aurastate" caused it to stop working)
-    * ~~set "aurastat3" to item_fasterblockrate, set "aurastatcalc3" to 16 (gives 16% faster block rate)~~ (see patch 1.05)
+    * ~~set "aurastat3" to item_fasterblockrate, set "aurastatcalc3" to 16 (gives 16% faster block rate)~~ (patch 1.05)
     * decreased "Param8" to 10 from 15 (Defiance defense synergy decreased to 10% per level from 15%)
 
   * Salvation
@@ -2049,7 +2337,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * set "Param5" to -75, set "*Param5 Description" to Slow %
     * set "Param6" to -100, set "*Param6 Description" to Damage Resistance %
 
-  * ~~Bash~~ (see patch 1.02)
+  * ~~Bash~~ (patch 1.02)
     * ~~increased "Param2" to 8 from 5 (enhanced damage per level increased to 8% from 5%)~~
     * ~~changed "ToHitCalc" to 15+lvl*7+skill('Concentrate'.blvl)* par7 from 15+lvl*5+skill('Concentrate'.blvl)*par7 (attack rating per level increased to 7% from 5%)~~
 
@@ -2080,14 +2368,14 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * War Cry
     * decreased "lvlmana" to 2 from 3 (mana increase per level decreased to 0.5 from 0.75)
 
-  * ~~Wearwolf (Werewolf)~~ (see patch 1.02)
+  * ~~Wearwolf (Werewolf)~~ (patch 1.02)
     * ~~added velocitypercent to "aurastat5", set "aurastatcalc5" to skill('Shape Shifting'.ln56) (Lycanthropy gives 2% velocity per level to Werewolf)~~
 
-  * ~~Shape Shifting (Lycanthropy)~~ (see patch 1.02)
+  * ~~Shape Shifting (Lycanthropy)~~ (patch 1.02)
     * ~~set "Param5" to 2, set "*Param5 Description" to Velocity % per level (Lycanthropy gives 2% velocity baseline to Werewolf and Werebear)~~
     * ~~set "Param6" to 2, set "*Param6 Description" to Velocity % per level (Lycanthropy gives 2% additional velocity per level to Werewolf/Werebear, level 20 would give 2 + (2 * 19) = 40% velocity for example)~~
 
-  * ~~Wearbear (Werebear)~~ (see patch 1.02)
+  * ~~Wearbear (Werebear)~~ (patch 1.02)
     * ~~added velocitypercent to "aurastat5", set "aurastatcalc5" to skill('Shape Shifting'.ln56) (Lycanthropy gives 2% velocity per level to Werebear)~~
 
   * Fury
@@ -2099,7 +2387,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * changed "gfxclass" to 742 from 135 (part of a change to allow Trang vampires to use necromancer casting frames instead of slow vampire casting frames)
 
   * holyshieldclone
-    * added a new entry for "holyshieldclone" (cloned row 103) (Holy Shield no longer sets block rate to 2 frames ~~and removes Holy Shield graphic~~ [see patch 1.02])
+    * added a new entry for "holyshieldclone" (cloned row 103) (Holy Shield no longer sets block rate to 2 frames ~~and removes Holy Shield graphic~~ [patch 1.02])
 
 #### treasureclassex.txt
   * BaalQSpecial
@@ -2146,7 +2434,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "max8" to 8 from 3 (Decrepify charge level increased to 8 from 3)
     * changed "par9" to 116 from 101 (Conversion charges instead of Holy Bolt)
     * changed "par10" to 240 from 225 (Twister charges instead of Firestorm)
-    * ~~added swing2 to "prop11", set "min11" and "max11" to 15/15 (15% increased attack speed)~~ (see patch 1.05)
+    * ~~added swing2 to "prop11", set "min11" and "max11" to 15/15 (15% increased attack speed)~~ (patch 1.05)
     * added allskills to "prop12", set "min12" and "max12" to 1/1 (1 all skills)
 
   * Stormrider
@@ -2166,7 +2454,8 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * The Minataur (The Minotaur)
     * changed "prop1" to dmg-ac from stupidity, changed "min1" and "max1" to -90/-90 from 2/2 (-90 monster defense per hit instead of hit blinds target +2)
-    * changed "prop2" to nofreeze from half-freeze (cannot be frozen instead of half freeze duration)
+    * ~~changed "prop2" to nofreeze from half-freeze (cannot be frozen instead of half freeze duration)~~ (patch 1.06)
+    * ++changed "prop2" to half-freeze from nofreeze (half freeze duration instead of cannot be frozen) (patch 1.06)
     * increased "max3" to 25 from 20 (strength increased to 15-25 from 15-20)
     * increased "min7" and "max7" to 200/300 from 140/200 (enhanced damage increased to 200-300% from 140-200%)
 
@@ -2215,7 +2504,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Earthshaker
     * increased "min1" to 12 from 5 (Fissure on striking proc chance increased to 12% from 5%)
-    * ~~increased "min7" and "max7" to 112/112 from 50/50 (durability bonus increased to 112 from 50)~~ (see patch 1.04)
+    * ~~increased "min7" and "max7" to 112/112 from 50/50 (durability bonus increased to 112 from 50)~~ (patch 1.04)
     * added cast2 to "prop8", set "min8" and "max8" to 15/15 (15% faster cast rate)
 
   * Bloodtree Stump
@@ -2290,7 +2579,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * added openwounds to "prop9", set "min9" and "max9" to 60/60 (60% chance of open wounds)
 
   * Blackbog's Sharp
-    * ~~changed "prop3" to dmg% from dmg-norm, changed "min3" and "max3" to 100/100 from 15/45 (100% enhanced damage instead of adds 15-45 damage)~~ (see patch 1.05)
+    * ~~changed "prop3" to dmg% from dmg-norm, changed "min3" and "max3" to 100/100 from 15/45 (100% enhanced damage instead of adds 15-45 damage)~~ (patch 1.05)
     * added pierce-pois to "prop9", set "min9" and "max9" to 5/10 (-5-10% enemy poison resistance)
 
   * Stormspike
@@ -2349,9 +2638,11 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Razorswitch
     * increased "min2" and "max2" to 50/66 from 15/15 (attacker takes damage increased to 50-66 from 15)
+    * ++added regen-mana to "prop8, added 25/25 to "min8" and "max8" (regenerate mana 25%) (patch 1.06)
 
   * Ribcracker
     * increased "min9" and "max9" to 225/225 from 100/100 (durability bonus increased to 225 from 100)
+    * ++added regen-mana to "prop10", added 21/21 to "min10" and "max10" (regenerate mana 21%) (patch 1.06)
 
   * Chromatic Ire
     * increased "min2" to 25 from 20 (all resistances increased to 25-40% from 20-40%)
@@ -2360,6 +2651,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * changed "prop7" to extra-ltng from skill, changed "par7" to blank from 63, changed "min7" and "max7" to 12/15 from 1/1 (12-15% to lightning skill damage instead of level 1 Lightning Mastery)
     * changed "prop8" to pierce-cold from skill, changed "par8" to blank from 65, changed "min8" and "max8" to 7/12 from 1/1 (-7-12% enemy cold resistance instead of level 1 Cold Mastery)
     * added dmg% to "prop9", set "min9" and "max9" to 100/150 (100-150% enhanced damage)
+    * ++added regen-mana to "prop10", added 32/32 to "min10" and "max10" (regenerate mana 32%) (patch 1.06)
 
   * Warpspear
     * changed "prop1" to sock from sorc, changed "max1" to 4 from 3 (3-4 sockets instead of 3 to sorceress skills)
@@ -2367,11 +2659,13 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min3" and "max3" to 8/8 from 3/3 (Teleport level increased to 8 from 3)
     * increased "min4" and "max4" to 6/6 from 3/3 (Telekinesis level increased to 6 from 3)
     * increased "min5" and "max5" to 6/6 from 3/3 (Energy Shield level increased to 6 from 3)
+    * ++added regen-mana to "prop7", added 40/40 to "min7" and "max7" (regenerate mana 40%) (patch 1.06)
 
   * Skullcollector (Skull Collector)
     * increased "min1" and "max1" to 25/25 from 20/20 (maximum mana increased to 25% from 20%)
     * increased "par4" to 12 from 8 (magic find per level increased to 1.5% from 1%)
     * added life-kill to "prop5", set "min5" and "max5" to 5/10 (5-10 to life after each kill)
+    * ++added regen-mana to "prop6", added 35/35 to "min6" and "max6" (regenerate mana 35%) (patch 1.06)
 
   * Skystrike
     * increased "min2" and "max2" to 200/200 from 100/100 (attack rating increased to 200 from 100)
@@ -2618,7 +2912,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "max10" to 300 from 200 (lightning damage increased to 50-300 from 50-200)
 
   * The Cranium Basher
-    * increased "max6" to 25 from 20 (max damage increased to 25 from 20 [also makes the damage bonus display as "adds 20-25 damage", ingame it would only show +20 minimum damage])
+    * increased "max6" to 25 from 20 (maximum damage increased to 25 from 20 [also makes the damage bonus display as "adds 20-25 damage", ingame it would only show +20 minimum damage])
     * increased "min7" and "max7" to 233/266 from 200/240 (enhanced damage increased to 233-266% from 200-240%)
     * increased "min8" and "max8" to 17/5 from 4/1 (Amplify Damage on striking proc chance increased to 17% from 4%, level increased to 5 from 1)
 
@@ -2663,7 +2957,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * The Rising Sun
     * increased "min3" to 11 from 2 (Meteor when struck proc chance increased to 11% from 2%)
     * increased "min4" and "max4" to 94/188 from 24/48 (fire damage increased to 94-188 from 24-48)
-    * ~~added pierce-fire to "prop7", set "min7" and "max7" to 10/10 (-10% enemy fire resistance)~~ (see patch 1.03b)
+    * ~~added pierce-fire to "prop7", set "min7" and "max7" to 10/10 (-10% enemy fire resistance)~~ (patch 1.03b)
 
   * Crescent Moon (amulet)
     * added openwounds to "prop7", set "min7" and "max7" to 15/20 (15-20% chance of open wounds)
@@ -2714,11 +3008,11 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "max6" to 246 from 123 (damage to demons increased to 123-246% from 123%)
     * increased "min7" and "max7" to 20/30 from 15/20 (fire resist increased to 20-30% from 15-20%)
 
-  * Steelshade
+  * Steelshade (Steel Shade)
     * increased "min2" and "max2" to 8/13 from 5/11 (fire absorb increased to 8-13 from 5-11)
     * increased "min4" and "max4" to 16/23 from 10/18 (replenish life increased to 16-23 from 10-18)
-    * added red-dmg to "prop5", set "min5" and "max5" to 8/11 (damage reduced by 8-11)
-    * added sock to "prop6", set "par6" to 1 (1 socket)
+    * added red-dmg to "prop5", added 8/11 to "min5" and "max5" (damage reduced by 8-11)
+    * added sock to "prop6", added 1 to "par6" (1 socket)
 
   * Tomb Reaver
     * increased "min3" to 220 from 200 (enhanced damage increased to 220-280% from 200-280%)
@@ -2754,7 +3048,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min1" and "max1" to 170/210 from 130/140 (enhanced defense increased to 170-210% from 130-140%)
     * increased "min2" to 3 from 2 (shape shifting skills increased to 3-4 from 2-4)
     * increased "min4" to 75 from 60 (attack rating increased to 75-120% from 60-120%)
-    * increased "min6" and "max6" to 2/3 from 1/2 (feral rage increased to 2-3 from 1-2)
+    * increased "min6" and "max6" to 2/3 from 1/2 (Feral Rage increased to 2-3 from 1-2)
     * added "move2" to "prop7", set "min7" and "max7" to 20/20 (20% faster run/walk)
 
   * Tyrael's Might
@@ -2783,7 +3077,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min2" and "max2" to 369/420 from 101/187 (magic damage increased to 369-420 from 101-187)
     * increased "min3" and "max3" to 35/50 from 30/50 (all resistances increased to 35-50% from 30-50%)
     * increased "min5" and "max5" to 3/4 from 1/3 (javelin and spear skills increased to 3-4 from 1-3)
-    * added ac% to "prop6", set "min6" and "max6" to 60/80 (60-80% enhanced defense)
+    * added ac% to "prop6", added 60/80 to "min6" and "max6" (60-80% enhanced defense)
 
   * Wisp (Wisp Projector)
     * increased "min2" and "max2" to 12/21 from 10/16 (Lightning on striking proc chance increased to 12% from 10%, level increased to 21 from 16)
@@ -2794,8 +3088,8 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * Gargoyle's Bite
     * decreased "par3" to 150 from 250, increased "min3" and "max3" to 1574/1574 from 300/300 (poison length decreased to 150 frames/6 seconds from 250 frames/10 seconds, poison bitrate increased to 1574 from 300 [poison damage increased to 922 over 6 seconds from 293 over 10 seconds])
     * changed "prop5" to oskill from charged, changed "min5" to 8 from 60 (Plague Javelin charges changed to oskill, level decreased to 8-11 from 11)
-    * added dmg-ac to "prop6", set "min6" and "max6" to -110/-110 (-110 monster defense per hit)
-    * added extra-pois to "prop7", set "min7" and "max7" to 11/15 (11-15% poison skill damage)
+    * added dmg-ac to "prop6", added -110/-110 to "min6" and "max6" (-110 monster defense per hit)
+    * added extra-pois to "prop7", added 11/15 to "min7" and "max7" (11-15% poison skill damage)
 
   * Lacerator
     * deleted "par6" through "max6" and moved the other stat over (removed hit causes monster to flee 50%)
@@ -2804,7 +3098,8 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min2" and "max2" to 13/17 from 7/15 (enemy fire resistance increased to -13-17% from -7-15%)
     * increased "min3" and "max3" to 13/17 from 7/15 (enemy lightning resistance increased to -13-17% from -7-15%)
     * increased "min4" and "max4" to 13/17 from 7/15 (enemy cold resistance increased to -13-17% from -7-15%)
-    * increased "min5" and "max5" to 45/45 from 10/10 (regenerate mana increased to 45% from 10%)
+    * ~~increased "min5" and "max5" to 45/45 from 10/10 (regenerate mana increased to 45% from 10%)~~ (patch 1.06)
+    * ++increased "min5" and "max5" to 100/100 from 45/45 (regenerate mana increased to 100% from 45%) (patch 1.06)
 
   * Viperfork
     * decreased "par2" to 75 from 250, increased "min2" and "max2" to 2047/2047 from 333/333 (poison length decreased to 75 frames/3 seconds from 250 frames/10 seconds, poison bitrate increased to 2047 from 333 [poison damage increased to 600 over 3 seconds from 325 over 10 seconds])
@@ -2815,18 +3110,18 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
   * Ethereal Edge
     * increased "min3" and "max3" to 13/17 from 10/12 (fire absorb increased to 13-17 from 10-12)
     * increased "min5" and "max5" to 9/14 from 5/10 (life after each demon kill increased to 9-14 from 5-10)
-    * added reduce-ac to "prop9", set "min9" and "max9" to 20/20 (-20% target defense)
+    * added reduce-ac to "prop9", added 20/20 to "min9" and "max9" (-20% target defense)
 
   * Demonhorn's Edge
     * increased "min2" and "max2" to 15/15 from 10/10 (increased attack speed increased to 15% from 10%)
     * increased "min3" and "max3" to 5/7 from 3/6 (life stolen increased to 5-7% from 3-6%)
     * increased "min4" and "max4" to 99/121 from 55/77 (attacker takes damage increased to 99-121 from 55-77)
-    * added dmg% to "prop8", set "min8" and "max8" to 45/65 (45-65% enhanced damage)
+    * added dmg% to "prop8", added 45/65 to "min8" and "max8" (45-65% enhanced damage)
 
   * Spiritkeeper (Spirit Keeper)
-    * added skill to "prop8", set "par8" to Oak Sage, set "min8" and "max8" to 2/3 (2-3 to Oak Sage)
-    * added skill to "prop9", set "par9" to Heart of Wolverine, set "min9" and "max9" to 2/3 (2-3 to Heart of Wolverine)
-    * added skill to "prop10", set "par10" to Spirit of Barbs, set "min10" and "max10" to 2/3 (2-3 to Spirit of Barbs)
+    * added skill to "prop8", added Oak Sage to "par8", added 2/3 to "min8" and "max8" (2-3 to Oak Sage)
+    * added skill to "prop9", added Heart of Wolverine to "par9", added 2/3 to "min9" and "max9" (2-3 to Heart of Wolverine)
+    * added skill to "prop10", added Spirit of Barbs to "par10", added 2/3 to "min10" and "max10" (2-3 to Spirit of Barbs)
 
   * Hellrack
     * increased "min2" to 151 from 63 (elemental damage increased to 151-324 from 63-324)
@@ -2834,30 +3129,32 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Alma Negra
     * increased "min5" and "max5" to 11/14 from 5/9 (magic damage reduced increased to 11-14 from 5-9)
-    * ~~changed "prop6" to att from att%, increased "min6" and "max6" to 110/155 from 40/75 (110-155 attack rating instead of 40-75% attack rating)~~ (see patch 1.05)
-    * ~~changed "prop7" to dmg-norm from dmg%, decreased "min7" and "max7" to 12/23 from 40/75 (adds 12-23 damage instead of 40-75% enhanced damage)~~ (see patch 1.05)
+    * ~~changed "prop6" to att from att%, increased "min6" and "max6" to 110/155 from 40/75 (110-155 attack rating instead of 40-75% attack rating)~~ (patch 1.05)
+    * ++increased "min6" and "max6" to 178/215 from 110/155 (attack rating increased to 178-215 from 110-155) (patch 1.05)
+    * ~~changed "prop7" to dmg-norm from dmg%, decreased "min7" and "max7" to 12/23 from 40/75 (adds 12-23 damage instead of 40-75% enhanced damage)~~ (patch 1.05)
+    * ++increased "min7" and "max7" to 27/41 from 12/23 (adds damage increased to 27-41 from 12-23) (patch 1.05)
 
   * Widowmaker
-    * added ease to "prop6", set "min6" and "max6" to -15/-15 (requirements -15%)
+    * added ease to "prop6", added -15/-15 to "min6" and "max6" (requirements -15%)
 
   * Bloodraven's Charge (Blood Raven's Charge)
     * increased "min3" and "max3" to 21/21 from 13/13 (fires Explosive Arrows increased to level 21 from 13)
     * increased "min4" to 3 from 2 (bow and crossbow skills increased to 3-4 from 2-4)
     * increased "min5" and "max5" to 72/9 from 30/5 (Revive charge count increased to 72 from 30, level increased to 9 from 5)
-    * added pierce-fire to "prop6", set "min6" and "max6" to 21/24 (-21-24% enemy fire resistance)
-    * added dmg-fire to "prop7", set "min7" and "max7" to 142/250 (142-250 fire damage)
+    * added pierce-fire to "prop6", added 21/24 to "min6" and "max6" (-21-24% enemy fire resistance)
+    * added dmg-fire to "prop7", added 142/250 to "min7" and "max7" (142-250 fire damage)
 
   * Ghostflame
     * increased "min3" and "max3" to 238/238 from 108/108 (magic damage increased to 238 from 108)
-    * added red-dmg% to "prop8", set "min8" and "max8" to 7/9 (7-9% PDR)
+    * added red-dmg% to "prop8", added 7/9 to "min8" and "max8" (7-9% PDR)
 
   * Shadowkiller (Shadow Killer)
-    * added pierce-cold to "prop8", set "min8" and "max8" to 10/14 (-10-14% enemy cold resistance)
+    * added pierce-cold to "prop8", added 10/14 to "min8" and "max8" (-10-14% enemy cold resistance)
 
   * Boneflame
     * increased "max2" to 30 from 20 (faster run/walk increased to 20-30% from 20%)
     * increased "min3" and "max3" to 21/5 from 15/3 (Terror when struck proc chance increased to 21% from 15%, level increased to 5 from 3)
-    * added pierce-fire to "prop6", set "min6" and "max6" to 9/12 (-9-12% enemy fire resistance)
+    * added pierce-fire to "prop6", added 9/12 to "min6" and "max6" (-9-12% enemy fire resistance)
 
   * Steelpillar (Steel Pillar)
     * increased "min1" and "max1" to 240/270 from 210/260 (enhanced damage increased to 240-270% from 210-260%)
@@ -2879,7 +3176,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "max2" to 25 from 20 (slows target increased to 20-25% from 20%)
     * increased "min3" to 17 from 10 (Lower Resist when struck proc chance increased to 17% from 10%)
     * increased "min6" to 55 from 40 (cold resist increased to 55-80% from 40-80%)
-    * added ease to "prop8", set "min8" and "max8" to -35/-35 (requirements -35%)
+    * added ease to "prop8", added -35/-35 to "min8" and "max8" (requirements -35%)
 
   * Flamebellow
     * increased "min2" to 466 from 233 (fire damage increased to 466-482 from 233-482)
@@ -2900,17 +3197,19 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min5" and "max5" to 19/26 from 15/23 (replenish life increased to 19-26 from 15-23)
     * increased "min6" to 2 from 1 (Battle Orders level increased to 2 from 1-2)
     * increased "min7" to 2 from 1 (Battle Command level increased to 2 from 1-2)
-    * added hit-skill to "prop8", set "par8" to Shout, set "min8" and "max8" to 12/4 (12% chance to cast level 4 Shout on striking)
+    * added hit-skill to "prop8", added Shout to "par8", ~~added 12/4 to "min8" and "max8" (12% chance to cast level 4 Shout on striking)~~ (patch 1.06)
+    * ++decreased "min8" to 3 from 12, increased "max8" to 11 from 4 (Shout on striking proc chance decreased to 3% from 12%, level increased to 11 from 4) (patch 1.06)
 
   * Spike Thorn
     * increased "par2" to 27 from 11 (attacker takes damage per level increased to 3.375 from 1.375)
-    * added gethit-skill to "prop7", set "par7" to Amplify Damage, set "min7" and "max7" to 19/8 (19% chance to cast level 8 Amplify Damage when struck)
+    * added gethit-skill to "prop7", added Amplify Damage to "par7", added 19/8 to "min7" and "max7" (19% chance to cast level 8 Amplify Damage when struck)
 
   * Frostwind
-    * changed "prop3" to nofreeze from half-freeze (cannot be frozen instead of half freeze duration)
+    * ~~changed "prop3" to nofreeze from half-freeze (cannot be frozen instead of half freeze duration)~~ (patch 1.06)
+    * ++changed "prop3" to half-freeze from nofreeze (half freeze duration instead of cannot be frozen) (patch 1.06)
     * increased "par4" to 300 from 150 and "min4" to 453 from 237 (cold length increased to 300 frames/12 seconds from 150 frames/6 seconds, cold damage increased to 453-486 from 237-486)
     * increased "min7" and "max7" to 10/16 from 7/14 (Arctic Blast oskill level increased to 10-16 from 7-14)
-    * added pierce-cold to "prop8", set "min8" and "max8" to 18/23 (-18-23% enemy cold resistance)
+    * added pierce-cold to "prop8", added 18/23 to "min8" and "max8" (-18-23% enemy cold resistance)
 
   * Templar's Might
     * increased "min3" and "max3" to 375/450 from 250/300 (defense vs missile increased to 375-450 from 250-300)
@@ -2924,14 +3223,15 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Sandstorm Trek
     * increased "par4" to 18 from 8 (stamina per level increased to 2.25 from 1)
-    * ~~added res-poison-len to "prop10", set "min10" and "max10" to 50/50 (50% poison length reduced)~~ (see patch 1.05)
+    * ~~added res-poison-len to "prop10", added 50/50 to "min10" and "max10" (50% poison length reduced)~~ (patch 1.05)
+    * ++deleted all stats from "prop10" through "max10" (removed 50% poison length reduced) (patch 1.05)
 
   * Marrowwalk
     * increased "min3" to 35 from 13 (Bone Prison charge count increased to 35 from 13)
 
   * Metalgrid
     * increased "min5" and "max5" to 33/21 from 20/12 (Iron Maiden charge count increased to 33 from 20, level increased to 21 from 12)
-    * added oskill to "prop6", set "par6" to Summon Resist, set "min6" and "max6" to 1/1 (level 1 Summon Resist oskill)
+    * added oskill to "prop6", added Summon Resist to "par6", added 1/1 to "min6" and "max6" (level 1 Summon Resist oskill)
 
   * Carrion Wind
     * increased "min1" and "max1" to 130/190 from 100/160 (defense vs missile increased to 130-190 from 100-160)
@@ -2940,7 +3240,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * increased "min6" and "max6" to 9/16 from 8/13 (Twister on striking proc chance increased to 9% from 8%, level increased to 16 from 13)
 
   * Annihilus
-    * decreased "lvl" to 100 from 110 (item level decreased to 100 from 110)
+    * decreased "lvl" to 100 from 110 (spawns at item level 100 instead of 110)
 
   * Cranebeak
     * increased "max2" to 391 from 305 (lightning damage increased to 1-391 from 1-305)
@@ -2962,6 +3262,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Ondal's Wisdom
     * increased "min5" and "max5" to 8/11 from 5/5 (experience gained increased to 8-11% from 5%)
+    * ++added regen-mana to "prop7", added 48/48 to "min7" and "max7" (regenerate mana 48%) (patch 1.06)
 
   * Headhunter's Glory (Head Hunter's Glory)
     * increased "min4" to 2 from 1 (sockets increased to 2-3 from 1-3)
@@ -2973,7 +3274,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
   * Hellfire Torch
     * deleted all stats from "prop5" through "max5" and moved the other stats over (removed Firestorm proc)
-    * decreased "lvl" to 100 from 110 (item level decreased to 100 from 110)
+    * decreased "lvl" to 100 from 110 (spawns at item level 100 instead of 110)
 
   * Arpaska's Medallion
     * created new entry for "Arpaska's Medallion" (cloned row 403)
@@ -2983,27 +3284,29 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
     * set "carry1" to blank
     * set "prop1" to oskill, set "par1" to Teleport, set "min1" and "max1" to 1/1 (level 1 Teleport oskill)
     * set "prop2" to res-all-max, set "min2" and "max2" to -15/-15 (-15% maximum all resistances)
-    * added res-all to "prop3", set "min3" and "max3" to -15/-15 (all resistances -15%) (see patch 1.05)
+    * ++added res-all to "prop3", set "min3" and "max3" to -15/-15 (all resistances -15%) (patch 1.05)
 
 #### weapons.txt
   * increased "mindam", "maxdam", "2handmindam", "2handmaxdam", "minmisdam", and "maxmisdam" of all exceptional weapons by 15% (decimals 0.0-0.4 rounded down, 0.5+ rounded up)
   * increased "mindam", "maxdam", "2handmindam", "2handmaxdam", "minmisdam", and "maxmisdam" of all elite weapons by 20% (decimals 0.0-0.4 rounded down, 0.5+ rounded up)
   * increased "rangeadder" of throwing axes/balanced axes (and their exceptional/elite variants) to 1 from 0
-  * increased "StrBonus" and "DexBonus" of all axes to 130/30 from 100/0 (axes gain 1.3/0.3% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all wands/orbs to 120/40 from 100/0 (wands/orbs gain 1.2/0.4% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all maces/scepters/staves to 160/0 from 100/0 (flail/knout/scourge changed to 130/40 from 100/0) (maces gain 1.6/0% enhanced damage per strength/dexterity [flail/scourge/knout gain 1.3/0.4% enhanced damage per strength/dexterity])
-  * increased "StrBonus" and "DexBonus" of all hammers to 170/0 from 110/0 (hammers gain 1.7/0% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all swords to 110/50 from 100/0 (swords gain 1.1/0.5% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all daggers/throwing knives to 60/100 from 75/75 (daggers/throwing knives gain 0.6/1% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all javelins/throwing axes/katars to 80/80 from 75/75 (javelins/throwing axes/katars gain 0.8/0.8% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all spears to 100/60 from 100/0 (spears gain 1/0.6% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all polearms to 140/20 from 100/0 (polearms gain 1.4/0.2% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all bows/amazon bows to 60/100 from 0/100 (bows/amazon bows gain 0.6/1% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all crossbows to 80/100 from 0/100 (crossbows gain 0.8/1% enhanced damage per strength/dexterity)
-  * increased "StrBonus" and "DexBonus" of all amazon spears to 100/80 from 80/50 (amazon spears gain 1/0.8% enhanced damage per strength/dexterity)
-  * ~~increased "StrBonus" and "DexBonus" of all amazon javelins to 80/60 from 80/50 (amazon javelins gain 0.8/0.6% enhanced damage per strength/dexterity)~~ (see patch 1.03)
+  * increased "StrBonus" and "DexBonus" of all axes to 130/30 from 100/blank (all axes off-weapon enhanced damage (ED%) bonus increased to 1.3%/0.3% per strength/dexterity point from 1%/0%)
+  * increased "StrBonus" and "DexBonus" of all wands/orbs to 120/40 from 100/blank (all wands/orbs off-weapon ED% bonus increased to 1.2%/0.4% per strength/dexterity point from 1%/0%)
+  * increased "StrBonus" and "DexBonus" of all maces/scepters/staves to 160/blank from 100/blank (flail/knout/scourge changed to 130/40 from 100/blank) (all maces/scepters/staves off-weapon ED% bonus increased to 1.6%/0% per strength/dexterity point from 1%/0% [flail/knout/scourge off-weapon ED% bonus increased to 1.3%/0.4% per strength/dexterity point from 1%/0%])
+  * increased "StrBonus" and "DexBonus" of all hammers to 170/blank from 110/blank (all hammers off-weapon ED% bonus increased to 1.7%/0% per strength/dexterity point from 1.1%/0%)
+  * increased "StrBonus" and "DexBonus" of all swords to 110/50 from 100/blank (all swords off-weapon ED% bonus increased to 1.1%/0.5% per strength/dexterity point from 1%/0%)
+  * increased "StrBonus" and "DexBonus" of all daggers/throwing knives to 60/100 from 75/75 (all daggers/throwing knives off-weapon ED% bonus increased to 0.6%/1% per strength/dexterity point from 0.75%/0.75%)
+  * increased "StrBonus" and "DexBonus" of all javelins/throwing axes/katars to 80/80 from 75/75 (all javelins/throwing axes/katars off-weapon ED% bonus increased to 0.8%/0.8% per strength/dexterity point from 0.75%/0.75%)
+  * increased "StrBonus" and "DexBonus" of all spears to 100/60 from 100/blank (all spears off-weapon ED% bonus increased to 1%/0.6% per strength/dexterity point from 1%/0%)
+  * increased "StrBonus" and "DexBonus" of all polearms to 140/20 from 100/blank (all polearms off-weapon ED% bonus increased to 1.4%/0.2% per strength/dexterity point from 1%/0%)
+  * increased "StrBonus" and "DexBonus" of all bows/amazon bows to 60/100 from blank/100 (all bows/amazon bows off-weapon ED% bonus increased to 0.6%/1% per strength/dexterity point from 0%/1%)
+  * increased "StrBonus" and "DexBonus" of all crossbows to 80/100 from blank/100 (all crossbows off-weapon ED% bonus increased to 0.8/1% per strength/dexterity point from 0%/1%)
+  * increased "StrBonus" and "DexBonus" of all amazon spears to 100/80 from 80/50 (all amazon spears off-weapon ED% bonus increased to 1%/0.8% per strength/dexterity point from 0.8%/0.5%)
+  * ~~increased "StrBonus" and "DexBonus" of all amazon javelins to 80/60 from 80/50 (all amazon javelins off-weapon ED% bonus increased to 0.8%/0.6% per strength/dexterity point from 0.8%/0.5%)~~ (patch 1.03)
+  * ++increased "StrBonus" and "DexBonus" of all amazon javelins to 95/65 from 80/60 (all amazon javelins off-weapon ED% bonus increased to 0.95%/0.65% per strength/dexterity point from 0.8%/0.6%) (patch 1.03)
   * increased "durability" of normal/exceptional/elite weapons by 50/125/200% (decimals 0.0-0.4 rounded down, 0.5+ rounded up)
-  * ~~set "ShowLevel" to 1 (displays item level)~~ (see patch 1.03)
+  * ~~set "ShowLevel" to 1 (displays item level in parenthesis)~~ (patch 1.03)
+  * ++set "ShowLevel" to 1 for all armor (displays item level in parenthesis, was accidently reverted before DMMod 1.00 launched) (patch 1.03)
 
 ### data>global>monsters
 * z4
@@ -3027,7 +3330,7 @@ Sorted by alphabetical order when sorting by name in File Explorer. Patch change
 
 ### data>hd>global>excel
 #### desecratedzones.json
-  * ~~decreased "terror_duration_min" to 25 from 60 (Terror Zones change every 25 minutes instead of 60 minutes)~~ (see patch 1.03)
+  * ~~decreased "terror_duration_min" to 25 from 60 (Terror Zones change every 25 minutes instead of 60 minutes)~~ (patch 1.03)
   * changed "seed" to 14803616718064904423 from 16664395743969097666 (changes the order in which TZs are selected)
   * removed Blood Moor and Den of Evil
   * merged Stony Field and Tristram
