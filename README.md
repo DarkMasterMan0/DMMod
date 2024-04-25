@@ -11,6 +11,8 @@ You can also use Bonesy's D2RLaunch mod manager to launch DMMod or other D2R mod
 
 **BACKUP YOUR SAVES OFTEN:** Any time your computer has a hard shutdown (crash, power outage, pulled plug, etc.) it will cause the active RAM to get corrupted which includes your currently active character and the respective shared stash (softcore/hardcore). You'll find your save files in `C:\Users\username\Saved Games\Diablo II Resurrected\DMMod`, you can backup the whole folder or just the `.d2s` (character) and `.d2i` (shared stash) files. D2RLaunch has the option to automate backups, you'll find it under the `Options > QoL Options > Auto-Backup Characters` section.
 
+**NOTE:** If you use any of the Expanded Storage options in D2RLaunch you'll need to reinstall it every time DMMod is updated, otherwise you'll lose any items that were outside of the vanilla storage sizes.
+
 You can check out older versions of DMMod at [DMMod Archive](https://github.com/DarkMasterMan0/DMMod-Archive), use the installation instructions above with the DMMod folder of whichever version you'd like.
 
 # What is DMMod?
