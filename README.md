@@ -36,7 +36,7 @@ Thanks to:
 * id Software for creating the awesome Doom games and the badass logo that I re-used for DMMod.
 
 # Changelog
-Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ or having a ++ when the relevent info has been changed by a later patch, the patch that changed it will be noted in paranthesis. Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed unless I changed it and forgot to note it.
+Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch. Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed unless I changed it and forgot to note it.
 
 **Patch 1.06 Changelog** (4-25-24)
   * not even gonna say it, probably won't anymore cause you know what it is ;p
