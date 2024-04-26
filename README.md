@@ -39,7 +39,7 @@ Thanks to:
 Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch. Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed unless I changed it and forgot to note it.
 
 **Patch 1.06b Changelog** (4-26-24)
-  *data>global>excel
+  * data>global>excel
     * magicprefix.txt
       * Enhanced Damage
         * Cruel (196)
