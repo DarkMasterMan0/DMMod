@@ -193,7 +193,7 @@ Massive	1	1	1	20	55	15				7	105	dmg%		51	65									dgld	weap							staf	wand	or
 Savage	1	1	1	26		19				7	105	dmg%		66	80									dgld	weap							staf	wand	orb			0	0
 Merciless	1	1	1	32		24				6	105	dmg%		81	100									dgld	weap							staf	wand	orb			0	0
 Ferocious	100	1	1	41		33				6	105	dmg%		101	200									blac	weap							staf	wand	orb			0	0
-Cruel	100	1		51		43				5	105	dmg%		201	300									blac	weap							staf	wand	orb			0	0
+Cruel	100	1		51		43				2	105	dmg%		201	300									blac	weap							staf	wand	orb			0	0
 Cinnabar	100	1	1	1		1				4	105	dmg%		5	10									dred	jewl												0	0
 Rusty	100	1	1	13		9				4	105	dmg%		11	20									dred	jewl												0	0
 Realgar	100	1	1	45		37				4	105	dmg%		21	30									dred	jewl												0	0

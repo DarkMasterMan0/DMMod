@@ -38,12 +38,20 @@ Thanks to:
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer. Patch changelogs are also below, the original (1.00) changelog remains mostly unchanged besides fixing typos and adding ~~strikethroughs~~ when the relevent info has been changed by a later patch. Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed unless I changed it and forgot to note it.
 
+**Patch 1.06b Changelog** (4-26-24)
+  *data>global>excel
+    * magicprefix.txt
+      * Enhanced Damage
+        * Cruel (196)
+          * decreased "frequency" to 2 from 5 (chance to select Cruel [201-300% enhanced damage] prefix on magic weapons decreased to 2/21 = 9.52% from 5/24 = 20.83%)
+          * NOTE: This only affects the magic Cruel prefix for magic weapons, the rare Cruel prefix (671) for rare weapons is unaffected.
+
 **Patch 1.06 Changelog** (4-25-24)
   * not even gonna say it, probably won't anymore cause you know what it is ;p
-  * no longer adding the "++" updates to the older patch notes, will still have the ~~strikeouts~~ but the "++" is hard to keep organized and truthfully I'm lazy to do it as well
+  * no longer adding the "++" updates to the older patch changelogs, will still have the ~~strikeouts~~ but the "++" is hard to keep organized and truthfully I'm lazy to do it as well
   * data>D2RLaunch
     * Logo.png
-      * added DMMoD logo for automatic usage with D2RLaunch (if you don't use D2RLaunch then you can ignore or delete the D2RLaunch folder)
+      * added DMMod logo for automatic usage with D2RLaunch (if you don't use D2RLaunch then you can ignore or delete this folder)
   * data>global>excel
     * armor.txt
       * increased "mindam" and "maxdam" of all exceptional shields/paladin shields/boots by 15% (increased smite damage of all exceptional shields/paladin shields and kick damage of all exceptional boots by 15%, decimals 0.0-0.4 rounded down, 0.5+ rounded up)
