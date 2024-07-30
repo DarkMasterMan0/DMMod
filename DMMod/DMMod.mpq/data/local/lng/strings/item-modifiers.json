@@ -5866,19 +5866,19 @@
   },
   {
     "id": 50000,
-    "Key": "ModStrHeavenlyBurden",
-    "enUS": "Heavenly Burden On Mercenaries",
-    "zhTW": "僱傭兵的沉重負擔",
-    "deDE": "Himmlische Last Für Söldner",
-    "esES": "Carga Celestial Sobre Los Mercenarios",
-    "frFR": "Fardeau Céleste Sur Les Mercenaires",
-    "itIT": "Fardello Celeste Sui Mercenari",
-    "koKR": "용병에 대한 하늘의 부담",
-    "plPL": "Niebiańskie Brzemię Najemników",
-    "esMX": "Carga Celestial Sobre Los Mercenarios",
-    "jaJP": "傭兵に対する天の重荷",
-    "ptBR": "Fardo Celestial Sobre Mercenários",
-    "ruRU": "Небесное бремя наемников",
-    "zhCN": "雇佣兵的沉重负担"
+    "Key": "ModStrHeavenlyBurdenDebuff",
+    "enUS": "ÿc1Heavenly Burden Debuff On Mercenariesÿc3",
+    "zhTW": "ÿc1僱傭兵的天堂負擔減益ÿc3",
+    "deDE": "ÿc1Himmlische Last-Debuff Bei Söldnernÿc3",
+    "esES": "ÿc1Desventaja De Carga Celestial En Mercenariosÿc3",
+    "frFR": "ÿc1Debuff Du Fardeau Céleste Sur Les Mercenairesÿc3",
+    "itIT": "ÿc1Debuff Fardello Celestiale Sui Mercenariÿc3",
+    "koKR": "ÿc1용병에 대한 천상의 부담 디버프ÿc3",
+    "plPL": "ÿc1Niebiańskie Brzemię Najemnikówÿc3",
+    "esMX": "ÿc1Desventaja De Carga Celestial En Mercenariosÿc3",
+    "jaJP": "ÿc1傭兵に対する天の重荷デバフÿc3",
+    "ptBR": "ÿc1Debuff Do Fardo Celestial Em Mercenáriosÿc3",
+    "ruRU": "ÿc1Дебафф Небесное бремя на наемникахÿc3",
+    "zhCN": "ÿc1雇佣兵的天堂负担减益ÿc3"
   }
 ]

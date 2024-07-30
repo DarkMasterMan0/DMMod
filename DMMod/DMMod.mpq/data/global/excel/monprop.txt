@@ -19,3 +19,4 @@ uberizual																																																													res-curse	
 uberandariel																																																													res-curse			80	80																										0
 uberduriel																																																													res-curse			80	80																										0
 uberbaal																																																													res-curse			80	80																										0
+clawviper9																																																													extra-pois			100	100																										0

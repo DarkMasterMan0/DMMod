@@ -5748,19 +5748,19 @@
   {
     "id": 4342,
     "Key": "StrSkill88",
-    "enUS": "Mana Recovery Rate: %+d%%",
-    "zhTW": "法力回復速度：%+d%%",
-    "deDE": "Erholungsrate von Mana: %+d%%",
-    "esES": "Índice de recuperación de maná: %+d%%",
-    "frFR": "Taux de récupération de mana : %+d%%",
-    "itIT": "Velocità rigenerazione del mana: %+d%%",
-    "koKR": "마나 회복 속도: %+d%%",
-    "plPL": "Szybkość odzyskiwania many: %+d%%",
-    "esMX": "Índice de recuperación de maná: %+d%%",
-    "jaJP": "マナ回復量: %+d%%",
-    "ptBR": "Taxa de recuperação de mana: %+d%%",
-    "ruRU": "Скорость восполнения маны: %+d%%",
-    "zhCN": "法力回复速度: %+d%%"
+    "enUS": "Your Mana Recovery Rate: %+d%%",
+    "zhTW": "你的法力恢复速度：%+d%%",
+    "deDE": "Ihr Erholungsrate von Mana: %+d%%",
+    "esES": "Tu índice de recuperación de maná: %+d%%",
+    "frFR": "Votre taux de récupération de mana : %+d%%",
+    "itIT": "La tua velocità rigenerazione del mana: %+d%%",
+    "koKR": "당신의마나 회복 속도: %+d%%",
+    "plPL": "Współczynnik odzyskiwania many: %+d%%",
+    "esMX": "Tu índice de recuperación de maná: %+d%%",
+    "jaJP": "あなたのマナ回復量: %+d%%",
+    "ptBR": "Sua taxa de recuperação de mana: %+d%%",
+    "ruRU": "ваша скорость регенерации маны: %+d%%",
+    "zhCN": "你的法力恢复速度: %+d%%"
   },
   {
     "id": 4343,
@@ -17937,19 +17937,19 @@
   {
     "id": 10230,
     "Key": "skillxld11",
-    "enUS": "magically enhances your arrows or bolts\nby adding cold damage and a slowing effect\ncold arrows only do half of their regular damage",
-    "zhTW": "以魔法強化你的箭矢或弩箭，附加冰寒傷害與緩速效果\n冷霜箭只會造成平時一半的傷害",
-    "deDE": "Verzaubert Eure Pfeile oder Bolzen, sodass\nsie zusätzlich Kälteschaden verursachen\nund verlangsamen. Kältepfeile verursachen\nnur die Hälfte des regulären Schadens.",
-    "esES": "Mejora tus flechas o saetas con magia para\nañadirles daño de frío y un efecto ralentizador.\nLas flechas de frío solo infligen la mitad del daño normal.",
-    "frFR": "la magie améliore vos flèches ou traits en y\najoutant des dégâts de Froid et un effet ralentissant\nles flèches de Froid n’infligent que la moitié de leurs dégâts normaux",
-    "itIT": "Incanta frecce e dardi\nper aggiungere danni da freddo e un effetto rallentante,\nma infliggendo danni dimezzati",
-    "koKR": "마법으로 화살을 강화하여\n냉기 피해와 감속 효과를 추가합니다.\n냉기 화살은 일반 피해의 절반에 해당하는 피해를 줍니다.",
-    "plPL": "Magicznie zaklina twoje strzały lub bełty,\naby zadawały obrażenia od zimna i spowalniały wrogów\nStrzały Zimna zadają połowę podstawowych obrażeń",
-    "esMX": "Potencia mágicamente tus flechas o saetas\ncon daño de frío y un efecto de ralentización\nLas flechas de frío solo infligen la mitad del daño normal",
-    "jaJP": "魔法で矢またはボルトに冷気を付与し、\n敵に冷気ダメージを与えて動きを鈍らせる\n攻撃のダメージ自体は通常の半分になる",
-    "ptBR": "aprimora magicamente suas flechas ou setas\ncom dano gélido e um efeito de lentidão\nflechas gélidas causam apenas metade do dano normal",
-    "ruRU": "Стрелы или болты наносят\nурон от льда и замедляют врагов.\nМорозные стрелы наносят\nполовину обычного урона.",
-    "zhCN": "用魔法强化你的箭矢或弩矢\n添加冰霜伤害和减速效果\n冰霜箭只能造成通常一半的伤害"
+    "enUS": "magically enhances your arrows or bolts\nby adding cold damage and a slowing effect",
+    "zhTW": "以魔法強化你的箭矢或弩箭，附加冰寒傷害與緩速效果",
+    "deDE": "Verzaubert Eure Pfeile oder Bolzen, sodass\nsie zusätzlich Kälteschaden verursachen\nund verlangsamen. Kältepfeile verursachen.",
+    "esES": "Mejora tus flechas o saetas con magia para\nañadirles daño de frío y un efecto ralentizador.",
+    "frFR": "la magie améliore vos flèches ou traits en y\najoutant des dégâts de Froid et un effet ralentissant",
+    "itIT": "Incanta frecce e dardi\nper aggiungere danni da freddo e un effetto rallentante",
+    "koKR": "마법으로 화살을 강화하여\n냉기 피해와 감속 효과를 추가합니다.",
+    "plPL": "Magicznie zaklina twoje strzały lub bełty,\naby zadawały obrażenia od zimna i spowalniały wrogów",
+    "esMX": "Potencia mágicamente tus flechas o saetas\ncon daño de frío y un efecto de ralentización",
+    "jaJP": "魔法で矢またはボルトに冷気を付与し、\n敵に冷気ダメージを与えて動きを鈍らせる",
+    "ptBR": "aprimora magicamente suas flechas ou setas\ncom dano gélido e um efeito de lentidão",
+    "ruRU": "Стрелы или болты наносят\nурон от льда и замедляют врагов.\nМорозные стрелы наносят.",
+    "zhCN": "用魔法强化你的箭矢或弩矢\n添加冰霜伤害和减速效果"
   },
   {
     "id": 10231,
@@ -35802,7 +35802,7 @@
     "zhCN": "\n%s\n%s\n恶狼印记:\n狼人攻击时会获得印记，持续 %s"
   },
   {
-    "id": 52000,
+    "id": 53000,
     "Key": "StrSkillDefenseActive",
     "enUS": "Defense: +%d%% (Active)",
     "zhTW": "防禦：+%d%%（主動）",
@@ -35819,7 +35819,7 @@
     "zhCN": "防御: %+d%% (主动）"
   },
   {
-    "id": 52001,
+    "id": 53001,
     "Key": "StrSkillDefensePassive",
     "enUS": "Defense: +%d%% (Passive)",
     "zhTW": "防禦：+%d%%（被動）",
@@ -35836,7 +35836,7 @@
     "zhCN": "防御: %+d%% (被动）"
   },
   {
-    "id": 52002,
+    "id": 53002,
     "Key": "StrSkillLycanthropyWerewolfVelocity",
     "enUS": "Werewolf: Run/Walk Speed: %+d%%",
     "zhTW": "狼人變化： 跑步 / 行走速度： %+d%%",
@@ -35853,7 +35853,7 @@
     "zhCN": "狼人变化： 跑步/步行速度： %+d%%"
   },
   {
-    "id": 52003,
+    "id": 53003,
     "Key": "StrSkillLycanthropyWerebearCrushingBlow",
     "enUS": "Werebear: Chance of Crushing Blow: %+d%%",
     "zhTW": "熊人變化: 機率造成粉碎打擊： %+d%%",
@@ -35870,7 +35870,7 @@
     "zhCN": "熊人变化: 几率粉碎打击: %+d%%"
   },
   {
-    "id": 52004,
+    "id": 53004,
     "Key": "StrSkillHSFasterBlock",
     "enUS": "Faster Block Rate: %+d%%",
     "zhTW": "格擋速度： %+d%%",
@@ -35885,5 +35885,73 @@
     "ptBR": "Taxa de bloqueio mais rápida: %+d%%",
     "ruRU": "к скорости блока: %+d%%",
     "zhCN": "更快速格挡: %+d%%"
+  },
+  {
+    "id": 53005,
+    "Key": "StrSkillPartyMeditation",
+    "enUS": "Party Mana Recovery Rate: %+d%%",
+    "zhTW": "隊伍法力恢復速度：%+d%%",
+    "deDE": "Gruppe Erholungsrate von Mana: %+d%%",
+    "esES": "Índice de recuperación de maná del grupo: %+d%%",
+    "frFR": "Taux de récupération de mana du groupe : %+d%%",
+    "itIT": "Velocità rigenerazione del mana degli alleati: %+d%%",
+    "koKR": "파티 마나 회복 속도: %+d%%",
+    "plPL": "współczynnik odzyskiwania many drużyny: %+d%%",
+    "esMX": "Índice de recuperación de maná de tu equipo: %+d%%",
+    "jaJP": "マナ回復量: %+d%%",
+    "ptBR": "Taxa de recuperação de mana do grupo: %+d%%",
+    "ruRU": "скорость регенерации маны в группе: %+d%%",
+    "zhCN": "队伍法力恢复速度: %+d%%"
+  },
+  {
+    "id": 53006,
+    "Key": "skillname373",
+    "enUS": "Bloodlust",
+    "zhTW": "嗜血",
+    "deDE": "Blutdurst",
+    "esES": "Sed de sangre",
+    "frFR": "Soif de sang",
+    "itIT": "Sete di sangue",
+    "koKR": "피의 욕망",
+    "plPL": "Żądza krwi",
+    "esMX": "Sed de sangre",
+    "jaJP": "血の渇き",
+    "ptBR": "Sede de sangue",
+    "ruRU": "Жажда крови",
+    "zhCN": "嗜血"
+  },
+  {
+    "id": 53007,
+    "Key": "StrSkillDamageToDemons",
+    "enUS": "Damage to Demons: %+d%%",
+    "zhTW": "對惡魔的傷害：%+d%%",
+    "deDE": "Schaden gegen Dämonen: %+d%%",
+    "esES": "Daño contra demonios: %+d%%",
+    "frFR": "Dégâts contre les démons : %+d%%",
+    "itIT": "Danni ai demoni: %+d%%",
+    "koKR": "악마에게 주는 피해: %+d%%",
+    "plPL": "Obrażenia zadane demonom: %+d%%",
+    "esMX": "Daño a demonios: %+d%%",
+    "jaJP": "デーモンへのダメージ: %+d%%",
+    "ptBR": "Dano contra demônios: %+d%%",
+    "ruRU": "к урону по демонам: %+d%%",
+    "zhCN": "对恶魔的伤害: %+d%%"
+  },
+  {
+    "id": 53008,
+    "Key": "StrSkillCrushingBlow",
+    "enUS": "Chance of Crushing Blow: %+d%%",
+    "zhTW": "機率造成粉碎打擊： %+d%%",
+    "deDE": "Chance auf vernichtenden Schlag: %+d%%",
+    "esES": "de probabilidad de ataque aplastante: %+d%%",
+    "frFR": "de chances de coup écrasant: %+d%%",
+    "itIT": "Probabilità di colpo frantumante: %+d%%",
+    "koKR": "강타 확률: %+d%%",
+    "plPL": "do szansy na druzgocące uderzenie: %+d%%",
+    "esMX": "de probabilidad de golpe aplastante: %+d%%",
+    "jaJP": "クラッシング・ブロー: （%+d%%）",
+    "ptBR": "de chance de Golpe Esmagador: %+d%%",
+    "ruRU": "к вероятности нанести сокрушительный удар: %+d%%",
+    "zhCN": "几率粉碎打击: %+d%%"
   }
 ]

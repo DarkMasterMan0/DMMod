@@ -6,11 +6,11 @@
 --My Mod Details--
 Mod Download: https://github.com/DarkMasterMan0/DMMod/archive/refs/heads/main.zip
 Mod Config Download: https://drive.google.com/uc?export=download&id=1BkH2OlBlkRT9lKmMMnlsZZykiXAD3Nt4
-Mod Version: 1.06b
-News 1 Title: "Patch 1.06b released 4-26-24"
-News 1 Message: "Thanks for playing my mod! Patch 1.06b changelog: decreased Cruel prefix "frequency" to 2 from 5 (chance to select Cruel [201-300% enhanced damage] prefix on magic weapons decreased to 2/21 = 9.52% from 5/24 = 20.83%). This only affects the magic Cruel prefix for magic weapons, the rare Cruel prefix for rare weapons is unaffected."
-News 2 Title: "Patch 1.06 Changelog Summary"
-News 2 Message: "Two sources of half freeze duration now stack into cannot be frozen, shield/boots base damage and strength/dex scaling increased to have parity with other weapons after they were buffed in DMMod 1.00, new "etherealize" cube recipe for rare/unique weapons/armor, slight changes to magical affixes, lots of bug fixes to Uber monster stats, skills, and other stuff. Some small skill changes and set/unique item stat changes."
+Mod Version: 1.07
+News 1 Title: "Patch 1.07 released 7-29-24"
+News 1 Message: "As always, thanks for checking out my mod. This patch contains the final technical changelog that explains all the changes I do in the text files, it takes me a lot of time and energy to write these up for what's likely a very small group of people that read them. I'll only be writing simple patch notes onwards, anyone interested in the technical details can use a .txt comparison program to see the before and after."
+News 2 Title: "Patch 1.07 Changelog Summary"
+News 2 Message: "A massive amount of skill tooltip updates for increased accuracy/typo fixes, some significant changes to skills, some changes to sets and uniques. A couple bug fixes as well. I eventually plan on writing a fully up to date simple changelog that would include all current DMMod changes to make it easy to see what changed. I might also try to add an ingame menu that would show DMMod changes as well."
 
 --General Options--
 Map Layouts: Enabled
