@@ -31,7 +31,7 @@ Thanks to:
 
 * Bonesy for the big help with guidance on specific edits, his video guides, and the massive amount of effort he's put into the D2R modding scene in general. Check out his stuff on [D2RModding.com](D2RModding.com) and check out the D2R-Modding Discord!
 
-* The Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at [d2mods.info](d2mods.info) and check out the Phrozen Keep Discord as well!
+* Nefarius, Nizari, and others at the Phrozen Keep for their many indepth guides on modding original D2, the vast majority of which are still applicable to D2R. Check them out at [d2mods.info](d2mods.info) and check out the Phrozen Keep Discord as well!
 
 * Vaska, Pavke, and Arsteel for item ideas and various discussions.
 
@@ -39,6 +39,874 @@ Thanks to:
 
 # Changelog
 Sorted by alphabetical order when sorting by name in File Explorer. All changelogs are left as they originally were at time of release (so they become outdated as more patches release, see the up to date changelog to see the current state of DMMod). Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed.
+
+**Patch 1.08 Changelog** (12-28-24)
+  * New, simpler (and hopefully more legible) style of patch notes! Happy holidays and a happy New Year. :)
+  * Items
+    * Magic Prefixes (Jewels)
+      * Enhanced Damage
+        * Cinnabar
+          * Set max affix level to 65 (this prefix will no longer spawn at ilvl 66+)
+      * Defense
+        * Blanched
+          * Increased max affix level to 63 from 31 (will no longer spawn at ilvl 64+ from 32+)
+        * Bone
+          * Increased Defense to 21-50 from 21-40
+        * Ivory
+          * Increased Defense to 51-70 from 41-64
+      * Heal Stamina Plus
+        * Brown
+          * Decreased affix level to 4 from 39 (this prefix starts spawning at ilvl 4+ instead of 39+)
+          * Set max affix level to 60
+          * Decreased Required Level to 5 from 31
+      * Stamina
+        * Chestnut
+          * Set max affix level to 8
+        * Maroon
+          * Decreased affix level to 9 from 17
+          * Set max affix level to 54
+          * Decreased Required Level to 7 from 12
+      * Attack Rating
+        * Nickel
+          * Set max affix level to 43
+      * Light Radius/Attack Rating
+        * Bright
+          * Set max affix level to 17
+        * Glowing
+          * Added new Glowing prefix for magic/rare jewels with 2 Light Radius and 25 Attack Rating, affix level of 18, Required Level of 12, and frequency of 1
+      * Better Chance of Getting Magic Items (Magic Find)
+        * Emerald (8-10% Magic Find)
+          * Added new Emerald prefix for magic/rare jewels with 8-10% Magic Find, affix level of 50, Required Level of 23, and frequency of 1
+    * Magic Prefixes (Charms)
+      * Small Charms
+        * Minimum Damage
+          * Red
+            * Decreased affix level to 78 from 80
+            * Decreased Required Level to 70 from 75
+          * Sanguinary
+            * Decreased affix level to 88 from 94
+            * Decreased Required Level to 80 from 85
+            * Decreased frequency to 2 from 4 (this prefix spawns half as often)
+        * Maximum Damage
+          * Jagged
+            * Increased Maximum Damage to 3-4 from 3
+            * Decreased affix level to 51 from 81
+            * Decreased Required Level to 43 from 73
+        * Stamina
+          * Rugged (4-8 Stamina)
+            * Decreased max affix level to 13 from 20
+          * Rugged (9-16 Stamina)
+            * Decreased affix level to 14 from 21
+            * Decreased Required Level to 8 from 15
+        * Mana
+          * Lizard's (1-2 Mana)
+            * Set max affix level to 47
+        * Cold Damage
+          * Boreal
+            * Increased cold length duration to 1.2 seconds from 1 second
+          * Hibernal
+            * Increased cold length duration to 1.4 seconds from 1 second
+      * Large Charms
+        * Defense
+          * Stalwart (45-60 Defense)
+            * Increased Defense to 45-70 from 45-60
+        * Minimum Damage
+          * Sanguinary (3 Minimum Damage)
+            * Added new Sanguinary prefix for magic large charms with 3 Minimum Damage, affix level of 82, Required Level of 74, and frequency of 2
+        * Maximum Damage
+          * Jagged
+            * Increased Maximum Damage to 3-4 from 2
+          * Forked
+            * Increased Maximum Damage to 6-8 from 6
+        * Better Chance of Getting Magic Items (Magic Find)
+          * Lucky (1% Magic Find)
+            * Increased Magic Find to 4% from 1%
+            * Set Required Level to 12
+          * Lucky (2-3% Magic Find)
+            * Increased Magic Find to 8-9% from 2-3%
+            * Set Required Level to 23
+          * Lucky (4-6% Magic Find)
+            * Increased Magic Find to 10-12% from 4-6%
+            * Set Required Level to 25
+        * Mana
+          * Lizard's (2-4 Mana)
+            * Set max affix level to 48
+          * Lizard's (5-7 Mana)
+            * Set max affix level to 48
+        * All Resistances
+          * Shimmering (6-8 All Resistances)
+            * Increased All Resistances to 6-9 from 6-8
+            * Decreased affix level to 32 from 34
+            * Decreased Required Level to 24 from 26
+        * Cold Damage
+          * Snowy
+            * Increased cold length duration to 1.6 seconds from 1 second
+          * Shivering
+            * Increased cold length duration to 1.6 seconds from 1 second
+          * Boreal
+            * Increased cold length duration to 1.92 seconds from 1 second
+          * Hibernal
+            * Increased cold length duration to 2.24 seconds from 1 second
+      * Grand Charms
+        * Defense
+          * Stalwart (60-100 Defense)
+            * Increased Defense to 60-110 from 60-100
+        * Maximum Damage
+          * Forked
+            * Increased Maximum Damage to 10-11 from 7
+          * Serrated
+            * Increased Maximum Damage to 12-13 from 11
+        * Mana
+          * Lizard's (3-7 Mana)
+            * Set max affix level to 48
+          * Lizard's (8-13 Mana)
+            * Set max affix level to 48
+          * Lizard's (14-20 Mana)
+            * Set max affix level to 48
+        * Cold Damage
+          * Snowy
+            * Increased cold length duration to 1.4 seconds from 1 second
+          * Shivering
+            * Increased cold length duration to 1.4 seconds from 1 second
+          * Boreal
+            * Increased cold length duration to 1.8 seconds from 1 second
+          * Hibernal
+            * Increased cold length duration to 2.12 seconds from 1 second
+    * Magic Prefixes (Weapons/Armors)
+      * Attack Rating
+        * Strange
+          * Increased Attack Rating to 151-450 from 151-300
+        * Weird
+          * Increased Attack Rating to 451-800 from 301-450
+        * Hawkeye
+          * Increased Attack Rating (Based on Character Level) to 8 per level from 6 per level
+        * Iron
+          * Added new Iron prefix for magic/rare gloves/amulets with 21-40 Attack Rating, affix level of 11, Required Level of 6, and frequency of 4
+        * Steel (Expansion only prefix)
+          * Added new Steel prefix for magic/rare gloves/amulets with 41-60 Attack Rating, affix level of 22, Required Level of 11, and frequency of 3
+        * Silver (Expansion only prefix)
+          * Added new Silver prefix for magic/rare gloves/amulets with 61-80 Attack Rating, affix level of 39, Required Level of 16, and frequency of 1
+      * Cold Damage
+        * Hibernal
+          * Increased Cold Damage to 39-55/111-145 from 24-45/91-140
+          * Increased cold length duration to 6 seconds from 4 seconds
+          * Now spawns on magic/rare circlets
+      * Fire Damage
+        * Condensing
+          * Increased Fire Damage to 151-180/201-240 from 121-170/181-240
+          * Now spawns on magic/rare circlets
+      * Lightning Damage
+        * Shocking
+          * Increased Lightning Damage to 1-1/391-560 from 1-1/361-480
+          * Now spawns on magic/rare circlets
+      * Poison Damage
+        * Septic
+          * Increased max affix level to 61 from 34 (this prefix will no longer spawn at ilvl 62+ instead of 35+)
+        * Foul
+          * Set max affix level to 72 (this prefix will no longer be selected at ilvl 73+)
+        * Corrosive
+          * Increased frequency to 2 from 1 (this prefix spawns twice as often)
+        * Fetid (150 Poison Damage over 5 seconds)
+          * Renamed to Fetid from Toxic
+        * Pestilent
+          * Increased Poison Damage to 720 over 7 seconds from 275 over 6 seconds
+          * Increased affix level to 64 from 50
+          * Increased Required Level to 47 from 37
+        * Vile (Expansion only prefix)
+          * Added new Vile prefix for magic/rare weapons with 220 Poison Damage over 5 seconds, affix level of 48, Required Level of 38, and frequency of 1
+        * Putrid (Expansion only prefix)
+          * Added new Putrid prefix for magic/rare weapons with 365 Poison Damage over 6 seconds, affix level of 62, Required Level of 52, and frequency of 1
+        * Toxic (Expansion only prefix)
+          * Added new Toxic prefix for magic/rare weapons/circlets with 510 Poison Damage over 6 seconds, affix level of 73, Required Level of 63, and frequency of 1
+      * Damage to Demons/Attack Rating against Demons
+        * Unearthly (Expansion only prefix)
+          * Added new Unearthly prefix for magic/rare circlets with 51-100% Damage to Demons/101-150 to Attack Rating against Demons, affix level of 45, Required Level of 33, and frequency of 2
+      * Enhanced Defense
+        * Godly (101-200% Enhanced Defense) (Expansion only prefix)
+          * Increased frequency to 2 from 1
+        * Godly (magic armor) (Expansion only prefix)
+          * Added new Godly prefix for magic armor (all armor types) with 201-255% Enhanced Defense, affix level of 60, Required Level of 52, and frequency of 1
+        * Godly (Expansion only prefix)
+          * Added new Godly prefix for magic/rare armor (all armor types) with 201-255% Enhanced Defense, affix level of 67, Required Level of 57, and frequency of 1
+      * Defense (Based on Character Level)
+        * Faithful (magic/rare body armor)
+          * Set max affix level to 64
+        * Faithful (magic/rare belts/boots/gloves/shields)
+          * Set max affix level to 64
+        * Devoted (Expansion only prefix)
+          * Added new Devoted prefix for magic/rare body armor with 6.25 Defense per level, affix level of 65, Required Level of 51, and frequency of 4
+        * Devoted (Expansion only prefix)
+          * Added new Devoted prefix for magic/rare belts/boots/gloves/shields with 1.25 Defense per level, affix level of 65, Required Level of 51, and frequency of 4
+      * Fire Resist
+        * Ruby (Expansion only prefix)
+          * Added new Ruby prefix for magic/rare body armor with 31-40% Resist Fire, affix level of 40, Required Level of 24, and frequency of 1
+      * Cold Resist
+        * Sapphire (Expansion only prefix)
+          * Added new Sapphire prefix for magic/rare body armor with 31-40% Resist Cold, affix level of 40, Required Level of 24, and frequency of 1
+      * Lightning Resist
+        * Amber (Expansion only prefix)
+          * Added new Amber prefix for magic/rare body armor with 31-40% Resist Lightning, affix level of 40, Required Level of 24, and frequency of 1
+      * Poison Resist
+        * Emerald (Expansion only prefix)
+          * Added new Emerald prefix for magic/rare body armor with 31-40% Resist Poison, affix level of 40, Required Level of 24, and frequency of 1
+      * Sockets
+        * Mechanic's (Expansion only prefix)
+          * Added new Mechanic's prefix for magic/rare body armor with 2 Sockets, affix level of 62, Required Level of 7, and frequency of 1
+    * Magic Suffixes (Jewels)
+      * Attacker Takes Damage
+        * of Malice
+          * Increased Attacker Takes Damage to 5-10 from 3-9
+      * Cold Damage
+        * of the Icicle
+          * Increased cold length duration to 2.24 seconds from 2 seconds
+        * of the Glacier
+          * Increased cold length duration to 2.8 seconds from 2 seconds
+      * Dexterity
+        * of Daring (1-3 Dexterity)
+          * Set max affix level to 35
+        * of Daring (7-9 Dexterity)
+          * Decreased frequency to 1 from 3
+      * Energy
+        * of Knowledge (1-5 Energy)
+          * Set max affix level to 40
+        * of Knowledge (7-9 Energy)
+          * Decreased frequency to 1 from 3
+      * Strength
+        * of Virility (1-4 Strength)
+          * Set max affix level to 49
+        * of Virility (7-9 Strength)
+          * Decreased frequency to 1 from 4
+    * Magic Suffixes (Charms)
+      * Small Charms
+        * Cold Damage
+          * of the Glacier
+            * Increased cold length duration to 1.08 seconds from 1 second
+          * of Winter
+            * Increased cold length duration to 1.2 seconds from 1 second
+      * Large Charms
+        * Life
+          * of Life (6-10 Life)
+            * Set max affix level to 73
+        * Cold Damage
+          * of Frost
+            * Increased cold length duration to 1.28 seconds from 1 second
+          * of the Icicle
+            * Increased cold length duration to 1.28 seconds from 1 second
+          * of the Glacier
+            * Increased cold length duration to 1.48 seconds from 1 second
+          * of Winter
+            * Increased cold length duration to 1.64 seconds from 1 second
+      * Grand Charms
+        * Life
+          * of Life (5-10 Life)
+            * Set max affix level to 90
+        * Cold Damage
+          * of Frost
+            * Increased cold length duration to 1.2 seconds from 1 second
+          * of the Icicle
+            * Increased cold length duration to 1.2 seconds from 1 second
+          * of the Glacier
+            * Increased cold length duration to 1.4 seconds from 1 second
+          * of Winter
+            * Increased cold length duration to 1.56 seconds from 1 second
+    * Magic Suffixes (Weapons/Armors)
+      * Strength
+        * of Strength (magic/rare melee weapons/gloves/shields)
+          * Set max affix level to 58
+        * of the Giant (magic/rare melee weapons/gloves)
+          * Now spawns on magic/rare shields
+        * of the Titan (magic/rare rings/scepters/maces/body armor)
+          * Now spawns on magic/rare shields
+      * Dexterity
+        * of Dexterity (magic/rare rings/gloves)
+          * Now spawns on magic/rare daggers/spears/katars
+        * of Skill (magic/rare rings/gloves)
+          * Now spawns on magic/rare daggers/spears/katars
+        * of Accuracy (magic/rare rings/gloves)
+          * Now spawns on magic/rare daggers/spears/katars
+        * of Precision (magic/rare rings/gloves)
+          * Now spawns on magic/rare daggers/spears/katars
+        * of Perfection (magic rings/gloves)
+          * Now spawns on magic daggers/spears/katars
+      * Energy
+        * of Energy (magic/rare helms/scepters)
+          * Increased max affix level to 25 from 15
+        * of Sorcery (magic helms/scepters)
+          * Now spawns on rare helms/scepters
+        * of Wizardry (magic rings)
+          * Now spawns on magic helms/scepters
+      * Light Radius (Light Radius/Attack Rating)
+        * of the Sun
+          * Increased Attack Rating to 10% from 5%
+      * Minimum Damage
+        * of Worth (magic/rare rings/amulets/circlets)
+          * Increased max affix level to 80 from 58
+      * Maximum Damage
+        * of Quality (magic/rare weapons)
+          * Increased max affix level to 18 from 13
+        * of Maiming (magic/rare weapons)
+          * Increased max affix level to 24 from 18
+        * of Slaying (magic/rare weapons)
+          * Decreased max affix level to 0 from 24 (can spawn at any ilvl)
+      * Life Stolen (Life Stolen Per Hit)
+        * of the Lamprey (magic/rare amulets)
+          * Decreased Required Level to 69 from 73
+      * Mana Stolen (Mana Stolen Per Hit)
+        * of the Vampire (magic/rare rings)
+          * Decreased Required Level to 70 from 74
+      * Life Regeneration (Replenish Life)
+        * of Regeneration (magic/rare amulets/belts/circlets/rings/scepters)
+          * Set max affix level to 62
+        * of Regeneration (magic/rare gloves/shields)
+          * Decreased affix level to 17 from 40
+          * Set max affix level to 57
+          * Decreased Required Level to 12 from 30
+        * of Regeneration (magic/rare body armor/weapons/boots)
+          * Decreased affix level to 31 from 70
+          * Decreased Required Level to 23 from 52
+          * No longer spawns on magic/rare body armor
+        * of Regrowth (magic/rare belts/rings)
+          * Decreased affix level to 39 from 55
+          * Decreased Required Level to 31 from 41
+          * Now spawns on magic/rare gloves/shields
+        * of Revivification (magic amulets/scepters/circlets)
+          * Now spawns on rare amulets/scepters/circlets
+          * Decreased frequency to 2 from 4
+        * of Regeneration (magic/rare body armor)
+          * Added new of Regeneration suffix for magic/rare body armor with 6-10 Replenish Life, affix level of 31, Required Level of 23, and frequency of 4
+          * Set max affix level to 67
+        * of Regrowth (magic/rare body armor)
+          * Added new of Regrowth suffix for magic/rare body armor with 11-15 Replenish Life, affix level of 45, Required Level of 36, and frequency of 4
+        * of Regrowth (magic/rare weapons/boots) (Expansion only suffix)
+          * Added new of Regrowth suffix for magic/rare weapons/boots with 6-9 Replenish Life, affix level of 64, Required Level of 48, and frequency of 2
+        * of Revivification (magic/rare belts/shields) (Expansion only suffix)
+          * Added new of Revivification suffix for magic/rare belts/shields with 10-14 Replenish Life, affix level of 58, Required Level of 49, and frequency of 2
+        * of Revivification (magic/rare body armor) (Expansion only suffix)
+          * Added new of Revivification suffix for magic/rare body armor with 20-25 Replenish Life, affix level of 68, Required Level of 60, and frequency of 2
+        * of Revivification (magic amulets/scepters/circlets) (Expansion only suffix)
+          * Added new of Revivification suffix for magic amulets/scepters/circlets with 25-30 Replenish Life, affix level of 63, Required Level of 55, and frequency of 2
+      * Faster Hit Recovery
+        * of Stability (magic/rare body armor) (Expansion only suffix)
+          * Added new of Stability suffix for magic/rare body armor with 32% Faster Hit Recovery, affix level of 43, Required Level of 35, and frequency of 3
+      * Damage Reduction (Damage Reduced)
+        * of Health
+          * Increased max affix level to 40 from 25
+        * of Protection (magic/rare amulets/circlets/rings)
+          * Increased Damage Reduced to 2-3 from 2
+          * Increased max affix level to 57 from 34
+        * of Protection (magic/rare body armor/shields/circlets)
+          * Increased Damage Reduced to 4 from 2
+          * Increased max affix level to 57 from 40
+        * of Absorption (magic/rare amulets/circlets)
+          * Increased Damage Reduced to 4-5 from 3
+          * Now spawns on magic/rare rings
+        * of Absorption (magic/rare body armor/shields/circlets/rings)
+          * Increased Damage Reduced to 6 from 3
+          * No longer spawns on rings
+        * of Life (Damage Reduced by 4) (magic/rare amulets/circlets)
+          * Increased Damage Reduced to 6 from 4
+        * of Life (Damage Reduced by 4-7) (magic/rare circlets/body armor/shields/rings)
+          * Increased Damage Reduced to 7-11 from 4-7
+          * No longer spawns on rings
+        * of Life Everlasting (magic amulets/circlets)
+          * Increased Damage Reduced to 15-25 from 10-25
+        * of Amicae (magic body armor/circlets/shields)
+          * Increased Damage Reduced to 12-18 from 8-15
+          * Decreased frequency to 3 from 4
+        * of Amicae (magic/rare body armor/circlets/shields) (Expansion only suffix)
+          * Added new of Amicae suffix for magic/rare body armor/circlets/shields with 12-18 Damage Reduced, affix level of 58, Required Level of 50, and frequency of 2
+      * Magic Damage Reduction (Magic Damage Reduced)
+        * of Warding
+          * Increased max affix level to 40 from 31
+        * of the Sentinel (magic/rare amulets/circlets/orbs/rings)
+          * Increased Magic Damage Reduced to 2-3 from 2
+          * Set max affix level to 58
+        * of the Sentinel (magic/rare circlets/body armor/shields)
+          * Increased Magic Damage Reduced to 4 from 2
+          * Set max affix level to 58
+        * of Guarding (magic/rare amulets/circlets/orbs)
+          * Increased Magic Damage Reduced to 4-5 from 3
+        * of Guarding (magic/rare circlets/body armor/shields)
+          * Increased Magic Damage Reduced to 6 from 3
+        * of Negation (magic body armor/circlets/shields)
+          * Increased Magic Damage Reduced to 6-11 from 4-6
+          * Now spawns on rare body armor/circlets/shields
+        * of Negation (magic circlets/amulets/orbs)
+          * Increased Magic Damage Reduced to 6 from 4-6
+          * Now spawns on rare circlets/amulets/orbs
+          * Decreased affix level to 38 from 42
+          * Decreased Required Level to 31 from 35
+        * of Nullification (magic body armor/circlets/shields) (Expansion only suffix)
+          * Added new of Nullification suffix for magic body armor/circlets/shields with 11-17 Magic Damage Reduced, affix level of 52, Required Level of 44, and frequency of 3
+        * of Nullification (magic/rare body armor/circlets/shields) (Expansion only suffix)
+          * Added new of Nullification suffix for magic/rare body armor/circlets/shields with 11-17 Magic Damage Reduced, affix level of 59, Required Level of 51, and frequency of 2
+      * Attacker Takes Damage
+        * of Thorns
+          * Increased Attacker Takes Damage to 6-10 from 3-7
+          * Increased max affix level to 46 from 33
+        * of Spikes
+          * Increased Attacker Takes Damage to 11-17 from 8-13
+          * Decreased max affix level to 57 from 46
+        * of Razors
+          * Increased Attacker Takes Damage to 18-26 from 14-22
+          * Now spawns on magic/rare belts
+        * of Swords (magic body armor/circlets/shields)
+          * Increased Attacker Takes Damage to 27-40 from 23-25
+          * Now spawns on rare body armor/circlets/shields
+          * Decreased frequency to 3 from 4
+        * of Serration (Expansion only suffix)
+          * Added new of Serration suffix for magic body armor/circlets/shields with Attacker Takes Damage of 66-100, affix level of 58, Required Level of 49, and frequency of 3
+    * Procing Spell Magic Suffixes
+      * Fire Bolt
+        * of Firebolts (5% Chance to cast level 3 Fire Bolt on attack)
+          * Increased proc chance to 7% from 5%, increased proc level to 5 from 3
+          * Increased Required Level to 5 from 4
+        * of Firebolts (10% Chance to cast level 8 Fire Bolt on striking)
+          * Increased proc level to 12 from 8
+        * of Firebolts (10% Chance to cast level 6 Fire Bolt on attack)
+          * Increased proc level to 10 from 6
+      * Charged Bolt
+        * of Charged Bolt (12% Chance to cast level 4 Charged Bolt when struck)
+          * Increased proc level to 6 from 4
+        * of Charged Bolt (14% Chance to cast level 5 Charged Bolt when struck)
+          * Increased proc level to 9 from 5
+      * Ice Bolt
+        * of Icebolt
+          * Set max affix level to 19
+        * of Icebolt
+          * Added new of Icebolt suffix for magic/rare weapons (excluding missile weapons) with 10% Chance to cast level 6 Ice Bolt on striking, affix level of 16, Required Level of 12, and frequency of 1
+        * of Icebolt
+          * Added new of Icebolt suffix for magic/rare weapons (excluding missile weapons) with 10% Chance to cast level 5 Ice Bolt on attack, affix level of 20, Required Level of 15, and frequency of 1
+      * Frost Nova
+        * of Frost Shield
+          * Added new of Frost Shield suffix for magic/rare amulets/armor with 8% Chance to cast level 7 Frost Nova when struck, affix level of 26, Required Level of 21, and frequency of 1
+      * Nova
+        * of Nova (10% Chance to cast level 3 Nova on striking)
+          * Increased proc level to 4 from 3
+        * of Nova (12% Chance to cast level 4 Nova on striking)
+          * Increased proc level to 6 from 4
+        * of Nova Shield (10% Chance to cast level 3 Nova when struck)
+          * Increased proc level to 4 from 3
+        * of Nova Shield (12% Chance to cast level 4 Nova when struck)
+          * Increased proc level to 6 from 4
+        * of Nova Shield (14% Chance to cast level 5 Nova when struck)
+          * Increased proc level to 9 from 5
+      * Lightning
+        * of Lightning
+          * Decreased proc chance to 7% from 8%, increased proc level to 6 from 3
+        * of Lightning
+          * Added new of Lightning suffix for magic/rare weapons (excluding missile weapons) with 9% Chance to cast level 10 Lightning on striking, affix level of 28, Required Level of 21, and frequency of 1
+      * Chain Lightning
+        * of Chain Lightning (5% Chance to cast level 3 Chain Lightning on attack)
+          * Increased proc level to 4 from 3
+        * of Chain Lightning (8% Chance to cast level 3 Chain Lightning on attack)
+          * Increased proc level to 5 from 3
+        * of Chain Lightning (8% Chance to cast level 5 Chain Lightning on attack)
+          * Increased proc level to 9 from 5
+      * Hydra
+        * of Hydra Shield
+          * Increased proc level to 8 from 5
+      * Amplify Damage
+        * of Amplify Damage
+          * Added new of Amplify Damage suffix for magic/rare weapons (excluding orbs) with 7% Chance to cast level 3 Amplify Damage on striking, affix level of 43, Required Level of 11, and frequency of 1
+    * Charged Items Magic Suffixes
+      * Amazon Skills
+        * of Inner Sight (magic/rare amulets/amazon bows/circlets)
+          * Decreased non-amazon Required Level to 8 from 14
+        * of Inner Sight (magic/rare gloves)
+          * Decreased non-amazon Required Level to 12 from 42
+        * of Magic Arrow
+          * Decreased non-amazon Required Level to 7 from 11
+        * of Fire Arrow
+          * Decreased non-amazon Required Level to 13 from 32
+        * of Cold Arrow (magic/rare amazon bows/bows/crossbows)
+          * Decreased non-amazon Required Level to 15 from 16
+        * of Cold Arrow (magic/rare gloves)
+          * Decreased non-amazon Required Level to 16 from 39
+        * of Multiple Shot (magic/rare amazon bows/bows/crossbows)
+          * Decreased non-amazon Required Level to 17 from 19
+        * of Multiple Shot (magic/rare gloves)
+          * Decreased non-amazon Required Level to 22 from 55
+        * of Exploding Arrow (magic/rare amazon bows/bows/crossbows)
+          * Decreased non-amazon Required Level to 23 from 26
+        * of Exploding Arrow (magic/rare gloves)
+          * Decreased non-amazon Required Level to 26 from 61
+        * of Ice Arrow (magic/rare amazon bows/bows/crossbows)
+          * Decreased non-amazon Required Level to 26 from 28
+        * of Ice Arrow (magic/rare gloves)
+          * Decreased non-amazon Required Level to 28 from 64
+        * of Freezing Arrow (magic/rare amazon bows/bows/crossbows)
+          * Decreased non-amazon Required Level to 40 from 42
+        * of Freezing Arrow (magic/rare gloves)
+          * Decreased non-amazon Required Level to 44 from 86
+        * of Power Strike (magic/rare amazon spears/spears)
+          * Decreased non-amazon Required Level to 10 from 13
+        * of Power Strike (magic/rare gloves)
+          * Decreased non-amazon Required Level to 14 from 47
+        * of Charged Strike (magic/rare amazon spears/spears)
+          * Decreased non-amazon Required Level to 23 from 25
+        * of Charged Strike (magic/rare gloves)
+          * Decreased non-amazon Required Level to 26 from 60
+        * of Lightning Strike (magic/rare amazon spears/spears)
+          * Decreased non-amazon Required Level to 37 from 39
+        * of Lightning Strike (magic/rare gloves)
+          * Decreased non-amazon Required Level to 42 from 82
+      * Sorceress Skills
+        * of Ice Bolt (magic/rare daggers)
+          * Decreased non-sorceress Required Level to 9 from 14
+        * of Ice Blast (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 11 from 12
+        * of Ice Blast (magic/rare circlets/hammers/maces/rings/scepters)
+          * Decreased non-sorceress Required Level to 15 from 24
+        * of Frost Nova (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 11 from 12
+        * of Frost Nova (magic/rare amulets/circlets/daggers)
+          * Decreased non-sorceress Required Level to 15 from 24
+        * of Glacial Spike (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 23 from 24
+        * of Glacial Spike (magic/rare daggers)
+          * Decreased non-sorceress Required Level to 28 from 48
+        * of Blizzard (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 29 from 30
+        * of Blizzard (magic/rare daggers)
+          * Decreased non-sorceress Required Level to 34 from 60
+        * of Frozen Orb (magic/rare daggers)
+          * Decreased non-sorceress Required Level to 42 from 72
+        * of Charged Bolt (magic/rare circlets/hammers/maces/rings/scepters)
+          * Decreased non-sorceress Required Level to 9 from 14
+        * of Telekinesis (magic/rare circlets/hammers/maces/rings/scepters)
+          * Decreased non-sorceress Required Level to 17 from 24
+        * of Nova (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 17 from 18
+        * of Nova (magic/rare shields)
+          * Decreased non-sorceress Required Level to 21 from 36
+        * of Lightning (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 17 from 18
+        * of Lightning (magic/rare axes/hammers)
+          * Decreased non-sorceress Required Level to 21 from 36
+        * of Teleportation (magic/rare amulets/circlets)
+          * Decreased non-sorceress Required Level to 33 from 48
+        * of Fire Bolt (magic/rare circlets/rings/swords)
+          * Decreased non-sorceress Required Level to 9 from 14
+        * of Fire Ball (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 17 from 18
+        * of Fire Ball (magic/rare spears/wands)
+          * Decreased non-sorceress Required Level to 21 from 36
+        * of Enchantment (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 23 from 24
+        * of Enchantment (magic/rare melee weapons)
+          * Decreased non-sorceress Required Level to 29 from 48
+        * of Meteor (magic/rare orbs/staves)
+          * Decreased non-sorceress Required Level to 29 from 30
+        * of Meteor (magic/rare clubs/daggers)
+          * Decreased non-sorceress Required Level to 34 from 60
+      * Necromancer Skills
+        * of Teeth (magic/rare swords)
+          * Decreased non-necromancer Required Level to 8 from 14
+        * of Poison Dagger (magic/rare necro heads/daggers)
+          * Decreased non-necromancer Required Level to 11 from 12
+        * of Poison Dagger (magic/rare circlets/gloves/rings)
+          * Decreased non-necromancer Required Level to 15 from 24
+        * of Bone Spear (magic/rare necro heads/daggers/wands)
+          * Decreased non-necromancer Required Level to 23 from 24
+        * of Bone Spear (magic/rare spears)
+          * Decreased non-necromancer Required Level to 28 from 48
+        * of Poison Nova (magic/rare gloves)
+          * Decreased non-necromancer Required Level to 42 from 72
+        * of Bone Spirit (magic/rare amulets/circlets)
+          * Decreased non-necromancer Required Level to 42 from 72
+        * of Dim Vision (magic/rare necro heads/daggers/wands)
+          * Decreased non-necromancer Required Level to 11 from 12
+        * of Dim Vision (magic/rare circlets/rings)
+          * Decreased non-necromancer Required Level to 15 from 24
+        * of Weaken (magic/rare necro heads/daggers/wands)
+          * Decreased non-necromancer Required Level to 11 from 12
+        * of Weaken (magic/rare gloves)
+          * Decreased non-necromancer Required Level to 15 from 24
+        * of Terror (magic/rare necro heads/daggers/wands)
+          * Decreased non-necromancer Required Level to 17 from 18
+        * of Terror (magic/rare shields)
+          * Decreased non-necromancer Required Level to 21 from 36
+        * of Confusion (magic/rare necro heads/daggers/wands)
+          * Decreased non-necromancer Required Level to 23 from 24
+        * of Confusion (magic/rare circlets/rings)
+          * Decreased non-necromancer Required Level to 30 from 48
+        * of Life Tap (magic/rare necro heads/daggers/wands)
+          * Decreased non-necromancer Required Level to 23 from 24
+        * of Life Tap (magic/rare axes)
+          * Decreased non-necromancer Required Level to 32 from 48
+        * of Attract (magic/rare necro heads/daggers/wands)
+          * Decreased non-necromancer Required Level to 29 from 30
+        * of Attract (magic/rare amulets/circlets/rings)
+          * Decreased non-necromancer Required Level to 35 from 60
+        * of Lower Resistance (magic/rare staves)
+          * Decreased non-necromancer Required Level to 45 from 72
+      * Paladin Skills
+        * of Sacrifice (magic/rare melee weapons [excluding scepters])
+          * Decreased non-paladin Required Level to 9 from 14
+        * of Holy Bolt (magic/rare paladin shields/scepters)
+          * Decreased non-paladin Required Level to 11 from 12
+        * of Holy Bolt (magic/rare amulets/circlets)
+          * Decreased non-paladin Required Level to 15 from 24
+        * of Zeal (magic/rare paladin shields/scepters)
+          * Decreased non-paladin Required Level to 17 from 18
+        * of Zeal (magic/rare melee weapons [excluding scepters])
+          * Decreased non-paladin Required Level to 22 from 36
+        * of Vengeance (magic/rare paladin shields/scepters)
+          * Decreased non-paladin Required Level to 23 from 24
+        * of Vengeance (magic/rare axes/swords)
+          * Decreased non-paladin Required Level to 29 from 48
+        * of Blessed Hammer (magic/rare paladin shields/scepters)
+          * Decreased non-paladin Required Level to 23 from 24
+        * of Blessed Hammer (magic/rare hammers)
+          * Decreased non-paladin Required Level to 28 from 48
+      * Barbarian Skills
+        * of Bashing (magic/rare melee weapons [excluding staves/wands/orbs])
+          * Decreased non-barbarian Required Level to 8 from 14
+        * of Stun (magic/rare melee weapons)
+          * Decreased non-barbarian Required Level to 21 from 36
+        * of Concentration (magic/rare melee weapons [excluding staves/wands/orbs])
+          * Decreased non-barbarian Required Level to 28 from 48
+        * of Grim Ward (magic/rare amulets)
+          * Decreased non-barbarian Required Level to 34 from 60
+      * Druid Skills
+        * of Firestorms (magic/rare staves)
+          * Decreased non-druid Required Level to 9 from 14
+        * of Fissure (magic/rare clubs)
+          * Decreased non-druid Required Level to 17 from 18
+        * of Fissure (magic/rare staves)
+          * Decreased non-druid Required Level to 21 from 36
+        * of Twister (magic/rare clubs)
+          * Decreased non-druid Required Level to 23 from 24
+        * of Twister (magic/rare amulets/circlets)
+          * Decreased non-druid Required Level to 28 from 48
+        * of Volcano (magic/rare clubs)
+          * Decreased non-druid Required Level to 29 from 30
+        * of Volcano (magic/rare hammers)
+          * Decreased non-druid Required Level to 34 from 60
+        * of Tornado (magic/rare clubs)
+          * Decreased non-druid Required Level to 29 from 30
+        * of Tornado (magic/rare amulets/circlets)
+          * Decreased non-druid Required Level to 34 from 60
+    * Bases
+      * Helms
+        * Hydraskull
+          * Increased Defense to 106-153 from 101-145
+        * Armet
+          * Increased Defense to 116-164 from 105-149
+        * Spired Helm
+          * Increased Defense to 154-215 from 114-159
+        * Demonhead
+          * Increased Defense to 121-184 from 101-154
+        * Corona
+          * Increased Defense to 141-210 from 111-165
+        * Bone Visage
+          * Increased Defense to 128-201 from 100-157
+      * Gloves
+        * Vampirebone Gloves
+          * Increased Defense to 59-68 from 56-65
+        * Vambraces
+          * Increased Defense to 65-75 from 59-67
+        * Crusader Gauntlets
+          * Increased Defense to 72-83 from 59-68
+        * Ogre Gauntlets
+          * Increased Defense to 81-93 from 62-71
+      * Boots
+        * Scarabshell Boots
+          * Increased Defense to 59-68 from 56-65
+        * Boneweave Boots
+          * Increased Defense to 65-75 from 59-67
+        * Mirrored Boots
+          * Increased Defense to 72-83 from 59-68
+        * Myrmidon Greaves
+          * Increased Defense to 81-93 from 62-71
+      * Belts
+        * Vampirefang Belt
+          * Increased Defense to 59-66 from 56-63
+        * Mithril Coil
+          * Increased Defense to 64-73 from 58-65
+        * Troll Belt
+          * Increased Defense to 72-81 from 59-66
+        * Colossus Girdle
+          * Increased Defense to 80-93 from 61-71
+      * Druid Pelts
+        * Sun Spirit
+          * Increased Defense to 109-164 from 98-147
+        * Earth Spirit
+          * Increased Defense to 125-177 from 107-152
+        * Sky Spirit
+          * Increased Defense to 132-197 from 103-155
+        * Dream Spirit
+          * Increased Defense to 138-200 from 109-159
+      * Barbarian Helms
+        * Fury Visor
+          * Increased Defense to 113-161 from 105-150
+        * Destroyer Helm
+          * Increased Defense to 126-177 from 111-156
+        * Conqueror Crown
+          * Increased Defense to 139-193 from 114-159
+        * Guardian Crown
+          * Increased Defense to 145-208 from 117-168
+      * Necromancer Shrunken Heads
+        * Hellspawn Skull
+          * Increased Defense to 108-158 from 96-141
+        * Overseer Skull
+          * Increased Defense to 107-155 from 98-142
+        * Succubus Skull
+          * Increased Defense to 130-191 from 100-146
+        * Bloodlord Skull
+          * Increased Defense to 138-199 from 103-148
+    * Uniques
+      * Hellfire Torch
+        * Added 1% Chance to cast level 25 (Diablo) Firestorm on striking
+      * Arpaska's Gambit
+        * Changed name to Arpaska's Gambit from Arpaska's Medallion
+        * Changed charm shape/size to 2x1 from 1x1 (2 cells wide and 1 cell tall)
+        * Added new inventory graphics and model texture (no legacy graphics, sorry)
+        * Increased Required Level to 57 from 40
+    * Runewords
+      * Black
+        * Increased Corpse Explosion charge count to 17 from 12
+      * Bone
+        * Bone Spear on Striking level increased to 14 from 10
+        * Bone Armor when Struck level increased to 13 from 10
+      * Bramble
+        * Increased Thorns Aura When Equipped level to 18-21 from 15-21
+        * Increased Poison Skill Damage to 35-50% from 25-50%
+        * Increased Spirit of Barbs charge count to 44 from 33, increased charge level to 19 from 13
+      * Breath of the Dying
+        * Decreased Poison Nova When You Kill an Enemy proc chance to 34% from 50%, increased proc level to 24 from 20
+      * Destruction
+        * Can now be made in spears
+        * Increased Magic Damage to 240-360 from 100-180
+        * Increased Meteor When You Die proc level to 60 from 45
+        * Increased Nova On Attack proc level to 33 from 22
+        * Increased Volcano On Striking proc level to 16 from 12
+      * Doom
+        * Increased Volcano On Striking proc level to 23 from 18
+      * Dragon
+        * Increased Defense vs. Missile to 320 from 230
+        * Increased Hydra On Striking proc level to 25 from 15
+        * Increased All Attributes to 9-12 from 3-5
+      * Duress
+        * Decreased Enhanced Defense to 80-120% from 150-200%
+        * Decreased Faster Hit Recovery to 20-30% from 40%
+      * Edge
+        * Decreased Thorns Aura When Equipped level to 14 from 15
+      * Enlightenment
+        * Increased Fire Ball On Striking proc chance to 9% from 5%
+        * Increased Blaze When Struck proc chance to 10% from 5%
+      * Eternity
+        * Increased Replenish Life to 19 from 16
+        * Increased Regenerate Mana to 38% from 16%
+      * Famine
+        * Increased Elemental Damage (Fire/Lightning/Cold Damage) to 47-447 from 100-300 (total Lightning Damage with the Ort rune is 48-497)
+      * Fury
+        * Increased Enhanced Damage to 259% from 209%
+      * Gloom
+        * Decreased All Resistances to 20-30% from 45%
+        * Decreased Dim Vision When Struck proc chance to 12% from 15%, increased proc level to 9 from 3
+        * Added Physical Damage Received Reduced by 4-6%, removed 10% Faster Hit Recovery
+      * Hand of Justice
+        * Increased Holy Fire Aura When Equipped level to 18 from 16
+        * Increased Meteor When You Die proc level to 54 from 48
+        * Increased Enemy Fire Resistance to -26% from -20%
+      * Harmony
+        * Decreased Enhanced Damage to 160-225% from 200-275%
+      * Heart of the Oak
+        * Added Level 4 Oak Sage (30 Charges), removed level 1 Oak Sage oskill
+      * Holy Thunder
+        * Can now be made in maces and spears
+      * Insight
+        * Increased Enhanced Damage to 83-131% from 42-77%
+        * Increased Faster Cast Rate to 10-15% from 10%
+      * Lionheart
+        * Decreased All Resistances to 25% from 30%
+      * Myth
+        * Decreased Taunt On Striking proc chance to 6% from 10%, increased proc level to 4 from 1
+      * Obedience
+        * Decreased Enhanced Damage to 270% from 370%
+        * Decreased Faster Hit Recovery to 25% from 40%
+        * Decreased All Resistances to 15-25% from 20-30%
+      * Passion
+        * Increased Zeal oskill level to 1-2 from 1
+        * Increased Berserk oskill level to 1-2 from 1
+      * Phoenix
+        * Decreased Firestorm On Striking proc chance to 33% from 40%, increased proc level to 30 from 22
+      * Plague
+        * Decreased Poison Nova On Striking proc chance to 18% from 25%, increased proc level to 20 from 15
+      * Principle
+        * Increased Holy Bolt On Striking proc level to 7 from 5
+        * Increased Damage to Undead to 100% from 50%
+      * Rain
+        * Increased Twister On Striking proc chance to 7% from 5%, increased proc level to 16 from 15
+        * Increased Cyclone Armor When Struck proc chance to 7% from 5%
+      * Rhyme
+        * Decreased Faster Block Rate to 20-33% from 40%
+        * Decreased Increased Chance of Blocking to 15% from 20%
+        * Decreased All Resistances to 12% from 25%
+      * Silence
+        * Increased Enhanced Damage to 233% from 200%
+      * Smoke
+        * Increased Defense vs. Missile to 389 from 250 (total Defense vs. Missile with the Nef rune is 419)
+        * Decreased Enhanced Defense to 33% from 75%
+        * Decreased All Resistances to 35% from 50%
+        * Decreased Faster Hit Recovery to 10% from 20%
+        * Decreased Light Radius to -3 from -1
+        * Increased Weaken charge count to 26 from 18
+      * Stone
+        * Increased Clay Golem charge count to 22 from 16, increased charge level to 22 from 16
+        * Increased Molten Boulder charge level to 22 from 16
+      * Strength
+        * Increased Enhanced Damage to 65% from 35%
+      * Treachery
+        * Decreased Venom On Striking proc chance to 9% from 25%
+        * Decreased Fade When Struck proc chance to 9% from 12%
+      * Venom (runeword)
+        * Increased Venom charge count to 13 from 7
+      * Wind
+        * Increased Enhanced Damage to 160-185% from 120-160%
+        * Increased Faster Run/Walk to 36% from 25%
+        * Increased Tornado On Striking proc level to 16 from 9
+      * Wrath
+        * Increased Damage to Demons to 400% from 300% (total Damage to Demons with the Pul rune is 475%)
+        * Increased Damage to Undead to 350-400% from 250-300%
+        * Increased Lightning Damage to 63-380 from 71-330
+      * Hustle (weapon)
+        * Increased Enhanced Damage to 95-110% from 60-85%
+  * Skills
+    * Amazon
+      * Multiple Shot
+        * Added 1 additional proccing arrow per 2 levels past level 23 (level 1-23 has 2 proc arrows, level 25 has 3 proc arrows, level 27 has 4 proc arrows, etc.)
+    * Sorceress
+      * Frozen Armor
+        * Removed Frost Nova freeze length synergy
+        * Increased Glacial Spike freeze length synergy to 7% per hard point from 5% per hard point
+      * Shiver Armor
+        * Decreased Frost Nova damage synergy to 16% per hard point from 18% per hard point
+      * Chilling Armor
+        * Removed Frost Nova damage synergy
+        * Increased Ice Bolt damage synergy to 16% per hard point from 9% per hard point
+    * Paladin
+      * Conversion
+        * Added 1 second stun duration when Conversion expires
+    * Druid
+      * Werewolf
+        * Can now use all Barbarian warcries except Taunt
+      * Werebear
+        * Can now use all Barbarian warcries except Taunt
+      * Hunger
+        * Damage now increases by 2.5% per hard point (damage penalty decreases by 2.5% [decimals are truncated or "rounded down"] per hard point, so -75% damage at level 1, -73% at level 2, -70% at level 3, -68% at level 4, -65% at level 5, etc. up to -28% damage at level 20)
+        * NOTE: There's an issue with skill tooltips and hard points, it won't calculate the next level stats properly. This is only a tooltip bug, the stats increase as expected.
+        * NOTE 2: Due to changes to accomodate the damage per hard point scaling, the character screen now shows Hunger penalizing non-physical damage; this is a LCS (lying character screen) bug and it's not actually penalized (if you have an item that adds 50-100 fire damage, level 1 Hunger will incorrectly show 12-25 damage but it does the full fire damage in reality).
+        * Life and mana steal per level scaling decreased by 50% (level 1 remains the same at 72%)
+  * General
+    * Decreased player hit recovery immunity frames to 5 frames (0.2 seconds) from 10 frames (0.4 seconds)
+    * NOTE: In patch 2.4 Blizzard added hit recovery (HR) immunity frames to players where after being put into HR you have 10 frames where you can't be HRed again, this was mainly a PvP change but also applied to PvM. This nerf makes stunlocks more dangerous but not to the degree they were in patch 2.3 and prior.
+  * Bug Fixes
+    * Necromancer Poison Explosion visual area fixed
+  * UI Changes
+    * Evil urns now have a shiny chest icon on the automap
 
 **Patch 1.07 Changelog** (7-29-24)
   * This is the last technical changelog, I've come to realize that it costs me a lot of time and energy to type out every little thing I change when there's likely to be very few people interested in these sorts of details, especially when one can simply use .txt comparing program to see the differences from an older version to a newer version. I'm over it heh :P. I'll be doing simple changelogs from now on (similar to regular Blizzard patch notes) and I plan to create a fully up to date simple changelog that encompasses all current DMMod changes sometime in the future.
@@ -1843,10 +2711,10 @@ Sorted by alphabetical order when sorting by name in File Explorer. All changelo
       * increased "mod1min" and "mod1max" to 31/36 from 10/20, increased "mod2min" and "mod2max" to 43/109 from 21/75 (fire damage increased to 31-36 minimum/43-109 maximum from 10-20/21-75)
     * of Flame (189)
       * increased "mod1min" and "mod1max" to 10/15 from 1/1, increased "mod2min" and "mod2max" to 23/28 from 2/6 (fire damage increased to 10-15 minimum/23-28 maximum from 1/2-6)
-
-  * Lightning Damage
     * of Passion (190)
       * added 56 to "maxlevel"
+
+  * Lightning Damage
     * of Shock (191)
       * added 24 to "maxlevel"
     * of Lightning (192)

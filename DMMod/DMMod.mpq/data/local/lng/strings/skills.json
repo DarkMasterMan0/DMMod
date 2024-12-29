@@ -35953,5 +35953,22 @@
     "ptBR": "de chance de Golpe Esmagador: %+d%%",
     "ruRU": "к вероятности нанести сокрушительный удар: %+d%%",
     "zhCN": "几率粉碎打击: %+d%%"
+  },
+  {
+    "id": 53009,
+    "Key": "StrSkillProcArrows",
+    "enUS": "%d proccing arrows",
+    "zhTW": "%d 事件箭头",
+    "deDE": "%d Ereignispfeil",
+    "esES": "%d flechas de evento",
+    "frFR": "%d flèches d'événement",
+    "itIT": "%d frecce di eventi",
+    "koKR": "이벤트 화살표 %d개",
+    "plPL": "Strzałki zdarzeń: %d",
+    "esMX": "%d flechas de evento",
+    "jaJP": "イベントの矢印: %d",
+    "ptBR": "%d flechas de evento",
+    "ruRU": "Стрелки событий: %d",
+    "zhCN": "%d 事件箭頭"
   }
 ]

@@ -54,7 +54,7 @@
                 {
                     /* Burial Grounds, Crypt, and Mausoleum */
                     "id": 1,
-                    /* You can have a MAX of 20 desecrated levels at a time */
+                    /* You can have a MAX of 25 desecrated levels at a time */
                     "levels": [
                         {
                             /* Burial Grounds */
