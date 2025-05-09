@@ -14367,19 +14367,19 @@
   {
     "id": 4851,
     "Key": "skillld119",
-    "enUS": "when active, aura damages the undead\nand knocks them back",
-    "zhTW": "啟用時，靈氣會傷害不死怪物，並將其擊退",
-    "deDE": "Aura - Fügt Untoten Schaden zu\nund stößt sie zurück.",
-    "esES": "Cuando está activa, el aura inflige daño\ny repele a los muertos vivientes.",
-    "frFR": "activée, l’aura blesse les morts vivants\net les fait tomber à la renverse",
-    "itIT": "Quando è attiva, l'aura danneggia i non morti\ne li respinge",
-    "koKR": "오라를 활성화하면 언데드에게 피해를 주고\n뒤로 밀쳐냅니다.",
-    "plPL": "Kiedy aura jest aktywna,\nrani i odrzuca nieumarłych",
-    "esMX": "Cuando está activa, el aura inflige daño a\nlos no muertos y los hace retroceder",
-    "jaJP": "発動すると、アンデッドにダメージを\n与えて弾き飛ばすオーラを発する",
-    "ptBR": "quando ativa, a aura causa dano a mortos-vivos\ne os repele",
-    "ruRU": "Пока эта аура активна, наносит урон\nврагам-нежити и отбрасывает их.",
-    "zhCN": "激活时, 这个光环会对亡灵\n造成伤害并将其击退"
+    "enUS": "when active, aura damages the undead,\nknocks them back, and pierces their physical resistance",
+    "zhTW": "啟用後，光環會對不死怪物造成傷害，\n將其擊退，並忽略物理抗性",
+    "deDE": "Aura - Fügt Untoten Schaden zu,\nstößt sie zurück und durchbricht ihren physischen Widerstand.",
+    "esES": "Cuando está activa, el aura atraviesa la resistencia física,\ninflige daño y derriba a los no muertos.",
+    "frFR": "activée, l’aura blesse les morts vivants\net les fait tomber à la renverse\net perce leur résistance physique.",
+    "itIT": "Quando è attiva, l'aura danneggia i non morti,\nli respinge e ne trafigge la resistenza fisica.",
+    "koKR": "오라를 활성화하면 언데드에게 피해를 입히고,\n뒤로 밀어내고, 물리적 저항력을 꿰뚫습니다.",
+    "plPL": "Kiedy aura jest aktywna,\nrani i odrzuca nieumarłych,\na także przebija ich fizyczną odporność",
+    "esMX": "Cuando está activa, el aura atraviesa la resistencia física,\ninflige daño y derriba a los no muertos",
+    "jaJP": "発動すると、アンデッドにダメージを\n与えて弾き飛ばすオーラを発する、\n物理耐性を貫通するオーラを発する。",
+    "ptBR": "quando ativa, a aura causa dano aos mortos-vivos,\nrepelindo-os e perfurando a sua resistência física.",
+    "ruRU": "Пока эта аура активна, она наносит урон нежити,\nотбрасывает их назад и пробивает их физическое сопротивление.",
+    "zhCN": "激活后,此光环会对亡灵造成伤害,\n将其击退并削弱其物理抵抗力"
   },
   {
     "id": 4852,
@@ -35970,5 +35970,22 @@
     "ptBR": "%d flechas de evento",
     "ruRU": "Стрелки событий: %d",
     "zhCN": "%d 事件箭頭"
+  },
+  {
+    "id": 53010,
+    "Key": "StrSkillAttackRatingToUndead",
+    "enUS": "Attack Rating against Undead: %+d",
+    "zhTW": "對不死怪物的準確率：%+d",
+    "deDE": "Angriffswert gegen Untote: %+d",
+    "esES": "Índice de ataque contra muertos vivientes: %+d",
+    "frFR": "Score d’attaque contre les Morts-vivants : %+d",
+    "itIT": "Indice d'attacco contro i non morti: %+d",
+    "koKR": "언데드에 대한 명중률: %+d",
+    "plPL": "Skuteczności ataku względem nieumarłych: %+d",
+    "esMX": "Índice de ataque contra no muertos: %+d",
+    "jaJP": "アンデッドへの命中率: %+d",
+    "ptBR": "Taxa de ataque contra mortos-vivos: %+d",
+    "ruRU": "рейтингу атаки против нежити: %+d",
+    "zhCN": "对亡灵的命中值: %+d"
   }
 ]

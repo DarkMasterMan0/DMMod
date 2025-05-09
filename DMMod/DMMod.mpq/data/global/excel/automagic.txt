@@ -37,8 +37,8 @@ of Pestilence	100	1	1	25		18				2	305	pois-min		32	32	pois-max		72	72	pois-len		
 of Anthrax	100	1		33		25				2	305	pois-min		64	64	pois-max		128	128	pois-len		100	100		armo	weap											0	0
 Medium Armor	100	1	1	1		1				2	500	red-dmg%		2	2										armo	weap											0	0
 Heavy Armor	100	1	1	1		1				2	501	red-dmg%		5	5										armo	weap											0	0
-of Minor Rejuvenation	100	1	1	1	41	3				4	502	regen-mana		10	14										armo	weap											0	0
-of Light Rejuvenation	100	1	1	11	64	9				3	502	regen-mana		15	20										armo	weap											0	0
-of Rejuvenation	100	1	1	25		19				3	502	regen-mana		21	28										armo	weap											0	0
-of Greater Rejuvenation	100	1	1	42		32				2	502	regen-mana		29	40										armo	weap											0	0
-of Super Rejuvenation	100	1	1	65		49				1	502	regen-mana		41	55										armo	weap											0	0
+of Minor Rejuvenation	100	1	1	1	41	1				4	502	regen-mana		10	14										armo	weap											0	0
+of Light Rejuvenation	100	1	1	11	64	3				3	502	regen-mana		15	20										armo	weap											0	0
+of Rejuvenation	100	1	1	25		6				3	502	regen-mana		21	28										armo	weap											0	0
+of Greater Rejuvenation	100	1	1	42		10				2	502	regen-mana		29	40										armo	weap											0	0
+of Super Rejuvenation	100	1	1	65		14				1	502	regen-mana		41	55										armo	weap											0	0

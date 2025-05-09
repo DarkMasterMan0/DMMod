@@ -109,7 +109,7 @@ Runeword108	Prayer																																																	0
 Runeword109	Pride	1			Previously Ladder Only	pole	spea								ChamSurIoLo	r32	r29	r16	r28			dmg-dem/lvl	8			dmg-ltng		50	280	att%		260	300	aura	Concentration	16	20	gethit-skill	Fire Wall	25	17	regen		8	8	gold%/lvl	15			0
 Runeword110	Principle	1			111	tors									RalGulEld	r08	r25	r02				hit-skill	Holy Bolt	100	7	pal		2	2	hp		100	150	dmg-undead		100	100													0
 Runeword111	Prowess in Battle																																																	0
-Runeword112	Prudence	1			110	tors									MalTir	r23	r03					ac%		140	170	red-mag		10	10	red-dmg		3	3	res-all		25	35	balance2		25	25	rep-dur	25			light		1	1	0
+Runeword112	Prudence	1			110	tors									MalTir	r23	r03					ac%		140	170	red-mag		10	10	red-dmg		9	9	res-all		25	35	balance2		25	25	rep-dur	25			light		3	3	0
 Runeword113	Punishment																																																	0
 Runeword114	Purity																																																	0
 Runeword115	Question																																																	0
@@ -130,7 +130,7 @@ Runeword129	Sorrow																																																	0
 Runeword130	Spirit	1			Previously Ladder Only	swor	shld								TalThulOrtAmn	r07	r10	r09	r11			balance3		15	15	mana		21	32	ac-miss		100	100	cast3		15	20	abs-mag		3	8	allskills		1	1					0
 Runeword131	Splendor	1			110	shld									EthLum	r05	r17					light		3	3	gold%		50	50	mag%		20	20	ac%		60	100	block2		20	20	cast2		15	15	allskills		1	1	0
 Runeword132	Starlight																																																	0
-Runeword133	Stealth	1			109	tors									TalEth	r07	r05					red-mag		3	3	stam		15	15	move2		8	8	light		-3	-3													0
+Runeword133	Stealth	1			109	tors									TalEth	r07	r05					red-mag		3	3	stam		15	15	move2		10	10	light		-2	-2	dex		4	4									0
 Runeword134	Steel	1			109	swor	axe	mace	hamm						TirEl	r03	r01					swing2		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		50	50	dmg%		20	20									0
 Runeword135	Still Water																																																	0
 Runeword136	Sting																																																	0
@@ -149,7 +149,7 @@ Runeword148	Treachery	1			111	tors									ShaelThulLem	r13	r10	r20				hit-skill
 Runeword149	Trust																																																	0
 Runeword150	Truth																																																	0
 Runeword151	Unbending Will	1	1	2	D2R Ladder 1	swor									FalIoIthEldElHel	r19	r16	r06	r02	r01	r15	skilltab	12	3	3	hit-skill	Taunt	18	18	swing2		20	30	dmg%		300	350	red-dmg		8	8	noheal		1	1	lifesteal		8	10	0
-Runeword152	Valor	1			DMMod 1.0	tors									NefIth	r04	r06					red-dmg		2	2	stam		25	25	all-stats		3	3																	0
+Runeword152	Valor	1			DMMod 1.0	tors									NefIth	r04	r06					red-dmg		3	3	stam		30	30	all-stats		3	3																	0
 Runeword153	Vengeance																																																	0
 Runeword154	Venom	1			109	weap									TalMal	r07	r23					dmg-pois	75	1521	1521	ignore-ac		1	1	charged	278	13	17	pierce-pois		12	16	manasteal		7	7	swing2		25	25					0
 Runeword155	Victory																																																	0
