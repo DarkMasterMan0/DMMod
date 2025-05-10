@@ -40,4 +40,4 @@ Thanks to:
 * id Software for creating the awesome Doom games and the badass logo that I re-used for DMMod.
 
 # Changelog
-See [Patch Notes](Patch Notes.md) for the 1.00 and subsequent patch notes. All changelogs are left as they originally were at time of release (so they become outdated as more patches release, see the up to date changelog to see the current state of DMMod). Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed.
+See [Patch Notes](Patch%20Notes.md) for the 1.00 and subsequent patch notes. All changelogs are left as they originally were at time of release (so they become outdated as more patches release, see the up to date changelog to see the current state of DMMod). Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed.

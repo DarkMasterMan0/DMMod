@@ -1,5 +1,10 @@
 All changelogs are left as they originally were at time of release (so they become outdated as more patches release, see the up to date changelog to see the current state of DMMod). Use Ctrl + F to find any change for a specific skill/item/monster/etc., if there's no results then it hasn't changed.
 
+**Patch 1.09b Changelog** (5-10-25)
+  * Hotfix patch, no other changes
+  * Bug Fix
+    * Fixed an issue where perfect emeralds were replaced by an invisible poison throwing potion
+
 **Patch 1.09 Changelog** (5-9-25)
   * Moved the patch notes to this separate .md file instead of containing them within the main README.
   * Items
@@ -144,7 +149,7 @@ All changelogs are left as they originally were at time of release (so they beco
         * Increased Enhanced Damage to 150-180% from 100-150%
         * Increased Attack Rating to 140-190 from 100-150
       * Knell Striker
-        * Increased Enhanced Damage to 110-130%
+        * Increased Enhanced Damage to 110-130% from 70-80%
         * Increased Attack Rating to 65 from 35
       * Rusthandle
         * Increased Enhanced Damage to 85-100% from 50-60%
